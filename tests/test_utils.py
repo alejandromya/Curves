@@ -1,4 +1,3 @@
-import pytest
 from src.utils import detectar_separador
 
 def test_detectar_separador(tmp_path):

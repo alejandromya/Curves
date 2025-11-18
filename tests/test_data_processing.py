@@ -1,5 +1,4 @@
 import pandas as pd
-import pytest
 from src.data_processing import cargar_y_preparar_csv
 
 def test_cargar_csv_valido(tmp_path):

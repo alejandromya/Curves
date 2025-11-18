@@ -24,7 +24,7 @@ def generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_file, output_pdf="
 
     # Texto principal
     texto = f"<b>Número total de ciclos detectados:</b> {ciclos_totales}<br/><br/>"
-    texto += f"<b>Deformaciones de ciclos seleccionados:</b><br/>"
+    texto += "<b>Deformaciones de ciclos seleccionados:</b><br/>"
 
     for k, c in ciclos_seleccionados.items():
         texto += f"Ciclo {k}: HIGH = {c['deform_high']:.6f} mm, LOW = {c['deform_low']:.6f} mm<br/>"

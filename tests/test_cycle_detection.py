@@ -1,5 +1,4 @@
 import pandas as pd
-import pytest
 from src.cycle_detection import detectar_ciclos
 
 def test_ciclos_basico():

@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 def detectar_ciclos(df, min_force=10, smooth_window=5):
     """
