@@ -1,50 +1,53 @@
+import os
+import io
+import pandas as pd
 from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.pdf_generator import generar_pdf
 
-# -------------------------------
-# Archivo CSV
-# -------------------------------
-archivo_csv = "datasets/500Ciclos+Pullout_7.csv"
-df = cargar_y_preparar_csv(archivo_csv)
+# Carpetas
+input_folder = "datasets"
+output_folder = "results"
+os.makedirs(output_folder, exist_ok=True)
 
-# ==============================
-# 2) Detectar ciclos automáticamente
-# ==============================
-print("\nDetectando ciclos...")
-
-ciclos_totales, detalles = detectar_ciclos(df, min_force=10, smooth_window=5)
-
-print(f"\nNúmero total de ciclos detectados: {ciclos_totales}")
-
-# ==============================
-# 3) Selección de ciclos concretos
-# ==============================
+# Ciclos a seleccionar
 targets = [100, 200, 300, 400, 500]
-ciclos_seleccionados = {}
 
-for t in targets:
-        ciclo_data = next((x for x in detalles if x["ciclo"] == t), None)
-        if ciclo_data:
-            ciclos_seleccionados[t] = ciclo_data
-            print(f"\nCiclo {t}:")
-            print(f"  HIGH deform: {ciclo_data['deform_high']:.6f}")
-            print(f"  LOW deform:  {ciclo_data['deform_low']:.6f}")
-        else:
-            print(f"\n⚠ Ciclo {t} no existe (solo hay {ciclos_totales})")
+# Iterar sobre todos los CSV
+for archivo in os.listdir(input_folder):
+    if archivo.lower().endswith(".csv"):
+        archivo_path = os.path.join(input_folder, archivo)
+        print(f"\nProcesando: {archivo_path}")
 
+        # Cargar y preparar CSV
+        df = cargar_y_preparar_csv(archivo_path)
 
-# -------------------------------
-# Gráfico
-# -------------------------------
-HIGH = max(d['deform_high'] for d in detalles)
-LOW = min(d['deform_low'] for d in detalles)
-grafico_file = plot_ciclos(df, detalles, HIGH, LOW)
+        # Detectar ciclos
+        ciclos_totales, detalles = detectar_ciclos(df, min_force=10, smooth_window=5)
+        print(f"Número total de ciclos detectados: {ciclos_totales}")
 
-# -------------------------------
-# Generar PDF
-# -------------------------------
-pdf_file = generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_file)
+        # Selección de ciclos concretos
+        ciclos_seleccionados = {}
+        for t in targets:
+            ciclo_data = next((x for x in detalles if x["ciclo"] == t), None)
+            if ciclo_data:
+                ciclos_seleccionados[t] = ciclo_data
+                print(f"Ciclo {t}: HIGH={ciclo_data['deform_high']:.6f}, LOW={ciclo_data['deform_low']:.6f}")
+            else:
+                print(f"Ciclo {t} no existe (solo hay {ciclos_totales})")
 
-print(f"\nPDF generado correctamente: {pdf_file}")
+        # Calcular HIGH y LOW para gráfico
+        HIGH = max(d['deform_high'] for d in detalles)
+        LOW = min(d['deform_low'] for d in detalles)
+
+        # Guardar gráfico en memoria
+        grafico_memoria = io.BytesIO()
+        plot_ciclos(df, detalles, HIGH, LOW, output_path=grafico_memoria)
+        grafico_memoria.seek(0)  # Volver al inicio
+
+        # Generar PDF
+        nombre_pdf = os.path.splitext(archivo)[0] + ".pdf"
+        pdf_path = os.path.join(output_folder, nombre_pdf)
+        generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_memoria, output_pdf=pdf_path)
+        print(f"PDF generado: {pdf_path}")
