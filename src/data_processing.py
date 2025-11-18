@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import detectar_separador
+from .utils import detectar_separador
 
 def cargar_y_preparar_csv(filepath):
     """Carga el CSV, limpia encabezados y convierte valores numéricos."""

@@ -1,7 +1,7 @@
-from data_processing import cargar_y_preparar_csv
-from cycle_detection import detectar_ciclos
-from plotter import generar_grafico
-from pdf_generator import generar_pdf
+from src.data_processing import cargar_y_preparar_csv
+from src.cycle_detection import detectar_ciclos
+from src.plotter import plot_ciclos
+from src.pdf_generator import generar_pdf
 
 # -------------------------------
 # Archivo CSV
@@ -39,7 +39,7 @@ for t in targets:
 # -------------------------------
 # Gráfico
 # -------------------------------
-grafico_file = generar_grafico(df, detalles, HIGH, LOW)
+grafico_file = plot_ciclos(df, detalles, HIGH, LOW)
 
 # -------------------------------
 # Generar PDF

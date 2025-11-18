@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def generar_grafico(df, detalles_ciclos, HIGH, LOW, output_path="grafico_temp.png"):
+def plot_ciclos(df, detalles_ciclos, HIGH, LOW, output_path="grafico_temp.png"):
     """
     Genera y guarda un gráfico Fuerza vs Deformación.
     """
