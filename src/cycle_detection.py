@@ -1,32 +1,74 @@
-def detectar_ciclos(df, HIGH, LOW, TOL):
+import numpy as np
+import pandas as pd
+
+def detectar_ciclos(df, min_force=10, smooth_window=5):
     """
-    Detecta ciclos HIGH→LOW y devuelve:
-        - total de ciclos
-        - lista de dicts: {ciclo, deform_high, deform_low}
+    Detecta ciclos HIGH→LOW de forma automática usando picos y valles.
+    
+    Retorna:
+        - n_ciclos: cantidad de ciclos detectados
+        - detalles: lista de dicts con:
+            { "ciclo": n, "deform_high": xh, "deform_low": xl }
     """
 
-    arriba = False
-    ciclos = 0
-    detalles = []
-    deform_high = None
+    fuerza = df["Fuerza"].values
+    deform = df["Deformacion"].values
 
-    for i in range(len(df)):
-        f = df.loc[i, "Fuerza"]
-        d = df.loc[i, "Deformacion"]
+    # ==============================
+    # 1) Suavizar para reducir ruido
+    # ==============================
+    if smooth_window > 1:
+        fuerza_smooth = np.convolve(
+            fuerza, np.ones(smooth_window)/smooth_window, mode='same'
+        )
+    else:
+        fuerza_smooth = fuerza
 
-        # Detecta HIGH
-        if not arriba and (HIGH - TOL <= f <= HIGH + TOL):
-            arriba = True
-            deform_high = d
+    # ==============================
+    # 2) Detectar picos y valles
+    # ==============================
+    picos = []
+    valles = []
 
-        # Detecta LOW (fin de ciclo)
-        if arriba and (LOW - TOL <= f <= LOW + TOL):
-            ciclos += 1
-            detalles.append({
-                "ciclo": ciclos,
-                "deform_high": deform_high,
-                "deform_low": d
-            })
-            arriba = False
+    for i in range(1, len(fuerza_smooth) - 1):
+        f_prev = fuerza_smooth[i - 1]
+        f = fuerza_smooth[i]
+        f_next = fuerza_smooth[i + 1]
 
-    return ciclos, detalles
+        # Pico local
+        if f > f_prev and f > f_next and f > min_force:
+            picos.append(i)
+
+        # Valle local
+        if f < f_prev and f < f_next and f > min_force:
+            valles.append(i)
+
+    # ==============================
+    # 3) Emparejar picos → valles para formar ciclos
+    # ==============================
+    ciclos = []
+    v_index = 0
+
+    for p in picos:
+        # Buscar el valle que venga DESPUÉS del pico
+        while v_index < len(valles) and valles[v_index] < p:
+            v_index += 1
+
+        if v_index >= len(valles):
+            break  # no hay más valles → empieza el pullout
+
+        v = valles[v_index]
+
+        # Ignorar caídas falsas pequeñas
+        if fuerza_smooth[v] > fuerza_smooth[p] * 0.8:
+            continue
+
+        ciclos.append({
+            "ciclo": len(ciclos) + 1,
+            "deform_high": deform[p],
+            "deform_low": deform[v]
+        })
+
+        v_index += 1
+
+    return len(ciclos), ciclos
