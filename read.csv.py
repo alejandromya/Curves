@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
+import re
 
 # ---------------------------------------------------------
 # Detectar separador automáticamente
@@ -13,9 +14,10 @@ def detectar_separador(filename, n=5):
         dialect = sniffer.sniff(snippet)
         return dialect.delimiter
     except:
-        return ";"  # por defecto
+        return ";"
 
-archivo_csv = "salida.csv"
+
+archivo_csv = "500Ciclos+Pullout_7.csv"
 sep = detectar_separador(archivo_csv)
 
 # ---------------------------------------------------------
@@ -23,19 +25,55 @@ sep = detectar_separador(archivo_csv)
 # ---------------------------------------------------------
 df = pd.read_csv(archivo_csv, sep=sep, encoding="latin1")
 
-# Limpiar encabezados
-df.columns = df.columns.str.strip().str.replace("\ufeff", "", regex=False)
+# ---------------------------------------------------------
+# Limpieza de encabezados
+# ---------------------------------------------------------
+df.columns = (
+    df.columns
+    .str.strip()
+    .str.replace("\ufeff", "", regex=False)
+    .str.replace("ó", "o")
+    .str.replace("Ó", "O")
+    .str.replace(" ", "")
+    .str.replace(";", "")
+)
+
+print("\nEncabezados detectados:", df.columns.tolist())
 
 # ---------------------------------------------------------
-# Convertir a numérico, corrigiendo decimales con coma
+# Buscar nombres reales de columnas automáticamente
 # ---------------------------------------------------------
-for col in ["Deformacion", "Fuerza"]:
-    if col in df.columns:
-        df[col] = pd.to_numeric(df[col].astype(str).str.replace(",", "."), errors="coerce")
+col_fuerza = None
+col_deform = None
 
-# Validación básica
+for col in df.columns:
+    if re.search("fuer", col.lower()):
+        col_fuerza = col
+    if re.search("deform", col.lower()):
+        col_deform = col
+
+print("→ Columna fuerza detectada:", col_fuerza)
+print("→ Columna deformación detectada:", col_deform)
+
+if col_fuerza is None or col_deform is None:
+    print("\n❌ ERROR: No se encontraron columnas válidas de Fuerza o Deformación")
+    exit()
+
+# Renombrar oficialmente
+df = df.rename(columns={
+    col_fuerza: "Fuerza",
+    col_deform: "Deformacion"
+})
+
+# ---------------------------------------------------------
+# Convertir a numérico
+# ---------------------------------------------------------
+df["Fuerza"] = pd.to_numeric(df["Fuerza"].astype(str).str.replace(",", "."), errors="coerce")
+df["Deformacion"] = pd.to_numeric(df["Deformacion"].astype(str).str.replace(",", "."), errors="coerce")
+
+# Validación
 if df["Fuerza"].dropna().empty:
-    print("\n❌ ERROR: La columna Fuerza no contiene números válidos")
+    print("\n❌ ERROR: La columna Fuerza no contiene datos numéricos válidos.")
     print(df.head())
     exit()
 
@@ -47,7 +85,7 @@ maximo_total = df.loc[idx]
 print("\nMáximo Absoluto:", maximo_total["Fuerza"])
 
 # ---------------------------------------------------------
-# Máximo total válido (+1 mm)
+# Máximo válido (+1 mm)
 # ---------------------------------------------------------
 umbral_mm = 1.0
 df["es_max_local"] = (df["Fuerza"] > df["Fuerza"].shift(1)) & (df["Fuerza"] > df["Fuerza"].shift(-1))
@@ -57,72 +95,89 @@ if len(maximos) == 0:
     maximo_total_valido = df.loc[df["Fuerza"].idxmax()]
 else:
     maximos = maximos.sort_values("Deformacion").reset_index(drop=True)
-    maximos_grupos = []
+    grupos = []
     grupo = [maximos.iloc[0]]
-    deformacion_grupo = maximos.iloc[0]["Deformacion"]
+    deform_ref = maximos.iloc[0]["Deformacion"]
 
     for i in range(1, len(maximos)):
         fila = maximos.iloc[i]
-        deformacion_actual = fila["Deformacion"]
-        if abs(deformacion_actual - deformacion_grupo) < umbral_mm:
+        if abs(fila["Deformacion"] - deform_ref) < umbral_mm:
             grupo.append(fila)
         else:
             grupo_df = pd.DataFrame(grupo)
-            maximos_grupos.append(grupo_df.loc[grupo_df["Fuerza"].idxmax()])
+            grupos.append(grupo_df.loc[grupo_df["Fuerza"].idxmax()])
             grupo = [fila]
-            deformacion_grupo = deformacion_actual
+            deform_ref = fila["Deformacion"]
 
     grupo_df = pd.DataFrame(grupo)
-    maximos_grupos.append(grupo_df.loc[grupo_df["Fuerza"].idxmax()])
-    maximo_total_valido = pd.DataFrame(maximos_grupos).loc[pd.DataFrame(maximos_grupos)["Fuerza"].idxmax()]
+    grupos.append(grupo_df.loc[grupo_df["Fuerza"].idxmax()])
+    maximo_total_valido = pd.DataFrame(grupos).loc[pd.DataFrame(grupos)["Fuerza"].idxmax()]
 
-print("Máximo total de Fuerza válido según regla +1 mm:")
-print(maximo_total_valido.to_dict())
+print("\nMáximo válido +1 mm:", maximo_total_valido.to_dict())
 
 # ---------------------------------------------------------
-# Valor objetivo pedido al usuario
+# DETECCIÓN AUTOMÁTICA DE HIGH Y LOW EN CICLOS
 # ---------------------------------------------------------
-try:
-    valor_objetivo = float(input("\nIntroduce el valor objetivo de fuerza (N): "))
-except:
-    print("Entrada inválida, usando 50 N por defecto.")
-    valor_objetivo = 50.0
 
-tolerancia = 10
-cercanos = df[(df["Fuerza"] >= valor_objetivo - tolerancia) &
-              (df["Fuerza"] <= valor_objetivo + tolerancia)]
+def pedir_rango(nombre):
+    r = input(f"\nIntroduce rango aproximado para {nombre} (formato: min,max): ")
+    try:
+        rmin, rmax = [float(x) for x in r.split(",")]
+        return rmin, rmax
+    except:
+        print("Entrada inválida. Usando valores por defecto.")
+        return None
 
-if len(cercanos) == 0:
-    print("\nNo se encontraron puntos cerca del valor objetivo.")
+# Pedir rangos aproximados al usuario
+rango_low = pedir_rango("LOW (bajo)")
+rango_high = pedir_rango("HIGH (alto)")
+
+if rango_low is None:
+    rango_low = (30, 45)
+if rango_high is None:
+    rango_high = (60, 80)
+
+low_min, low_max = rango_low
+high_min, high_max = rango_high
+
+# Filtrar valores dentro del rango
+data_low = df[df["Fuerza"].between(low_min, low_max)]["Fuerza"]
+data_high = df[df["Fuerza"].between(high_min, high_max)]["Fuerza"]
+
+if data_low.empty or data_high.empty:
+    print("\n❌ No pude detectar low/high dentro del rango proporcionado.")
     exit()
 
-primer_punto = cercanos.iloc[0][["Deformacion", "Fuerza"]]
-ultimo_punto = cercanos.iloc[-1][["Deformacion", "Fuerza"]]
+# HIGH y LOW reales como promedio de los valores más frecuentes
+LOW_real = data_low.mean()
+HIGH_real = data_high.mean()
 
-print("\nPrimer punto cerca del objetivo:", primer_punto.to_dict())
-print("Último punto cerca del objetivo:", ultimo_punto.to_dict())
+print(f"\nLOW real detectado:  {LOW_real:.2f} N")
+print(f"HIGH real detectado: {HIGH_real:.2f} N")
 
 # ---------------------------------------------------------
-# Contar ciclos (valor objetivo → bajo)
+# CONTAR CICLOS
 # ---------------------------------------------------------
-HIGH = valor_objetivo
-LOW = 30
-tol = 10
+tol = 5    # tolerancia automática
+
 arriba = False
 ciclos = 0
 
-for i in range(len(df)):
-    f = df.loc[i, "Fuerza"]
-    if not arriba and (HIGH - tol <= f <= HIGH + tol):
+for f in df["Fuerza"]:
+    # detectar subida al nivel alto
+    if not arriba and (HIGH_real - tol <= f <= HIGH_real + tol):
         arriba = True
-    if arriba and (LOW - tol <= f <= LOW + tol):
+
+    # detectar bajada al nivel bajo
+    if arriba and (LOW_real - tol <= f <= LOW_real + tol):
         ciclos += 1
         arriba = False
 
-print(f"\nNúmero total de ciclos detectados (≈{HIGH} → ≈{LOW}): {ciclos}")
+print(f"\nCICLOS DETECTADOS: {ciclos}")
+
 
 # ---------------------------------------------------------
-# Graficar
+# Gráfica
 # ---------------------------------------------------------
 plt.figure(figsize=(10,5))
 plt.plot(df["Deformacion"], df["Fuerza"])
