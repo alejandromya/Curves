@@ -5,15 +5,24 @@ from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
-from src.pdf_generator import generar_pdf
+from src.pdf_generator import generar_pdf_unico
 
 # Carpetas
 input_folder = "datasets"
 output_folder = "results"
 os.makedirs(output_folder, exist_ok=True)
 
-# Ciclos a seleccionar
+# Preguntar PICO/VALLE solo una vez
+print("\n=== CONFIGURACIÓN GLOBAL DE CICLOS ===")
+pico_obj = float(input("Ingrese valor objetivo del PICO: "))
+valle_obj = float(input("Ingrese valor objetivo del VALLE: "))
+toler = float(input("Ingrese tolerancia (ej. 0.5): "))
+
+# Ciclos a seleccionar (targets)
 targets = [100, 200, 300, 400, 500]
+
+# Lista de bloques para PDF único
+bloques_pdf = []
 
 # Iterar sobre todos los CSV
 for archivo in os.listdir(input_folder):
@@ -25,35 +34,45 @@ for archivo in os.listdir(input_folder):
         df = cargar_y_preparar_csv(archivo_path)
 
         # Detectar ciclos
-        ciclos_totales, detalles = detectar_ciclos(df, min_force=10, smooth_window=5)
-        print(f"Número total de ciclos detectados: {ciclos_totales}")
+        ciclos_totales, detalles = detectar_ciclos(df, pico_obj, valle_obj, toler)
+        print(f"Número de ciclos detectados: {ciclos_totales}")
 
-        # Detectar fuerza máxima (después de los ciclos)
+        if ciclos_totales == 0:
+            print("❌ No se detectaron ciclos. Se omite este archivo.")
+            continue
+
+        # Detectar fuerza máxima después del último ciclo
         fuerza_max, deformacion_max = detectar_fuerza_maxima(df, detalles)
-        print(f"Fuerza máxima: {fuerza_max:.6f}")
-        print(f"Desplazamiento: {deformacion_max:.6e}")
+        print(f"Fuerza máxima: {fuerza_max:.6f}, Desplazamiento: {deformacion_max:.6e}")
 
-        # Selección de ciclos concretos
+        # Selección de ciclos concretos usando diccionario seguro
         ciclos_seleccionados = {}
         for t in targets:
-            ciclo_data = next((x for x in detalles if x["ciclo"] == t), None)
+            ciclo_data = detalles.get(t, None)
             if ciclo_data:
                 ciclos_seleccionados[t] = ciclo_data
-                print(f"Ciclo {t}: HIGH={ciclo_data['deform_high']:.6f}, LOW={ciclo_data['deform_low']:.6f}")
+                print(f"Ciclo {t}: HIGH inicio={ciclo_data['deform_high_start']:.6f}, "
+                      f"LOW={ciclo_data['deform_low']:.6f}, "
+                      f"HIGH final={ciclo_data['deform_high_end']:.6f}")
             else:
                 print(f"Ciclo {t} no existe (solo hay {ciclos_totales})")
 
-        # Calcular HIGH y LOW para gráfico
-        HIGH = max(d['deform_high'] for d in detalles)
-        LOW = min(d['deform_low'] for d in detalles)
-
         # Guardar gráfico en memoria
         grafico_memoria = io.BytesIO()
-        plot_ciclos(df, detalles, HIGH, LOW, output_path=grafico_memoria)
-        grafico_memoria.seek(0)  # Volver al inicio
+        plot_ciclos(df, detalles, output_path=grafico_memoria)
+        grafico_memoria.seek(0)
 
-        # Generar PDF con fuerza máxima
-        nombre_pdf = os.path.splitext(archivo)[0] + ".pdf"
-        pdf_path = os.path.join(output_folder, nombre_pdf)
-        generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_memoria, fuerza_max, deformacion_max, output_pdf=pdf_path)
-        print(f"PDF generado: {pdf_path}")
+        # Guardar todos los datos en un bloque para PDF
+        bloques_pdf.append({
+            "titulo": archivo,
+            "total_ciclos": ciclos_totales,
+            "ciclos": detalles,
+            "grafico": grafico_memoria,
+            "fuerza_max": fuerza_max,
+            "deformacion_max": deformacion_max
+        })
+
+# Generar PDF único
+pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
+generar_pdf_unico(bloques_pdf, pdf_final)
+print("\n📄 PDF único generado en:", pdf_final)
