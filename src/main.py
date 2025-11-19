@@ -64,13 +64,14 @@ for archivo in os.listdir(input_folder):
 
         # Guardar todos los datos en un bloque para PDF
         bloques_pdf.append({
-            "titulo": archivo,
-            "total_ciclos": ciclos_totales,
-            "ciclos": detalles,
-            "grafico": grafico_memoria,
-            "fuerza_max": fuerza_max,
-            "deformacion_max": deformacion_max
-        })
+        "titulo": archivo,
+        "total_ciclos": ciclos_totales,
+        "ciclos": detalles,
+        "grafico": grafico_memoria,
+        "fuerza_max": fuerza_max,
+        "deformacion_max": deformacion_max,
+        "df": df  # <-- añadido para calcular F2mm, F3mm y desplazamientos relativos
+    })
 
 # Generar PDF único
 pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
