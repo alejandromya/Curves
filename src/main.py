@@ -59,7 +59,7 @@ for archivo in os.listdir(input_folder):
 
         # Guardar gráfico en memoria
         grafico_memoria = io.BytesIO()
-        plot_ciclos(df, detalles, output_path=grafico_memoria)
+        plot_ciclos(df, detalles,fuerza_max, deformacion_max, output_path=grafico_memoria)
         grafico_memoria.seek(0)
 
         # Guardar todos los datos en un bloque para PDF
