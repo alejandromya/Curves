@@ -1,43 +1,43 @@
 import matplotlib.pyplot as plt
 
-def plot_ciclos(df, detalles_ciclos, fuerza_max, deform_max, output_path=None):
+def plot_ciclos(df, detalles_ciclos, fuerza_max, deformacion_max, output_path=None):
     """
-    Grafica la curva Fuerza vs Deformacion y marca:
-    - High inicio del primer ciclo (rojo)
-    - Low del último ciclo (azul)
-    - Fuerza máxima fuera del ciclo (naranja)
+    Plotea la curva de Fuerza vs Deformación con marcadores:
+    - Inicio primer ciclo (HIGH) → rojo
+    - Último HIGH de todos los ciclos → azul
+    - Fmax → naranja
     """
+    plt.figure(figsize=(10,6))
+    plt.plot(df["Deformacion"], df["Fuerza"], color='black', lw=1, label="Curva")
 
-    plt.figure(figsize=(10,5))
-    # Curva completa
-    plt.plot(df["Deformacion"], df["Fuerza"], linewidth=0.8, label="Datos completos", color="gray")
+    # Ordenar ciclos
+    ciclos_ordenados = [detalles_ciclos[k] for k in sorted(detalles_ciclos.keys())]
 
-    # Primer ciclo: High inicio
-    primer_ciclo = detalles_ciclos[min(detalles_ciclos.keys())]
-    deform_high_start = primer_ciclo['deform_high_start']
-    fuerza_high_start = df.loc[(df["Deformacion"] - deform_high_start).abs().idxmin(), "Fuerza"]
-    plt.scatter(deform_high_start, fuerza_high_start, color="red", s=50, label="High inicio primer ciclo")
+    # MARCAR: inicio del primer ciclo (HIGH)
+    primer_ciclo = ciclos_ordenados[0]
+    idx_primer_high = primer_ciclo["pico_inicio_idx"]
+    plt.scatter(primer_ciclo['deform_high_start'], df.loc[idx_primer_high, "Fuerza"],
+                color="red", s=40, label="High inicio")
 
-    # Último ciclo: Low final
-    ultimo_ciclo = detalles_ciclos[max(detalles_ciclos.keys())]
-    deform_low_end = ultimo_ciclo['deform_low']
-    fuerza_low_end = df.loc[(df["Deformacion"] - deform_low_end).abs().idxmin(), "Fuerza"]
-    plt.scatter(deform_low_end, fuerza_low_end, color="blue", s=50, label="Low último ciclo")
+    # MARCAR: último HIGH de todos los ciclos
+    ultimo_high_val = max(c['deform_high_end'] for c in detalles_ciclos.values())
+    # Buscar índice aproximado en df
+    idx_ultimo_high = df["Deformacion"].sub(ultimo_high_val).abs().idxmin()
+    plt.scatter(ultimo_high_val, df.loc[idx_ultimo_high, "Fuerza"],
+                color="blue", s=40, label="Último HIGH")
 
-    # Fuerza máxima fuera del ciclo
-    plt.scatter(deform_max, fuerza_max, color="orange", s=50, label="Fuerza máxima")
+    # MARCAR: fuerza máxima
+    # Buscar índice aproximado
+    idx_fmax = df["Fuerza"].sub(fuerza_max).abs().idxmin()
+    plt.scatter(df.loc[idx_fmax, "Deformacion"], fuerza_max,
+                color="orange", s=40, label="Fuerza máxima")
 
-    # Configuración del gráfico
-    plt.title("Gráfica Deformación vs Fuerza")
-    plt.xlabel("Deformación (mm)")
-    plt.ylabel("Fuerza (N)")
-    plt.grid(True)
+    plt.xlabel("Deformación [mm]")
+    plt.ylabel("Fuerza [N]")
+    plt.title("Curva Fuerza vs Deformación")
     plt.legend()
-    plt.tight_layout()
+    plt.grid(True)
 
-    # Guardar si se indica
     if output_path:
-        plt.savefig(output_path, dpi=150)
+        plt.savefig(output_path, dpi=300, bbox_inches='tight')
     plt.close()
-
-    return output_path

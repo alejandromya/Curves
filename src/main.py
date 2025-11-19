@@ -6,6 +6,7 @@ from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
 from src.pdf_generator import generar_pdf_unico
+from src.word_generator import generar_word_unico
 
 # Carpetas
 input_folder = "datasets"
@@ -77,3 +78,9 @@ for archivo in os.listdir(input_folder):
 pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
 generar_pdf_unico(bloques_pdf, pdf_final)
 print("\n📄 PDF único generado en:", pdf_final)
+
+# Generar Word único
+
+# word_final = os.path.join(output_folder, "INFORME_FINAL.docx")
+# generar_word_unico(bloques_pdf, word_final)
+# print("📄 Word único generado en:", word_final)
