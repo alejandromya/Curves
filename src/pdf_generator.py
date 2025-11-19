@@ -4,7 +4,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
-def generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_file, output_pdf="reporte_ensayo.pdf"):
+def generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_file, fuerza_max, deformacion_max, output_pdf="reporte_ensayo.pdf"):
     pdfmetrics.registerFont(TTFont('Arial', 'arial.ttf'))
 
     doc = SimpleDocTemplate(output_pdf, pagesize=letter)
@@ -16,7 +16,11 @@ def generar_pdf(ciclos_totales, ciclos_seleccionados, grafico_file, output_pdf="
     story.append(Paragraph("Reporte de Ensayo Cíclico", styles["Heading1"]))
     story.append(Spacer(1, 12))
 
-    texto = f"<b>Número total de ciclos detectados:</b> {ciclos_totales}<br/><br/>"
+    # Añadir fuerza máxima
+    texto = f"<b>Fuerza máxima:</b> {fuerza_max:.6f} N<br/>"
+    texto += f"<b>Desplazamiento en fuerza máxima:</b> {deformacion_max:.6f} mm<br/><br/>"
+    
+    texto += f"<b>Número total de ciclos detectados:</b> {ciclos_totales}<br/><br/>"
     texto += "<b>Deformaciones de ciclos seleccionados:</b><br/>"
     for k, c in ciclos_seleccionados.items():
         texto += f"Ciclo {k}: HIGH = {c['deform_high']:.6f} mm, LOW = {c['deform_low']:.6f} mm<br/>"
