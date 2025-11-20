@@ -36,7 +36,7 @@ for archivo in os.listdir(input_folder):
             continue
 
         fuerza_max, deformacion_max = detectar_fuerza_maxima(df, detalles)
-        print(f"Fuerza máxima: {fuerza_max:.6f}, Desplazamiento: {deformacion_max:.6e}")
+        print(f"Fuerza máxima: {fuerza_max:.6f}, Desplazamiento: {deformacion_max:.6f}")
 
         # Primer y último ciclo:
         ciclos_ordenados = sorted(detalles.keys())
@@ -56,8 +56,17 @@ for archivo in os.listdir(input_folder):
 
         # === Gráfico en memoria ===
         grafico_memoria = io.BytesIO()
-        plot_ciclos(df, detalles, fuerza_max, deformacion_max, output_path=grafico_memoria)
-
+        plot_ciclos(
+            df,
+            detalles,
+            fuerza_max,
+            deformacion_max,
+            f2mm_x,
+            f2mm_y,
+            f3mm_x,
+            f3mm_y,
+            output_path=grafico_memoria
+        )
         grafico_memoria.seek(0)
 
         # === BLOQUE COMPLETO ===
