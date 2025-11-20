@@ -13,28 +13,21 @@ input_folder = "datasets"
 output_folder = "results"
 os.makedirs(output_folder, exist_ok=True)
 
-# Preguntar PICO/VALLE solo una vez
 print("\n=== CONFIGURACIÓN GLOBAL DE CICLOS ===")
 pico_obj = float(input("Ingrese valor objetivo del PICO: "))
 valle_obj = float(input("Ingrese valor objetivo del VALLE: "))
 toler = float(input("Ingrese tolerancia (ej. 0.5): "))
 
-# Ciclos a seleccionar (targets)
 targets = [100, 200, 300, 400, 500]
-
-# Lista de bloques para PDF único
 bloques_pdf = []
 
-# Iterar sobre todos los CSV
 for archivo in os.listdir(input_folder):
     if archivo.lower().endswith(".csv"):
         archivo_path = os.path.join(input_folder, archivo)
         print(f"\nProcesando: {archivo_path}")
 
-        # Cargar y preparar CSV
         df = cargar_y_preparar_csv(archivo_path)
 
-        # Detectar ciclos
         ciclos_totales, detalles = detectar_ciclos(df, pico_obj, valle_obj, toler)
         print(f"Número de ciclos detectados: {ciclos_totales}")
 
@@ -42,45 +35,47 @@ for archivo in os.listdir(input_folder):
             print("❌ No se detectaron ciclos. Se omite este archivo.")
             continue
 
-        # Detectar fuerza máxima después del último ciclo
         fuerza_max, deformacion_max = detectar_fuerza_maxima(df, detalles)
         print(f"Fuerza máxima: {fuerza_max:.6f}, Desplazamiento: {deformacion_max:.6e}")
 
-        # Selección de ciclos concretos usando diccionario seguro
-        ciclos_seleccionados = {}
-        for t in targets:
-            ciclo_data = detalles.get(t, None)
-            if ciclo_data:
-                ciclos_seleccionados[t] = ciclo_data
-                print(f"Ciclo {t}: HIGH inicio={ciclo_data['deform_high_start']:.6f}, "
-                      f"LOW={ciclo_data['deform_low']:.6f}, "
-                      f"HIGH final={ciclo_data['deform_high_end']:.6f}")
-            else:
-                print(f"Ciclo {t} no existe (solo hay {ciclos_totales})")
+        # Primer y último ciclo:
+        ciclos_ordenados = sorted(detalles.keys())
+        primer_ciclo = detalles[ciclos_ordenados[0]]
+        ultimo_ciclo = detalles[ciclos_ordenados[-1]]
 
-        # Guardar gráfico en memoria
+        # === Calcular F2mm y F3mm desde low del último ciclo ===
+        deform_low_last = ultimo_ciclo["deform_low"]
+
+        f2mm_idx = (df["Deformacion"] - deform_low_last - 2.0).abs().idxmin()
+        f3mm_idx = (df["Deformacion"] - deform_low_last - 3.0).abs().idxmin()
+
+        f2mm_x = float(df.loc[f2mm_idx, "Deformacion"])
+        f2mm_y = float(df.loc[f2mm_idx, "Fuerza"])
+        f3mm_x = float(df.loc[f3mm_idx, "Deformacion"])
+        f3mm_y = float(df.loc[f3mm_idx, "Fuerza"])
+
+        # === Gráfico en memoria ===
         grafico_memoria = io.BytesIO()
-        plot_ciclos(df, detalles,fuerza_max, deformacion_max, output_path=grafico_memoria)
+        plot_ciclos(df, detalles, fuerza_max, deformacion_max, output_path=grafico_memoria)
+
         grafico_memoria.seek(0)
 
-        # Guardar todos los datos en un bloque para PDF
+        # === BLOQUE COMPLETO ===
         bloques_pdf.append({
-        "titulo": archivo,
-        "total_ciclos": ciclos_totales,
-        "ciclos": detalles,
-        "grafico": grafico_memoria,
-        "fuerza_max": fuerza_max,
-        "deformacion_max": deformacion_max,
-        "df": df  # <-- añadido para calcular F2mm, F3mm y desplazamientos relativos
-    })
+            "titulo": archivo,
+            "total_ciclos": ciclos_totales,
+            "ciclos": detalles,
+            "grafico": grafico_memoria,
+            "fuerza_max": fuerza_max,
+            "deformacion_max": deformacion_max,
+            "df": df,
+            "f2mm_x": f2mm_x,
+            "f2mm_y": f2mm_y,
+            "f3mm_x": f3mm_x,
+            "f3mm_y": f3mm_y
+        })
 
-# Generar PDF único
+# === Generar PDF ===
 pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
 generar_pdf_unico(bloques_pdf, pdf_final)
 print("\n📄 PDF único generado en:", pdf_final)
-
-# Generar Word único
-
-# word_final = os.path.join(output_folder, "INFORME_FINAL.docx")
-# generar_word_unico(bloques_pdf, word_final)
-# print("📄 Word único generado en:", word_final)
