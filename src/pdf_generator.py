@@ -7,78 +7,67 @@ from reportlab.pdfbase import pdfmetrics
 
 def generar_tabla_ciclos(detalles_ciclos, df, fuerza_max, deformacion_max):
     """
-    Tabla con columnas 0,100,...,hasta última centena + F2mm, F3mm, Fmax, Dciclico, Stf
+    Tabla con columnas 0,100,...,hasta última centena + F2mm, F3mm, Fmax, Dciclico, Stf.
+    Si F2mm o F3mm están después de Fmax en desplazamiento → "—".
     """
 
+    # Ordenar ciclos detectados
     ciclos_ordenados = sorted(detalles_ciclos.keys())
 
-    primer_ciclo_key = ciclos_ordenados[0]
-    primer_ciclo = detalles_ciclos[primer_ciclo_key]
+    # Primer ciclo REAL
+    primer_ciclo = detalles_ciclos[ciclos_ordenados[0]]
 
     # Último HIGH real entre todos los ciclos
     ultimo_high_real = max(c["deform_high_end"] for c in detalles_ciclos.values())
 
-    # Último ciclo
-    ultimo_ciclo_key = ciclos_ordenados[-1]
-    ultimo_ciclo = detalles_ciclos[ultimo_ciclo_key]
+    # Último ciclo por número (solo para deform_low)
+    ultimo_ciclo = detalles_ciclos[ciclos_ordenados[-1]]
 
     # Columnas de ciclos: 0 → última centena
-    ult_centena = (ultimo_ciclo_key // 100) * 100
+    ult_centena = (ciclos_ordenados[-1] // 100) * 100
     ciclos_col = [0] + [i for i in range(100, ult_centena + 1, 100)]
 
-    # F2mm / F3mm medidos desde el LOW del último ciclo
+    # F2mm y F3mm desde LOW del último ciclo
     deform_low_last = ultimo_ciclo["deform_low"]
+
     f2mm_idx = (df["Deformacion"] - deform_low_last - 2.0).abs().idxmin()
     f3mm_idx = (df["Deformacion"] - deform_low_last - 3.0).abs().idxmin()
 
-    f2mm_val = df.loc[f2mm_idx, "Fuerza"]
-    f3mm_val = df.loc[f3mm_idx, "Fuerza"]
+    f2mm_x = float(df.loc[f2mm_idx, "Deformacion"])
+    f2mm_y = float(df.loc[f2mm_idx, "Fuerza"])
+    f3mm_x = float(df.loc[f3mm_idx, "Deformacion"])
+    f3mm_y = float(df.loc[f3mm_idx, "Fuerza"])
 
-    # Fmax relativo al LOW (ya existente)
-    df_max_rel_low = deformacion_max - deform_low_last
+    # Fmax desplazamiento relativo al LOW
+    df_max_rel = deformacion_max - deform_low_last
 
-    # Fmax relativo al HIGH_END del último ciclo (nuevo)
-    df_max_rel_high = deformacion_max - ultimo_ciclo["deform_high_end"]
-
-    # Dciclico: último HIGH real − primer HIGH start
+    # Dciclico
     Dciclico = ultimo_high_real - primer_ciclo["deform_high_start"]
 
-    # Nuevo: Stf = Fmax / desplazamiento desde high_end
-    Stf = fuerza_max / df_max_rel_high if df_max_rel_high != 0 else 0.0
-
     # Cabecera
-    headers = [str(c) for c in ciclos_col] + [
-        "F2mm", "F3mm",
-        f"Fmax ({fuerza_max:.2f} N)",
-        "Dciclico",
-        "Stf (N/mm)"
-    ]
+    headers = [str(c) for c in ciclos_col] + ["F2mm", "F3mm", f"Fmax ({fuerza_max:.2f} N)", "Dciclico", "Stf (N/mm)"]
 
-    # Fila
+    # Valores fila
     fila = []
     for c in ciclos_col:
         if c == 0:
-            fila.append(f"{primer_ciclo['deform_high_start']:.4f}")
-
+            fila.append(f"{primer_ciclo['deform_high_start']:.2f}")
         elif c == ciclos_col[-1]:
-            fila.append(f"{ultimo_high_real:.4f}")
-
+            fila.append(f"{ultimo_high_real:.2f}")
         elif c in detalles_ciclos:
-            fila.append(f"{detalles_ciclos[c]['deform_high_end']:.4f}")
-
+            fila.append(f"{detalles_ciclos[c]['deform_high_end']:.2f}")
         else:
             fila.append("—")
 
-    fila.extend([
-        f"{f2mm_val:.2f}",
-        f"{f3mm_val:.2f}",
-        f"{df_max_rel_low:.4f}",
-        f"{Dciclico:.4f}",
-        f"{Stf:.4f}"
-    ])
+    # F2mm y F3mm: solo si su deformación <= deformacion_max
+    fila.append(f"{f2mm_y:.2f}" if f2mm_x <= deformacion_max else "—")
+    fila.append(f"{f3mm_y:.2f}" if f3mm_x <= deformacion_max else "—")
+
+    fila.append(f"{df_max_rel:.2f}")  # Fmax relativo
+    fila.append(f"{Dciclico:.2f}")    # Dciclico
+    fila.append(f"{fuerza_max / df_max_rel:.2f}" if df_max_rel != 0 else "—")  # Stf
 
     return [headers, fila]
-
 
 
 def generar_pdf_unico(bloques, output_pdf="INFORME_FINAL.pdf"):

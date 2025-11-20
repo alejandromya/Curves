@@ -36,7 +36,7 @@ def plot_ciclos(df, detalles_ciclos, fuerza_max, deformacion_max,
     plt.scatter(
         primer_ciclo["deform_high_start"],
         df.loc[idx_primer, "Fuerza"],
-        color="red", s=40, label="High inicio"
+        color="red", s=40, label="Inicio Cíclico"
     )
 
     # ================================
@@ -48,7 +48,7 @@ def plot_ciclos(df, detalles_ciclos, fuerza_max, deformacion_max,
     plt.scatter(
         ultimo_high_real,
         df.loc[idx_ultimo, "Fuerza"],
-        color="blue", s=40, label="Último HIGH"
+        color="blue", s=40, label="Final Cíclico"
     )
 
     # ================================
