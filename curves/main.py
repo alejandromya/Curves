@@ -1,22 +1,21 @@
 import os
 import io
 import pandas as pd
+import sys
 from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
 from src.pdf_generator import generar_pdf_unico
-from src.word_generator import generar_word_unico
 
 # Carpetas
-input_folder = "datasets"
+input_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "uploads"))
 output_folder = "results"
 os.makedirs(output_folder, exist_ok=True)
 
-print("\n=== CONFIGURACIÓN GLOBAL DE CICLOS ===")
-pico_obj = float(input("Ingrese valor objetivo del PICO: "))
-valle_obj = float(input("Ingrese valor objetivo del VALLE: "))
-toler = float(input("Ingrese tolerancia (ej. 0.5): "))
+pico_obj = float(sys.argv[1])
+valle_obj = float(sys.argv[2])
+toler = float(sys.argv[3])
 
 targets = [100, 200, 300, 400, 500]
 bloques_pdf = []
