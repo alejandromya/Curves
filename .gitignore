@@ -1,0 +1,10 @@
+# entornos virtuales
+venv/
+backend/venv/
+
+# cache python
+__pycache__/
+
+# archivos temporales
+*.log
+*.tmp
