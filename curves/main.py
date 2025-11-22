@@ -8,10 +8,10 @@ from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
 from src.pdf_generator import generar_pdf_unico
 
-# Carpetas
+# Carpetas absolutas dentro de backend
 input_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "uploads"))
-output_folder = "results"
-os.makedirs(output_folder, exist_ok=True)
+output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "results"))
+pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
 
 pico_obj = float(sys.argv[1])
 valle_obj = float(sys.argv[2])
@@ -31,7 +31,7 @@ for archivo in os.listdir(input_folder):
         print(f"Número de ciclos detectados: {ciclos_totales}")
 
         if ciclos_totales == 0:
-            print("❌ No se detectaron ciclos. Se omite este archivo.")
+            print("No se detectaron ciclos. Se omite este archivo.")
             continue
 
         fuerza_max, deformacion_max = detectar_fuerza_maxima(df, detalles)
@@ -86,4 +86,4 @@ for archivo in os.listdir(input_folder):
 # === Generar PDF ===
 pdf_final = os.path.join(output_folder, "INFORME_FINAL.pdf")
 generar_pdf_unico(bloques_pdf, pdf_final)
-print("\n📄 PDF único generado en:", pdf_final)
+print("\n PDF único generado en:", pdf_final)
