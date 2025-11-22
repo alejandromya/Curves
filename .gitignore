@@ -3,8 +3,12 @@ venv/
 backend/venv/
 
 # cache python
-__pycache__/
+curves/__pycache__/
+
+# archivos a ignorar
+curves/datasets
+curves/results
 
 # archivos temporales
 *.log
-*.tmp
+*.tmpgit 
