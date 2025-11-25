@@ -1,25 +1,32 @@
-import os, io, sys
+import os
+import io
+import sys
 from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
 from src.pdf_generator import generar_pdf_unico
 
-input_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "uploads"))
-output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "results"))
-
+# Parámetros desde servidor
 pico = float(sys.argv[1])
 valle = float(sys.argv[2])
 toler = float(sys.argv[3])
 columna = sys.argv[4]  # columna dinámica
 
+input_folder = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "backend", "uploads", f"col{columna}")
+)
+output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "results"))
+os.makedirs(output_folder, exist_ok=True)
+
 bloques_pdf = []
 
+# Procesar únicamente los CSVs de la carpeta de la columna
 for archivo in os.listdir(input_folder):
     if not archivo.lower().endswith(".csv"):
         continue
-    archivo_path = os.path.join(input_folder, archivo)
 
+    archivo_path = os.path.join(input_folder, archivo)
     df = cargar_y_preparar_csv(archivo_path)
     ciclos_totales, detalles = detectar_ciclos(df, pico, valle, toler)
     if ciclos_totales == 0:

@@ -25,10 +25,15 @@ def procesar_csv():
         if not files:
             return jsonify({"error": "No se recibieron archivos"}), 400
 
+        # Carpeta específica para esta columna
+        col_upload_folder = os.path.join(UPLOAD_FOLDER, f"col{columna}")
+        os.makedirs(col_upload_folder, exist_ok=True)
+
         for idx, f in enumerate(files):
             safe_name = f"{idx+1}_{f.filename}"
-            f.save(os.path.join(UPLOAD_FOLDER, safe_name))
-            logging.info(f"Archivo guardado: {safe_name}")
+            path = os.path.join(col_upload_folder, safe_name)
+            f.save(path)
+            logging.info(f"Archivo guardado: {path}")
 
         pico = float(request.form.get("pico", 75))
         valle = float(request.form.get("valle", 10))
@@ -51,11 +56,17 @@ def procesar_csv():
         if not os.path.exists(pdf_path):
             return jsonify({"error": f"No se generó PDF columna {columna}"}), 500
 
-        return send_file(pdf_path, mimetype="application/pdf", as_attachment=True, download_name=f"INFORME_COL{columna}.pdf")
+        return send_file(pdf_path, mimetype="application/pdf", as_attachment=True,
+                         download_name=f"INFORME_COL{columna}.pdf")
 
     except Exception as e:
         logging.exception(e)
         return jsonify({"error": "Error inesperado", "detalle": str(e)}), 500
+
+
+@app.route("/")
+def index():
+    return "Servidor Flask funcionando correctamente"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
