@@ -5,23 +5,27 @@ from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
-from src.pdf_generator import generar_pdf_unico
+from src.pdf_generator import agregar_hoja_excel, generar_pdf_unico
 
 # Parámetros desde servidor
 pico = float(sys.argv[1])
 valle = float(sys.argv[2])
 toler = float(sys.argv[3])
-columna = sys.argv[4]  # columna dinámica
+columna_actual = sys.argv[4]  # columna dinámica
 
-input_folder = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "backend", "uploads", f"col{columna}")
+input_folder_base = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "backend", "uploads")
 )
 output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "results"))
 os.makedirs(output_folder, exist_ok=True)
 
+# Diccionario global para todos los bloques de todas las columnas
+bloques_por_columna = {}
+
+# Carpeta de la columna actual
+input_folder = os.path.join(input_folder_base, f"col{columna_actual}")
 bloques_pdf = []
 
-# Procesar únicamente los CSVs de la carpeta de la columna
 for archivo in os.listdir(input_folder):
     if not archivo.lower().endswith(".csv"):
         continue
@@ -49,7 +53,7 @@ for archivo in os.listdir(input_folder):
                 output_path=grafico_memoria)
     grafico_memoria.seek(0)
 
-    bloques_pdf.append({
+    bloque = {
         "titulo": archivo,
         "total_ciclos": ciclos_totales,
         "ciclos": detalles,
@@ -61,8 +65,18 @@ for archivo in os.listdir(input_folder):
         "f2mm_y": f2mm_y,
         "f3mm_x": f3mm_x,
         "f3mm_y": f3mm_y
-    })
+    }
+    bloques_pdf.append(bloque)
 
-pdf_path = os.path.join(output_folder, f"INFORME_COL{columna}.pdf")
+# Guardar PDF de esta columna
+pdf_path = os.path.join(output_folder, f"INFORME_COL{columna_actual}.pdf")
 generar_pdf_unico(bloques_pdf, pdf_path)
 print(f"PDF generado: {pdf_path}")
+
+# Agregar bloques de esta columna al diccionario global
+bloques_por_columna[columna_actual] = bloques_pdf
+
+# Guardar Excel único con una hoja por columna (acumulando todas)
+excel_path = os.path.join(output_folder, "INFORME_TOTAL.xlsx")
+agregar_hoja_excel(bloques_pdf, columna_actual, excel_path)
+print(f"Excel generado: {excel_path}")

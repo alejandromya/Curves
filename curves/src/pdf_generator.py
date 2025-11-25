@@ -4,6 +4,9 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
+from openpyxl import Workbook, load_workbook
+from openpyxl.styles import Font, Alignment
+import os
 
 def generar_tabla_ciclos(detalles_ciclos, df, fuerza_max, deformacion_max):
     """
@@ -68,6 +71,63 @@ def generar_tabla_ciclos(detalles_ciclos, df, fuerza_max, deformacion_max):
     fila.append(f"{fuerza_max / df_max_rel:.2f}" if df_max_rel != 0 else "—")  # Stf
 
     return [headers, fila]
+
+
+from openpyxl import Workbook
+from openpyxl.styles import Font, Alignment
+
+def agregar_hoja_excel(bloques, col_id, excel_path="INFORME_TOTAL.xlsx"):
+    """
+    bloques: lista de bloques de una columna (cada bloque = CSV)
+    col_id: número de columna
+    excel_path: ruta del Excel a crear/actualizar
+    """
+    if os.path.exists(excel_path):
+        wb = load_workbook(excel_path)
+    else:
+        wb = Workbook()
+        if wb.active:
+            wb.remove(wb.active)
+
+    ws = wb.create_sheet(title=f"Columna {col_id}")
+    fila_actual = 1
+
+    if not bloques:
+        wb.save(excel_path)
+        return excel_path
+
+    # Cabecera usando el primer bloque
+    tabla = generar_tabla_ciclos(
+        bloques[0]["ciclos"],
+        bloques[0]["df"],
+        bloques[0]["fuerza_max"],
+        bloques[0]["deformacion_max"]
+    )
+    headers = tabla[0]
+
+    for col, h in enumerate(headers, start=1):
+        cell = ws.cell(row=fila_actual, column=col)
+        cell.value = h
+        cell.font = Font(bold=True)
+        cell.alignment = Alignment(horizontal="center")
+    fila_actual += 1
+
+    # Filas de datos (un CSV por fila)
+    for bloque in bloques:
+        tabla = generar_tabla_ciclos(
+            bloque["ciclos"],
+            bloque["df"],
+            bloque["fuerza_max"],
+            bloque["deformacion_max"]
+        )
+        valores = tabla[1]
+        for col, v in enumerate(valores, start=1):
+            ws.cell(row=fila_actual, column=col).value = v
+        fila_actual += 1
+
+    wb.save(excel_path)
+    return excel_path
+
 
 
 def generar_pdf_unico(bloques, output_pdf="INFORME_FINAL.pdf"):
