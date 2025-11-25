@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import os
 import subprocess
+import shutil
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -62,7 +63,21 @@ def procesar_csv():
     except Exception as e:
         logging.exception(e)
         return jsonify({"error": "Error inesperado", "detalle": str(e)}), 500
+    
 
+@app.route("/limpiar_carpetas", methods=["POST"])
+def limpiar_carpetas():
+    try:
+        for folder in [UPLOAD_FOLDER, RESULTS_FOLDER]:
+            for f in os.listdir(folder):
+                path = os.path.join(folder, f)
+                if os.path.isfile(path):
+                    os.remove(path)
+                elif os.path.isdir(path):
+                    shutil.rmtree(path)
+        return {"status": "ok", "message": "Carpetas limpiadas"}, 200
+    except Exception as e:
+        return {"status": "error", "message": str(e)}, 500
 
 @app.route("/")
 def index():
@@ -70,3 +85,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
