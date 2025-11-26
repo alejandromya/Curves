@@ -26,7 +26,6 @@ def procesar_csv():
         if not files:
             return jsonify({"error": "No se recibieron archivos"}), 400
 
-        # Carpeta específica para esta columna
         col_upload_folder = os.path.join(UPLOAD_FOLDER, f"col{columna}")
         os.makedirs(col_upload_folder, exist_ok=True)
 
@@ -65,6 +64,19 @@ def procesar_csv():
         return jsonify({"error": "Error inesperado", "detalle": str(e)}), 500
     
 
+@app.route("/descargar_excel", methods=["GET"])
+def descargar_excel():
+    try:
+        excel_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.xlsx")
+        if not os.path.exists(excel_path):
+            return jsonify({"error": "El Excel final no existe"}), 404
+
+        return send_file(excel_path, mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                         as_attachment=True, download_name="INFORME_TOTAL.xlsx")
+    except Exception as e:
+        logging.exception(e)
+        return jsonify({"error": "Error al descargar Excel", "detalle": str(e)}), 500
+
 @app.route("/limpiar_carpetas", methods=["POST"])
 def limpiar_carpetas():
     try:
@@ -85,4 +97,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-
