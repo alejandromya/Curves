@@ -268,12 +268,13 @@ def generar_tablas_combinadas(bloques):
 
 
 def generar_pdf_unico(bloques, output_pdf="INFORME_FINAL.pdf"):
-    pdfmetrics.registerFont(TTFont('Arial', 'arial.ttf'))
+    pdfmetrics.registerFont(TTFont('DejaVu', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
+
     doc = SimpleDocTemplate(output_pdf, pagesize=letter)
     story = []
 
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle(name='NormalUTF8', fontName='Arial', fontSize=10))
+    styles.add(ParagraphStyle(name='NormalUTF8', fontName='DejaVu', fontSize=10))
 
     story.append(Paragraph("<b>Resultados</b>", styles["Heading1"]))
     story.append(Spacer(1, 12))
