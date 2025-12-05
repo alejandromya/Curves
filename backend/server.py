@@ -4,6 +4,11 @@ import os
 import subprocess
 import shutil
 import logging
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "curves")))
+
+from src.data_processing import cargar_y_preparar_csv
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
@@ -90,6 +95,30 @@ def limpiar_carpetas():
         return {"status": "ok", "message": "Carpetas limpiadas"}, 200
     except Exception as e:
         return {"status": "error", "message": str(e)}, 500
+
+@app.route("/procesar_csv_bruto", methods=["POST"])
+def procesar_csv_bruto():
+    try:
+        # Revisar que el archivo se haya enviado
+        if "csv_file" not in request.files:
+            return jsonify({"error": "No se recibió archivo"}), 400
+
+        archivo = request.files["csv_file"]
+
+        # Guardar archivo en uploads (igual que main.py)
+        tmp_path = os.path.join(UPLOAD_FOLDER, archivo.filename)
+        archivo.save(tmp_path)
+
+        # Pasar el filepath a cargar_y_preparar_csv
+        df = cargar_y_preparar_csv(tmp_path)
+
+        # Convertir a JSON solo las dos primeras columnas (X e Y)
+        puntos = df.iloc[:, :2].to_dict(orient="records")
+        return jsonify({"puntos": puntos})
+
+    except Exception as e:
+        return jsonify({"error": "Error procesando CSV", "detalle": str(e)}), 500
+
 
 @app.route("/")
 def index():
