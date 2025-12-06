@@ -16,7 +16,8 @@ def detectar_fuerza_maxima(df, detalles_ciclos, limite_desplazamiento=1.0):
         f2mm_y = df.loc[f2mm_idx, "Fuerza"]
         f3mm_x = df.loc[f3mm_idx, "Deformacion"]
         f3mm_y = df.loc[f3mm_idx, "Fuerza"]
-        return f_max, d_max, f2mm_x, f2mm_y, f3mm_x, f3mm_y
+        yield_stiffness = None
+        return f_max, d_max, f2mm_x, f2mm_y, f3mm_x, f3mm_y, yield_stiffness
 
     # Ordenar ciclos y tomar último
     ciclos_ordenados = [detalles_ciclos[k] for k in sorted(detalles_ciclos)]

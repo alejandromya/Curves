@@ -1,4 +1,10 @@
 {
   "python-envs.pythonProjects": [],
-  "python.analysis.extraPaths": ["./curves"]
+  "python.analysis.extraPaths": ["./curves"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedVariable": "warning",
+    "reportUnusedImport": "warning",
+    "reportMissingImports": "error"
+  }
 }

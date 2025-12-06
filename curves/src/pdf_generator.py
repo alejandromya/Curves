@@ -103,16 +103,6 @@ def generar_fila_sample(bloque):
         except Exception:
             f2mm_y = None
             f3mm_y = None
-
-    # Fmax relativo (fuerza máxima) y Max Disp ATM (deformacion_max)
-    # Dciclico no se pide en tabla final; calculamos Yield (stf) según lo indicado: fuerza_max / (deformacion_max - deform_low_last)
-    df_max_rel = None
-    if deformacion_max is not None and deform_low_last is not None:
-        try:
-            df_max_rel = float(deformacion_max) - float(deform_low_last)
-        except Exception:
-            df_max_rel = None
-
     # --------------------------------------------
     # Leer yield_stiffness ya calculado en backend
     # --------------------------------------------
@@ -148,6 +138,10 @@ def generar_fila_sample(bloque):
         # Si ya tenemos los cuatro valores, calcular
         if None not in (force_high, force_low, disp_high, disp_low):
             try:
+                assert force_high is not None
+                assert force_low is not None
+                assert disp_high is not None
+                assert disp_low is not None
                 denom = float(disp_high) - float(disp_low)
                 if denom != 0:
                     cyclic_stiffness = (float(force_high) - float(force_low)) / denom

@@ -1,0 +1,4549 @@
+Número de ciclos detectados: 505
+
+[
+  {
+    "ciclo": 1,
+    "pico_inicio_idx": 260,
+    "valle_idx": 298,
+    "pico_final_idx": 358,
+    "deform_high_start": 2.454988479614,
+    "deform_low": 1.998264789581,
+    "deform_high_end": 2.52085185051
+  },
+  {
+    "ciclo": 2,
+    "pico_inicio_idx": 365,
+    "valle_idx": 397,
+    "pico_final_idx": 444,
+    "deform_high_start": 2.581037759781,
+    "deform_low": 2.172762393951,
+    "deform_high_end": 2.592064857483
+  },
+  {
+    "ciclo": 3,
+    "pico_inicio_idx": 453,
+    "valle_idx": 486,
+    "pico_final_idx": 527,
+    "deform_high_start": 2.662093877792,
+    "deform_low": 2.254312992096,
+    "deform_high_end": 2.640109300613
+  },
+  {
+    "ciclo": 4,
+    "pico_inicio_idx": 535,
+    "valle_idx": 565,
+    "pico_final_idx": 610,
+    "deform_high_start": 2.694973230362,
+    "deform_low": 2.304335594177,
+    "deform_high_end": 2.676840782166
+  },
+  {
+    "ciclo": 5,
+    "pico_inicio_idx": 616,
+    "valle_idx": 646,
+    "pico_final_idx": 687,
+    "deform_high_start": 2.717431545258,
+    "deform_low": 2.337925434113,
+    "deform_high_end": 2.699145793915
+  },
+  {
+    "ciclo": 6,
+    "pico_inicio_idx": 695,
+    "valle_idx": 725,
+    "pico_final_idx": 766,
+    "deform_high_start": 2.749934673309,
+    "deform_low": 2.36207652092,
+    "deform_high_end": 2.726536035538
+  },
+  {
+    "ciclo": 7,
+    "pico_inicio_idx": 773,
+    "valle_idx": 804,
+    "pico_final_idx": 844,
+    "deform_high_start": 2.771354913712,
+    "deform_low": 2.389682531357,
+    "deform_high_end": 2.755744218826
+  },
+  {
+    "ciclo": 8,
+    "pico_inicio_idx": 852,
+    "valle_idx": 882,
+    "pico_final_idx": 922,
+    "deform_high_start": 2.80478477478,
+    "deform_low": 2.419267177582,
+    "deform_high_end": 2.784687757492
+  },
+  {
+    "ciclo": 9,
+    "pico_inicio_idx": 931,
+    "valle_idx": 960,
+    "pico_final_idx": 1004,
+    "deform_high_start": 2.838144779205,
+    "deform_low": 2.452898740768,
+    "deform_high_end": 2.81108880043
+  },
+  {
+    "ciclo": 10,
+    "pico_inicio_idx": 1010,
+    "valle_idx": 1041,
+    "pico_final_idx": 1079,
+    "deform_high_start": 2.846308946609,
+    "deform_low": 2.464622497559,
+    "deform_high_end": 2.823801755905
+  },
+  {
+    "ciclo": 11,
+    "pico_inicio_idx": 1086,
+    "valle_idx": 1116,
+    "pico_final_idx": 1155,
+    "deform_high_start": 2.868021726608,
+    "deform_low": 2.492047548294,
+    "deform_high_end": 2.848551988602
+  },
+  {
+    "ciclo": 12,
+    "pico_inicio_idx": 1162,
+    "valle_idx": 1192,
+    "pico_final_idx": 1231,
+    "deform_high_start": 2.887477636337,
+    "deform_low": 2.505923748016,
+    "deform_high_end": 2.859606981277
+  },
+  {
+    "ciclo": 13,
+    "pico_inicio_idx": 1238,
+    "valle_idx": 1268,
+    "pico_final_idx": 1307,
+    "deform_high_start": 2.904175043106,
+    "deform_low": 2.524787664413,
+    "deform_high_end": 2.876325130463
+  },
+  {
+    "ciclo": 14,
+    "pico_inicio_idx": 1315,
+    "valle_idx": 1345,
+    "pico_final_idx": 1383,
+    "deform_high_start": 2.92075419426,
+    "deform_low": 2.539889812469,
+    "deform_high_end": 2.890779495239
+  },
+  {
+    "ciclo": 15,
+    "pico_inicio_idx": 1390,
+    "valle_idx": 1420,
+    "pico_final_idx": 1458,
+    "deform_high_start": 2.934344768524,
+    "deform_low": 2.563574075699,
+    "deform_high_end": 2.90668296814
+  },
+  {
+    "ciclo": 16,
+    "pico_inicio_idx": 1466,
+    "valle_idx": 1495,
+    "pico_final_idx": 1533,
+    "deform_high_start": 2.950665950775,
+    "deform_low": 2.573605060577,
+    "deform_high_end": 2.921185970306
+  },
+  {
+    "ciclo": 17,
+    "pico_inicio_idx": 1541,
+    "valle_idx": 1570,
+    "pico_final_idx": 1609,
+    "deform_high_start": 2.963629722595,
+    "deform_low": 2.587550878525,
+    "deform_high_end": 2.93693614006
+  },
+  {
+    "ciclo": 18,
+    "pico_inicio_idx": 1616,
+    "valle_idx": 1646,
+    "pico_final_idx": 1684,
+    "deform_high_start": 2.9751932621,
+    "deform_low": 2.596209764481,
+    "deform_high_end": 2.952365636826
+  },
+  {
+    "ciclo": 19,
+    "pico_inicio_idx": 1691,
+    "valle_idx": 1720,
+    "pico_final_idx": 1761,
+    "deform_high_start": 2.986958742142,
+    "deform_low": 2.615797996521,
+    "deform_high_end": 2.954448461533
+  },
+  {
+    "ciclo": 20,
+    "pico_inicio_idx": 1769,
+    "valle_idx": 1798,
+    "pico_final_idx": 1836,
+    "deform_high_start": 2.997609615326,
+    "deform_low": 2.621349811554,
+    "deform_high_end": 2.971654415131
+  },
+  {
+    "ciclo": 21,
+    "pico_inicio_idx": 1843,
+    "valle_idx": 1872,
+    "pico_final_idx": 1910,
+    "deform_high_start": 3.009486675262,
+    "deform_low": 2.632376909256,
+    "deform_high_end": 2.976844072342
+  },
+  {
+    "ciclo": 22,
+    "pico_inicio_idx": 1918,
+    "valle_idx": 1947,
+    "pico_final_idx": 1990,
+    "deform_high_start": 3.015644550323,
+    "deform_low": 2.64674782753,
+    "deform_high_end": 2.9875228405
+  },
+  {
+    "ciclo": 23,
+    "pico_inicio_idx": 1998,
+    "valle_idx": 2027,
+    "pico_final_idx": 2069,
+    "deform_high_start": 3.025710344315,
+    "deform_low": 2.651484727859,
+    "deform_high_end": 2.991263628006
+  },
+  {
+    "ciclo": 24,
+    "pico_inicio_idx": 2076,
+    "valle_idx": 2104,
+    "pico_final_idx": 2147,
+    "deform_high_start": 3.031394720078,
+    "deform_low": 2.660366296768,
+    "deform_high_end": 3.006762981415
+  },
+  {
+    "ciclo": 25,
+    "pico_inicio_idx": 2154,
+    "valle_idx": 2183,
+    "pico_final_idx": 2225,
+    "deform_high_start": 3.042226791382,
+    "deform_low": 2.671372413635,
+    "deform_high_end": 3.009653806686
+  },
+  {
+    "ciclo": 26,
+    "pico_inicio_idx": 2233,
+    "valle_idx": 2262,
+    "pico_final_idx": 2306,
+    "deform_high_start": 3.049561977386,
+    "deform_low": 2.676304340363,
+    "deform_high_end": 3.021955728531
+  },
+  {
+    "ciclo": 27,
+    "pico_inicio_idx": 2313,
+    "valle_idx": 2341,
+    "pico_final_idx": 2378,
+    "deform_high_start": 3.055329799652,
+    "deform_low": 2.681473016739,
+    "deform_high_end": 3.03032875061
+  },
+  {
+    "ciclo": 28,
+    "pico_inicio_idx": 2385,
+    "valle_idx": 2414,
+    "pico_final_idx": 2457,
+    "deform_high_start": 3.063263893127,
+    "deform_low": 2.691866397858,
+    "deform_high_end": 3.030293941498
+  },
+  {
+    "ciclo": 29,
+    "pico_inicio_idx": 2464,
+    "valle_idx": 2493,
+    "pico_final_idx": 2535,
+    "deform_high_start": 3.065200567245,
+    "deform_low": 2.694861650467,
+    "deform_high_end": 3.034801006317
+  },
+  {
+    "ciclo": 30,
+    "pico_inicio_idx": 2542,
+    "valle_idx": 2570,
+    "pico_final_idx": 2611,
+    "deform_high_start": 3.069533348083,
+    "deform_low": 2.706167459488,
+    "deform_high_end": 3.039328813553
+  },
+  {
+    "ciclo": 31,
+    "pico_inicio_idx": 2620,
+    "valle_idx": 2650,
+    "pico_final_idx": 2688,
+    "deform_high_start": 3.081284999847,
+    "deform_low": 2.711336135864,
+    "deform_high_end": 3.055002212524
+  },
+  {
+    "ciclo": 32,
+    "pico_inicio_idx": 2695,
+    "valle_idx": 2724,
+    "pico_final_idx": 2766,
+    "deform_high_start": 3.086537122726,
+    "deform_low": 2.71466588974,
+    "deform_high_end": 3.057844400406
+  },
+  {
+    "ciclo": 33,
+    "pico_inicio_idx": 2773,
+    "valle_idx": 2801,
+    "pico_final_idx": 2839,
+    "deform_high_start": 3.086885452271,
+    "deform_low": 2.719820737839,
+    "deform_high_end": 3.064322710037
+  },
+  {
+    "ciclo": 34,
+    "pico_inicio_idx": 2847,
+    "valle_idx": 2876,
+    "pico_final_idx": 2912,
+    "deform_high_start": 3.098170518875,
+    "deform_low": 2.72602057457,
+    "deform_high_end": 3.066565752029
+  },
+  {
+    "ciclo": 35,
+    "pico_inicio_idx": 2919,
+    "valle_idx": 2948,
+    "pico_final_idx": 2988,
+    "deform_high_start": 3.102377891541,
+    "deform_low": 2.73397564888,
+    "deform_high_end": 3.069296360016
+  },
+  {
+    "ciclo": 36,
+    "pico_inicio_idx": 2999,
+    "valle_idx": 3028,
+    "pico_final_idx": 3069,
+    "deform_high_start": 3.115822076797,
+    "deform_low": 2.742961645126,
+    "deform_high_end": 3.084141016006
+  },
+  {
+    "ciclo": 37,
+    "pico_inicio_idx": 3076,
+    "valle_idx": 3104,
+    "pico_final_idx": 3147,
+    "deform_high_start": 3.113244771957,
+    "deform_low": 2.752477169037,
+    "deform_high_end": 3.082901000977
+  },
+  {
+    "ciclo": 38,
+    "pico_inicio_idx": 3156,
+    "valle_idx": 3185,
+    "pico_final_idx": 3220,
+    "deform_high_start": 3.122669696808,
+    "deform_low": 2.748938560486,
+    "deform_high_end": 3.092548847198
+  },
+  {
+    "ciclo": 39,
+    "pico_inicio_idx": 3230,
+    "valle_idx": 3260,
+    "pico_final_idx": 3303,
+    "deform_high_start": 3.13539648056,
+    "deform_low": 2.762501239777,
+    "deform_high_end": 3.101799726486
+  },
+  {
+    "ciclo": 40,
+    "pico_inicio_idx": 3309,
+    "valle_idx": 3338,
+    "pico_final_idx": 3381,
+    "deform_high_start": 3.130311489105,
+    "deform_low": 2.770756006241,
+    "deform_high_end": 3.100719928741
+  },
+  {
+    "ciclo": 41,
+    "pico_inicio_idx": 3387,
+    "valle_idx": 3416,
+    "pico_final_idx": 3456,
+    "deform_high_start": 3.134142637253,
+    "deform_low": 2.765197038651,
+    "deform_high_end": 3.105052709579
+  },
+  {
+    "ciclo": 42,
+    "pico_inicio_idx": 3464,
+    "valle_idx": 3492,
+    "pico_final_idx": 3531,
+    "deform_high_start": 3.145671367645,
+    "deform_low": 2.781239748001,
+    "deform_high_end": 3.115118503571
+  },
+  {
+    "ciclo": 43,
+    "pico_inicio_idx": 3538,
+    "valle_idx": 3566,
+    "pico_final_idx": 3608,
+    "deform_high_start": 3.147377967834,
+    "deform_low": 2.786359786987,
+    "deform_high_end": 3.117974758148
+  },
+  {
+    "ciclo": 44,
+    "pico_inicio_idx": 3615,
+    "valle_idx": 3643,
+    "pico_final_idx": 3685,
+    "deform_high_start": 3.153229475021,
+    "deform_low": 2.790295362473,
+    "deform_high_end": 3.120378017426
+  },
+  {
+    "ciclo": 45,
+    "pico_inicio_idx": 3692,
+    "valle_idx": 3720,
+    "pico_final_idx": 3762,
+    "deform_high_start": 3.15659403801,
+    "deform_low": 2.79085278511,
+    "deform_high_end": 3.131196022034
+  },
+  {
+    "ciclo": 46,
+    "pico_inicio_idx": 3770,
+    "valle_idx": 3799,
+    "pico_final_idx": 3835,
+    "deform_high_start": 3.163803815842,
+    "deform_low": 2.791291713715,
+    "deform_high_end": 3.136734008789
+  },
+  {
+    "ciclo": 47,
+    "pico_inicio_idx": 3846,
+    "valle_idx": 3875,
+    "pico_final_idx": 3916,
+    "deform_high_start": 3.175548315048,
+    "deform_low": 2.800437927246,
+    "deform_high_end": 3.141923666
+  },
+  {
+    "ciclo": 48,
+    "pico_inicio_idx": 3923,
+    "valle_idx": 3952,
+    "pico_final_idx": 3992,
+    "deform_high_start": 3.172734022141,
+    "deform_low": 2.803677082062,
+    "deform_high_end": 3.141394138336
+  },
+  {
+    "ciclo": 49,
+    "pico_inicio_idx": 3999,
+    "valle_idx": 4028,
+    "pico_final_idx": 4070,
+    "deform_high_start": 3.175241947174,
+    "deform_low": 2.80699300766,
+    "deform_high_end": 3.14551115036
+  },
+  {
+    "ciclo": 50,
+    "pico_inicio_idx": 4077,
+    "valle_idx": 4106,
+    "pico_final_idx": 4141,
+    "deform_high_start": 3.177826166153,
+    "deform_low": 2.809228897095,
+    "deform_high_end": 3.152581691742
+  },
+  {
+    "ciclo": 51,
+    "pico_inicio_idx": 4148,
+    "valle_idx": 4176,
+    "pico_final_idx": 4210,
+    "deform_high_start": 3.182597875595,
+    "deform_low": 2.820423364639,
+    "deform_high_end": 3.153710126877
+  },
+  {
+    "ciclo": 52,
+    "pico_inicio_idx": 4221,
+    "valle_idx": 4250,
+    "pico_final_idx": 4289,
+    "deform_high_start": 3.195951700211,
+    "deform_low": 2.824324131012,
+    "deform_high_end": 3.15935254097
+  },
+  {
+    "ciclo": 53,
+    "pico_inicio_idx": 4300,
+    "valle_idx": 4329,
+    "pico_final_idx": 4373,
+    "deform_high_start": 3.20054936409,
+    "deform_low": 2.83278799057,
+    "deform_high_end": 3.16307926178
+  },
+  {
+    "ciclo": 54,
+    "pico_inicio_idx": 4378,
+    "valle_idx": 4407,
+    "pico_final_idx": 4440,
+    "deform_high_start": 3.187696933746,
+    "deform_low": 2.83048915863,
+    "deform_high_end": 3.167523622513
+  },
+  {
+    "ciclo": 55,
+    "pico_inicio_idx": 4451,
+    "valle_idx": 4480,
+    "pico_final_idx": 4520,
+    "deform_high_start": 3.206644535065,
+    "deform_low": 2.833902359009,
+    "deform_high_end": 3.171821594238
+  },
+  {
+    "ciclo": 56,
+    "pico_inicio_idx": 4531,
+    "valle_idx": 4560,
+    "pico_final_idx": 4601,
+    "deform_high_start": 3.210580348969,
+    "deform_low": 2.839022397995,
+    "deform_high_end": 3.172399759293
+  },
+  {
+    "ciclo": 57,
+    "pico_inicio_idx": 4607,
+    "valle_idx": 4635,
+    "pico_final_idx": 4676,
+    "deform_high_start": 3.202060937881,
+    "deform_low": 2.843675613403,
+    "deform_high_end": 3.175116539001
+  },
+  {
+    "ciclo": 58,
+    "pico_inicio_idx": 4687,
+    "valle_idx": 4715,
+    "pico_final_idx": 4756,
+    "deform_high_start": 3.215233564377,
+    "deform_low": 2.851491451263,
+    "deform_high_end": 3.177568435669
+  },
+  {
+    "ciclo": 59,
+    "pico_inicio_idx": 4767,
+    "valle_idx": 4795,
+    "pico_final_idx": 4833,
+    "deform_high_start": 3.219879865646,
+    "deform_low": 2.857537984848,
+    "deform_high_end": 3.186275959015
+  },
+  {
+    "ciclo": 60,
+    "pico_inicio_idx": 4840,
+    "valle_idx": 4868,
+    "pico_final_idx": 4909,
+    "deform_high_start": 3.216327190399,
+    "deform_low": 2.856667280197,
+    "deform_high_end": 3.183545351028
+  },
+  {
+    "ciclo": 61,
+    "pico_inicio_idx": 4920,
+    "valle_idx": 4948,
+    "pico_final_idx": 4985,
+    "deform_high_start": 3.226002931595,
+    "deform_low": 2.862588405609,
+    "deform_high_end": 3.193820238113
+  },
+  {
+    "ciclo": 62,
+    "pico_inicio_idx": 4996,
+    "valle_idx": 5025,
+    "pico_final_idx": 5065,
+    "deform_high_start": 3.230440139771,
+    "deform_low": 2.863821268082,
+    "deform_high_end": 3.192858934402
+  },
+  {
+    "ciclo": 63,
+    "pico_inicio_idx": 5076,
+    "valle_idx": 5104,
+    "pico_final_idx": 5147,
+    "deform_high_start": 3.233052492142,
+    "deform_low": 2.868962049484,
+    "deform_high_end": 3.198779821396
+  },
+  {
+    "ciclo": 64,
+    "pico_inicio_idx": 5153,
+    "valle_idx": 5181,
+    "pico_final_idx": 5215,
+    "deform_high_start": 3.224338054657,
+    "deform_low": 2.865298032761,
+    "deform_high_end": 3.194690942764
+  },
+  {
+    "ciclo": 65,
+    "pico_inicio_idx": 5227,
+    "valle_idx": 5255,
+    "pico_final_idx": 5296,
+    "deform_high_start": 3.237998247147,
+    "deform_low": 2.878993272781,
+    "deform_high_end": 3.204269170761
+  },
+  {
+    "ciclo": 66,
+    "pico_inicio_idx": 5303,
+    "valle_idx": 5331,
+    "pico_final_idx": 5365,
+    "deform_high_start": 3.232996702194,
+    "deform_low": 2.872284889221,
+    "deform_high_end": 3.204352617264
+  },
+  {
+    "ciclo": 67,
+    "pico_inicio_idx": 5376,
+    "valle_idx": 5404,
+    "pico_final_idx": 5445,
+    "deform_high_start": 3.241975784302,
+    "deform_low": 2.881793498993,
+    "deform_high_end": 3.206038475037
+  },
+  {
+    "ciclo": 68,
+    "pico_inicio_idx": 5456,
+    "valle_idx": 5484,
+    "pico_final_idx": 5526,
+    "deform_high_start": 3.244211912155,
+    "deform_low": 2.883973836899,
+    "deform_high_end": 3.210134506226
+  },
+  {
+    "ciclo": 69,
+    "pico_inicio_idx": 5532,
+    "valle_idx": 5560,
+    "pico_final_idx": 5594,
+    "deform_high_start": 3.238283872604,
+    "deform_low": 2.881013393402,
+    "deform_high_end": 3.215797662735
+  },
+  {
+    "ciclo": 70,
+    "pico_inicio_idx": 5605,
+    "valle_idx": 5633,
+    "pico_final_idx": 5668,
+    "deform_high_start": 3.251268386841,
+    "deform_low": 2.889755487442,
+    "deform_high_end": 3.220952510834
+  },
+  {
+    "ciclo": 71,
+    "pico_inicio_idx": 5679,
+    "valle_idx": 5707,
+    "pico_final_idx": 5748,
+    "deform_high_start": 3.25338602066,
+    "deform_low": 2.892005681992,
+    "deform_high_end": 3.220443964005
+  },
+  {
+    "ciclo": 72,
+    "pico_inicio_idx": 5755,
+    "valle_idx": 5783,
+    "pico_final_idx": 5817,
+    "deform_high_start": 3.250181674957,
+    "deform_low": 2.890932798386,
+    "deform_high_end": 3.224978923798
+  },
+  {
+    "ciclo": 73,
+    "pico_inicio_idx": 5827,
+    "valle_idx": 5856,
+    "pico_final_idx": 5896,
+    "deform_high_start": 3.259146928787,
+    "deform_low": 2.898093938828,
+    "deform_high_end": 3.227793216705
+  },
+  {
+    "ciclo": 74,
+    "pico_inicio_idx": 5907,
+    "valle_idx": 5936,
+    "pico_final_idx": 5972,
+    "deform_high_start": 3.263835191727,
+    "deform_low": 2.900517940521,
+    "deform_high_end": 3.232307195663
+  },
+  {
+    "ciclo": 75,
+    "pico_inicio_idx": 5983,
+    "valle_idx": 6011,
+    "pico_final_idx": 6051,
+    "deform_high_start": 3.268774032593,
+    "deform_low": 2.910702228546,
+    "deform_high_end": 3.231993675232
+  },
+  {
+    "ciclo": 76,
+    "pico_inicio_idx": 6062,
+    "valle_idx": 6090,
+    "pico_final_idx": 6130,
+    "deform_high_start": 3.271706581116,
+    "deform_low": 2.902642726898,
+    "deform_high_end": 3.230823278427
+  },
+  {
+    "ciclo": 77,
+    "pico_inicio_idx": 6138,
+    "valle_idx": 6165,
+    "pico_final_idx": 6199,
+    "deform_high_start": 3.26658654213,
+    "deform_low": 2.911767959595,
+    "deform_high_end": 3.237531661987
+  },
+  {
+    "ciclo": 78,
+    "pico_inicio_idx": 6204,
+    "valle_idx": 6232,
+    "pico_final_idx": 6266,
+    "deform_high_start": 3.262142419815,
+    "deform_low": 2.907358646393,
+    "deform_high_end": 3.243278503418
+  },
+  {
+    "ciclo": 79,
+    "pico_inicio_idx": 6277,
+    "valle_idx": 6305,
+    "pico_final_idx": 6346,
+    "deform_high_start": 3.279020786285,
+    "deform_low": 2.919291257858,
+    "deform_high_end": 3.245333433151
+  },
+  {
+    "ciclo": 80,
+    "pico_inicio_idx": 6357,
+    "valle_idx": 6385,
+    "pico_final_idx": 6425,
+    "deform_high_start": 3.281897783279,
+    "deform_low": 2.917083024979,
+    "deform_high_end": 3.243605852127
+  },
+  {
+    "ciclo": 81,
+    "pico_inicio_idx": 6436,
+    "valle_idx": 6464,
+    "pico_final_idx": 6506,
+    "deform_high_start": 3.284809589386,
+    "deform_low": 2.927002668381,
+    "deform_high_end": 3.254006147385
+  },
+  {
+    "ciclo": 82,
+    "pico_inicio_idx": 6517,
+    "valle_idx": 6545,
+    "pico_final_idx": 6587,
+    "deform_high_start": 3.28915643692,
+    "deform_low": 2.92847943306,
+    "deform_high_end": 3.256012201309
+  },
+  {
+    "ciclo": 83,
+    "pico_inicio_idx": 6593,
+    "valle_idx": 6621,
+    "pico_final_idx": 6654,
+    "deform_high_start": 3.280692815781,
+    "deform_low": 2.919583797455,
+    "deform_high_end": 3.261111497879
+  },
+  {
+    "ciclo": 84,
+    "pico_inicio_idx": 6665,
+    "valle_idx": 6694,
+    "pico_final_idx": 6734,
+    "deform_high_start": 3.294972896576,
+    "deform_low": 2.925017356873,
+    "deform_high_end": 3.261807918549
+  },
+  {
+    "ciclo": 85,
+    "pico_inicio_idx": 6746,
+    "valle_idx": 6774,
+    "pico_final_idx": 6809,
+    "deform_high_start": 3.298873901367,
+    "deform_low": 2.929127216339,
+    "deform_high_end": 3.259787797928
+  },
+  {
+    "ciclo": 86,
+    "pico_inicio_idx": 6820,
+    "valle_idx": 6848,
+    "pico_final_idx": 6888,
+    "deform_high_start": 3.302774906158,
+    "deform_low": 2.932380437851,
+    "deform_high_end": 3.268843650818
+  },
+  {
+    "ciclo": 87,
+    "pico_inicio_idx": 6895,
+    "valle_idx": 6923,
+    "pico_final_idx": 6957,
+    "deform_high_start": 3.29647064209,
+    "deform_low": 2.930624961853,
+    "deform_high_end": 3.263890743256
+  },
+  {
+    "ciclo": 88,
+    "pico_inicio_idx": 6968,
+    "valle_idx": 6995,
+    "pico_final_idx": 7035,
+    "deform_high_start": 3.306536436081,
+    "deform_low": 2.94769859314,
+    "deform_high_end": 3.264970541
+  },
+  {
+    "ciclo": 89,
+    "pico_inicio_idx": 7047,
+    "valle_idx": 7075,
+    "pico_final_idx": 7116,
+    "deform_high_start": 3.307421207428,
+    "deform_low": 2.946785926819,
+    "deform_high_end": 3.267603635788
+  },
+  {
+    "ciclo": 90,
+    "pico_inicio_idx": 7128,
+    "valle_idx": 7156,
+    "pico_final_idx": 7197,
+    "deform_high_start": 3.31118273735,
+    "deform_low": 2.949760437012,
+    "deform_high_end": 3.272201299667
+  },
+  {
+    "ciclo": 91,
+    "pico_inicio_idx": 7208,
+    "valle_idx": 7236,
+    "pico_final_idx": 7277,
+    "deform_high_start": 3.313697576523,
+    "deform_low": 2.951592445374,
+    "deform_high_end": 3.278770208359
+  },
+  {
+    "ciclo": 92,
+    "pico_inicio_idx": 7284,
+    "valle_idx": 7312,
+    "pico_final_idx": 7345,
+    "deform_high_start": 3.308382511139,
+    "deform_low": 2.94880604744,
+    "deform_high_end": 3.278575181961
+  },
+  {
+    "ciclo": 93,
+    "pico_inicio_idx": 7350,
+    "valle_idx": 7378,
+    "pico_final_idx": 7411,
+    "deform_high_start": 3.303972959518,
+    "deform_low": 2.95018529892,
+    "deform_high_end": 3.278958082199
+  },
+  {
+    "ciclo": 94,
+    "pico_inicio_idx": 7422,
+    "valle_idx": 7451,
+    "pico_final_idx": 7492,
+    "deform_high_start": 3.318706035614,
+    "deform_low": 2.954587936401,
+    "deform_high_end": 3.284377813339
+  },
+  {
+    "ciclo": 95,
+    "pico_inicio_idx": 7500,
+    "valle_idx": 7528,
+    "pico_final_idx": 7565,
+    "deform_high_start": 3.315083742142,
+    "deform_low": 2.958335638046,
+    "deform_high_end": 3.290243148804
+  },
+  {
+    "ciclo": 96,
+    "pico_inicio_idx": 7569,
+    "valle_idx": 7597,
+    "pico_final_idx": 7631,
+    "deform_high_start": 3.308521747589,
+    "deform_low": 2.951766729355,
+    "deform_high_end": 3.280943393707
+  },
+  {
+    "ciclo": 97,
+    "pico_inicio_idx": 7642,
+    "valle_idx": 7670,
+    "pico_final_idx": 7708,
+    "deform_high_start": 3.323533535004,
+    "deform_low": 2.963337182999,
+    "deform_high_end": 3.294861555099
+  },
+  {
+    "ciclo": 98,
+    "pico_inicio_idx": 7718,
+    "valle_idx": 7746,
+    "pico_final_idx": 7790,
+    "deform_high_start": 3.326514959335,
+    "deform_low": 2.965280532837,
+    "deform_high_end": 3.292353868484
+  },
+  {
+    "ciclo": 99,
+    "pico_inicio_idx": 7803,
+    "valle_idx": 7830,
+    "pico_final_idx": 7865,
+    "deform_high_start": 3.330534219742,
+    "deform_low": 2.970121860504,
+    "deform_high_end": 3.29256272316
+  },
+  {
+    "ciclo": 100,
+    "pico_inicio_idx": 7870,
+    "valle_idx": 7898,
+    "pico_final_idx": 7932,
+    "deform_high_start": 3.318044185638,
+    "deform_low": 2.961052179337,
+    "deform_high_end": 3.292193651199
+  },
+  {
+    "ciclo": 101,
+    "pico_inicio_idx": 7937,
+    "valle_idx": 7964,
+    "pico_final_idx": 7998,
+    "deform_high_start": 3.317883968353,
+    "deform_low": 2.96622800827,
+    "deform_high_end": 3.295014858246
+  },
+  {
+    "ciclo": 102,
+    "pico_inicio_idx": 8003,
+    "valle_idx": 8031,
+    "pico_final_idx": 8064,
+    "deform_high_start": 3.318441390991,
+    "deform_low": 2.962703227997,
+    "deform_high_end": 3.292869329453
+  },
+  {
+    "ciclo": 103,
+    "pico_inicio_idx": 8069,
+    "valle_idx": 8096,
+    "pico_final_idx": 8130,
+    "deform_high_start": 3.318671226501,
+    "deform_low": 2.966590166092,
+    "deform_high_end": 3.296860694885
+  },
+  {
+    "ciclo": 104,
+    "pico_inicio_idx": 8135,
+    "valle_idx": 8163,
+    "pico_final_idx": 8196,
+    "deform_high_start": 3.319437503815,
+    "deform_low": 2.966012001038,
+    "deform_high_end": 3.29491019249
+  },
+  {
+    "ciclo": 105,
+    "pico_inicio_idx": 8201,
+    "valle_idx": 8228,
+    "pico_final_idx": 8261,
+    "deform_high_start": 3.32023859024,
+    "deform_low": 2.970108032227,
+    "deform_high_end": 3.296129226685
+  },
+  {
+    "ciclo": 106,
+    "pico_inicio_idx": 8266,
+    "valle_idx": 8293,
+    "pico_final_idx": 8327,
+    "deform_high_start": 3.321248531342,
+    "deform_low": 2.971410751343,
+    "deform_high_end": 3.299563646317
+  },
+  {
+    "ciclo": 107,
+    "pico_inicio_idx": 8332,
+    "valle_idx": 8359,
+    "pico_final_idx": 8392,
+    "deform_high_start": 3.322363138199,
+    "deform_low": 2.969251155853,
+    "deform_high_end": 3.299939632416
+  },
+  {
+    "ciclo": 108,
+    "pico_inicio_idx": 8397,
+    "valle_idx": 8424,
+    "pico_final_idx": 8457,
+    "deform_high_start": 3.322990179062,
+    "deform_low": 2.973012924194,
+    "deform_high_end": 3.300218343735
+  },
+  {
+    "ciclo": 109,
+    "pico_inicio_idx": 8462,
+    "valle_idx": 8490,
+    "pico_final_idx": 8523,
+    "deform_high_start": 3.323603153229,
+    "deform_low": 2.973890542984,
+    "deform_high_end": 3.30152797699
+  },
+  {
+    "ciclo": 110,
+    "pico_inicio_idx": 8528,
+    "valle_idx": 8555,
+    "pico_final_idx": 8588,
+    "deform_high_start": 3.324682712555,
+    "deform_low": 2.975123643875,
+    "deform_high_end": 3.302468299866
+  },
+  {
+    "ciclo": 111,
+    "pico_inicio_idx": 8593,
+    "valle_idx": 8620,
+    "pico_final_idx": 8654,
+    "deform_high_start": 3.325393438339,
+    "deform_low": 2.98273730278,
+    "deform_high_end": 3.303631544113
+  },
+  {
+    "ciclo": 112,
+    "pico_inicio_idx": 8659,
+    "valle_idx": 8685,
+    "pico_final_idx": 8719,
+    "deform_high_start": 3.326389551163,
+    "deform_low": 2.983879804611,
+    "deform_high_end": 3.304349184036
+  },
+  {
+    "ciclo": 113,
+    "pico_inicio_idx": 8724,
+    "valle_idx": 8751,
+    "pico_final_idx": 8784,
+    "deform_high_start": 3.327260255814,
+    "deform_low": 2.977805376053,
+    "deform_high_end": 3.30520606041
+  },
+  {
+    "ciclo": 114,
+    "pico_inicio_idx": 8789,
+    "valle_idx": 8816,
+    "pico_final_idx": 8850,
+    "deform_high_start": 3.328040361404,
+    "deform_low": 2.97882938385,
+    "deform_high_end": 3.31086230278
+  },
+  {
+    "ciclo": 115,
+    "pico_inicio_idx": 8861,
+    "valle_idx": 8889,
+    "pico_final_idx": 8923,
+    "deform_high_start": 3.343038082123,
+    "deform_low": 2.982765197754,
+    "deform_high_end": 3.310151815414
+  },
+  {
+    "ciclo": 116,
+    "pico_inicio_idx": 8934,
+    "valle_idx": 8962,
+    "pico_final_idx": 9001,
+    "deform_high_start": 3.346848487854,
+    "deform_low": 2.986060142517,
+    "deform_high_end": 3.309977769852
+  },
+  {
+    "ciclo": 117,
+    "pico_inicio_idx": 9012,
+    "valle_idx": 9040,
+    "pico_final_idx": 9076,
+    "deform_high_start": 3.348283529282,
+    "deform_low": 2.986512899399,
+    "deform_high_end": 3.31210231781
+  },
+  {
+    "ciclo": 118,
+    "pico_inicio_idx": 9081,
+    "valle_idx": 9108,
+    "pico_final_idx": 9142,
+    "deform_high_start": 3.337444543839,
+    "deform_low": 2.993214130402,
+    "deform_high_end": 3.312694311142
+  },
+  {
+    "ciclo": 119,
+    "pico_inicio_idx": 9147,
+    "valle_idx": 9174,
+    "pico_final_idx": 9207,
+    "deform_high_start": 3.337374925613,
+    "deform_low": 2.989160060883,
+    "deform_high_end": 3.31316113472
+  },
+  {
+    "ciclo": 120,
+    "pico_inicio_idx": 9212,
+    "valle_idx": 9239,
+    "pico_final_idx": 9273,
+    "deform_high_start": 3.337709188461,
+    "deform_low": 2.989738225937,
+    "deform_high_end": 3.312638759613
+  },
+  {
+    "ciclo": 121,
+    "pico_inicio_idx": 9280,
+    "valle_idx": 9307,
+    "pico_final_idx": 9341,
+    "deform_high_start": 3.344340801239,
+    "deform_low": 2.996996641159,
+    "deform_high_end": 3.314986228943
+  },
+  {
+    "ciclo": 122,
+    "pico_inicio_idx": 9346,
+    "valle_idx": 9373,
+    "pico_final_idx": 9405,
+    "deform_high_start": 3.339673519135,
+    "deform_low": 2.993653059006,
+    "deform_high_end": 3.312777996063
+  },
+  {
+    "ciclo": 123,
+    "pico_inicio_idx": 9416,
+    "valle_idx": 9443,
+    "pico_final_idx": 9480,
+    "deform_high_start": 3.353730916977,
+    "deform_low": 3.002848148346,
+    "deform_high_end": 3.317883968353
+  },
+  {
+    "ciclo": 124,
+    "pico_inicio_idx": 9488,
+    "valle_idx": 9515,
+    "pico_final_idx": 9549,
+    "deform_high_start": 3.349648952484,
+    "deform_low": 3.002395391464,
+    "deform_high_end": 3.31941652298
+  },
+  {
+    "ciclo": 125,
+    "pico_inicio_idx": 9554,
+    "valle_idx": 9581,
+    "pico_final_idx": 9614,
+    "deform_high_start": 3.344131708145,
+    "deform_low": 2.997344970703,
+    "deform_high_end": 3.319813489914
+  },
+  {
+    "ciclo": 126,
+    "pico_inicio_idx": 9619,
+    "valle_idx": 9646,
+    "pico_final_idx": 9680,
+    "deform_high_start": 3.343839168549,
+    "deform_low": 2.997832536697,
+    "deform_high_end": 3.324710607529
+  },
+  {
+    "ciclo": 127,
+    "pico_inicio_idx": 9685,
+    "valle_idx": 9712,
+    "pico_final_idx": 9746,
+    "deform_high_start": 3.344257116318,
+    "deform_low": 2.998724222183,
+    "deform_high_end": 3.325804233551
+  },
+  {
+    "ciclo": 128,
+    "pico_inicio_idx": 9751,
+    "valle_idx": 9778,
+    "pico_final_idx": 9811,
+    "deform_high_start": 3.344967603683,
+    "deform_low": 2.999239683151,
+    "deform_high_end": 3.320858478546
+  },
+  {
+    "ciclo": 129,
+    "pico_inicio_idx": 9816,
+    "valle_idx": 9844,
+    "pico_final_idx": 9877,
+    "deform_high_start": 3.344863176346,
+    "deform_low": 2.999936342239,
+    "deform_high_end": 3.32129740715
+  },
+  {
+    "ciclo": 130,
+    "pico_inicio_idx": 9882,
+    "valle_idx": 9909,
+    "pico_final_idx": 9943,
+    "deform_high_start": 3.345894098282,
+    "deform_low": 3.000633001328,
+    "deform_high_end": 3.32185459137
+  },
+  {
+    "ciclo": 131,
+    "pico_inicio_idx": 9950,
+    "valle_idx": 9977,
+    "pico_final_idx": 10011,
+    "deform_high_start": 3.352630376816,
+    "deform_low": 3.007480382919,
+    "deform_high_end": 3.325546503067
+  },
+  {
+    "ciclo": 132,
+    "pico_inicio_idx": 10017,
+    "valle_idx": 10043,
+    "pico_final_idx": 10080,
+    "deform_high_start": 3.351815223694,
+    "deform_low": 3.007828712463,
+    "deform_high_end": 3.328681230545
+  },
+  {
+    "ciclo": 133,
+    "pico_inicio_idx": 10086,
+    "valle_idx": 10113,
+    "pico_final_idx": 10147,
+    "deform_high_start": 3.34677195549,
+    "deform_low": 3.006296157837,
+    "deform_high_end": 3.330088376999
+  },
+  {
+    "ciclo": 134,
+    "pico_inicio_idx": 10155,
+    "valle_idx": 10182,
+    "pico_final_idx": 10215,
+    "deform_high_start": 3.357492446899,
+    "deform_low": 3.001016139984,
+    "deform_high_end": 3.328785657883
+  },
+  {
+    "ciclo": 135,
+    "pico_inicio_idx": 10220,
+    "valle_idx": 10247,
+    "pico_final_idx": 10280,
+    "deform_high_start": 3.351432085037,
+    "deform_low": 3.009535312653,
+    "deform_high_end": 3.32516336441
+  },
+  {
+    "ciclo": 136,
+    "pico_inicio_idx": 10288,
+    "valle_idx": 10315,
+    "pico_final_idx": 10349,
+    "deform_high_start": 3.359895706177,
+    "deform_low": 3.013102054596,
+    "deform_high_end": 3.326605319977
+  },
+  {
+    "ciclo": 137,
+    "pico_inicio_idx": 10354,
+    "valle_idx": 10381,
+    "pico_final_idx": 10414,
+    "deform_high_start": 3.353048324585,
+    "deform_low": 3.012078046799,
+    "deform_high_end": 3.327580690384
+  },
+  {
+    "ciclo": 138,
+    "pico_inicio_idx": 10419,
+    "valle_idx": 10446,
+    "pico_final_idx": 10479,
+    "deform_high_start": 3.353535890579,
+    "deform_low": 3.009396076202,
+    "deform_high_end": 3.328207492828
+  },
+  {
+    "ciclo": 139,
+    "pico_inicio_idx": 10485,
+    "valle_idx": 10511,
+    "pico_final_idx": 10548,
+    "deform_high_start": 3.357610940933,
+    "deform_low": 3.014411687851,
+    "deform_high_end": 3.332254886627
+  },
+  {
+    "ciclo": 140,
+    "pico_inicio_idx": 10553,
+    "valle_idx": 10580,
+    "pico_final_idx": 10614,
+    "deform_high_start": 3.35440659523,
+    "deform_low": 3.013436317444,
+    "deform_high_end": 3.333411216736
+  },
+  {
+    "ciclo": 141,
+    "pico_inicio_idx": 10619,
+    "valle_idx": 10645,
+    "pico_final_idx": 10678,
+    "deform_high_start": 3.354789733887,
+    "deform_low": 3.010963439941,
+    "deform_high_end": 3.333431959152
+  },
+  {
+    "ciclo": 142,
+    "pico_inicio_idx": 10683,
+    "valle_idx": 10709,
+    "pico_final_idx": 10742,
+    "deform_high_start": 3.355730056763,
+    "deform_low": 3.011485815048,
+    "deform_high_end": 3.330645799637
+  },
+  {
+    "ciclo": 143,
+    "pico_inicio_idx": 10747,
+    "valle_idx": 10775,
+    "pico_final_idx": 10809,
+    "deform_high_start": 3.356148004532,
+    "deform_low": 3.012461185455,
+    "deform_high_end": 3.335473060608
+  },
+  {
+    "ciclo": 144,
+    "pico_inicio_idx": 10815,
+    "valle_idx": 10842,
+    "pico_final_idx": 10876,
+    "deform_high_start": 3.358356237411,
+    "deform_low": 3.013262271881,
+    "deform_high_end": 3.336218357086
+  },
+  {
+    "ciclo": 145,
+    "pico_inicio_idx": 10881,
+    "valle_idx": 10908,
+    "pico_final_idx": 10942,
+    "deform_high_start": 3.357471704483,
+    "deform_low": 3.013415575027,
+    "deform_high_end": 3.336323022842
+  },
+  {
+    "ciclo": 146,
+    "pico_inicio_idx": 10948,
+    "valle_idx": 10974,
+    "pico_final_idx": 11007,
+    "deform_high_start": 3.361135721207,
+    "deform_low": 3.018591165543,
+    "deform_high_end": 3.336935997009
+  },
+  {
+    "ciclo": 147,
+    "pico_inicio_idx": 11012,
+    "valle_idx": 11039,
+    "pico_final_idx": 11073,
+    "deform_high_start": 3.359199285507,
+    "deform_low": 3.015944004059,
+    "deform_high_end": 3.342125654221
+  },
+  {
+    "ciclo": 148,
+    "pico_inicio_idx": 11078,
+    "valle_idx": 11105,
+    "pico_final_idx": 11138,
+    "deform_high_start": 3.361038208008,
+    "deform_low": 3.016536235809,
+    "deform_high_end": 3.338224649429
+  },
+  {
+    "ciclo": 149,
+    "pico_inicio_idx": 11143,
+    "valle_idx": 11169,
+    "pico_final_idx": 11202,
+    "deform_high_start": 3.360501766205,
+    "deform_low": 3.020625352859,
+    "deform_high_end": 3.338391780853
+  },
+  {
+    "ciclo": 150,
+    "pico_inicio_idx": 11208,
+    "valle_idx": 11235,
+    "pico_final_idx": 11269,
+    "deform_high_start": 3.36181139946,
+    "deform_low": 3.017755270004,
+    "deform_high_end": 3.344006299973
+  },
+  {
+    "ciclo": 151,
+    "pico_inicio_idx": 11273,
+    "valle_idx": 11300,
+    "pico_final_idx": 11334,
+    "deform_high_start": 3.361511945724,
+    "deform_low": 3.018577337265,
+    "deform_high_end": 3.340432882309
+  },
+  {
+    "ciclo": 152,
+    "pico_inicio_idx": 11340,
+    "valle_idx": 11366,
+    "pico_final_idx": 11399,
+    "deform_high_start": 3.364395856857,
+    "deform_low": 3.023118972778,
+    "deform_high_end": 3.340314388275
+  },
+  {
+    "ciclo": 153,
+    "pico_inicio_idx": 11407,
+    "valle_idx": 11435,
+    "pico_final_idx": 11468,
+    "deform_high_start": 3.370846271515,
+    "deform_low": 3.015052556992,
+    "deform_high_end": 3.343518733978
+  },
+  {
+    "ciclo": 154,
+    "pico_inicio_idx": 11473,
+    "valle_idx": 11499,
+    "pico_final_idx": 11532,
+    "deform_high_start": 3.364911317825,
+    "deform_low": 3.025362014771,
+    "deform_high_end": 3.342696905136
+  },
+  {
+    "ciclo": 155,
+    "pico_inicio_idx": 11538,
+    "valle_idx": 11565,
+    "pico_final_idx": 11597,
+    "deform_high_start": 3.368359327316,
+    "deform_low": 3.022735834122,
+    "deform_high_end": 3.344076156616
+  },
+  {
+    "ciclo": 156,
+    "pico_inicio_idx": 11602,
+    "valle_idx": 11628,
+    "pico_final_idx": 11661,
+    "deform_high_start": 3.36617898941,
+    "deform_low": 3.026741266251,
+    "deform_high_end": 3.344215393066
+  },
+  {
+    "ciclo": 157,
+    "pico_inicio_idx": 11666,
+    "valle_idx": 11693,
+    "pico_final_idx": 11726,
+    "deform_high_start": 3.366339206696,
+    "deform_low": 3.02191400528,
+    "deform_high_end": 3.344912052155
+  },
+  {
+    "ciclo": 158,
+    "pico_inicio_idx": 11731,
+    "valle_idx": 11758,
+    "pico_final_idx": 11792,
+    "deform_high_start": 3.366966247559,
+    "deform_low": 3.021809339523,
+    "deform_high_end": 3.347071409225
+  },
+  {
+    "ciclo": 159,
+    "pico_inicio_idx": 11797,
+    "valle_idx": 11824,
+    "pico_final_idx": 11857,
+    "deform_high_start": 3.36704993248,
+    "deform_low": 3.022589683533,
+    "deform_high_end": 3.347315311432
+  },
+  {
+    "ciclo": 160,
+    "pico_inicio_idx": 11862,
+    "valle_idx": 11889,
+    "pico_final_idx": 11922,
+    "deform_high_start": 3.367516517639,
+    "deform_low": 3.025257587433,
+    "deform_high_end": 3.347712278366
+  },
+  {
+    "ciclo": 161,
+    "pico_inicio_idx": 11927,
+    "valle_idx": 11954,
+    "pico_final_idx": 11988,
+    "deform_high_start": 3.367969274521,
+    "deform_low": 3.026636838913,
+    "deform_high_end": 3.348485469818
+  },
+  {
+    "ciclo": 162,
+    "pico_inicio_idx": 11998,
+    "valle_idx": 12025,
+    "pico_final_idx": 12059,
+    "deform_high_start": 3.380584716797,
+    "deform_low": 3.023794651031,
+    "deform_high_end": 3.346618652344
+  },
+  {
+    "ciclo": 163,
+    "pico_inicio_idx": 12067,
+    "valle_idx": 12094,
+    "pico_final_idx": 12127,
+    "deform_high_start": 3.377874851227,
+    "deform_low": 3.033721208572,
+    "deform_high_end": 3.346493244171
+  },
+  {
+    "ciclo": 164,
+    "pico_inicio_idx": 12133,
+    "valle_idx": 12160,
+    "pico_final_idx": 12193,
+    "deform_high_start": 3.373820781708,
+    "deform_low": 3.029353618622,
+    "deform_high_end": 3.35178732872
+  },
+  {
+    "ciclo": 165,
+    "pico_inicio_idx": 12198,
+    "valle_idx": 12225,
+    "pico_final_idx": 12258,
+    "deform_high_start": 3.372329950333,
+    "deform_low": 3.033672571182,
+    "deform_high_end": 3.352247238159
+  },
+  {
+    "ciclo": 166,
+    "pico_inicio_idx": 12263,
+    "valle_idx": 12289,
+    "pico_final_idx": 12322,
+    "deform_high_start": 3.372747898102,
+    "deform_low": 3.030293941498,
+    "deform_high_end": 3.347433567047
+  },
+  {
+    "ciclo": 167,
+    "pico_inicio_idx": 12328,
+    "valle_idx": 12355,
+    "pico_final_idx": 12388,
+    "deform_high_start": 3.375764369965,
+    "deform_low": 3.030816555023,
+    "deform_high_end": 3.35481762886
+  },
+  {
+    "ciclo": 168,
+    "pico_inicio_idx": 12394,
+    "valle_idx": 12421,
+    "pico_final_idx": 12454,
+    "deform_high_start": 3.37509560585,
+    "deform_low": 3.031213521957,
+    "deform_high_end": 3.355138063431
+  },
+  {
+    "ciclo": 169,
+    "pico_inicio_idx": 12462,
+    "valle_idx": 12488,
+    "pico_final_idx": 12524,
+    "deform_high_start": 3.383754253387,
+    "deform_low": 3.039015293121,
+    "deform_high_end": 3.349509477615
+  },
+  {
+    "ciclo": 170,
+    "pico_inicio_idx": 12530,
+    "valle_idx": 12556,
+    "pico_final_idx": 12589,
+    "deform_high_start": 3.377659082413,
+    "deform_low": 3.036298751831,
+    "deform_high_end": 3.350338459015
+  },
+  {
+    "ciclo": 171,
+    "pico_inicio_idx": 12595,
+    "valle_idx": 12621,
+    "pico_final_idx": 12654,
+    "deform_high_start": 3.376022100449,
+    "deform_low": 3.035483598709,
+    "deform_high_end": 3.355987787247
+  },
+  {
+    "ciclo": 172,
+    "pico_inicio_idx": 12663,
+    "valle_idx": 12690,
+    "pico_final_idx": 12727,
+    "deform_high_start": 3.385864973068,
+    "deform_low": 3.04062461853,
+    "deform_high_end": 3.354420423508
+  },
+  {
+    "ciclo": 173,
+    "pico_inicio_idx": 12735,
+    "valle_idx": 12762,
+    "pico_final_idx": 12796,
+    "deform_high_start": 3.384994268417,
+    "deform_low": 3.038395404816,
+    "deform_high_end": 3.357220888138
+  },
+  {
+    "ciclo": 174,
+    "pico_inicio_idx": 12801,
+    "valle_idx": 12827,
+    "pico_final_idx": 12861,
+    "deform_high_start": 3.378891944885,
+    "deform_low": 3.036180257797,
+    "deform_high_end": 3.356454610825
+  },
+  {
+    "ciclo": 175,
+    "pico_inicio_idx": 12869,
+    "valle_idx": 12895,
+    "pico_final_idx": 12928,
+    "deform_high_start": 3.383392095566,
+    "deform_low": 3.042101383209,
+    "deform_high_end": 3.358878850937
+  },
+  {
+    "ciclo": 176,
+    "pico_inicio_idx": 12933,
+    "valle_idx": 12959,
+    "pico_final_idx": 12993,
+    "deform_high_start": 3.380424499512,
+    "deform_low": 3.040129899979,
+    "deform_high_end": 3.357917547226
+  },
+  {
+    "ciclo": 177,
+    "pico_inicio_idx": 13000,
+    "valle_idx": 13027,
+    "pico_final_idx": 13061,
+    "deform_high_start": 3.385878801346,
+    "deform_low": 3.041105270386,
+    "deform_high_end": 3.360230207443
+  },
+  {
+    "ciclo": 178,
+    "pico_inicio_idx": 13066,
+    "valle_idx": 13093,
+    "pico_final_idx": 13126,
+    "deform_high_start": 3.381622552872,
+    "deform_low": 3.040046453476,
+    "deform_high_end": 3.359394311905
+  },
+  {
+    "ciclo": 179,
+    "pico_inicio_idx": 13135,
+    "valle_idx": 13161,
+    "pico_final_idx": 13199,
+    "deform_high_start": 3.390567064285,
+    "deform_low": 3.043703556061,
+    "deform_high_end": 3.359902858734
+  },
+  {
+    "ciclo": 180,
+    "pico_inicio_idx": 13206,
+    "valle_idx": 13233,
+    "pico_final_idx": 13271,
+    "deform_high_start": 3.388247251511,
+    "deform_low": 3.042219638824,
+    "deform_high_end": 3.360355615616
+  },
+  {
+    "ciclo": 181,
+    "pico_inicio_idx": 13277,
+    "valle_idx": 13303,
+    "pico_final_idx": 13336,
+    "deform_high_start": 3.385858058929,
+    "deform_low": 3.04191327095,
+    "deform_high_end": 3.362110853195
+  },
+  {
+    "ciclo": 182,
+    "pico_inicio_idx": 13346,
+    "valle_idx": 13374,
+    "pico_final_idx": 13408,
+    "deform_high_start": 3.395268917084,
+    "deform_low": 3.046002149582,
+    "deform_high_end": 3.369884967804
+  },
+  {
+    "ciclo": 183,
+    "pico_inicio_idx": 13416,
+    "valle_idx": 13443,
+    "pico_final_idx": 13480,
+    "deform_high_start": 3.394530534744,
+    "deform_low": 3.04761838913,
+    "deform_high_end": 3.369850158691
+  },
+  {
+    "ciclo": 184,
+    "pico_inicio_idx": 13487,
+    "valle_idx": 13515,
+    "pico_final_idx": 13552,
+    "deform_high_start": 3.392823934555,
+    "deform_low": 3.047409296036,
+    "deform_high_end": 3.361595392227
+  },
+  {
+    "ciclo": 185,
+    "pico_inicio_idx": 13559,
+    "valle_idx": 13587,
+    "pico_final_idx": 13623,
+    "deform_high_start": 3.393018960953,
+    "deform_low": 3.042324304581,
+    "deform_high_end": 3.370268106461
+  },
+  {
+    "ciclo": 186,
+    "pico_inicio_idx": 13630,
+    "valle_idx": 13658,
+    "pico_final_idx": 13704,
+    "deform_high_start": 3.393785238266,
+    "deform_low": 3.043473720551,
+    "deform_high_end": 3.360564470291
+  },
+  {
+    "ciclo": 187,
+    "pico_inicio_idx": 13711,
+    "valle_idx": 13739,
+    "pico_final_idx": 13775,
+    "deform_high_start": 3.392092466354,
+    "deform_low": 3.041648626328,
+    "deform_high_end": 3.361560583115
+  },
+  {
+    "ciclo": 188,
+    "pico_inicio_idx": 13788,
+    "valle_idx": 13816,
+    "pico_final_idx": 13851,
+    "deform_high_start": 3.399671554565,
+    "deform_low": 3.043160200119,
+    "deform_high_end": 3.365670681
+  },
+  {
+    "ciclo": 189,
+    "pico_inicio_idx": 13857,
+    "valle_idx": 13884,
+    "pico_final_idx": 13926,
+    "deform_high_start": 3.394516706467,
+    "deform_low": 3.052041769028,
+    "deform_high_end": 3.363594770432
+  },
+  {
+    "ciclo": 190,
+    "pico_inicio_idx": 13932,
+    "valle_idx": 13959,
+    "pico_final_idx": 13999,
+    "deform_high_start": 3.391890525818,
+    "deform_low": 3.048607587814,
+    "deform_high_end": 3.362306118011
+  },
+  {
+    "ciclo": 191,
+    "pico_inicio_idx": 14005,
+    "valle_idx": 14032,
+    "pico_final_idx": 14067,
+    "deform_high_start": 3.39239192009,
+    "deform_low": 3.044086694717,
+    "deform_high_end": 3.364730119705
+  },
+  {
+    "ciclo": 192,
+    "pico_inicio_idx": 14074,
+    "valle_idx": 14102,
+    "pico_final_idx": 14144,
+    "deform_high_start": 3.396292924881,
+    "deform_low": 3.051031589508,
+    "deform_high_end": 3.363573789597
+  },
+  {
+    "ciclo": 193,
+    "pico_inicio_idx": 14149,
+    "valle_idx": 14176,
+    "pico_final_idx": 14217,
+    "deform_high_start": 3.390211582184,
+    "deform_low": 3.045828104019,
+    "deform_high_end": 3.363316059113
+  },
+  {
+    "ciclo": 194,
+    "pico_inicio_idx": 14223,
+    "valle_idx": 14250,
+    "pico_final_idx": 14287,
+    "deform_high_start": 3.393088579178,
+    "deform_low": 3.046663999557,
+    "deform_high_end": 3.366694688797
+  },
+  {
+    "ciclo": 195,
+    "pico_inicio_idx": 14299,
+    "valle_idx": 14326,
+    "pico_final_idx": 14361,
+    "deform_high_start": 3.404394388199,
+    "deform_low": 3.057461261749,
+    "deform_high_end": 3.369571447372
+  },
+  {
+    "ciclo": 196,
+    "pico_inicio_idx": 14368,
+    "valle_idx": 14395,
+    "pico_final_idx": 14437,
+    "deform_high_start": 3.400716304779,
+    "deform_low": 3.057705163956,
+    "deform_high_end": 3.36760020256
+  },
+  {
+    "ciclo": 197,
+    "pico_inicio_idx": 14443,
+    "valle_idx": 14470,
+    "pico_final_idx": 14511,
+    "deform_high_start": 3.397198438644,
+    "deform_low": 3.050160884857,
+    "deform_high_end": 3.36723780632
+  },
+  {
+    "ciclo": 198,
+    "pico_inicio_idx": 14518,
+    "valle_idx": 14545,
+    "pico_final_idx": 14582,
+    "deform_high_start": 3.398368835449,
+    "deform_low": 3.055044174194,
+    "deform_high_end": 3.369341611862
+  },
+  {
+    "ciclo": 199,
+    "pico_inicio_idx": 14589,
+    "valle_idx": 14617,
+    "pico_final_idx": 14661,
+    "deform_high_start": 3.400486469269,
+    "deform_low": 3.057231426239,
+    "deform_high_end": 3.367620944977
+  },
+  {
+    "ciclo": 200,
+    "pico_inicio_idx": 14668,
+    "valle_idx": 14695,
+    "pico_final_idx": 14737,
+    "deform_high_start": 3.40015912056,
+    "deform_low": 3.056068181992,
+    "deform_high_end": 3.369076967239
+  },
+  {
+    "ciclo": 201,
+    "pico_inicio_idx": 14743,
+    "valle_idx": 14770,
+    "pico_final_idx": 14811,
+    "deform_high_start": 3.395784378052,
+    "deform_low": 3.047931909561,
+    "deform_high_end": 3.368631124496
+  },
+  {
+    "ciclo": 202,
+    "pico_inicio_idx": 14817,
+    "valle_idx": 14845,
+    "pico_final_idx": 14886,
+    "deform_high_start": 3.398034572601,
+    "deform_low": 3.054445028305,
+    "deform_high_end": 3.377150535583
+  },
+  {
+    "ciclo": 203,
+    "pico_inicio_idx": 14937,
+    "valle_idx": 14965,
+    "pico_final_idx": 15038,
+    "deform_high_start": 3.431770563126,
+    "deform_low": 3.076722145081,
+    "deform_high_end": 3.380347967148
+  },
+  {
+    "ciclo": 204,
+    "pico_inicio_idx": 15054,
+    "valle_idx": 15082,
+    "pico_final_idx": 15126,
+    "deform_high_start": 3.420478820801,
+    "deform_low": 3.059565067291,
+    "deform_high_end": 3.376342535019
+  },
+  {
+    "ciclo": 205,
+    "pico_inicio_idx": 15149,
+    "valle_idx": 15178,
+    "pico_final_idx": 15227,
+    "deform_high_start": 3.428162336349,
+    "deform_low": 3.070431947708,
+    "deform_high_end": 3.389006614685
+  },
+  {
+    "ciclo": 206,
+    "pico_inicio_idx": 15249,
+    "valle_idx": 15277,
+    "pico_final_idx": 15321,
+    "deform_high_start": 3.43083024025,
+    "deform_low": 3.06968665123,
+    "deform_high_end": 3.384980201721
+  },
+  {
+    "ciclo": 207,
+    "pico_inicio_idx": 15343,
+    "valle_idx": 15371,
+    "pico_final_idx": 15415,
+    "deform_high_start": 3.433714151382,
+    "deform_low": 3.072222232819,
+    "deform_high_end": 3.388567686081
+  },
+  {
+    "ciclo": 208,
+    "pico_inicio_idx": 15440,
+    "valle_idx": 15468,
+    "pico_final_idx": 15513,
+    "deform_high_start": 3.438367366791,
+    "deform_low": 3.080044984818,
+    "deform_high_end": 3.395206212997
+  },
+  {
+    "ciclo": 209,
+    "pico_inicio_idx": 15534,
+    "valle_idx": 15563,
+    "pico_final_idx": 15619,
+    "deform_high_start": 3.438562393188,
+    "deform_low": 3.077328205109,
+    "deform_high_end": 3.391305446625
+  },
+  {
+    "ciclo": 210,
+    "pico_inicio_idx": 15661,
+    "valle_idx": 15691,
+    "pico_final_idx": 15790,
+    "deform_high_start": 3.451149940491,
+    "deform_low": 3.081382513046,
+    "deform_high_end": 3.391256570816
+  },
+  {
+    "ciclo": 211,
+    "pico_inicio_idx": 15835,
+    "valle_idx": 15864,
+    "pico_final_idx": 15945,
+    "deform_high_start": 3.45041847229,
+    "deform_low": 3.087547302246,
+    "deform_high_end": 3.393116474152
+  },
+  {
+    "ciclo": 212,
+    "pico_inicio_idx": 15993,
+    "valle_idx": 16021,
+    "pico_final_idx": 16090,
+    "deform_high_start": 3.449164628983,
+    "deform_low": 3.092479228973,
+    "deform_high_end": 3.398062229156
+  },
+  {
+    "ciclo": 213,
+    "pico_inicio_idx": 16133,
+    "valle_idx": 16162,
+    "pico_final_idx": 16235,
+    "deform_high_start": 3.456172466278,
+    "deform_low": 3.095558166504,
+    "deform_high_end": 3.408358097076
+  },
+  {
+    "ciclo": 214,
+    "pico_inicio_idx": 16276,
+    "valle_idx": 16305,
+    "pico_final_idx": 16374,
+    "deform_high_start": 3.462253808975,
+    "deform_low": 3.099124670029,
+    "deform_high_end": 3.408929347992
+  },
+  {
+    "ciclo": 215,
+    "pico_inicio_idx": 16416,
+    "valle_idx": 16445,
+    "pico_final_idx": 16517,
+    "deform_high_start": 3.464141607285,
+    "deform_low": 3.100942850113,
+    "deform_high_end": 3.415407657623
+  },
+  {
+    "ciclo": 216,
+    "pico_inicio_idx": 16556,
+    "valle_idx": 16587,
+    "pico_final_idx": 16659,
+    "deform_high_start": 3.463660955429,
+    "deform_low": 3.108117818832,
+    "deform_high_end": 3.417796850204
+  },
+  {
+    "ciclo": 217,
+    "pico_inicio_idx": 16695,
+    "valle_idx": 16728,
+    "pico_final_idx": 16807,
+    "deform_high_start": 3.475217342377,
+    "deform_low": 3.105630874634,
+    "deform_high_end": 3.413944721222
+  },
+  {
+    "ciclo": 218,
+    "pico_inicio_idx": 16843,
+    "valle_idx": 16875,
+    "pico_final_idx": 16947,
+    "deform_high_start": 3.481821060181,
+    "deform_low": 3.115209102631,
+    "deform_high_end": 3.419552326202
+  },
+  {
+    "ciclo": 219,
+    "pico_inicio_idx": 16982,
+    "valle_idx": 17015,
+    "pico_final_idx": 17087,
+    "deform_high_start": 3.482914686203,
+    "deform_low": 3.110033512115,
+    "deform_high_end": 3.424463272095
+  },
+  {
+    "ciclo": 220,
+    "pico_inicio_idx": 17123,
+    "valle_idx": 17156,
+    "pico_final_idx": 17201,
+    "deform_high_start": 3.484294176102,
+    "deform_low": 3.115327596664,
+    "deform_high_end": 3.438325643539
+  },
+  {
+    "ciclo": 221,
+    "pico_inicio_idx": 17215,
+    "valle_idx": 17247,
+    "pico_final_idx": 17287,
+    "deform_high_start": 3.480476617813,
+    "deform_low": 3.125205278397,
+    "deform_high_end": 3.451804876328
+  },
+  {
+    "ciclo": 222,
+    "pico_inicio_idx": 17294,
+    "valle_idx": 17326,
+    "pico_final_idx": 17369,
+    "deform_high_start": 3.476513147354,
+    "deform_low": 3.119019508362,
+    "deform_high_end": 3.447555541992
+  },
+  {
+    "ciclo": 223,
+    "pico_inicio_idx": 17376,
+    "valle_idx": 17407,
+    "pico_final_idx": 17450,
+    "deform_high_start": 3.470975160599,
+    "deform_low": 3.122955322266,
+    "deform_high_end": 3.446385145187
+  },
+  {
+    "ciclo": 224,
+    "pico_inicio_idx": 17458,
+    "valle_idx": 17489,
+    "pico_final_idx": 17531,
+    "deform_high_start": 3.470577955246,
+    "deform_low": 3.123268842697,
+    "deform_high_end": 3.443125247955
+  },
+  {
+    "ciclo": 225,
+    "pico_inicio_idx": 17539,
+    "valle_idx": 17571,
+    "pico_final_idx": 17612,
+    "deform_high_start": 3.480344295502,
+    "deform_low": 3.124982357025,
+    "deform_high_end": 3.444873571396
+  },
+  {
+    "ciclo": 226,
+    "pico_inicio_idx": 17620,
+    "valle_idx": 17651,
+    "pico_final_idx": 17694,
+    "deform_high_start": 3.470160007477,
+    "deform_low": 3.125358581543,
+    "deform_high_end": 3.44232416153
+  },
+  {
+    "ciclo": 227,
+    "pico_inicio_idx": 17701,
+    "valle_idx": 17732,
+    "pico_final_idx": 17773,
+    "deform_high_start": 3.475189447403,
+    "deform_low": 3.130617856979,
+    "deform_high_end": 3.444142103195
+  },
+  {
+    "ciclo": 228,
+    "pico_inicio_idx": 17781,
+    "valle_idx": 17812,
+    "pico_final_idx": 17855,
+    "deform_high_start": 3.470835924149,
+    "deform_low": 3.126298904419,
+    "deform_high_end": 3.452766180038
+  },
+  {
+    "ciclo": 229,
+    "pico_inicio_idx": 17861,
+    "valle_idx": 17892,
+    "pico_final_idx": 17934,
+    "deform_high_start": 3.478024721146,
+    "deform_low": 3.132937669754,
+    "deform_high_end": 3.446824073792
+  },
+  {
+    "ciclo": 230,
+    "pico_inicio_idx": 17941,
+    "valle_idx": 17972,
+    "pico_final_idx": 18014,
+    "deform_high_start": 3.476373672485,
+    "deform_low": 3.132415056229,
+    "deform_high_end": 3.446580410004
+  },
+  {
+    "ciclo": 231,
+    "pico_inicio_idx": 18021,
+    "valle_idx": 18052,
+    "pico_final_idx": 18094,
+    "deform_high_start": 3.477300167084,
+    "deform_low": 3.133543491364,
+    "deform_high_end": 3.446824073792
+  },
+  {
+    "ciclo": 232,
+    "pico_inicio_idx": 18101,
+    "valle_idx": 18132,
+    "pico_final_idx": 18173,
+    "deform_high_start": 3.481493711472,
+    "deform_low": 3.135598659515,
+    "deform_high_end": 3.447137594223
+  },
+  {
+    "ciclo": 233,
+    "pico_inicio_idx": 18180,
+    "valle_idx": 18211,
+    "pico_final_idx": 18253,
+    "deform_high_start": 3.480762243271,
+    "deform_low": 3.1353058815,
+    "deform_high_end": 3.449115991592
+  },
+  {
+    "ciclo": 234,
+    "pico_inicio_idx": 18260,
+    "valle_idx": 18291,
+    "pico_final_idx": 18334,
+    "deform_high_start": 3.47984290123,
+    "deform_low": 3.135689020157,
+    "deform_high_end": 3.457551717758
+  },
+  {
+    "ciclo": 235,
+    "pico_inicio_idx": 18340,
+    "valle_idx": 18371,
+    "pico_final_idx": 18412,
+    "deform_high_start": 3.480574131012,
+    "deform_low": 3.136281251907,
+    "deform_high_end": 3.450794696808
+  },
+  {
+    "ciclo": 236,
+    "pico_inicio_idx": 18420,
+    "valle_idx": 18451,
+    "pico_final_idx": 18492,
+    "deform_high_start": 3.480713605881,
+    "deform_low": 3.132672786713,
+    "deform_high_end": 3.459342002869
+  },
+  {
+    "ciclo": 237,
+    "pico_inicio_idx": 18498,
+    "valle_idx": 18529,
+    "pico_final_idx": 18570,
+    "deform_high_start": 3.482887029648,
+    "deform_low": 3.134400367737,
+    "deform_high_end": 3.452201843262
+  },
+  {
+    "ciclo": 238,
+    "pico_inicio_idx": 18577,
+    "valle_idx": 18608,
+    "pico_final_idx": 18649,
+    "deform_high_start": 3.48237156868,
+    "deform_low": 3.134748697281,
+    "deform_high_end": 3.450341939926
+  },
+  {
+    "ciclo": 239,
+    "pico_inicio_idx": 18656,
+    "valle_idx": 18687,
+    "pico_final_idx": 18728,
+    "deform_high_start": 3.481737613678,
+    "deform_low": 3.134867191315,
+    "deform_high_end": 3.459759950638
+  },
+  {
+    "ciclo": 240,
+    "pico_inicio_idx": 18734,
+    "valle_idx": 18765,
+    "pico_final_idx": 18806,
+    "deform_high_start": 3.483562707901,
+    "deform_low": 3.134309768677,
+    "deform_high_end": 3.458701133728
+  },
+  {
+    "ciclo": 241,
+    "pico_inicio_idx": 18813,
+    "valle_idx": 18843,
+    "pico_final_idx": 18885,
+    "deform_high_start": 3.482803344727,
+    "deform_low": 3.144793748856,
+    "deform_high_end": 3.453699588776
+  },
+  {
+    "ciclo": 242,
+    "pico_inicio_idx": 18894,
+    "valle_idx": 18925,
+    "pico_final_idx": 18965,
+    "deform_high_start": 3.479759216309,
+    "deform_low": 3.136350870132,
+    "deform_high_end": 3.461417913437
+  },
+  {
+    "ciclo": 243,
+    "pico_inicio_idx": 18971,
+    "valle_idx": 19002,
+    "pico_final_idx": 19046,
+    "deform_high_start": 3.485903263092,
+    "deform_low": 3.14183306694,
+    "deform_high_end": 3.457844257355
+  },
+  {
+    "ciclo": 244,
+    "pico_inicio_idx": 19061,
+    "valle_idx": 19093,
+    "pico_final_idx": 19143,
+    "deform_high_start": 3.499995470047,
+    "deform_low": 3.141700744629,
+    "deform_high_end": 3.457252264023
+  },
+  {
+    "ciclo": 245,
+    "pico_inicio_idx": 19153,
+    "valle_idx": 19184,
+    "pico_final_idx": 19226,
+    "deform_high_start": 3.487268447876,
+    "deform_low": 3.139764308929,
+    "deform_high_end": 3.466628313065
+  },
+  {
+    "ciclo": 246,
+    "pico_inicio_idx": 19234,
+    "valle_idx": 19264,
+    "pico_final_idx": 19304,
+    "deform_high_start": 3.48517870903,
+    "deform_low": 3.148018836975,
+    "deform_high_end": 3.464935541153
+  },
+  {
+    "ciclo": 247,
+    "pico_inicio_idx": 19311,
+    "valle_idx": 19341,
+    "pico_final_idx": 19383,
+    "deform_high_start": 3.485227584839,
+    "deform_low": 3.148785114288,
+    "deform_high_end": 3.466133832932
+  },
+  {
+    "ciclo": 248,
+    "pico_inicio_idx": 19389,
+    "valle_idx": 19420,
+    "pico_final_idx": 19463,
+    "deform_high_start": 3.49267411232,
+    "deform_low": 3.148590087891,
+    "deform_high_end": 3.464657068253
+  },
+  {
+    "ciclo": 249,
+    "pico_inicio_idx": 19470,
+    "valle_idx": 19500,
+    "pico_final_idx": 19544,
+    "deform_high_start": 3.484941959381,
+    "deform_low": 3.148206949234,
+    "deform_high_end": 3.462727308273
+  },
+  {
+    "ciclo": 250,
+    "pico_inicio_idx": 19559,
+    "valle_idx": 19590,
+    "pico_final_idx": 19642,
+    "deform_high_start": 3.499068975449,
+    "deform_low": 3.152247190475,
+    "deform_high_end": 3.467547893524
+  },
+  {
+    "ciclo": 251,
+    "pico_inicio_idx": 19650,
+    "valle_idx": 19681,
+    "pico_final_idx": 19724,
+    "deform_high_start": 3.500963687897,
+    "deform_low": 3.150436162949,
+    "deform_high_end": 3.470160007477
+  },
+  {
+    "ciclo": 252,
+    "pico_inicio_idx": 19731,
+    "valle_idx": 19761,
+    "pico_final_idx": 19804,
+    "deform_high_start": 3.487421751022,
+    "deform_low": 3.150331497192,
+    "deform_high_end": 3.466572523117
+  },
+  {
+    "ciclo": 253,
+    "pico_inicio_idx": 19811,
+    "valle_idx": 19842,
+    "pico_final_idx": 19883,
+    "deform_high_start": 3.490166425705,
+    "deform_low": 3.145232439041,
+    "deform_high_end": 3.46595954895
+  },
+  {
+    "ciclo": 254,
+    "pico_inicio_idx": 19890,
+    "valle_idx": 19921,
+    "pico_final_idx": 19964,
+    "deform_high_start": 3.492165565491,
+    "deform_low": 3.149049758911,
+    "deform_high_end": 3.470975160599
+  },
+  {
+    "ciclo": 255,
+    "pico_inicio_idx": 19970,
+    "valle_idx": 20001,
+    "pico_final_idx": 20043,
+    "deform_high_start": 3.492346763611,
+    "deform_low": 3.149565219879,
+    "deform_high_end": 3.465005397797
+  },
+  {
+    "ciclo": 256,
+    "pico_inicio_idx": 20051,
+    "valle_idx": 20081,
+    "pico_final_idx": 20123,
+    "deform_high_start": 3.48991560936,
+    "deform_low": 3.156169176102,
+    "deform_high_end": 3.465458154678
+  },
+  {
+    "ciclo": 257,
+    "pico_inicio_idx": 20130,
+    "valle_idx": 20161,
+    "pico_final_idx": 20203,
+    "deform_high_start": 3.498037815094,
+    "deform_low": 3.152630329132,
+    "deform_high_end": 3.46591091156
+  },
+  {
+    "ciclo": 258,
+    "pico_inicio_idx": 20211,
+    "valle_idx": 20242,
+    "pico_final_idx": 20286,
+    "deform_high_start": 3.495042562485,
+    "deform_low": 3.153257369995,
+    "deform_high_end": 3.464057922363
+  },
+  {
+    "ciclo": 259,
+    "pico_inicio_idx": 20296,
+    "valle_idx": 20327,
+    "pico_final_idx": 20369,
+    "deform_high_start": 3.495711326599,
+    "deform_low": 3.15097951889,
+    "deform_high_end": 3.466711997986
+  },
+  {
+    "ciclo": 260,
+    "pico_inicio_idx": 20377,
+    "valle_idx": 20408,
+    "pico_final_idx": 20451,
+    "deform_high_start": 3.502273321152,
+    "deform_low": 3.15641283989,
+    "deform_high_end": 3.467213392258
+  },
+  {
+    "ciclo": 261,
+    "pico_inicio_idx": 20465,
+    "valle_idx": 20497,
+    "pico_final_idx": 20536,
+    "deform_high_start": 3.514275550842,
+    "deform_low": 3.155312299728,
+    "deform_high_end": 3.471811056137
+  },
+  {
+    "ciclo": 262,
+    "pico_inicio_idx": 20543,
+    "valle_idx": 20574,
+    "pico_final_idx": 20617,
+    "deform_high_start": 3.50071978569,
+    "deform_low": 3.156426906586,
+    "deform_high_end": 3.471622943878
+  },
+  {
+    "ciclo": 263,
+    "pico_inicio_idx": 20631,
+    "valle_idx": 20662,
+    "pico_final_idx": 20703,
+    "deform_high_start": 3.513355970383,
+    "deform_low": 3.15944314003,
+    "deform_high_end": 3.474862098694
+  },
+  {
+    "ciclo": 264,
+    "pico_inicio_idx": 20710,
+    "valle_idx": 20741,
+    "pico_final_idx": 20783,
+    "deform_high_start": 3.501102924347,
+    "deform_low": 3.158502578735,
+    "deform_high_end": 3.481354475021
+  },
+  {
+    "ciclo": 265,
+    "pico_inicio_idx": 20789,
+    "valle_idx": 20820,
+    "pico_final_idx": 20861,
+    "deform_high_start": 3.502238512039,
+    "deform_low": 3.15834236145,
+    "deform_high_end": 3.47377538681
+  },
+  {
+    "ciclo": 266,
+    "pico_inicio_idx": 20870,
+    "valle_idx": 20900,
+    "pico_final_idx": 20941,
+    "deform_high_start": 3.498044967651,
+    "deform_low": 3.166471719742,
+    "deform_high_end": 3.475224256516
+  },
+  {
+    "ciclo": 267,
+    "pico_inicio_idx": 20948,
+    "valle_idx": 20979,
+    "pico_final_idx": 21021,
+    "deform_high_start": 3.505630731583,
+    "deform_low": 3.161581516266,
+    "deform_high_end": 3.478080511093
+  },
+  {
+    "ciclo": 268,
+    "pico_inicio_idx": 21028,
+    "valle_idx": 21059,
+    "pico_final_idx": 21102,
+    "deform_high_start": 3.508068799973,
+    "deform_low": 3.164040565491,
+    "deform_high_end": 3.478066444397
+  },
+  {
+    "ciclo": 269,
+    "pico_inicio_idx": 21109,
+    "valle_idx": 21139,
+    "pico_final_idx": 21181,
+    "deform_high_start": 3.497362136841,
+    "deform_low": 3.165155172348,
+    "deform_high_end": 3.47616481781
+  },
+  {
+    "ciclo": 270,
+    "pico_inicio_idx": 21188,
+    "valle_idx": 21219,
+    "pico_final_idx": 21261,
+    "deform_high_start": 3.507051944733,
+    "deform_low": 3.162696123123,
+    "deform_high_end": 3.476638555527
+  },
+  {
+    "ciclo": 271,
+    "pico_inicio_idx": 21269,
+    "valle_idx": 21299,
+    "pico_final_idx": 21341,
+    "deform_high_start": 3.499660968781,
+    "deform_low": 3.168861150742,
+    "deform_high_end": 3.47428393364
+  },
+  {
+    "ciclo": 272,
+    "pico_inicio_idx": 21348,
+    "valle_idx": 21378,
+    "pico_final_idx": 21420,
+    "deform_high_start": 3.50058054924,
+    "deform_low": 3.168895959854,
+    "deform_high_end": 3.477369785309
+  },
+  {
+    "ciclo": 273,
+    "pico_inicio_idx": 21428,
+    "valle_idx": 21458,
+    "pico_final_idx": 21499,
+    "deform_high_start": 3.500343561172,
+    "deform_low": 3.163845539093,
+    "deform_high_end": 3.476812601089
+  },
+  {
+    "ciclo": 274,
+    "pico_inicio_idx": 21507,
+    "valle_idx": 21537,
+    "pico_final_idx": 21579,
+    "deform_high_start": 3.499855995178,
+    "deform_low": 3.164333105087,
+    "deform_high_end": 3.478916406631
+  },
+  {
+    "ciclo": 275,
+    "pico_inicio_idx": 21586,
+    "valle_idx": 21617,
+    "pico_final_idx": 21657,
+    "deform_high_start": 3.511099100113,
+    "deform_low": 3.162905216217,
+    "deform_high_end": 3.476791620255
+  },
+  {
+    "ciclo": 276,
+    "pico_inicio_idx": 21665,
+    "valle_idx": 21696,
+    "pico_final_idx": 21736,
+    "deform_high_start": 3.508591413498,
+    "deform_low": 3.163357973099,
+    "deform_high_end": 3.478658676147
+  },
+  {
+    "ciclo": 277,
+    "pico_inicio_idx": 21743,
+    "valle_idx": 21774,
+    "pico_final_idx": 21815,
+    "deform_high_start": 3.509308815002,
+    "deform_low": 3.163378953934,
+    "deform_high_end": 3.477947950363
+  },
+  {
+    "ciclo": 278,
+    "pico_inicio_idx": 21823,
+    "valle_idx": 21854,
+    "pico_final_idx": 21894,
+    "deform_high_start": 3.513767004013,
+    "deform_low": 3.165830850601,
+    "deform_high_end": 3.488599061966
+  },
+  {
+    "ciclo": 279,
+    "pico_inicio_idx": 21901,
+    "valle_idx": 21931,
+    "pico_final_idx": 21973,
+    "deform_high_start": 3.505059719086,
+    "deform_low": 3.170080184937,
+    "deform_high_end": 3.480086565018
+  },
+  {
+    "ciclo": 280,
+    "pico_inicio_idx": 21982,
+    "valle_idx": 22012,
+    "pico_final_idx": 22052,
+    "deform_high_start": 3.506961345673,
+    "deform_low": 3.170553684235,
+    "deform_high_end": 3.486390829086
+  },
+  {
+    "ciclo": 281,
+    "pico_inicio_idx": 22059,
+    "valle_idx": 22089,
+    "pico_final_idx": 22133,
+    "deform_high_start": 3.514066696167,
+    "deform_low": 3.174782037735,
+    "deform_high_end": 3.482907772064
+  },
+  {
+    "ciclo": 282,
+    "pico_inicio_idx": 22147,
+    "valle_idx": 22178,
+    "pico_final_idx": 22217,
+    "deform_high_start": 3.525093793869,
+    "deform_low": 3.174851894379,
+    "deform_high_end": 3.491580486298
+  },
+  {
+    "ciclo": 283,
+    "pico_inicio_idx": 22225,
+    "valle_idx": 22255,
+    "pico_final_idx": 22296,
+    "deform_high_start": 3.508682012558,
+    "deform_low": 3.17480301857,
+    "deform_high_end": 3.489107608795
+  },
+  {
+    "ciclo": 284,
+    "pico_inicio_idx": 22303,
+    "valle_idx": 22333,
+    "pico_final_idx": 22375,
+    "deform_high_start": 3.517396450043,
+    "deform_low": 3.178251266479,
+    "deform_high_end": 3.49217247963
+  },
+  {
+    "ciclo": 285,
+    "pico_inicio_idx": 22381,
+    "valle_idx": 22412,
+    "pico_final_idx": 22454,
+    "deform_high_start": 3.518901109695,
+    "deform_low": 3.173249721527,
+    "deform_high_end": 3.492451190948
+  },
+  {
+    "ciclo": 286,
+    "pico_inicio_idx": 22460,
+    "valle_idx": 22490,
+    "pico_final_idx": 22532,
+    "deform_high_start": 3.516462802887,
+    "deform_low": 3.176753520966,
+    "deform_high_end": 3.488933324814
+  },
+  {
+    "ciclo": 287,
+    "pico_inicio_idx": 22540,
+    "valle_idx": 22570,
+    "pico_final_idx": 22612,
+    "deform_high_start": 3.510980606079,
+    "deform_low": 3.174782037735,
+    "deform_high_end": 3.494171857834
+  },
+  {
+    "ciclo": 288,
+    "pico_inicio_idx": 22619,
+    "valle_idx": 22649,
+    "pico_final_idx": 22691,
+    "deform_high_start": 3.509921789169,
+    "deform_low": 3.17494225502,
+    "deform_high_end": 3.494868516922
+  },
+  {
+    "ciclo": 289,
+    "pico_inicio_idx": 22698,
+    "valle_idx": 22728,
+    "pico_final_idx": 22770,
+    "deform_high_start": 3.509448289871,
+    "deform_low": 3.175060749054,
+    "deform_high_end": 3.488271713257
+  },
+  {
+    "ciclo": 290,
+    "pico_inicio_idx": 22777,
+    "valle_idx": 22807,
+    "pico_final_idx": 22848,
+    "deform_high_start": 3.506397008896,
+    "deform_low": 3.171758890152,
+    "deform_high_end": 3.494311094284
+  },
+  {
+    "ciclo": 291,
+    "pico_inicio_idx": 22855,
+    "valle_idx": 22885,
+    "pico_final_idx": 22927,
+    "deform_high_start": 3.51194190979,
+    "deform_low": 3.177310705185,
+    "deform_high_end": 3.492869138718
+  },
+  {
+    "ciclo": 292,
+    "pico_inicio_idx": 22934,
+    "valle_idx": 22964,
+    "pico_final_idx": 23007,
+    "deform_high_start": 3.513188838959,
+    "deform_low": 3.177902936935,
+    "deform_high_end": 3.486683368683
+  },
+  {
+    "ciclo": 293,
+    "pico_inicio_idx": 23022,
+    "valle_idx": 23053,
+    "pico_final_idx": 23093,
+    "deform_high_start": 3.531098365784,
+    "deform_low": 3.185335636139,
+    "deform_high_end": 3.497536420822
+  },
+  {
+    "ciclo": 294,
+    "pico_inicio_idx": 23099,
+    "valle_idx": 23129,
+    "pico_final_idx": 23173,
+    "deform_high_start": 3.518274068832,
+    "deform_low": 3.181155920029,
+    "deform_high_end": 3.490605115891
+  },
+  {
+    "ciclo": 295,
+    "pico_inicio_idx": 23183,
+    "valle_idx": 23214,
+    "pico_final_idx": 23253,
+    "deform_high_start": 3.520893335342,
+    "deform_low": 3.177464008331,
+    "deform_high_end": 3.489504575729
+  },
+  {
+    "ciclo": 296,
+    "pico_inicio_idx": 23260,
+    "valle_idx": 23291,
+    "pico_final_idx": 23333,
+    "deform_high_start": 3.523812055588,
+    "deform_low": 3.177185297012,
+    "deform_high_end": 3.498072862625
+  },
+  {
+    "ciclo": 297,
+    "pico_inicio_idx": 23339,
+    "valle_idx": 23369,
+    "pico_final_idx": 23412,
+    "deform_high_start": 3.51607966423,
+    "deform_low": 3.180515050888,
+    "deform_high_end": 3.497675657272
+  },
+  {
+    "ciclo": 298,
+    "pico_inicio_idx": 23418,
+    "valle_idx": 23448,
+    "pico_final_idx": 23490,
+    "deform_high_start": 3.520203590393,
+    "deform_low": 3.18564915657,
+    "deform_high_end": 3.496595859528
+  },
+  {
+    "ciclo": 299,
+    "pico_inicio_idx": 23496,
+    "valle_idx": 23527,
+    "pico_final_idx": 23568,
+    "deform_high_start": 3.524146318436,
+    "deform_low": 3.177624225616,
+    "deform_high_end": 3.494157791138
+  },
+  {
+    "ciclo": 300,
+    "pico_inicio_idx": 23575,
+    "valle_idx": 23605,
+    "pico_final_idx": 23647,
+    "deform_high_start": 3.521861553192,
+    "deform_low": 3.187042236328,
+    "deform_high_end": 3.500072002411
+  },
+  {
+    "ciclo": 301,
+    "pico_inicio_idx": 23653,
+    "valle_idx": 23684,
+    "pico_final_idx": 23725,
+    "deform_high_start": 3.523303508759,
+    "deform_low": 3.178042173386,
+    "deform_high_end": 3.495551109314
+  },
+  {
+    "ciclo": 302,
+    "pico_inicio_idx": 23733,
+    "valle_idx": 23763,
+    "pico_final_idx": 23803,
+    "deform_high_start": 3.515369176865,
+    "deform_low": 3.181086301804,
+    "deform_high_end": 3.492228269577
+  },
+  {
+    "ciclo": 303,
+    "pico_inicio_idx": 23811,
+    "valle_idx": 23841,
+    "pico_final_idx": 23883,
+    "deform_high_start": 3.52104640007,
+    "deform_low": 3.187620401382,
+    "deform_high_end": 3.499695777893
+  },
+  {
+    "ciclo": 304,
+    "pico_inicio_idx": 23890,
+    "valle_idx": 23920,
+    "pico_final_idx": 23961,
+    "deform_high_start": 3.516553401947,
+    "deform_low": 3.182584047318,
+    "deform_high_end": 3.499591350555
+  },
+  {
+    "ciclo": 305,
+    "pico_inicio_idx": 23967,
+    "valle_idx": 23998,
+    "pico_final_idx": 24038,
+    "deform_high_start": 3.522955179214,
+    "deform_low": 3.179560899734,
+    "deform_high_end": 3.494812726974
+  },
+  {
+    "ciclo": 306,
+    "pico_inicio_idx": 24046,
+    "valle_idx": 24076,
+    "pico_final_idx": 24118,
+    "deform_high_start": 3.518190383911,
+    "deform_low": 3.183371067047,
+    "deform_high_end": 3.502238512039
+  },
+  {
+    "ciclo": 307,
+    "pico_inicio_idx": 24124,
+    "valle_idx": 24154,
+    "pico_final_idx": 24195,
+    "deform_high_start": 3.516776323318,
+    "deform_low": 3.1837682724,
+    "deform_high_end": 3.493739843369
+  },
+  {
+    "ciclo": 308,
+    "pico_inicio_idx": 24203,
+    "valle_idx": 24234,
+    "pico_final_idx": 24274,
+    "deform_high_start": 3.523394107819,
+    "deform_low": 3.179762840271,
+    "deform_high_end": 3.494589805603
+  },
+  {
+    "ciclo": 309,
+    "pico_inicio_idx": 24282,
+    "valle_idx": 24312,
+    "pico_final_idx": 24353,
+    "deform_high_start": 3.516922712326,
+    "deform_low": 3.183698654175,
+    "deform_high_end": 3.495878458023
+  },
+  {
+    "ciclo": 310,
+    "pico_inicio_idx": 24360,
+    "valle_idx": 24391,
+    "pico_final_idx": 24431,
+    "deform_high_start": 3.522230625153,
+    "deform_low": 3.180612564087,
+    "deform_high_end": 3.494958877563
+  },
+  {
+    "ciclo": 311,
+    "pico_inicio_idx": 24439,
+    "valle_idx": 24470,
+    "pico_final_idx": 24510,
+    "deform_high_start": 3.530213832855,
+    "deform_low": 3.186728715897,
+    "deform_high_end": 3.495335102081
+  },
+  {
+    "ciclo": 312,
+    "pico_inicio_idx": 24517,
+    "valle_idx": 24548,
+    "pico_final_idx": 24589,
+    "deform_high_start": 3.528026342392,
+    "deform_low": 3.187098026276,
+    "deform_high_end": 3.49511218071
+  },
+  {
+    "ciclo": 313,
+    "pico_inicio_idx": 24596,
+    "valle_idx": 24626,
+    "pico_final_idx": 24667,
+    "deform_high_start": 3.523728370667,
+    "deform_low": 3.192844867706,
+    "deform_high_end": 3.500197410583
+  },
+  {
+    "ciclo": 314,
+    "pico_inicio_idx": 24675,
+    "valle_idx": 24705,
+    "pico_final_idx": 24746,
+    "deform_high_start": 3.520398616791,
+    "deform_low": 3.188992738724,
+    "deform_high_end": 3.501263141632
+  },
+  {
+    "ciclo": 315,
+    "pico_inicio_idx": 24754,
+    "valle_idx": 24784,
+    "pico_final_idx": 24825,
+    "deform_high_start": 3.523540258408,
+    "deform_low": 3.190420627594,
+    "deform_high_end": 3.500894069672
+  },
+  {
+    "ciclo": 316,
+    "pico_inicio_idx": 24833,
+    "valle_idx": 24863,
+    "pico_final_idx": 24904,
+    "deform_high_start": 3.51911687851,
+    "deform_low": 3.188317060471,
+    "deform_high_end": 3.497027873993
+  },
+  {
+    "ciclo": 317,
+    "pico_inicio_idx": 24911,
+    "valle_idx": 24942,
+    "pico_final_idx": 24983,
+    "deform_high_start": 3.530171871185,
+    "deform_low": 3.188247442245,
+    "deform_high_end": 3.49860906601
+  },
+  {
+    "ciclo": 318,
+    "pico_inicio_idx": 24990,
+    "valle_idx": 25020,
+    "pico_final_idx": 25062,
+    "deform_high_start": 3.525915622711,
+    "deform_low": 3.194746494293,
+    "deform_high_end": 3.505811929703
+  },
+  {
+    "ciclo": 319,
+    "pico_inicio_idx": 25069,
+    "valle_idx": 25099,
+    "pico_final_idx": 25141,
+    "deform_high_start": 3.524877786636,
+    "deform_low": 3.192405939102,
+    "deform_high_end": 3.501715898514
+  },
+  {
+    "ciclo": 320,
+    "pico_inicio_idx": 25148,
+    "valle_idx": 25178,
+    "pico_final_idx": 25220,
+    "deform_high_start": 3.526479959488,
+    "deform_low": 3.193332433701,
+    "deform_high_end": 3.505930423737
+  },
+  {
+    "ciclo": 321,
+    "pico_inicio_idx": 25227,
+    "valle_idx": 25258,
+    "pico_final_idx": 25297,
+    "deform_high_start": 3.533808231354,
+    "deform_low": 3.18988442421,
+    "deform_high_end": 3.499138593674
+  },
+  {
+    "ciclo": 322,
+    "pico_inicio_idx": 25305,
+    "valle_idx": 25335,
+    "pico_final_idx": 25376,
+    "deform_high_start": 3.523310422897,
+    "deform_low": 3.191556215286,
+    "deform_high_end": 3.500044107437
+  },
+  {
+    "ciclo": 323,
+    "pico_inicio_idx": 25384,
+    "valle_idx": 25414,
+    "pico_final_idx": 25455,
+    "deform_high_start": 3.523993015289,
+    "deform_low": 3.188909053802,
+    "deform_high_end": 3.508041143417
+  },
+  {
+    "ciclo": 324,
+    "pico_inicio_idx": 25462,
+    "valle_idx": 25492,
+    "pico_final_idx": 25534,
+    "deform_high_start": 3.526271104813,
+    "deform_low": 3.19237112999,
+    "deform_high_end": 3.508772373199
+  },
+  {
+    "ciclo": 325,
+    "pico_inicio_idx": 25541,
+    "valle_idx": 25571,
+    "pico_final_idx": 25611,
+    "deform_high_start": 3.524111509323,
+    "deform_low": 3.189292192459,
+    "deform_high_end": 3.499723672867
+  },
+  {
+    "ciclo": 326,
+    "pico_inicio_idx": 25619,
+    "valle_idx": 25649,
+    "pico_final_idx": 25690,
+    "deform_high_start": 3.524738550186,
+    "deform_low": 3.189828634262,
+    "deform_high_end": 3.508556604385
+  },
+  {
+    "ciclo": 327,
+    "pico_inicio_idx": 25697,
+    "valle_idx": 25727,
+    "pico_final_idx": 25770,
+    "deform_high_start": 3.523902654648,
+    "deform_low": 3.190093278885,
+    "deform_high_end": 3.5083963871
+  },
+  {
+    "ciclo": 328,
+    "pico_inicio_idx": 25784,
+    "valle_idx": 25815,
+    "pico_final_idx": 25853,
+    "deform_high_start": 3.538691282272,
+    "deform_low": 3.193889856339,
+    "deform_high_end": 3.512199640274
+  },
+  {
+    "ciclo": 329,
+    "pico_inicio_idx": 25860,
+    "valle_idx": 25890,
+    "pico_final_idx": 25930,
+    "deform_high_start": 3.532261610031,
+    "deform_low": 3.195178508759,
+    "deform_high_end": 3.513265609741
+  },
+  {
+    "ciclo": 330,
+    "pico_inicio_idx": 25937,
+    "valle_idx": 25967,
+    "pico_final_idx": 26007,
+    "deform_high_start": 3.532185077667,
+    "deform_low": 3.194948673248,
+    "deform_high_end": 3.513140201569
+  },
+  {
+    "ciclo": 331,
+    "pico_inicio_idx": 26014,
+    "valle_idx": 26043,
+    "pico_final_idx": 26085,
+    "deform_high_start": 3.528430461884,
+    "deform_low": 3.201378107071,
+    "deform_high_end": 3.510890245438
+  },
+  {
+    "ciclo": 332,
+    "pico_inicio_idx": 26092,
+    "valle_idx": 26121,
+    "pico_final_idx": 26162,
+    "deform_high_start": 3.527002334595,
+    "deform_low": 3.201169252396,
+    "deform_high_end": 3.504794836044
+  },
+  {
+    "ciclo": 333,
+    "pico_inicio_idx": 26170,
+    "valle_idx": 26199,
+    "pico_final_idx": 26241,
+    "deform_high_start": 3.529335975647,
+    "deform_low": 3.202193260193,
+    "deform_high_end": 3.508194208145
+  },
+  {
+    "ciclo": 334,
+    "pico_inicio_idx": 26248,
+    "valle_idx": 26278,
+    "pico_final_idx": 26318,
+    "deform_high_start": 3.533020973206,
+    "deform_low": 3.193485736847,
+    "deform_high_end": 3.504746198654
+  },
+  {
+    "ciclo": 335,
+    "pico_inicio_idx": 26326,
+    "valle_idx": 26356,
+    "pico_final_idx": 26397,
+    "deform_high_start": 3.532052755356,
+    "deform_low": 3.194461107254,
+    "deform_high_end": 3.507240056992
+  },
+  {
+    "ciclo": 336,
+    "pico_inicio_idx": 26404,
+    "valle_idx": 26434,
+    "pico_final_idx": 26475,
+    "deform_high_start": 3.534867048264,
+    "deform_low": 3.198814630508,
+    "deform_high_end": 3.504328250885
+  },
+  {
+    "ciclo": 337,
+    "pico_inicio_idx": 26483,
+    "valle_idx": 26513,
+    "pico_final_idx": 26553,
+    "deform_high_start": 3.532456874847,
+    "deform_low": 3.194272994995,
+    "deform_high_end": 3.515989303589
+  },
+  {
+    "ciclo": 338,
+    "pico_inicio_idx": 26560,
+    "valle_idx": 26590,
+    "pico_final_idx": 26632,
+    "deform_high_start": 3.53548002243,
+    "deform_low": 3.198710203171,
+    "deform_high_end": 3.5083963871
+  },
+  {
+    "ciclo": 339,
+    "pico_inicio_idx": 26640,
+    "valle_idx": 26670,
+    "pico_final_idx": 26711,
+    "deform_high_start": 3.539241552353,
+    "deform_low": 3.204707860947,
+    "deform_high_end": 3.510200500488
+  },
+  {
+    "ciclo": 340,
+    "pico_inicio_idx": 26719,
+    "valle_idx": 26748,
+    "pico_final_idx": 26790,
+    "deform_high_start": 3.531356096268,
+    "deform_low": 3.20579457283,
+    "deform_high_end": 3.508695840836
+  },
+  {
+    "ciclo": 341,
+    "pico_inicio_idx": 26797,
+    "valle_idx": 26826,
+    "pico_final_idx": 26867,
+    "deform_high_start": 3.532902479172,
+    "deform_low": 3.203899860382,
+    "deform_high_end": 3.507316589355
+  },
+  {
+    "ciclo": 342,
+    "pico_inicio_idx": 26875,
+    "valle_idx": 26904,
+    "pico_final_idx": 26946,
+    "deform_high_start": 3.530311346054,
+    "deform_low": 3.205174684525,
+    "deform_high_end": 3.51552939415
+  },
+  {
+    "ciclo": 343,
+    "pico_inicio_idx": 26952,
+    "valle_idx": 26982,
+    "pico_final_idx": 27023,
+    "deform_high_start": 3.540021896362,
+    "deform_low": 3.203050136566,
+    "deform_high_end": 3.509253025055
+  },
+  {
+    "ciclo": 344,
+    "pico_inicio_idx": 27032,
+    "valle_idx": 27062,
+    "pico_final_idx": 27101,
+    "deform_high_start": 3.532226800919,
+    "deform_low": 3.198605775833,
+    "deform_high_end": 3.510102987289
+  },
+  {
+    "ciclo": 345,
+    "pico_inicio_idx": 27108,
+    "valle_idx": 27138,
+    "pico_final_idx": 27180,
+    "deform_high_start": 3.53962469101,
+    "deform_low": 3.205592632294,
+    "deform_high_end": 3.510681152344
+  },
+  {
+    "ciclo": 346,
+    "pico_inicio_idx": 27187,
+    "valle_idx": 27217,
+    "pico_final_idx": 27257,
+    "deform_high_start": 3.537500143051,
+    "deform_low": 3.197616577148,
+    "deform_high_end": 3.508542537689
+  },
+  {
+    "ciclo": 347,
+    "pico_inicio_idx": 27265,
+    "valle_idx": 27295,
+    "pico_final_idx": 27336,
+    "deform_high_start": 3.537500143051,
+    "deform_low": 3.201468706131,
+    "deform_high_end": 3.511503219604
+  },
+  {
+    "ciclo": 348,
+    "pico_inicio_idx": 27344,
+    "valle_idx": 27374,
+    "pico_final_idx": 27414,
+    "deform_high_start": 3.536740779877,
+    "deform_low": 3.200625896454,
+    "deform_high_end": 3.511224508286
+  },
+  {
+    "ciclo": 349,
+    "pico_inicio_idx": 27422,
+    "valle_idx": 27452,
+    "pico_final_idx": 27493,
+    "deform_high_start": 3.538043498993,
+    "deform_low": 3.204512834549,
+    "deform_high_end": 3.509880065918
+  },
+  {
+    "ciclo": 350,
+    "pico_inicio_idx": 27501,
+    "valle_idx": 27531,
+    "pico_final_idx": 27571,
+    "deform_high_start": 3.532840013504,
+    "deform_low": 3.198710203171,
+    "deform_high_end": 3.50927400589
+  },
+  {
+    "ciclo": 351,
+    "pico_inicio_idx": 27579,
+    "valle_idx": 27609,
+    "pico_final_idx": 27650,
+    "deform_high_start": 3.53635764122,
+    "deform_low": 3.199790000916,
+    "deform_high_end": 3.519096136093
+  },
+  {
+    "ciclo": 352,
+    "pico_inicio_idx": 27656,
+    "valle_idx": 27686,
+    "pico_final_idx": 27727,
+    "deform_high_start": 3.540655612946,
+    "deform_low": 3.206045389175,
+    "deform_high_end": 3.509880065918
+  },
+  {
+    "ciclo": 353,
+    "pico_inicio_idx": 27736,
+    "valle_idx": 27766,
+    "pico_final_idx": 27805,
+    "deform_high_start": 3.53419137001,
+    "deform_low": 3.200577020645,
+    "deform_high_end": 3.512109279633
+  },
+  {
+    "ciclo": 354,
+    "pico_inicio_idx": 27812,
+    "valle_idx": 27842,
+    "pico_final_idx": 27883,
+    "deform_high_start": 3.543630123138,
+    "deform_low": 3.207766056061,
+    "deform_high_end": 3.517472982407
+  },
+  {
+    "ciclo": 355,
+    "pico_inicio_idx": 27890,
+    "valle_idx": 27920,
+    "pico_final_idx": 27962,
+    "deform_high_start": 3.54049539566,
+    "deform_low": 3.20644235611,
+    "deform_high_end": 3.520210504532
+  },
+  {
+    "ciclo": 356,
+    "pico_inicio_idx": 27968,
+    "valle_idx": 27998,
+    "pico_final_idx": 28040,
+    "deform_high_start": 3.542668819427,
+    "deform_low": 3.206240415573,
+    "deform_high_end": 3.519444227219
+  },
+  {
+    "ciclo": 357,
+    "pico_inicio_idx": 28047,
+    "valle_idx": 28077,
+    "pico_final_idx": 28116,
+    "deform_high_start": 3.539492368698,
+    "deform_low": 3.205188512802,
+    "deform_high_end": 3.513397932053
+  },
+  {
+    "ciclo": 358,
+    "pico_inicio_idx": 28124,
+    "valle_idx": 28154,
+    "pico_final_idx": 28195,
+    "deform_high_start": 3.539415836334,
+    "deform_low": 3.205327987671,
+    "deform_high_end": 3.515731573105
+  },
+  {
+    "ciclo": 359,
+    "pico_inicio_idx": 28202,
+    "valle_idx": 28232,
+    "pico_final_idx": 28275,
+    "deform_high_start": 3.539680480957,
+    "deform_low": 3.20330786705,
+    "deform_high_end": 3.517960548401
+  },
+  {
+    "ciclo": 360,
+    "pico_inicio_idx": 28284,
+    "valle_idx": 28314,
+    "pico_final_idx": 28354,
+    "deform_high_start": 3.540467739105,
+    "deform_low": 3.207382917404,
+    "deform_high_end": 3.522593021393
+  },
+  {
+    "ciclo": 361,
+    "pico_inicio_idx": 28361,
+    "valle_idx": 28390,
+    "pico_final_idx": 28432,
+    "deform_high_start": 3.538949012756,
+    "deform_low": 3.213408470154,
+    "deform_high_end": 3.523031711578
+  },
+  {
+    "ciclo": 362,
+    "pico_inicio_idx": 28439,
+    "valle_idx": 28469,
+    "pico_final_idx": 28509,
+    "deform_high_start": 3.542515516281,
+    "deform_low": 3.206129074097,
+    "deform_high_end": 3.512875318527
+  },
+  {
+    "ciclo": 363,
+    "pico_inicio_idx": 28517,
+    "valle_idx": 28547,
+    "pico_final_idx": 28588,
+    "deform_high_start": 3.541839838028,
+    "deform_low": 3.206303119659,
+    "deform_high_end": 3.520524024963
+  },
+  {
+    "ciclo": 364,
+    "pico_inicio_idx": 28595,
+    "valle_idx": 28624,
+    "pico_final_idx": 28664,
+    "deform_high_start": 3.537242412567,
+    "deform_low": 3.20791220665,
+    "deform_high_end": 3.522613763809
+  },
+  {
+    "ciclo": 365,
+    "pico_inicio_idx": 28670,
+    "valle_idx": 28700,
+    "pico_final_idx": 28740,
+    "deform_high_start": 3.546103000641,
+    "deform_low": 3.206916093826,
+    "deform_high_end": 3.517619371414
+  },
+  {
+    "ciclo": 366,
+    "pico_inicio_idx": 28748,
+    "valle_idx": 28778,
+    "pico_final_idx": 28818,
+    "deform_high_start": 3.542710781097,
+    "deform_low": 3.207013607025,
+    "deform_high_end": 3.519897222519
+  },
+  {
+    "ciclo": 367,
+    "pico_inicio_idx": 28826,
+    "valle_idx": 28856,
+    "pico_final_idx": 28898,
+    "deform_high_start": 3.542048931122,
+    "deform_low": 3.205592632294,
+    "deform_high_end": 3.522683620453
+  },
+  {
+    "ciclo": 368,
+    "pico_inicio_idx": 28904,
+    "valle_idx": 28933,
+    "pico_final_idx": 28974,
+    "deform_high_start": 3.53345990181,
+    "deform_low": 3.207710266113,
+    "deform_high_end": 3.524041891098
+  },
+  {
+    "ciclo": 369,
+    "pico_inicio_idx": 28981,
+    "valle_idx": 29011,
+    "pico_final_idx": 29051,
+    "deform_high_start": 3.547928094864,
+    "deform_low": 3.20768237114,
+    "deform_high_end": 3.523470640182
+  },
+  {
+    "ciclo": 370,
+    "pico_inicio_idx": 29058,
+    "valle_idx": 29087,
+    "pico_final_idx": 29128,
+    "deform_high_start": 3.54182600975,
+    "deform_low": 3.21609044075,
+    "deform_high_end": 3.521269321442
+  },
+  {
+    "ciclo": 371,
+    "pico_inicio_idx": 29136,
+    "valle_idx": 29166,
+    "pico_final_idx": 29205,
+    "deform_high_start": 3.546876430511,
+    "deform_low": 3.210364341736,
+    "deform_high_end": 3.525483846664
+  },
+  {
+    "ciclo": 372,
+    "pico_inicio_idx": 29212,
+    "valle_idx": 29242,
+    "pico_final_idx": 29282,
+    "deform_high_start": 3.546660423279,
+    "deform_low": 3.20768237114,
+    "deform_high_end": 3.516741514206
+  },
+  {
+    "ciclo": 373,
+    "pico_inicio_idx": 29290,
+    "valle_idx": 29320,
+    "pico_final_idx": 29360,
+    "deform_high_start": 3.547308206558,
+    "deform_low": 3.208950281143,
+    "deform_high_end": 3.519374608994
+  },
+  {
+    "ciclo": 374,
+    "pico_inicio_idx": 29368,
+    "valle_idx": 29397,
+    "pico_final_idx": 29438,
+    "deform_high_start": 3.544291973114,
+    "deform_low": 3.218040704727,
+    "deform_high_end": 3.52246761322
+  },
+  {
+    "ciclo": 375,
+    "pico_inicio_idx": 29446,
+    "valle_idx": 29475,
+    "pico_final_idx": 29518,
+    "deform_high_start": 3.544591426849,
+    "deform_low": 3.216807842255,
+    "deform_high_end": 3.526654005051
+  },
+  {
+    "ciclo": 376,
+    "pico_inicio_idx": 29524,
+    "valle_idx": 29553,
+    "pico_final_idx": 29594,
+    "deform_high_start": 3.545650243759,
+    "deform_low": 3.217260599136,
+    "deform_high_end": 3.524821996689
+  },
+  {
+    "ciclo": 377,
+    "pico_inicio_idx": 29601,
+    "valle_idx": 29630,
+    "pico_final_idx": 29671,
+    "deform_high_start": 3.540063619614,
+    "deform_low": 3.213032245636,
+    "deform_high_end": 3.524215936661
+  },
+  {
+    "ciclo": 378,
+    "pico_inicio_idx": 29678,
+    "valle_idx": 29707,
+    "pico_final_idx": 29748,
+    "deform_high_start": 3.543964624405,
+    "deform_low": 3.217086553574,
+    "deform_high_end": 3.524271726608
+  },
+  {
+    "ciclo": 379,
+    "pico_inicio_idx": 29755,
+    "valle_idx": 29784,
+    "pico_final_idx": 29825,
+    "deform_high_start": 3.548144102097,
+    "deform_low": 3.218946456909,
+    "deform_high_end": 3.518817424774
+  },
+  {
+    "ciclo": 380,
+    "pico_inicio_idx": 29833,
+    "valle_idx": 29863,
+    "pico_final_idx": 29903,
+    "deform_high_start": 3.5529088974,
+    "deform_low": 3.213582515717,
+    "deform_high_end": 3.527176618576
+  },
+  {
+    "ciclo": 381,
+    "pico_inicio_idx": 29910,
+    "valle_idx": 29939,
+    "pico_final_idx": 29981,
+    "deform_high_start": 3.546576738358,
+    "deform_low": 3.219385147095,
+    "deform_high_end": 3.524599075317
+  },
+  {
+    "ciclo": 382,
+    "pico_inicio_idx": 29989,
+    "valle_idx": 30019,
+    "pico_final_idx": 30059,
+    "deform_high_start": 3.549864768982,
+    "deform_low": 3.212105751038,
+    "deform_high_end": 3.5289041996
+  },
+  {
+    "ciclo": 383,
+    "pico_inicio_idx": 30066,
+    "valle_idx": 30096,
+    "pico_final_idx": 30137,
+    "deform_high_start": 3.549133300781,
+    "deform_low": 3.210914611816,
+    "deform_high_end": 3.525678873062
+  },
+  {
+    "ciclo": 384,
+    "pico_inicio_idx": 30145,
+    "valle_idx": 30174,
+    "pico_final_idx": 30215,
+    "deform_high_start": 3.543581485748,
+    "deform_low": 3.220464944839,
+    "deform_high_end": 3.525017023087
+  },
+  {
+    "ciclo": 385,
+    "pico_inicio_idx": 30223,
+    "valle_idx": 30253,
+    "pico_final_idx": 30293,
+    "deform_high_start": 3.553500890732,
+    "deform_low": 3.215031385422,
+    "deform_high_end": 3.529635667801
+  },
+  {
+    "ciclo": 386,
+    "pico_inicio_idx": 30300,
+    "valle_idx": 30330,
+    "pico_final_idx": 30370,
+    "deform_high_start": 3.549084424973,
+    "deform_low": 3.21292090416,
+    "deform_high_end": 3.526152610779
+  },
+  {
+    "ciclo": 387,
+    "pico_inicio_idx": 30378,
+    "valle_idx": 30408,
+    "pico_final_idx": 30448,
+    "deform_high_start": 3.5513484478,
+    "deform_low": 3.21388220787,
+    "deform_high_end": 3.525901794434
+  },
+  {
+    "ciclo": 388,
+    "pico_inicio_idx": 30456,
+    "valle_idx": 30485,
+    "pico_final_idx": 30527,
+    "deform_high_start": 3.545371770859,
+    "deform_low": 3.220708847046,
+    "deform_high_end": 3.520433425903
+  },
+  {
+    "ciclo": 389,
+    "pico_inicio_idx": 30534,
+    "valle_idx": 30563,
+    "pico_final_idx": 30604,
+    "deform_high_start": 3.54684138298,
+    "deform_low": 3.22124505043,
+    "deform_high_end": 3.52564406395
+  },
+  {
+    "ciclo": 390,
+    "pico_inicio_idx": 30612,
+    "valle_idx": 30642,
+    "pico_final_idx": 30682,
+    "deform_high_start": 3.555249452591,
+    "deform_low": 3.213631391525,
+    "deform_high_end": 3.526654005051
+  },
+  {
+    "ciclo": 391,
+    "pico_inicio_idx": 30689,
+    "valle_idx": 30718,
+    "pico_final_idx": 30760,
+    "deform_high_start": 3.554183721542,
+    "deform_low": 3.223578691483,
+    "deform_high_end": 3.526006221771
+  },
+  {
+    "ciclo": 392,
+    "pico_inicio_idx": 30768,
+    "valle_idx": 30798,
+    "pico_final_idx": 30837,
+    "deform_high_start": 3.550373315811,
+    "deform_low": 3.213951826096,
+    "deform_high_end": 3.526897907257
+  },
+  {
+    "ciclo": 393,
+    "pico_inicio_idx": 30845,
+    "valle_idx": 30874,
+    "pico_final_idx": 30915,
+    "deform_high_start": 3.553264141083,
+    "deform_low": 3.223704099655,
+    "deform_high_end": 3.527977705002
+  },
+  {
+    "ciclo": 394,
+    "pico_inicio_idx": 30923,
+    "valle_idx": 30952,
+    "pico_final_idx": 30993,
+    "deform_high_start": 3.553626298904,
+    "deform_low": 3.224052429199,
+    "deform_high_end": 3.528736829758
+  },
+  {
+    "ciclo": 395,
+    "pico_inicio_idx": 31001,
+    "valle_idx": 31030,
+    "pico_final_idx": 31073,
+    "deform_high_start": 3.551661968231,
+    "deform_low": 3.224749088287,
+    "deform_high_end": 3.527859210968
+  },
+  {
+    "ciclo": 396,
+    "pico_inicio_idx": 31080,
+    "valle_idx": 31109,
+    "pico_final_idx": 31150,
+    "deform_high_start": 3.543651103973,
+    "deform_low": 3.221572637558,
+    "deform_high_end": 3.522565126419
+  },
+  {
+    "ciclo": 397,
+    "pico_inicio_idx": 31158,
+    "valle_idx": 31187,
+    "pico_final_idx": 31228,
+    "deform_high_start": 3.544194459915,
+    "deform_low": 3.221119642258,
+    "deform_high_end": 3.528305053711
+  },
+  {
+    "ciclo": 398,
+    "pico_inicio_idx": 31236,
+    "valle_idx": 31265,
+    "pico_final_idx": 31306,
+    "deform_high_start": 3.552442073822,
+    "deform_low": 3.224052429199,
+    "deform_high_end": 3.523310422897
+  },
+  {
+    "ciclo": 399,
+    "pico_inicio_idx": 31313,
+    "valle_idx": 31342,
+    "pico_final_idx": 31384,
+    "deform_high_start": 3.555994749069,
+    "deform_low": 3.225341081619,
+    "deform_high_end": 3.529558897018
+  },
+  {
+    "ciclo": 400,
+    "pico_inicio_idx": 31392,
+    "valle_idx": 31421,
+    "pico_final_idx": 31463,
+    "deform_high_start": 3.547224521637,
+    "deform_low": 3.223000526428,
+    "deform_high_end": 3.527580499649
+  },
+  {
+    "ciclo": 401,
+    "pico_inicio_idx": 31470,
+    "valle_idx": 31499,
+    "pico_final_idx": 31540,
+    "deform_high_start": 3.552302837372,
+    "deform_low": 3.225041627884,
+    "deform_high_end": 3.533132553101
+  },
+  {
+    "ciclo": 402,
+    "pico_inicio_idx": 31547,
+    "valle_idx": 31577,
+    "pico_final_idx": 31618,
+    "deform_high_start": 3.559268712997,
+    "deform_low": 3.220869064331,
+    "deform_high_end": 3.533480882645
+  },
+  {
+    "ciclo": 403,
+    "pico_inicio_idx": 31625,
+    "valle_idx": 31654,
+    "pico_final_idx": 31695,
+    "deform_high_start": 3.554810523987,
+    "deform_low": 3.224156856537,
+    "deform_high_end": 3.532331466675
+  },
+  {
+    "ciclo": 404,
+    "pico_inicio_idx": 31702,
+    "valle_idx": 31732,
+    "pico_final_idx": 31771,
+    "deform_high_start": 3.55860710144,
+    "deform_low": 3.221398353577,
+    "deform_high_end": 3.525866985321
+  },
+  {
+    "ciclo": 405,
+    "pico_inicio_idx": 31780,
+    "valle_idx": 31809,
+    "pico_final_idx": 31849,
+    "deform_high_start": 3.548165082932,
+    "deform_low": 3.22248506546,
+    "deform_high_end": 3.530255556107
+  },
+  {
+    "ciclo": 406,
+    "pico_inicio_idx": 31857,
+    "valle_idx": 31887,
+    "pico_final_idx": 31928,
+    "deform_high_start": 3.562124729156,
+    "deform_low": 3.222937822342,
+    "deform_high_end": 3.530067443848
+  },
+  {
+    "ciclo": 407,
+    "pico_inicio_idx": 31935,
+    "valle_idx": 31964,
+    "pico_final_idx": 32006,
+    "deform_high_start": 3.552651166916,
+    "deform_low": 3.225006818771,
+    "deform_high_end": 3.528618574142
+  },
+  {
+    "ciclo": 408,
+    "pico_inicio_idx": 32013,
+    "valle_idx": 32042,
+    "pico_final_idx": 32083,
+    "deform_high_start": 3.54950261116,
+    "deform_low": 3.22413611412,
+    "deform_high_end": 3.529440402985
+  },
+  {
+    "ciclo": 409,
+    "pico_inicio_idx": 32091,
+    "valle_idx": 32120,
+    "pico_final_idx": 32160,
+    "deform_high_start": 3.548596858978,
+    "deform_low": 3.222032308578,
+    "deform_high_end": 3.5300116539
+  },
+  {
+    "ciclo": 410,
+    "pico_inicio_idx": 32168,
+    "valle_idx": 32197,
+    "pico_final_idx": 32239,
+    "deform_high_start": 3.554796695709,
+    "deform_low": 3.225738286972,
+    "deform_high_end": 3.528207540512
+  },
+  {
+    "ciclo": 411,
+    "pico_inicio_idx": 32246,
+    "valle_idx": 32275,
+    "pico_final_idx": 32316,
+    "deform_high_start": 3.54647231102,
+    "deform_low": 3.222450256348,
+    "deform_high_end": 3.532331466675
+  },
+  {
+    "ciclo": 412,
+    "pico_inicio_idx": 32324,
+    "valle_idx": 32354,
+    "pico_final_idx": 32394,
+    "deform_high_start": 3.557896375656,
+    "deform_low": 3.22124505043,
+    "deform_high_end": 3.531634807587
+  },
+  {
+    "ciclo": 413,
+    "pico_inicio_idx": 32402,
+    "valle_idx": 32431,
+    "pico_final_idx": 32472,
+    "deform_high_start": 3.557318210602,
+    "deform_low": 3.226908445358,
+    "deform_high_end": 3.531286478043
+  },
+  {
+    "ciclo": 414,
+    "pico_inicio_idx": 32480,
+    "valle_idx": 32510,
+    "pico_final_idx": 32549,
+    "deform_high_start": 3.558258771896,
+    "deform_low": 3.222972631454,
+    "deform_high_end": 3.530903339386
+  },
+  {
+    "ciclo": 415,
+    "pico_inicio_idx": 32557,
+    "valle_idx": 32586,
+    "pico_final_idx": 32627,
+    "deform_high_start": 3.555319070816,
+    "deform_low": 3.226594924927,
+    "deform_high_end": 3.532247781754
+  },
+  {
+    "ciclo": 416,
+    "pico_inicio_idx": 32635,
+    "valle_idx": 32665,
+    "pico_final_idx": 32705,
+    "deform_high_start": 3.557861566544,
+    "deform_low": 3.223509073257,
+    "deform_high_end": 3.530624628067
+  },
+  {
+    "ciclo": 417,
+    "pico_inicio_idx": 32713,
+    "valle_idx": 32742,
+    "pico_final_idx": 32783,
+    "deform_high_start": 3.555200576782,
+    "deform_low": 3.226539373398,
+    "deform_high_end": 3.533041954041
+  },
+  {
+    "ciclo": 418,
+    "pico_inicio_idx": 32791,
+    "valle_idx": 32820,
+    "pico_final_idx": 32861,
+    "deform_high_start": 3.554413557053,
+    "deform_low": 3.226560115814,
+    "deform_high_end": 3.531530380249
+  },
+  {
+    "ciclo": 419,
+    "pico_inicio_idx": 32869,
+    "valle_idx": 32899,
+    "pico_final_idx": 32939,
+    "deform_high_start": 3.562145709991,
+    "deform_low": 3.223550796509,
+    "deform_high_end": 3.532185077667
+  },
+  {
+    "ciclo": 420,
+    "pico_inicio_idx": 32947,
+    "valle_idx": 32977,
+    "pico_final_idx": 33016,
+    "deform_high_start": 3.558523416519,
+    "deform_low": 3.222707986832,
+    "deform_high_end": 3.532261610031
+  },
+  {
+    "ciclo": 421,
+    "pico_inicio_idx": 33024,
+    "valle_idx": 33053,
+    "pico_final_idx": 33094,
+    "deform_high_start": 3.556433677673,
+    "deform_low": 3.228023052216,
+    "deform_high_end": 3.530987024307
+  },
+  {
+    "ciclo": 422,
+    "pico_inicio_idx": 33102,
+    "valle_idx": 33132,
+    "pico_final_idx": 33172,
+    "deform_high_start": 3.558711528778,
+    "deform_low": 3.223439455032,
+    "deform_high_end": 3.532115459442
+  },
+  {
+    "ciclo": 423,
+    "pico_inicio_idx": 33179,
+    "valle_idx": 33209,
+    "pico_final_idx": 33249,
+    "deform_high_start": 3.563288211823,
+    "deform_low": 3.225264549255,
+    "deform_high_end": 3.53116106987
+  },
+  {
+    "ciclo": 424,
+    "pico_inicio_idx": 33257,
+    "valle_idx": 33286,
+    "pico_final_idx": 33328,
+    "deform_high_start": 3.552407264709,
+    "deform_low": 3.226957321167,
+    "deform_high_end": 3.535584449768
+  },
+  {
+    "ciclo": 425,
+    "pico_inicio_idx": 33336,
+    "valle_idx": 33365,
+    "pico_final_idx": 33405,
+    "deform_high_start": 3.556921243668,
+    "deform_low": 3.228148460388,
+    "deform_high_end": 3.530081272125
+  },
+  {
+    "ciclo": 426,
+    "pico_inicio_idx": 33413,
+    "valle_idx": 33442,
+    "pico_final_idx": 33483,
+    "deform_high_start": 3.556990861893,
+    "deform_low": 3.228837966919,
+    "deform_high_end": 3.532784223557
+  },
+  {
+    "ciclo": 427,
+    "pico_inicio_idx": 33491,
+    "valle_idx": 33520,
+    "pico_final_idx": 33561,
+    "deform_high_start": 3.557004928589,
+    "deform_low": 3.231798648834,
+    "deform_high_end": 3.540397882462
+  },
+  {
+    "ciclo": 428,
+    "pico_inicio_idx": 33568,
+    "valle_idx": 33598,
+    "pico_final_idx": 33638,
+    "deform_high_start": 3.563274145126,
+    "deform_low": 3.22584271431,
+    "deform_high_end": 3.532052755356
+  },
+  {
+    "ciclo": 429,
+    "pico_inicio_idx": 33646,
+    "valle_idx": 33675,
+    "pico_final_idx": 33716,
+    "deform_high_start": 3.559129476547,
+    "deform_low": 3.234759092331,
+    "deform_high_end": 3.532387018204
+  },
+  {
+    "ciclo": 430,
+    "pico_inicio_idx": 33724,
+    "valle_idx": 33754,
+    "pico_final_idx": 33794,
+    "deform_high_start": 3.558488607407,
+    "deform_low": 3.224937200546,
+    "deform_high_end": 3.532609939575
+  },
+  {
+    "ciclo": 431,
+    "pico_inicio_idx": 33802,
+    "valle_idx": 33832,
+    "pico_final_idx": 33872,
+    "deform_high_start": 3.560069799423,
+    "deform_low": 3.224505186081,
+    "deform_high_end": 3.538983821869
+  },
+  {
+    "ciclo": 432,
+    "pico_inicio_idx": 33879,
+    "valle_idx": 33908,
+    "pico_final_idx": 33949,
+    "deform_high_start": 3.560592412949,
+    "deform_low": 3.235685586929,
+    "deform_high_end": 3.533362388611
+  },
+  {
+    "ciclo": 433,
+    "pico_inicio_idx": 33957,
+    "valle_idx": 33987,
+    "pico_final_idx": 34027,
+    "deform_high_start": 3.560592412949,
+    "deform_low": 3.224853515625,
+    "deform_high_end": 3.533257961273
+  },
+  {
+    "ciclo": 434,
+    "pico_inicio_idx": 34035,
+    "valle_idx": 34064,
+    "pico_final_idx": 34105,
+    "deform_high_start": 3.561079978943,
+    "deform_low": 3.235859632492,
+    "deform_high_end": 3.533982276917
+  },
+  {
+    "ciclo": 435,
+    "pico_inicio_idx": 34113,
+    "valle_idx": 34142,
+    "pico_final_idx": 34183,
+    "deform_high_start": 3.560780286789,
+    "deform_low": 3.236117601395,
+    "deform_high_end": 3.534351587296
+  },
+  {
+    "ciclo": 436,
+    "pico_inicio_idx": 34191,
+    "valle_idx": 34220,
+    "pico_final_idx": 34261,
+    "deform_high_start": 3.559059858322,
+    "deform_low": 3.235873699188,
+    "deform_high_end": 3.538705348969
+  },
+  {
+    "ciclo": 437,
+    "pico_inicio_idx": 34270,
+    "valle_idx": 34299,
+    "pico_final_idx": 34339,
+    "deform_high_start": 3.560668945313,
+    "deform_low": 3.237545490265,
+    "deform_high_end": 3.53428196907
+  },
+  {
+    "ciclo": 438,
+    "pico_inicio_idx": 34346,
+    "valle_idx": 34376,
+    "pico_final_idx": 34416,
+    "deform_high_start": 3.562807559967,
+    "deform_low": 3.227375268936,
+    "deform_high_end": 3.538043498993
+  },
+  {
+    "ciclo": 439,
+    "pico_inicio_idx": 34424,
+    "valle_idx": 34453,
+    "pico_final_idx": 34494,
+    "deform_high_start": 3.560125589371,
+    "deform_low": 3.236967325211,
+    "deform_high_end": 3.534873962402
+  },
+  {
+    "ciclo": 440,
+    "pico_inicio_idx": 34502,
+    "valle_idx": 34532,
+    "pico_final_idx": 34571,
+    "deform_high_start": 3.566778182983,
+    "deform_low": 3.228050947189,
+    "deform_high_end": 3.540572166443
+  },
+  {
+    "ciclo": 441,
+    "pico_inicio_idx": 34578,
+    "valle_idx": 34608,
+    "pico_final_idx": 34648,
+    "deform_high_start": 3.563378810883,
+    "deform_low": 3.227744340897,
+    "deform_high_end": 3.536699056625
+  },
+  {
+    "ciclo": 442,
+    "pico_inicio_idx": 34656,
+    "valle_idx": 34685,
+    "pico_final_idx": 34726,
+    "deform_high_start": 3.561275005341,
+    "deform_low": 3.238019227982,
+    "deform_high_end": 3.541930437088
+  },
+  {
+    "ciclo": 443,
+    "pico_inicio_idx": 34733,
+    "valle_idx": 34763,
+    "pico_final_idx": 34803,
+    "deform_high_start": 3.568846940994,
+    "deform_low": 3.231101989746,
+    "deform_high_end": 3.543978452682
+  },
+  {
+    "ciclo": 444,
+    "pico_inicio_idx": 34810,
+    "valle_idx": 34839,
+    "pico_final_idx": 34879,
+    "deform_high_start": 3.557847738266,
+    "deform_low": 3.231018304825,
+    "deform_high_end": 3.538161993027
+  },
+  {
+    "ciclo": 445,
+    "pico_inicio_idx": 34887,
+    "valle_idx": 34917,
+    "pico_final_idx": 34957,
+    "deform_high_start": 3.565050601959,
+    "deform_low": 3.228998184204,
+    "deform_high_end": 3.538238525391
+  },
+  {
+    "ciclo": 446,
+    "pico_inicio_idx": 34965,
+    "valle_idx": 34994,
+    "pico_final_idx": 35035,
+    "deform_high_start": 3.561156511307,
+    "deform_low": 3.235929489136,
+    "deform_high_end": 3.538113117218
+  },
+  {
+    "ciclo": 447,
+    "pico_inicio_idx": 35043,
+    "valle_idx": 35072,
+    "pico_final_idx": 35113,
+    "deform_high_start": 3.564674377441,
+    "deform_low": 3.238485813141,
+    "deform_high_end": 3.542640924454
+  },
+  {
+    "ciclo": 448,
+    "pico_inicio_idx": 35120,
+    "valle_idx": 35150,
+    "pico_final_idx": 35189,
+    "deform_high_start": 3.569355487823,
+    "deform_low": 3.231924057007,
+    "deform_high_end": 3.541630983353
+  },
+  {
+    "ciclo": 449,
+    "pico_inicio_idx": 35197,
+    "valle_idx": 35227,
+    "pico_final_idx": 35267,
+    "deform_high_start": 3.568937540054,
+    "deform_low": 3.232585668564,
+    "deform_high_end": 3.538322210312
+  },
+  {
+    "ciclo": 450,
+    "pico_inicio_idx": 35275,
+    "valle_idx": 35305,
+    "pico_final_idx": 35344,
+    "deform_high_start": 3.569244146347,
+    "deform_low": 3.231610536575,
+    "deform_high_end": 3.544960737228
+  },
+  {
+    "ciclo": 451,
+    "pico_inicio_idx": 35351,
+    "valle_idx": 35380,
+    "pico_final_idx": 35420,
+    "deform_high_start": 3.558906555176,
+    "deform_low": 3.233317136765,
+    "deform_high_end": 3.538461446762
+  },
+  {
+    "ciclo": 452,
+    "pico_inicio_idx": 35428,
+    "valle_idx": 35457,
+    "pico_final_idx": 35498,
+    "deform_high_start": 3.562807559967,
+    "deform_low": 3.235594987869,
+    "deform_high_end": 3.543651103973
+  },
+  {
+    "ciclo": 453,
+    "pico_inicio_idx": 35505,
+    "valle_idx": 35535,
+    "pico_final_idx": 35575,
+    "deform_high_start": 3.568617105484,
+    "deform_low": 3.232342004776,
+    "deform_high_end": 3.546730041504
+  },
+  {
+    "ciclo": 454,
+    "pico_inicio_idx": 35583,
+    "valle_idx": 35613,
+    "pico_final_idx": 35653,
+    "deform_high_start": 3.571152687073,
+    "deform_low": 3.238297939301,
+    "deform_high_end": 3.54444527626
+  },
+  {
+    "ciclo": 455,
+    "pico_inicio_idx": 35659,
+    "valle_idx": 35688,
+    "pico_final_idx": 35729,
+    "deform_high_start": 3.563761949539,
+    "deform_low": 3.237594366074,
+    "deform_high_end": 3.547064304352
+  },
+  {
+    "ciclo": 456,
+    "pico_inicio_idx": 35737,
+    "valle_idx": 35766,
+    "pico_final_idx": 35806,
+    "deform_high_start": 3.561086893082,
+    "deform_low": 3.237545490265,
+    "deform_high_end": 3.543212175369
+  },
+  {
+    "ciclo": 457,
+    "pico_inicio_idx": 35814,
+    "valle_idx": 35844,
+    "pico_final_idx": 35884,
+    "deform_high_start": 3.571863174438,
+    "deform_low": 3.237371444702,
+    "deform_high_end": 3.541958332062
+  },
+  {
+    "ciclo": 458,
+    "pico_inicio_idx": 35892,
+    "valle_idx": 35922,
+    "pico_final_idx": 35961,
+    "deform_high_start": 3.568401098251,
+    "deform_low": 3.235476732254,
+    "deform_high_end": 3.541874647141
+  },
+  {
+    "ciclo": 459,
+    "pico_inicio_idx": 35969,
+    "valle_idx": 35998,
+    "pico_final_idx": 36039,
+    "deform_high_start": 3.561449050903,
+    "deform_low": 3.237594366074,
+    "deform_high_end": 3.544974565506
+  },
+  {
+    "ciclo": 460,
+    "pico_inicio_idx": 36047,
+    "valle_idx": 36077,
+    "pico_final_idx": 36117,
+    "deform_high_start": 3.572107076645,
+    "deform_low": 3.238889932632,
+    "deform_high_end": 3.548631668091
+  },
+  {
+    "ciclo": 461,
+    "pico_inicio_idx": 36124,
+    "valle_idx": 36153,
+    "pico_final_idx": 36192,
+    "deform_high_start": 3.564583778381,
+    "deform_low": 3.236674785614,
+    "deform_high_end": 3.543964624405
+  },
+  {
+    "ciclo": 462,
+    "pico_inicio_idx": 36200,
+    "valle_idx": 36230,
+    "pico_final_idx": 36269,
+    "deform_high_start": 3.570623397827,
+    "deform_low": 3.237197160721,
+    "deform_high_end": 3.543163537979
+  },
+  {
+    "ciclo": 463,
+    "pico_inicio_idx": 36277,
+    "valle_idx": 36306,
+    "pico_final_idx": 36346,
+    "deform_high_start": 3.567941427231,
+    "deform_low": 3.237928628922,
+    "deform_high_end": 3.547099351883
+  },
+  {
+    "ciclo": 464,
+    "pico_inicio_idx": 36353,
+    "valle_idx": 36383,
+    "pico_final_idx": 36422,
+    "deform_high_start": 3.575325250626,
+    "deform_low": 3.238611221313,
+    "deform_high_end": 3.546005487442
+  },
+  {
+    "ciclo": 465,
+    "pico_inicio_idx": 36430,
+    "valle_idx": 36460,
+    "pico_final_idx": 36500,
+    "deform_high_start": 3.575603961945,
+    "deform_low": 3.240575790405,
+    "deform_high_end": 3.547391891479
+  },
+  {
+    "ciclo": 466,
+    "pico_inicio_idx": 36507,
+    "valle_idx": 36537,
+    "pico_final_idx": 36576,
+    "deform_high_start": 3.572455406189,
+    "deform_low": 3.237733602524,
+    "deform_high_end": 3.542801141739
+  },
+  {
+    "ciclo": 467,
+    "pico_inicio_idx": 36584,
+    "valle_idx": 36613,
+    "pico_final_idx": 36653,
+    "deform_high_start": 3.567788124084,
+    "deform_low": 3.239342689514,
+    "deform_high_end": 3.546751022339
+  },
+  {
+    "ciclo": 468,
+    "pico_inicio_idx": 36660,
+    "valle_idx": 36689,
+    "pico_final_idx": 36729,
+    "deform_high_start": 3.567718505859,
+    "deform_low": 3.239252090454,
+    "deform_high_end": 3.547496318817
+  },
+  {
+    "ciclo": 469,
+    "pico_inicio_idx": 36737,
+    "valle_idx": 36766,
+    "pico_final_idx": 36806,
+    "deform_high_start": 3.565977096558,
+    "deform_low": 3.241132974625,
+    "deform_high_end": 3.548457622528
+  },
+  {
+    "ciclo": 470,
+    "pico_inicio_idx": 36813,
+    "valle_idx": 36843,
+    "pico_final_idx": 36882,
+    "deform_high_start": 3.577380418777,
+    "deform_low": 3.240770816803,
+    "deform_high_end": 3.55056142807
+  },
+  {
+    "ciclo": 471,
+    "pico_inicio_idx": 36889,
+    "valle_idx": 36919,
+    "pico_final_idx": 36958,
+    "deform_high_start": 3.575429916382,
+    "deform_low": 3.238262891769,
+    "deform_high_end": 3.542536497116
+  },
+  {
+    "ciclo": 472,
+    "pico_inicio_idx": 36965,
+    "valle_idx": 36994,
+    "pico_final_idx": 37036,
+    "deform_high_start": 3.572239398956,
+    "deform_low": 3.247332811356,
+    "deform_high_end": 3.552128553391
+  },
+  {
+    "ciclo": 473,
+    "pico_inicio_idx": 37043,
+    "valle_idx": 37073,
+    "pico_final_idx": 37112,
+    "deform_high_start": 3.576335430145,
+    "deform_low": 3.238276958466,
+    "deform_high_end": 3.549725294113
+  },
+  {
+    "ciclo": 474,
+    "pico_inicio_idx": 37119,
+    "valle_idx": 37148,
+    "pico_final_idx": 37188,
+    "deform_high_start": 3.564688205719,
+    "deform_low": 3.23935675621,
+    "deform_high_end": 3.551069736481
+  },
+  {
+    "ciclo": 475,
+    "pico_inicio_idx": 37195,
+    "valle_idx": 37224,
+    "pico_final_idx": 37264,
+    "deform_high_start": 3.568087816238,
+    "deform_low": 3.240157842636,
+    "deform_high_end": 3.543058872223
+  },
+  {
+    "ciclo": 476,
+    "pico_inicio_idx": 37272,
+    "valle_idx": 37301,
+    "pico_final_idx": 37340,
+    "deform_high_start": 3.564841508865,
+    "deform_low": 3.239022254944,
+    "deform_high_end": 3.55143904686
+  },
+  {
+    "ciclo": 477,
+    "pico_inicio_idx": 37348,
+    "valle_idx": 37377,
+    "pico_final_idx": 37416,
+    "deform_high_start": 3.567634820938,
+    "deform_low": 3.239900112152,
+    "deform_high_end": 3.552344560623
+  },
+  {
+    "ciclo": 478,
+    "pico_inicio_idx": 37423,
+    "valle_idx": 37452,
+    "pico_final_idx": 37492,
+    "deform_high_start": 3.570504903793,
+    "deform_low": 3.242909193039,
+    "deform_high_end": 3.545845270157
+  },
+  {
+    "ciclo": 479,
+    "pico_inicio_idx": 37500,
+    "valle_idx": 37530,
+    "pico_final_idx": 37570,
+    "deform_high_start": 3.576286554337,
+    "deform_low": 3.238938808441,
+    "deform_high_end": 3.551905870438
+  },
+  {
+    "ciclo": 480,
+    "pico_inicio_idx": 37577,
+    "valle_idx": 37607,
+    "pico_final_idx": 37647,
+    "deform_high_start": 3.578390359879,
+    "deform_low": 3.239565610886,
+    "deform_high_end": 3.545357704163
+  },
+  {
+    "ciclo": 481,
+    "pico_inicio_idx": 37655,
+    "valle_idx": 37683,
+    "pico_final_idx": 37723,
+    "deform_high_start": 3.566165208817,
+    "deform_low": 3.248363733292,
+    "deform_high_end": 3.552846193314
+  },
+  {
+    "ciclo": 482,
+    "pico_inicio_idx": 37730,
+    "valle_idx": 37759,
+    "pico_final_idx": 37800,
+    "deform_high_start": 3.573514223099,
+    "deform_low": 3.249304056168,
+    "deform_high_end": 3.554030418396
+  },
+  {
+    "ciclo": 483,
+    "pico_inicio_idx": 37807,
+    "valle_idx": 37836,
+    "pico_final_idx": 37876,
+    "deform_high_start": 3.572615623474,
+    "deform_low": 3.24364066124,
+    "deform_high_end": 3.552219152451
+  },
+  {
+    "ciclo": 484,
+    "pico_inicio_idx": 37883,
+    "valle_idx": 37912,
+    "pico_final_idx": 37952,
+    "deform_high_start": 3.570971727371,
+    "deform_low": 3.241864442825,
+    "deform_high_end": 3.55327796936
+  },
+  {
+    "ciclo": 485,
+    "pico_inicio_idx": 37959,
+    "valle_idx": 37988,
+    "pico_final_idx": 38029,
+    "deform_high_start": 3.573026657104,
+    "deform_low": 3.249526977539,
+    "deform_high_end": 3.552985429764
+  },
+  {
+    "ciclo": 486,
+    "pico_inicio_idx": 38036,
+    "valle_idx": 38065,
+    "pico_final_idx": 38106,
+    "deform_high_start": 3.573639631271,
+    "deform_low": 3.248572587967,
+    "deform_high_end": 3.55451798439
+  },
+  {
+    "ciclo": 487,
+    "pico_inicio_idx": 38113,
+    "valle_idx": 38142,
+    "pico_final_idx": 38183,
+    "deform_high_start": 3.573221683502,
+    "deform_low": 3.248934984207,
+    "deform_high_end": 3.553382635117
+  },
+  {
+    "ciclo": 488,
+    "pico_inicio_idx": 38191,
+    "valle_idx": 38220,
+    "pico_final_idx": 38259,
+    "deform_high_start": 3.567829847336,
+    "deform_low": 3.24313211441,
+    "deform_high_end": 3.555298089981
+  },
+  {
+    "ciclo": 489,
+    "pico_inicio_idx": 38267,
+    "valle_idx": 38297,
+    "pico_final_idx": 38335,
+    "deform_high_start": 3.577749490738,
+    "deform_low": 3.243452548981,
+    "deform_high_end": 3.555193662643
+  },
+  {
+    "ciclo": 490,
+    "pico_inicio_idx": 38342,
+    "valle_idx": 38372,
+    "pico_final_idx": 38411,
+    "deform_high_start": 3.581838607788,
+    "deform_low": 3.244358301163,
+    "deform_high_end": 3.553264141083
+  },
+  {
+    "ciclo": 491,
+    "pico_inicio_idx": 38418,
+    "valle_idx": 38447,
+    "pico_final_idx": 38486,
+    "deform_high_start": 3.578459978104,
+    "deform_low": 3.251254558563,
+    "deform_high_end": 3.546576738358
+  },
+  {
+    "ciclo": 492,
+    "pico_inicio_idx": 38494,
+    "valle_idx": 38523,
+    "pico_final_idx": 38564,
+    "deform_high_start": 3.574371099472,
+    "deform_low": 3.249150753021,
+    "deform_high_end": 3.554587602615
+  },
+  {
+    "ciclo": 493,
+    "pico_inicio_idx": 38571,
+    "valle_idx": 38601,
+    "pico_final_idx": 38640,
+    "deform_high_start": 3.580898046494,
+    "deform_low": 3.243884563446,
+    "deform_high_end": 3.558126449585
+  },
+  {
+    "ciclo": 494,
+    "pico_inicio_idx": 38647,
+    "valle_idx": 38676,
+    "pico_final_idx": 38716,
+    "deform_high_start": 3.570226192474,
+    "deform_low": 3.24432349205,
+    "deform_high_end": 3.554831504822
+  },
+  {
+    "ciclo": 495,
+    "pico_inicio_idx": 38724,
+    "valle_idx": 38753,
+    "pico_final_idx": 38792,
+    "deform_high_start": 3.570435285568,
+    "deform_low": 3.245229005814,
+    "deform_high_end": 3.553159713745
+  },
+  {
+    "ciclo": 496,
+    "pico_inicio_idx": 38800,
+    "valle_idx": 38829,
+    "pico_final_idx": 38869,
+    "deform_high_start": 3.575276613235,
+    "deform_low": 3.251268386841,
+    "deform_high_end": 3.554322957993
+  },
+  {
+    "ciclo": 497,
+    "pico_inicio_idx": 38876,
+    "valle_idx": 38905,
+    "pico_final_idx": 38947,
+    "deform_high_start": 3.574391841888,
+    "deform_low": 3.250962018967,
+    "deform_high_end": 3.556677341461
+  },
+  {
+    "ciclo": 498,
+    "pico_inicio_idx": 38953,
+    "valle_idx": 38982,
+    "pico_final_idx": 39023,
+    "deform_high_start": 3.574558973312,
+    "deform_low": 3.250209569931,
+    "deform_high_end": 3.555263280869
+  },
+  {
+    "ciclo": 499,
+    "pico_inicio_idx": 39030,
+    "valle_idx": 39059,
+    "pico_final_idx": 39099,
+    "deform_high_start": 3.570240259171,
+    "deform_low": 3.244811058044,
+    "deform_high_end": 3.55451798439
+  },
+  {
+    "ciclo": 500,
+    "pico_inicio_idx": 39106,
+    "valle_idx": 39135,
+    "pico_final_idx": 39176,
+    "deform_high_start": 3.577505588531,
+    "deform_low": 3.252194881439,
+    "deform_high_end": 3.555946111679
+  },
+  {
+    "ciclo": 501,
+    "pico_inicio_idx": 39183,
+    "valle_idx": 39212,
+    "pico_final_idx": 39252,
+    "deform_high_start": 3.580598592758,
+    "deform_low": 3.254737615585,
+    "deform_high_end": 3.553076028824
+  },
+  {
+    "ciclo": 502,
+    "pico_inicio_idx": 39260,
+    "valle_idx": 39289,
+    "pico_final_idx": 39330,
+    "deform_high_start": 3.574579954147,
+    "deform_low": 3.251881361008,
+    "deform_high_end": 3.556343078613
+  },
+  {
+    "ciclo": 503,
+    "pico_inicio_idx": 39338,
+    "valle_idx": 39366,
+    "pico_final_idx": 39406,
+    "deform_high_start": 3.570226192474,
+    "deform_low": 3.25448679924,
+    "deform_high_end": 3.555145025253
+  },
+  {
+    "ciclo": 504,
+    "pico_inicio_idx": 39413,
+    "valle_idx": 39442,
+    "pico_final_idx": 39482,
+    "deform_high_start": 3.577136516571,
+    "deform_low": 3.254124403,
+    "deform_high_end": 3.548589944839
+  },
+  {
+    "ciclo": 505,
+    "pico_inicio_idx": 39490,
+    "valle_idx": 39519,
+    "pico_final_idx": 39557,
+    "deform_high_start": 3.578251123428,
+    "deform_low": 3.251930236816,
+    "deform_high_end": 3.555938959122
+  }
+]
