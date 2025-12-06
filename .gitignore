@@ -10,7 +10,7 @@ curves/datasets
 curves/results
 curves/utils
 backend/results
-backend/datasets
+backend/uploads
 
 # archivos temporales
 *.log
