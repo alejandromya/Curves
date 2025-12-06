@@ -1,25 +1,31 @@
 def detectar_fuerza_maxima(df, detalles_ciclos, limite_desplazamiento=1.0):
     """
-    Detecta la fuerza máxima real después del ciclado.
-    Reglas:
-      - La deformación después del valle final del último ciclo siempre es creciente.
-      - Mientras F sube, el máximo se actualiza.
-      - Si F cae → el máximo sigue siendo el anterior.
-      - Si luego aparece una F mayor, se compara su deformación con la del máximo previo:
-            * si Δdeform > 1 mm → el máximo cierto es el anterior (se acabó).
-            * si Δdeform <= 1 mm → nuevo máximo válido.
+    Detecta la fuerza máxima real después del ciclado y calcula F a 2mm y 3mm
+    desde el valle final del último ciclo.
+    Devuelve: fuerza_max, deformacion_max, f2mm_x, f2mm_y, f3mm_x, f3mm_y
     """
-
-    # Si no hay ciclos, max global
+    # Si no hay ciclos, usamos máximo global
     if not detalles_ciclos:
         idx = df["Fuerza"].idxmax()
-        return df.loc[idx, "Fuerza"], df.loc[idx, "Deformacion"]
+        f_max = df.loc[idx, "Fuerza"]
+        d_max = df.loc[idx, "Deformacion"]
+        deform_low = df["Deformacion"].min()
+        f2mm_idx = (df["Deformacion"] - deform_low - 2.0).abs().idxmin()
+        f3mm_idx = (df["Deformacion"] - deform_low - 3.0).abs().idxmin()
+        f2mm_x = df.loc[f2mm_idx, "Deformacion"]
+        f2mm_y = df.loc[f2mm_idx, "Fuerza"]
+        f3mm_x = df.loc[f3mm_idx, "Deformacion"]
+        f3mm_y = df.loc[f3mm_idx, "Fuerza"]
+        return f_max, d_max, f2mm_x, f2mm_y, f3mm_x, f3mm_y
 
-    # Ordenar y tomar último ciclo
+    # Ordenar ciclos y tomar último
     ciclos_ordenados = [detalles_ciclos[k] for k in sorted(detalles_ciclos)]
     ultimo = ciclos_ordenados[-1]
 
-    # Punto desde el que empieza realmente el pullout (el valle final)
+    deform_low_last = ultimo["deform_low"]
+
+    # ===========================================
+    # Punto desde el que empieza el pullout
     deform_inicio_busqueda = ultimo['deform_low']
 
     # Filtrar datos posteriores al valle
@@ -28,30 +34,37 @@ def detectar_fuerza_maxima(df, detalles_ciclos, limite_desplazamiento=1.0):
 
     if df2.empty:
         idx = df["Fuerza"].idxmax()
-        return df.loc[idx, "Fuerza"], df.loc[idx, "Deformacion"]
+        f_max = df.loc[idx, "Fuerza"]
+        d_max = df.loc[idx, "Deformacion"]
+    else:
+        f_max = df2.loc[0, "Fuerza"]
+        d_max = df2.loc[0, "Deformacion"]
+        for i in range(1, len(df2)):
+            f = df2.loc[i, "Fuerza"]
+            d = df2.loc[i, "Deformacion"]
+            if f > f_max:
+                if abs(d - d_max) > limite_desplazamiento:
+                    break  # máximo real alcanzado
+                f_max = f
+                d_max = d
 
-    # Primer punto como candidato inicial
-    fuerza_max = df2.loc[0, "Fuerza"]
-    deform_max = df2.loc[0, "Deformacion"]
+    # F2mm y F3mm desde deform_low del último ciclo
+    f2mm_idx = (df["Deformacion"] - deform_inicio_busqueda - 2.0).abs().idxmin()
+    f3mm_idx = (df["Deformacion"] - deform_inicio_busqueda - 3.0).abs().idxmin()
+    f2mm_x = df.loc[f2mm_idx, "Deformacion"]
+    f2mm_y = df.loc[f2mm_idx, "Fuerza"]
+    f3mm_x = df.loc[f3mm_idx, "Deformacion"]
+    f3mm_y = df.loc[f3mm_idx, "Fuerza"]
 
-    # Recorremos toda la región post-ciclado
-    for i in range(1, len(df2)):
-        f = df2.loc[i, "Fuerza"]
-        d = df2.loc[i, "Deformacion"]
+        # ===========================================
+    # CÁLCULO CORRECTO DEL YIELD STIFFNESS
+    # ===========================================
+    yield_stiffness = None
+    try:
+        delta_disp = d_max - deform_low_last
+        if delta_disp != 0:
+            yield_stiffness = f_max / delta_disp
+    except:
+        yield_stiffness = None
 
-        if f > fuerza_max:
-            # Si es mayor, verificar la distancia en deformación
-            if abs(d - deform_max) > limite_desplazamiento:
-                # Demasiado lejos → el máximo verdadero es el anterior
-                return fuerza_max, deform_max
-
-            # Si está dentro de 1 mm, actualizar
-            fuerza_max = f
-            deform_max = d
-
-        elif f < fuerza_max:
-            # Si cae y nunca vuelve a subir más allá del umbral, se quedará ahí
-            # pero seguimos por si aparece un nuevo máximo dentro del rango
-            pass
-
-    return fuerza_max, deform_max
+    return f_max, d_max, f2mm_x, f2mm_y, f3mm_x, f3mm_y, yield_stiffness
