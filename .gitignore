@@ -8,6 +8,9 @@ curves/__pycache__/
 # archivos a ignorar
 curves/datasets
 curves/results
+curves/utils
+backend/results
+backend/datasets
 
 # archivos temporales
 *.log

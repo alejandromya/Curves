@@ -8,6 +8,24 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, Alignment
 import os
 
+# Carpeta de fuentes dentro del proyecto
+FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")
+
+# Ruta relativa a DejaVuSans.ttf incluida en el proyecto
+deja_vu_path = os.path.join(FONTS_DIR, "DejaVuSans.ttf")
+
+# Registrar fuente con fallback
+try:
+    if os.path.exists(deja_vu_path):
+        pdfmetrics.registerFont(TTFont("DejaVu", deja_vu_path))
+        DEFAULT_FONT = "DejaVu"
+    else:
+        # Fuente estándar de PDF (funciona en cualquier OS)
+        DEFAULT_FONT = "Helvetica"
+except Exception as e:
+    print("No se pudo cargar DejaVuSans.ttf, usando Helvetica por defecto:", e)
+    DEFAULT_FONT = "Helvetica"
+    
 # ---------------------------
 # Helpers para extraer campos
 # ---------------------------
@@ -268,13 +286,26 @@ def generar_tablas_combinadas(bloques):
 
 
 def generar_pdf_unico(bloques, output_pdf="INFORME_FINAL.pdf"):
-    pdfmetrics.registerFont(TTFont('DejaVu', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
+    # Carpeta de fuentes dentro del proyecto
+    FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")
+    deja_vu_path = os.path.join(FONTS_DIR, "DejaVuSans.ttf")
+
+    # Registrar fuente con fallback
+    try:
+        if os.path.exists(deja_vu_path):
+            pdfmetrics.registerFont(TTFont('DejaVu', deja_vu_path))
+            default_font = 'DejaVu'
+        else:
+            default_font = 'Helvetica'
+    except Exception as e:
+        print("No se pudo cargar DejaVuSans.ttf, usando Helvetica:", e)
+        default_font = 'Helvetica'
 
     doc = SimpleDocTemplate(output_pdf, pagesize=letter)
     story = []
 
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle(name='NormalUTF8', fontName='DejaVu', fontSize=10))
+    styles.add(ParagraphStyle(name='NormalUTF8', fontName=default_font, fontSize=10))
 
     story.append(Paragraph("<b>Resultados</b>", styles["Heading1"]))
     story.append(Spacer(1, 12))
@@ -308,7 +339,7 @@ def generar_pdf_unico(bloques, output_pdf="INFORME_FINAL.pdf"):
     story.append(tabla_3rd)
     story.append(PageBreak())
 
-    # Ahora agregar gráficas por sample
+    # Gráficas
     for bloque in bloques:
         story.append(Paragraph(f"<b>{bloque['titulo']}</b>", styles["Heading2"]))
         story.append(Spacer(1, 12))
