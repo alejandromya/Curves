@@ -113,13 +113,10 @@ def generar_fila_sample(bloque):
         except Exception:
             df_max_rel = None
 
-    yield_stiffness = None
-    if fuerza_max is not None and df_max_rel not in (None, 0):
-        try:
-            yield_stiffness = float(fuerza_max) / float(df_max_rel)
-        except Exception:
-            yield_stiffness = None
-
+    # --------------------------------------------
+    # Leer yield_stiffness ya calculado en backend
+    # --------------------------------------------
+    yield_stiffness = bloque.get("yield_stiffness", None)
     # Cyclic stiffness: usar ciclo 250 si existe
     cyclic_stiffness = None
     cd250 = detalles.get(250)
@@ -177,6 +174,12 @@ def generar_fila_sample(bloque):
     # Force at 2mm y 3mm
     fila.append(_format_num(f2mm_y) if f2mm_y is not None else "—")
     fila.append(_format_num(f3mm_y) if f3mm_y is not None else "—")
+  # Guardar yield_stiffness en el bloque (por si el bloque se reusa en otras partes)
+    try:
+        # guardamos None si no existe para que otros consumidores lo lean
+        bloque["yield_stiffness"] = yield_stiffness
+    except Exception:
+        pass
 
     return fila
 
@@ -247,6 +250,7 @@ def generar_tablas_combinadas(bloques):
         detalles_ciclos = bloque["ciclos"]
         fuerza_max = bloque["fuerza_max"]
         deformacion_max = bloque["deformacion_max"]
+        yield_stiffness = bloque.get("yield_stiffness", "—")
 
         primer_ciclo = detalles_ciclos[min(detalles_ciclos.keys())]
         ultimo_ciclo = detalles_ciclos[max(detalles_ciclos.keys())]
@@ -270,7 +274,7 @@ def generar_tablas_combinadas(bloques):
         f3mm_idx = (df["Deformacion"] - ultimo_ciclo["deform_low"] - 3.0).abs().idxmin()
         f2mm_y = float(df.loc[f2mm_idx, "Fuerza"])
         f3mm_y = float(df.loc[f3mm_idx, "Fuerza"])
-        yield_stiffness = ultimo_ciclo.get("stf", "—")
+       
         max_disp_atm = deformacion_max
 
         fila_3rd = [

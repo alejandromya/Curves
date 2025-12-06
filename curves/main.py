@@ -47,6 +47,18 @@ for archivo in os.listdir(input_folder):
     f2mm_x, f2mm_y = float(df.loc[f2mm_idx, "Deformacion"]), float(df.loc[f2mm_idx, "Fuerza"])
     f3mm_x, f3mm_y = float(df.loc[f3mm_idx, "Deformacion"]), float(df.loc[f3mm_idx, "Fuerza"])
 
+
+    # ===========================================
+    # CÁLCULO CORRECTO DEL YIELD STIFFNESS
+    # ===========================================
+    yield_stiffness = None
+    try:
+        delta_disp = deformacion_max - deform_low_last
+        if delta_disp != 0:
+            yield_stiffness = fuerza_max / delta_disp
+    except:
+        yield_stiffness = None
+    # ===========================================
     grafico_memoria = io.BytesIO()
     plot_ciclos(df, detalles, fuerza_max, deformacion_max,
                 f2mm_x, f2mm_y, f3mm_x, f3mm_y,
@@ -64,7 +76,8 @@ for archivo in os.listdir(input_folder):
         "f2mm_x": f2mm_x,
         "f2mm_y": f2mm_y,
         "f3mm_x": f3mm_x,
-        "f3mm_y": f3mm_y
+        "f3mm_y": f3mm_y,
+        "yield_stiffness": yield_stiffness
     }
     bloques_pdf.append(bloque)
 
