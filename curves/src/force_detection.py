@@ -57,7 +57,7 @@ def detectar_fuerza_maxima(df, detalles_ciclos, limite_desplazamiento=1.0):
     f3mm_x = df.loc[f3mm_idx, "Deformacion"]
     f3mm_y = df.loc[f3mm_idx, "Fuerza"]
 
-        # ===========================================
+    # ===========================================
     # CÁLCULO CORRECTO DEL YIELD STIFFNESS
     # ===========================================
     yield_stiffness = None
