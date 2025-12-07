@@ -4,10 +4,8 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
-from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Font, Alignment
 import os
-from src.tables_generator import generar_fila_sample, generar_tablas_combinadas
+from src.tables_generator import generar_tablas_combinadas
 
 # Carpeta de fuentes dentro del proyecto
 FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")

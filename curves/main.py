@@ -26,9 +26,12 @@ bloques_por_columna = {}
 
 # Carpeta de la columna actual
 input_folder = os.path.join(input_folder_base, f"col{columna_actual}")
+csv_files = sorted(
+    [f for f in os.listdir(input_folder) if f.lower().endswith(".csv")]
+)
 bloques_pdf = []
 
-for archivo in os.listdir(input_folder):
+for archivo in csv_files:
     if not archivo.lower().endswith(".csv"):
         continue
 
