@@ -5,7 +5,8 @@ from src.data_processing import cargar_y_preparar_csv
 from src.cycle_detection import detectar_ciclos
 from src.plotter import plot_ciclos
 from src.force_detection import detectar_fuerza_maxima
-from src.pdf_generator import agregar_hoja_excel, generar_pdf_unico
+from src.pdf_generator import generar_pdf_unico
+from src.excel_generator import agregar_hoja_excel
 from src.debug import debug_ciclos
     
 # Parámetros desde servidor
