@@ -36,9 +36,11 @@ CORS(app)
 
 @app.after_request
 def cors_headers(response):
-    response.headers["Access-Control-Allow-Origin"] = "https://curves-frontend.vercel.app"
-    response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
-    response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+    origen = request.headers.get("Origin")
+    if origen in ["http://localhost:5173", "https://curves-frontend.vercel.app"]:
+        response.headers["Access-Control-Allow-Origin"] = origen
+        response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type"
     return response
 
 
