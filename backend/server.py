@@ -1,10 +1,11 @@
 from flask import Flask, request, jsonify, send_file
 from flask_cors import CORS
 import os
-import subprocess
+# import subprocess
 import shutil
 import logging
 import sys
+from main import procesar_columna
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "curves")))
 
@@ -42,43 +43,43 @@ def procesar_csv():
         if not files:
             return jsonify({"error": "No se recibieron archivos"}), 400
 
+        # Carpeta para esta columna
         col_upload_folder = os.path.join(UPLOAD_FOLDER, f"col{columna}")
         os.makedirs(col_upload_folder, exist_ok=True)
 
+        # Guardar los CSV
         for idx, f in enumerate(files):
             safe_name = f"{idx+1}_{f.filename}"
             path = os.path.join(col_upload_folder, safe_name)
             f.save(path)
             logging.info(f"Archivo guardado: {path}")
 
+        # Parámetros
         pico = float(request.form.get("pico", 75))
         valle = float(request.form.get("valle", 10))
         toler = float(request.form.get("toler", 5))
 
-        main_py = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "curves", "main.py"))
+        logging.info(f"Procesando columna {columna}...")
 
-        logging.info(f"Ejecutando main.py para columna {columna}...")
-        result = subprocess.run(
-            ["python", main_py, str(pico), str(valle), str(toler), str(columna)],
-            capture_output=True,
-            text=True
-        )
+        # 💥 AQUÍ LLAMAMOS A TU LÓGICA DIRECTAMENTE (sin subprocess)
+        resultado = procesar_columna(pico, valle, toler, columna)
 
-        if result.returncode != 0:
-            logging.error(f"main.py falló columna {columna}: {result.stderr}")
-            return jsonify({"error": f"Error columna {columna}", "detalle": result.stderr}), 500
+        pdf_path = resultado["pdf"]
 
-        pdf_path = os.path.join(RESULTS_FOLDER, f"INFORME_COL{columna}.pdf")
         if not os.path.exists(pdf_path):
-            return jsonify({"error": f"No se generó PDF columna {columna}"}), 500
+            return jsonify({"error": f"No se generó PDF para columna {columna}"}), 500
 
-        return send_file(pdf_path, mimetype="application/pdf", as_attachment=True,
-                         download_name=f"INFORME_COL{columna}.pdf")
+        # Enviar PDF generado
+        return send_file(
+            pdf_path,
+            mimetype="application/pdf",
+            as_attachment=True,
+            download_name=f"INFORME_COL{columna}.pdf"
+        )
 
     except Exception as e:
         logging.exception(e)
         return jsonify({"error": "Error inesperado", "detalle": str(e)}), 500
-    
 
 @app.route("/descargar_excel", methods=["GET"])
 def descargar_excel():
