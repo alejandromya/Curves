@@ -114,6 +114,29 @@ def descargar_excel():
         return jsonify({"error": "Error al descargar Excel", "detalle": str(e)}), 500
 
 
+
+# ===========================================
+# Descargar Word global
+# ===========================================
+@app.route("/descargar_word", methods=["GET"])
+def descargar_word():
+    try:
+        word_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.docx")
+        if not os.path.exists(word_path):
+            return jsonify({"error": "Word no encontrado"}), 404
+
+        return send_file(
+            word_path,
+            mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            as_attachment=True,
+            download_name="INFORME_TOTAL.docx"
+        )
+    except Exception as e:
+        logging.exception(e)
+        return jsonify({"error": "Error al descargar Word", "detalle": str(e)}), 500
+
+
+
 # ===========================================
 # Procesar CSV bruto (para preview)
 # ===========================================

@@ -6,3 +6,4 @@ matplotlib
 reportlab
 openpyxl
 gunicorn
+python-docx

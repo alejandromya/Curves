@@ -16,6 +16,7 @@ from src.force_detection import detectar_fuerza_maxima
 from src.pdf_generator import generar_pdf_unico
 from src.excel_generator import agregar_hoja_excel
 from src.debug import debug_ciclos
+from src.word_generator import generar_word_unico
 
 # ============================================
 # Carpetas temporales compatibles con Render
@@ -126,13 +127,16 @@ def procesar_columna(pico, valle, toler, columna_actual):
     # ==============================
     pdf_path = os.path.join(RESULTS_FOLDER, f"INFORME_COL{columna_actual}.pdf")
     excel_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.xlsx")
+    word_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.docx")
 
     generar_pdf_unico(bloques_pdf, pdf_path)
     agregar_hoja_excel(bloques_pdf, columna_actual, excel_path)
+    generar_word_unico(bloques_pdf,word_path )
 
     return {
         "pdf": pdf_path,
         "excel": excel_path,
+        'word': word_path,
         "bloques": bloques_pdf
     }
 
