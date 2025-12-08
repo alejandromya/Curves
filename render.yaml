@@ -6,7 +6,7 @@ services:
     repo: https://github.com/alejandromya/Curves
     branch: main
     buildCommand: pip install -r backend/requirements.txt
-    startCommand: gunicorn --chdir backend --bind 0.0.0.0:$PORT server:app
+    startCommand: gunicorn --chdir backend --bind 0.0.0.0:$PORT --timeout 120 server:app
     envVars:
       - key: FLASK_ENV
         value: production
