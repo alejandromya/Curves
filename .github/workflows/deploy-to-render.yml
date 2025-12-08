@@ -1,0 +1,16 @@
+name: Deploy to Render
+
+# Se dispara solo cuando haya push en main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  render-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Render Deploy Hook
+        run: |
+          curl -X POST https://api.render.com/deploy/srv-d4rc9nvpm1nc73bktq30?key=UfoDPiS5cHM
