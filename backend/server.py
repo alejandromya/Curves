@@ -1,37 +1,50 @@
-from flask import Flask, request, jsonify, send_file
-from flask_cors import CORS
 import os
-# import subprocess
+import sys
 import shutil
 import logging
-import sys
+from flask import Flask, request, jsonify, send_file
+from flask_cors import CORS
+
+# ================================
+# Ajustar PATH para importar /curves
+# ================================
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CURVES_PATH = os.path.join(BASE_DIR, "curves")
+sys.path.append(CURVES_PATH)
+
 from main import procesar_columna
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "curves")))
-
 from src.data_processing import cargar_y_preparar_csv
 
+# ================================
+# Logging
+# ================================
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
-app = Flask(__name__)
-CORS(app)
-
+# ================================
+# Carpetas temporales
+# ================================
 UPLOAD_FOLDER = "/tmp/uploads"
 RESULTS_FOLDER = "/tmp/results"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
-# ============================
-# after_request para CORS
-# ============================
+# ================================
+# Flask App
+# ================================
+app = Flask(__name__)
+CORS(app)
+
 @app.after_request
-def add_cors_headers(response):
+def cors_headers(response):
     response.headers["Access-Control-Allow-Origin"] = "https://curves-frontend.vercel.app"
     response.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
     response.headers["Access-Control-Allow-Headers"] = "Content-Type"
     return response
 
 
+# ===========================================
+# Procesar CSVs de una columna → Genera PDF
+# ===========================================
 @app.route("/procesar_csv", methods=["POST"])
 def procesar_csv():
     try:
@@ -43,33 +56,29 @@ def procesar_csv():
         if not files:
             return jsonify({"error": "No se recibieron archivos"}), 400
 
-        # Carpeta para esta columna
-        col_upload_folder = os.path.join(UPLOAD_FOLDER, f"col{columna}")
-        os.makedirs(col_upload_folder, exist_ok=True)
+        # Carpeta propia para la columna
+        col_folder = os.path.join(UPLOAD_FOLDER, f"col{columna}")
+        os.makedirs(col_folder, exist_ok=True)
 
-        # Guardar los CSV
-        for idx, f in enumerate(files):
-            safe_name = f"{idx+1}_{f.filename}"
-            path = os.path.join(col_upload_folder, safe_name)
-            f.save(path)
-            logging.info(f"Archivo guardado: {path}")
+        # Guardar archivos
+        for idx, file in enumerate(files):
+            filename = f"{idx+1}_{file.filename}"
+            path = os.path.join(col_folder, filename)
+            file.save(path)
+            logging.info(f"Guardado: {path}")
 
-        # Parámetros
+        # Parámetros opcionales
         pico = float(request.form.get("pico", 75))
         valle = float(request.form.get("valle", 10))
         toler = float(request.form.get("toler", 5))
 
-        logging.info(f"Procesando columna {columna}...")
-
-        # 💥 AQUÍ LLAMAMOS A TU LÓGICA DIRECTAMENTE (sin subprocess)
+        # Procesamiento real
         resultado = procesar_columna(pico, valle, toler, columna)
 
         pdf_path = resultado["pdf"]
-
         if not os.path.exists(pdf_path):
-            return jsonify({"error": f"No se generó PDF para columna {columna}"}), 500
+            return jsonify({"error": "No se generó el PDF"}), 500
 
-        # Enviar PDF generado
         return send_file(
             pdf_path,
             mimetype="application/pdf",
@@ -79,62 +88,75 @@ def procesar_csv():
 
     except Exception as e:
         logging.exception(e)
-        return jsonify({"error": "Error inesperado", "detalle": str(e)}), 500
+        return jsonify({"error": "Error procesando CSV", "detalle": str(e)}), 500
 
+
+# ===========================================
+# Descargar Excel global
+# ===========================================
 @app.route("/descargar_excel", methods=["GET"])
 def descargar_excel():
     try:
         excel_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.xlsx")
         if not os.path.exists(excel_path):
-            return jsonify({"error": "El Excel final no existe"}), 404
+            return jsonify({"error": "Excel no encontrado"}), 404
 
-        return send_file(excel_path, mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                         as_attachment=True, download_name="INFORME_TOTAL.xlsx")
+        return send_file(
+            excel_path,
+            mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            as_attachment=True,
+            download_name="INFORME_TOTAL.xlsx"
+        )
     except Exception as e:
         logging.exception(e)
         return jsonify({"error": "Error al descargar Excel", "detalle": str(e)}), 500
 
+
+# ===========================================
+# Procesar CSV bruto (para preview)
+# ===========================================
+@app.route("/procesar_csv_bruto", methods=["POST"])
+def procesar_csv_bruto():
+    try:
+        if "csv_file" not in request.files:
+            return jsonify({"error": "No se recibió archivo"}), 400
+
+        file = request.files["csv_file"]
+        tmp_path = os.path.join(UPLOAD_FOLDER, file.filename)
+        file.save(tmp_path)
+
+        df = cargar_y_preparar_csv(tmp_path)
+        puntos = df.iloc[:, :2].to_dict(orient="records")
+
+        return jsonify({"puntos": puntos})
+
+    except Exception as e:
+        logging.exception(e)
+        return jsonify({"error": "Error procesando CSV bruto", "detalle": str(e)}), 500
+
+
+# ===========================================
+# Limpiar carpetas
+# ===========================================
 @app.route("/limpiar_carpetas", methods=["POST"])
 def limpiar_carpetas():
     try:
-        for folder in [UPLOAD_FOLDER, RESULTS_FOLDER]:
+        for folder in (UPLOAD_FOLDER, RESULTS_FOLDER):
             for f in os.listdir(folder):
                 path = os.path.join(folder, f)
                 if os.path.isfile(path):
                     os.remove(path)
-                elif os.path.isdir(path):
+                else:
                     shutil.rmtree(path)
-        return {"status": "ok", "message": "Carpetas limpiadas"}, 200
+        return {"status": "ok"}
     except Exception as e:
-        return {"status": "error", "message": str(e)}, 500
-
-@app.route("/procesar_csv_bruto", methods=["POST"])
-def procesar_csv_bruto():
-    try:
-        # Revisar que el archivo se haya enviado
-        if "csv_file" not in request.files:
-            return jsonify({"error": "No se recibió archivo"}), 400
-
-        archivo = request.files["csv_file"]
-
-        # Guardar archivo en uploads (igual que main.py)
-        tmp_path = os.path.join(UPLOAD_FOLDER, archivo.filename)
-        archivo.save(tmp_path)
-
-        # Pasar el filepath a cargar_y_preparar_csv
-        df = cargar_y_preparar_csv(tmp_path)
-
-        # Convertir a JSON solo las dos primeras columnas (X e Y)
-        puntos = df.iloc[:, :2].to_dict(orient="records")
-        return jsonify({"puntos": puntos})
-
-    except Exception as e:
-        return jsonify({"error": "Error procesando CSV", "detalle": str(e)}), 500
+        return {"status": "error", "detalle": str(e)}
 
 
 @app.route("/")
 def index():
-    return "Hello from Curves backend!"
+    return "Backend de Curves funcionando."
+
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000)
