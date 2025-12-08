@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_file
-from flask_cors import CORS
+from flask_cors import cross_origin 
 import os
 import subprocess
 import shutil
@@ -13,7 +13,7 @@ from src.data_processing import cargar_y_preparar_csv
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 UPLOAD_FOLDER = "/tmp/uploads"
 RESULTS_FOLDER = "/tmp/results"
@@ -21,6 +21,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
 @app.route("/procesar_csv", methods=["POST"])
+@cross_origin(origin="https://curves-frontend.vercel.app") 
 def procesar_csv():
     try:
         columna = request.form.get("columna")
@@ -70,6 +71,7 @@ def procesar_csv():
     
 
 @app.route("/descargar_excel", methods=["GET"])
+@cross_origin(origin="https://curves-frontend.vercel.app") 
 def descargar_excel():
     try:
         excel_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.xlsx")
@@ -83,6 +85,7 @@ def descargar_excel():
         return jsonify({"error": "Error al descargar Excel", "detalle": str(e)}), 500
 
 @app.route("/limpiar_carpetas", methods=["POST"])
+@cross_origin(origin="https://curves-frontend.vercel.app") 
 def limpiar_carpetas():
     try:
         for folder in [UPLOAD_FOLDER, RESULTS_FOLDER]:
@@ -97,6 +100,7 @@ def limpiar_carpetas():
         return {"status": "error", "message": str(e)}, 500
 
 @app.route("/procesar_csv_bruto", methods=["POST"])
+@cross_origin(origin="https://curves-frontend.vercel.app") 
 def procesar_csv_bruto():
     try:
         # Revisar que el archivo se haya enviado
