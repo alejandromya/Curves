@@ -15,17 +15,16 @@ valle = float(sys.argv[2])
 toler = float(sys.argv[3])
 columna_actual = sys.argv[4]  # columna dinámica
 
-input_folder_base = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "backend", "uploads")
-)
-output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "backend", "results"))
-os.makedirs(output_folder, exist_ok=True)
+UPLOAD_FOLDER = "/tmp/uploads"
+RESULTS_FOLDER = "/tmp/results"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
 # Diccionario global para todos los bloques de todas las columnas
 bloques_por_columna = {}
 
 # Carpeta de la columna actual
-input_folder = os.path.join(input_folder_base, f"col{columna_actual}")
+input_folder = os.path.join(UPLOAD_FOLDER, f"col{columna_actual}")
 csv_files = sorted(
     [f for f in os.listdir(input_folder) if f.lower().endswith(".csv")]
 )
@@ -77,7 +76,7 @@ for archivo in csv_files:
     bloques_pdf.append(bloque)
 
 # Guardar PDF de esta columna
-pdf_path = os.path.join(output_folder, f"INFORME_COL{columna_actual}.pdf")
+pdf_path = os.path.join(RESULTS_FOLDER, f"INFORME_COL{columna_actual}.pdf")
 generar_pdf_unico(bloques_pdf, pdf_path)
 print(f"PDF generado: {pdf_path}")
 
@@ -85,7 +84,7 @@ print(f"PDF generado: {pdf_path}")
 bloques_por_columna[columna_actual] = bloques_pdf
 
 # Guardar Excel único con una hoja por columna (acumulando todas)
-excel_path = os.path.join(output_folder, "INFORME_TOTAL.xlsx")
+excel_path = os.path.join(RESULTS_FOLDER, "INFORME_TOTAL.xlsx")
 agregar_hoja_excel(bloques_pdf, columna_actual, excel_path)
 print(f"Excel generado: {excel_path}")
 

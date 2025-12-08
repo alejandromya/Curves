@@ -15,8 +15,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(me
 app = Flask(__name__)
 CORS(app)
 
-UPLOAD_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), "uploads"))
-RESULTS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), "results"))
+UPLOAD_FOLDER = "/tmp/uploads"
+RESULTS_FOLDER = "/tmp/results"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
 
@@ -122,7 +122,7 @@ def procesar_csv_bruto():
 
 @app.route("/")
 def index():
-    return "Servidor Flask funcionando correctamente"
+    return "Hello from Curves backend!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
