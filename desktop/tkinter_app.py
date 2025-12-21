@@ -58,8 +58,6 @@ class App:
         self.columns_frame = tk.Frame(root)
         self.columns_frame.pack()
 
-        tk.Button(root, text="Agregar Columna", command=self.add_column).pack(pady=5)
-
         # Parámetros pico/valle/tolerancia
         self.params_frame = tk.Frame(root)
         self.params_frame.pack(pady=5)
