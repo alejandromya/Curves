@@ -11,7 +11,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95906066895,
     "deform_high_start": 1.15515267849,
     "deform_low": 0.6690883040428,
-    "deform_high_end": 1.174580812454
+    "deform_high_end": 1.174580812454,
+    "cyclic_stiffness": 122.88532073262607
   },
   {
     "ciclo": 2,
@@ -23,7 +24,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.81929779053,
     "deform_high_start": 1.182919025421,
     "deform_low": 0.7485839128494,
-    "deform_high_end": 1.191229462624
+    "deform_high_end": 1.191229462624,
+    "cyclic_stiffness": 137.28423830774724
   },
   {
     "ciclo": 3,
@@ -35,7 +37,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91042327881,
     "deform_high_start": 1.197672963142,
     "deform_low": 0.7667441964149,
-    "deform_high_end": 1.205718636513
+    "deform_high_end": 1.205718636513,
+    "cyclic_stiffness": 139.66364892087796
   },
   {
     "ciclo": 4,
@@ -47,7 +50,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.90768432617,
     "deform_high_start": 1.212092518806,
     "deform_low": 0.7871057391167,
-    "deform_high_end": 1.217059254646
+    "deform_high_end": 1.217059254646,
+    "cyclic_stiffness": 142.76535508880374
   },
   {
     "ciclo": 5,
@@ -59,7 +63,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.48518371582,
     "deform_high_start": 1.222994208336,
     "deform_low": 0.808665394783,
-    "deform_high_end": 1.238409996033
+    "deform_high_end": 1.238409996033,
+    "cyclic_stiffness": 143.52783263266187
   },
   {
     "ciclo": 6,
@@ -71,7 +76,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.38037109375,
     "deform_high_start": 1.242937803268,
     "deform_low": 0.8328024744987,
-    "deform_high_end": 1.24545955658
+    "deform_high_end": 1.24545955658,
+    "cyclic_stiffness": 148.29453447842116
   },
   {
     "ciclo": 7,
@@ -83,7 +89,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.3240737915,
     "deform_high_start": 1.250077962875,
     "deform_low": 0.8392251133919,
-    "deform_high_end": 1.252042412758
+    "deform_high_end": 1.252042412758,
+    "cyclic_stiffness": 148.9626849842713
   },
   {
     "ciclo": 8,
@@ -95,7 +102,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.27056884766,
     "deform_high_start": 1.256521463394,
     "deform_low": 0.8485664725304,
-    "deform_high_end": 1.258228182793
+    "deform_high_end": 1.258228182793,
+    "cyclic_stiffness": 150.10314095047573
   },
   {
     "ciclo": 9,
@@ -107,7 +115,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.38884735107,
     "deform_high_start": 1.263083457947,
     "deform_low": 0.85781031847,
-    "deform_high_end": 1.265256762505
+    "deform_high_end": 1.265256762505,
+    "cyclic_stiffness": 151.29147430349104
   },
   {
     "ciclo": 10,
@@ -119,7 +128,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.42057800293,
     "deform_high_start": 1.269840359688,
     "deform_low": 0.8625959157944,
-    "deform_high_end": 1.271094322205
+    "deform_high_end": 1.271094322205,
+    "cyclic_stiffness": 151.46515821324505
   },
   {
     "ciclo": 11,
@@ -131,7 +141,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.44263458252,
     "deform_high_start": 1.275552511215,
     "deform_low": 0.8713382482529,
-    "deform_high_end": 1.276722788811
+    "deform_high_end": 1.276722788811,
+    "cyclic_stiffness": 152.59098303472294
   },
   {
     "ciclo": 12,
@@ -143,7 +154,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64058685303,
     "deform_high_start": 1.280902385712,
     "deform_low": 0.8779767751694,
-    "deform_high_end": 1.285632252693
+    "deform_high_end": 1.285632252693,
+    "cyclic_stiffness": 152.44485800066872
   },
   {
     "ciclo": 13,
@@ -155,7 +167,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.38873291016,
     "deform_high_start": 1.289177894592,
     "deform_low": 0.8897632360458,
-    "deform_high_end": 1.286161661148
+    "deform_high_end": 1.286161661148,
+    "cyclic_stiffness": 155.44823923514124
   },
   {
     "ciclo": 14,
@@ -167,7 +180,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.38488769531,
     "deform_high_start": 1.290355205536,
     "deform_low": 0.8912469744682,
-    "deform_high_end": 1.290167093277
+    "deform_high_end": 1.290167093277,
+    "cyclic_stiffness": 155.20109897709736
   },
   {
     "ciclo": 15,
@@ -179,7 +193,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.4587097168,
     "deform_high_start": 1.294590473175,
     "deform_low": 0.896959066391,
-    "deform_high_end": 1.294311881065
+    "deform_high_end": 1.294311881065,
+    "cyclic_stiffness": 155.94258434083895
   },
   {
     "ciclo": 16,
@@ -191,7 +206,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.5161895752,
     "deform_high_start": 1.298588991165,
     "deform_low": 0.9022740721703,
-    "deform_high_end": 1.298331260681
+    "deform_high_end": 1.298331260681,
+    "cyclic_stiffness": 156.65769043990917
   },
   {
     "ciclo": 17,
@@ -203,7 +219,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.53714752197,
     "deform_high_start": 1.302441120148,
     "deform_low": 0.9074079990387,
-    "deform_high_end": 1.302601337433
+    "deform_high_end": 1.302601337433,
+    "cyclic_stiffness": 157.06479821853506
   },
   {
     "ciclo": 18,
@@ -215,7 +232,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.4942779541,
     "deform_high_start": 1.30643260479,
     "deform_low": 0.9124583601952,
-    "deform_high_end": 1.305610656738
+    "deform_high_end": 1.305610656738,
+    "cyclic_stiffness": 157.8162768624333
   },
   {
     "ciclo": 19,
@@ -227,7 +245,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70436859131,
     "deform_high_start": 1.309567332268,
     "deform_low": 0.9168817400932,
-    "deform_high_end": 1.312388539314
+    "deform_high_end": 1.312388539314,
+    "cyclic_stiffness": 157.3913971556731
   },
   {
     "ciclo": 20,
@@ -239,7 +258,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.71007537842,
     "deform_high_start": 1.315746188164,
     "deform_low": 0.9215767979622,
-    "deform_high_end": 1.315502285957
+    "deform_high_end": 1.315502285957,
+    "cyclic_stiffness": 158.06427292120773
   },
   {
     "ciclo": 21,
@@ -251,7 +271,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6990814209,
     "deform_high_start": 1.318832039833,
     "deform_low": 0.9261603951454,
-    "deform_high_end": 1.318588256836
+    "deform_high_end": 1.318588256836,
+    "cyclic_stiffness": 158.52839593626692
   },
   {
     "ciclo": 22,
@@ -263,7 +284,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.99438476563,
     "deform_high_start": 1.322001576424,
     "deform_low": 0.9232347011566,
-    "deform_high_end": 1.311740756035
+    "deform_high_end": 1.311740756035,
+    "cyclic_stiffness": 159.38028582162158
   },
   {
     "ciclo": 23,
@@ -275,7 +297,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.44078826904,
     "deform_high_start": 1.316839814186,
     "deform_low": 0.9278322458267,
-    "deform_high_end": 1.318239927292
+    "deform_high_end": 1.318239927292,
+    "cyclic_stiffness": 159.36914121831924
   },
   {
     "ciclo": 24,
@@ -287,7 +310,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.78990936279,
     "deform_high_start": 1.322280168533,
     "deform_low": 0.9390683174133,
-    "deform_high_end": 1.32597219944
+    "deform_high_end": 1.32597219944,
+    "cyclic_stiffness": 160.43678782097703
   },
   {
     "ciclo": 25,
@@ -299,7 +323,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.82468414307,
     "deform_high_start": 1.329336762428,
     "deform_low": 0.9392912387848,
-    "deform_high_end": 1.328981518745
+    "deform_high_end": 1.328981518745,
+    "cyclic_stiffness": 160.07506977010306
   },
   {
     "ciclo": 26,
@@ -311,7 +336,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.02333068848,
     "deform_high_start": 1.332137107849,
     "deform_low": 0.9365954399109,
-    "deform_high_end": 1.321632385254
+    "deform_high_end": 1.321632385254,
+    "cyclic_stiffness": 160.96461217040627
   },
   {
     "ciclo": 27,
@@ -323,7 +349,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.53984832764,
     "deform_high_start": 1.326961398125,
     "deform_low": 0.94083070755,
-    "deform_high_end": 1.328110694885
+    "deform_high_end": 1.328110694885,
+    "cyclic_stiffness": 161.0170416839517
   },
   {
     "ciclo": 28,
@@ -335,7 +362,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.14604187012,
     "deform_high_start": 1.332046508789,
     "deform_low": 0.9429832100868,
-    "deform_high_end": 1.325407981873
+    "deform_high_end": 1.325407981873,
+    "cyclic_stiffness": 162.03917722844056
   },
   {
     "ciclo": 29,
@@ -347,7 +375,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.59220123291,
     "deform_high_start": 1.33047914505,
     "deform_low": 0.9429484009743,
-    "deform_high_end": 1.331886291504
+    "deform_high_end": 1.331886291504,
+    "cyclic_stiffness": 160.92866912528396
   },
   {
     "ciclo": 30,
@@ -359,7 +388,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.78492736816,
     "deform_high_start": 1.335515618324,
     "deform_low": 0.9522479772568,
-    "deform_high_end": 1.338002443314
+    "deform_high_end": 1.338002443314,
+    "cyclic_stiffness": 161.6595817662499
   },
   {
     "ciclo": 31,
@@ -371,7 +401,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.1263961792,
     "deform_high_start": 1.34119284153,
     "deform_low": 0.9501094222069,
-    "deform_high_end": 1.331454396248
+    "deform_high_end": 1.331454396248,
+    "cyclic_stiffness": 162.7595274516731
   },
   {
     "ciclo": 32,
@@ -383,7 +414,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.53020477295,
     "deform_high_start": 1.33622610569,
     "deform_low": 0.9540591239929,
-    "deform_high_end": 1.337222218513
+    "deform_high_end": 1.337222218513,
+    "cyclic_stiffness": 162.7128699011472
   },
   {
     "ciclo": 33,
@@ -395,7 +427,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.95891571045,
     "deform_high_start": 1.34105348587,
     "deform_low": 0.9509105086327,
-    "deform_high_end": 1.345149517059
+    "deform_high_end": 1.345149517059,
+    "cyclic_stiffness": 160.00173686065398
   },
   {
     "ciclo": 34,
@@ -407,7 +440,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.81652832031,
     "deform_high_start": 1.347928881645,
     "deform_low": 0.9684995412827,
-    "deform_high_end": 1.346765637398
+    "deform_high_end": 1.346765637398,
+    "cyclic_stiffness": 164.0406640012911
   },
   {
     "ciclo": 35,
@@ -419,7 +453,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.7943649292,
     "deform_high_start": 1.349865436554,
     "deform_low": 0.9674337506294,
-    "deform_high_end": 1.348520994186
+    "deform_high_end": 1.348520994186,
+    "cyclic_stiffness": 163.54422864315427
   },
   {
     "ciclo": 36,
@@ -431,7 +466,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.08577728271,
     "deform_high_start": 1.351606965065,
     "deform_low": 0.9632611274719,
-    "deform_high_end": 1.341311216354
+    "deform_high_end": 1.341311216354,
+    "cyclic_stiffness": 163.9904796562142
   },
   {
     "ciclo": 37,
@@ -443,7 +479,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.06638336182,
     "deform_high_start": 1.346208333969,
     "deform_low": 0.9645847082138,
-    "deform_high_end": 1.341903328896
+    "deform_high_end": 1.341903328896,
+    "cyclic_stiffness": 164.34696816402143
   },
   {
     "ciclo": 38,
@@ -455,7 +492,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.52821350098,
     "deform_high_start": 1.346814393997,
     "deform_low": 0.961268901825,
-    "deform_high_end": 1.347392559052
+    "deform_high_end": 1.347392559052,
+    "cyclic_stiffness": 162.48530675737862
   },
   {
     "ciclo": 39,
@@ -467,7 +505,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.83408355713,
     "deform_high_start": 1.351168036461,
     "deform_low": 0.9649399518967,
-    "deform_high_end": 1.35282599926
+    "deform_high_end": 1.35282599926,
+    "cyclic_stiffness": 162.280895340361
   },
   {
     "ciclo": 40,
@@ -479,7 +518,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.11835479736,
     "deform_high_start": 1.35590493679,
     "deform_low": 0.9668973684311,
-    "deform_high_end": 1.359931230545
+    "deform_high_end": 1.359931230545,
+    "cyclic_stiffness": 160.82653873650676
   },
   {
     "ciclo": 41,
@@ -491,7 +531,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.85208129883,
     "deform_high_start": 1.36229968071,
     "deform_low": 0.9896064400673,
-    "deform_high_end": 1.359966158867
+    "deform_high_end": 1.359966158867,
+    "cyclic_stiffness": 166.74077994977142
   },
   {
     "ciclo": 42,
@@ -503,7 +544,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.85823822021,
     "deform_high_start": 1.36294054985,
     "deform_low": 0.9881923794746,
-    "deform_high_end": 1.361742377281
+    "deform_high_end": 1.361742377281,
+    "cyclic_stiffness": 166.38279122711094
   },
   {
     "ciclo": 43,
@@ -515,7 +557,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.29135894775,
     "deform_high_start": 1.364751696587,
     "deform_low": 0.9794849157333,
-    "deform_high_end": 1.371961474419
+    "deform_high_end": 1.371961474419,
+    "cyclic_stiffness": 161.24601042647137
   },
   {
     "ciclo": 44,
@@ -527,7 +570,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.8731918335,
     "deform_high_start": 1.373898029327,
     "deform_low": 0.9898990392685,
-    "deform_high_end": 1.366737008095
+    "deform_high_end": 1.366737008095,
+    "cyclic_stiffness": 165.68986310651508
   },
   {
     "ciclo": 45,
@@ -539,7 +583,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.8646697998,
     "deform_high_start": 1.369648814201,
     "deform_low": 0.9920584559441,
-    "deform_high_end": 1.367942094803
+    "deform_high_end": 1.367942094803,
+    "cyclic_stiffness": 166.0602818047132
   },
   {
     "ciclo": 46,
@@ -551,7 +596,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.60786437988,
     "deform_high_start": 1.370881795883,
     "deform_low": 0.9904075264931,
-    "deform_high_end": 1.365399599075
+    "deform_high_end": 1.365399599075,
+    "cyclic_stiffness": 166.48446884715122
   },
   {
     "ciclo": 47,
@@ -563,7 +609,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.83976745605,
     "deform_high_start": 1.369001030922,
     "deform_low": 0.9858239293098,
-    "deform_high_end": 1.36877810955
+    "deform_high_end": 1.36877810955,
+    "cyclic_stiffness": 164.50044942315813
   },
   {
     "ciclo": 48,
@@ -575,7 +622,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.54717254639,
     "deform_high_start": 1.371787309647,
     "deform_low": 0.9848138689995,
-    "deform_high_end": 1.3655179739
+    "deform_high_end": 1.3655179739,
+    "cyclic_stiffness": 164.99565142846845
   },
   {
     "ciclo": 49,
@@ -587,7 +635,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.58137512207,
     "deform_high_start": 1.369300484657,
     "deform_low": 0.9850576519966,
-    "deform_high_end": 1.365921974182
+    "deform_high_end": 1.365921974182,
+    "cyclic_stiffness": 165.00826076638253
   },
   {
     "ciclo": 50,
@@ -599,7 +648,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.84188842773,
     "deform_high_start": 1.369593024254,
     "deform_low": 0.9882968664169,
-    "deform_high_end": 1.370185136795
+    "deform_high_end": 1.370185136795,
+    "cyclic_stiffness": 164.99339880524738
   },
   {
     "ciclo": 51,
@@ -611,7 +661,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.88357543945,
     "deform_high_start": 1.373250246048,
     "deform_low": 0.9992542862892,
-    "deform_high_end": 1.373285055161
+    "deform_high_end": 1.373285055161,
+    "cyclic_stiffness": 167.07160940793767
   },
   {
     "ciclo": 52,
@@ -623,7 +674,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.8811340332,
     "deform_high_start": 1.376210808754,
     "deform_low": 0.9927898645401,
-    "deform_high_end": 1.373410463333
+    "deform_high_end": 1.373410463333,
+    "cyclic_stiffness": 165.60538974727658
   },
   {
     "ciclo": 53,
@@ -635,7 +687,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.87942504883,
     "deform_high_start": 1.376336097717,
     "deform_low": 1.003036856651,
-    "deform_high_end": 1.375737071037
+    "deform_high_end": 1.375737071037,
+    "cyclic_stiffness": 167.65322047214022
   },
   {
     "ciclo": 54,
@@ -647,7 +700,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.89294433594,
     "deform_high_start": 1.37866973877,
     "deform_low": 0.9963077306747,
-    "deform_high_end": 1.376350045204
+    "deform_high_end": 1.376350045204,
+    "cyclic_stiffness": 165.89917899044673
   },
   {
     "ciclo": 55,
@@ -659,7 +713,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.88607788086,
     "deform_high_start": 1.379227042198,
     "deform_low": 1.00695168972,
-    "deform_high_end": 1.378509521484
+    "deform_high_end": 1.378509521484,
+    "cyclic_stiffness": 168.06484232665375
   },
   {
     "ciclo": 56,
@@ -671,7 +726,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.89014434814,
     "deform_high_start": 1.381386518478,
     "deform_low": 1.009368896484,
-    "deform_high_end": 1.380306720734
+    "deform_high_end": 1.380306720734,
+    "cyclic_stiffness": 168.36642400851088
   },
   {
     "ciclo": 57,
@@ -683,7 +739,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.88706207275,
     "deform_high_start": 1.383093118668,
     "deform_low": 0.9999857544899,
-    "deform_high_end": 1.379819154739
+    "deform_high_end": 1.379819154739,
+    "cyclic_stiffness": 166.14819537634787
   },
   {
     "ciclo": 58,
@@ -695,7 +752,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.04737854004,
     "deform_high_start": 1.382640361786,
     "deform_low": 1.011396050453,
-    "deform_high_end": 1.384486317635
+    "deform_high_end": 1.384486317635,
+    "cyclic_stiffness": 167.838216216703
   },
   {
     "ciclo": 59,
@@ -707,7 +765,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.03485870361,
     "deform_high_start": 1.386868715286,
     "deform_low": 1.014419198036,
-    "deform_high_end": 1.386694550514
+    "deform_high_end": 1.386694550514,
+    "cyclic_stiffness": 168.08746564060516
   },
   {
     "ciclo": 60,
@@ -719,7 +778,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.89878082275,
     "deform_high_start": 1.389132618904,
     "deform_low": 1.01656472683,
-    "deform_high_end": 1.385823845863
+    "deform_high_end": 1.385823845863,
+    "cyclic_stiffness": 169.19830706040457
   },
   {
     "ciclo": 61,
@@ -731,7 +791,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.58585357666,
     "deform_high_start": 1.388589262962,
     "deform_low": 1.007279157639,
-    "deform_high_end": 1.381504893303
+    "deform_high_end": 1.381504893303,
+    "cyclic_stiffness": 167.8150044932928
   },
   {
     "ciclo": 62,
@@ -743,7 +804,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.13091278076,
     "deform_high_start": 1.385043621063,
     "deform_low": 1.00465297699,
-    "deform_high_end": 1.376071453094
+    "deform_high_end": 1.376071453094,
+    "cyclic_stiffness": 168.1817462878155
   },
   {
     "ciclo": 63,
@@ -755,7 +817,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.37873840332,
     "deform_high_start": 1.380843162537,
     "deform_low": 1.008324027061,
-    "deform_high_end": 1.396307587624
+    "deform_high_end": 1.396307587624,
+    "cyclic_stiffness": 163.80138645013676
   },
   {
     "ciclo": 64,
@@ -767,7 +830,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.90557098389,
     "deform_high_start": 1.397930622101,
     "deform_low": 1.031088829041,
-    "deform_high_end": 1.391257286072
+    "deform_high_end": 1.391257286072,
+    "cyclic_stiffness": 171.57029793692158
   },
   {
     "ciclo": 65,
@@ -779,7 +843,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.52558135986,
     "deform_high_start": 1.394134163857,
     "deform_low": 1.021036863327,
-    "deform_high_end": 1.387321472168
+    "deform_high_end": 1.387321472168,
+    "cyclic_stiffness": 170.23390997511765
   },
   {
     "ciclo": 66,
@@ -791,7 +856,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.5062789917,
     "deform_high_start": 1.391131877899,
     "deform_low": 1.011667609215,
-    "deform_high_end": 1.385858654976
+    "deform_high_end": 1.385858654976,
+    "cyclic_stiffness": 167.7866542294041
   },
   {
     "ciclo": 67,
@@ -803,7 +869,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.54521942139,
     "deform_high_start": 1.389675974846,
     "deform_low": 1.012956380844,
-    "deform_high_end": 1.386018872261
+    "deform_high_end": 1.386018872261,
+    "cyclic_stiffness": 168.25619888317092
   },
   {
     "ciclo": 68,
@@ -815,7 +882,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.57681274414,
     "deform_high_start": 1.389675974846,
     "deform_low": 1.011563181877,
-    "deform_high_end": 1.386123299599
+    "deform_high_end": 1.386123299599,
+    "cyclic_stiffness": 167.9618438731199
   },
   {
     "ciclo": 69,
@@ -827,7 +895,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.91120910645,
     "deform_high_start": 1.389780402184,
     "deform_low": 1.033060193062,
-    "deform_high_end": 1.392253398895
+    "deform_high_end": 1.392253398895,
+    "cyclic_stiffness": 172.10098067448095
   },
   {
     "ciclo": 70,
@@ -839,7 +908,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.92809295654,
     "deform_high_start": 1.395074605942,
     "deform_low": 1.03702378273,
-    "deform_high_end": 1.394426703453
+    "deform_high_end": 1.394426703453,
+    "cyclic_stiffness": 172.98091432841338
   },
   {
     "ciclo": 71,
@@ -851,7 +921,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.10684967041,
     "deform_high_start": 1.397129535675,
     "deform_low": 1.017728090286,
-    "deform_high_end": 1.38510632515
+    "deform_high_end": 1.38510632515,
+    "cyclic_stiffness": 169.91668224169206
   },
   {
     "ciclo": 72,
@@ -863,7 +934,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40602874756,
     "deform_high_start": 1.389864087105,
     "deform_low": 1.037009835243,
-    "deform_high_end": 1.405746459961
+    "deform_high_end": 1.405746459961,
+    "cyclic_stiffness": 169.13151904477917
   },
   {
     "ciclo": 73,
@@ -875,7 +947,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.90795135498,
     "deform_high_start": 1.4073138237,
     "deform_low": 1.038416981697,
-    "deform_high_end": 1.399720907211
+    "deform_high_end": 1.399720907211,
+    "cyclic_stiffness": 172.0621623664621
   },
   {
     "ciclo": 74,
@@ -887,7 +960,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.93396759033,
     "deform_high_start": 1.402542114258,
     "deform_low": 1.044351935387,
-    "deform_high_end": 1.40050804615
+    "deform_high_end": 1.40050804615,
+    "cyclic_stiffness": 173.63058239031727
   },
   {
     "ciclo": 75,
@@ -899,7 +973,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.12879943848,
     "deform_high_start": 1.403203845024,
     "deform_low": 1.024645209312,
-    "deform_high_end": 1.390679121017
+    "deform_high_end": 1.390679121017,
+    "cyclic_stiffness": 170.52527019085312
   },
   {
     "ciclo": 76,
@@ -911,7 +986,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.9196395874,
     "deform_high_start": 1.395471692085,
     "deform_low": 1.044407725334,
-    "deform_high_end": 1.40041744709
+    "deform_high_end": 1.40041744709,
+    "cyclic_stiffness": 173.6544672461268
   },
   {
     "ciclo": 77,
@@ -923,7 +999,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.13768005371,
     "deform_high_start": 1.403169035912,
     "deform_low": 1.025460243225,
-    "deform_high_end": 1.391013383865
+    "deform_high_end": 1.391013383865,
+    "cyclic_stiffness": 170.78961493996366
   },
   {
     "ciclo": 78,
@@ -935,7 +1012,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.94116973877,
     "deform_high_start": 1.395785093307,
     "deform_low": 1.044602751732,
-    "deform_high_end": 1.400974750519
+    "deform_high_end": 1.400974750519,
+    "cyclic_stiffness": 173.57934479911933
   },
   {
     "ciclo": 79,
@@ -947,7 +1025,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.90180969238,
     "deform_high_start": 1.403712391853,
     "deform_low": 1.023823261261,
-    "deform_high_end": 1.400124907494
+    "deform_high_end": 1.400124907494,
+    "cyclic_stiffness": 168.3265439561216
   },
   {
     "ciclo": 80,
@@ -959,7 +1038,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.12645721436,
     "deform_high_start": 1.40294611454,
     "deform_low": 1.038423895836,
-    "deform_high_end": 1.405398130417
+    "deform_high_end": 1.405398130417,
+    "cyclic_stiffness": 171.03099756595165
   },
   {
     "ciclo": 81,
@@ -971,7 +1051,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.93878936768,
     "deform_high_start": 1.40763425827,
     "deform_low": 1.041050076485,
-    "deform_high_end": 1.404060721397
+    "deform_high_end": 1.404060721397,
+    "cyclic_stiffness": 172.2905153568749
   },
   {
     "ciclo": 82,
@@ -983,7 +1064,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.37225341797,
     "deform_high_start": 1.406721711159,
     "deform_low": 1.028803944588,
-    "deform_high_end": 1.413743376732
+    "deform_high_end": 1.413743376732,
+    "cyclic_stiffness": 165.70056975529363
   },
   {
     "ciclo": 83,
@@ -995,7 +1077,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.5163269043,
     "deform_high_start": 1.415220141411,
     "deform_low": 1.054215788841,
-    "deform_high_end": 1.421524405479
+    "deform_high_end": 1.421524405479,
+    "cyclic_stiffness": 169.9419552332446
   },
   {
     "ciclo": 84,
@@ -1007,7 +1090,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.61203765869,
     "deform_high_start": 1.422820091248,
     "deform_low": 1.046288490295,
-    "deform_high_end": 1.407996416092
+    "deform_high_end": 1.407996416092,
+    "cyclic_stiffness": 172.5575879975027
   },
   {
     "ciclo": 85,
@@ -1019,7 +1103,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.91221618652,
     "deform_high_start": 1.411444664001,
     "deform_low": 1.05826997757,
-    "deform_high_end": 1.411667585373
+    "deform_high_end": 1.411667585373,
+    "cyclic_stiffness": 174.82363719669047
   },
   {
     "ciclo": 86,
@@ -1031,7 +1116,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.93058776855,
     "deform_high_start": 1.414231061935,
     "deform_low": 1.060046315193,
-    "deform_high_end": 1.412782073021
+    "deform_high_end": 1.412782073021,
+    "cyclic_stiffness": 175.33645379683304
   },
   {
     "ciclo": 87,
@@ -1043,7 +1129,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.92511749268,
     "deform_high_start": 1.415289878845,
     "deform_low": 1.061481356621,
-    "deform_high_end": 1.413812994957
+    "deform_high_end": 1.413812994957,
+    "cyclic_stiffness": 175.50914949806162
   },
   {
     "ciclo": 88,
@@ -1055,7 +1142,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.57956695557,
     "deform_high_start": 1.416299939156,
     "deform_low": 1.038472771645,
-    "deform_high_end": 1.407648205757
+    "deform_high_end": 1.407648205757,
+    "cyclic_stiffness": 170.70805471877824
   },
   {
     "ciclo": 89,
@@ -1067,7 +1155,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.9020690918,
     "deform_high_start": 1.411159038544,
     "deform_low": 1.037532329559,
-    "deform_high_end": 1.410413622856
+    "deform_high_end": 1.410413622856,
+    "cyclic_stiffness": 169.86082983922
   },
   {
     "ciclo": 90,
@@ -1079,7 +1168,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.89489746094,
     "deform_high_start": 1.413116455078,
     "deform_low": 1.060324907303,
-    "deform_high_end": 1.413025856018
+    "deform_high_end": 1.413025856018,
+    "cyclic_stiffness": 175.1794880808959
   },
   {
     "ciclo": 91,
@@ -1091,7 +1181,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.91404724121,
     "deform_high_start": 1.415659070015,
     "deform_low": 1.063132286072,
-    "deform_high_end": 1.414488792419
+    "deform_high_end": 1.414488792419,
+    "cyclic_stiffness": 175.9804192998345
   },
   {
     "ciclo": 92,
@@ -1103,7 +1194,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.57465362549,
     "deform_high_start": 1.417101025581,
     "deform_low": 1.040367484093,
-    "deform_high_end": 1.408797502518
+    "deform_high_end": 1.408797502518,
+    "cyclic_stiffness": 171.09780415870847
   },
   {
     "ciclo": 93,
@@ -1115,7 +1207,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.08226013184,
     "deform_high_start": 1.41218996048,
     "deform_low": 1.061982870102,
-    "deform_high_end": 1.416947722435
+    "deform_high_end": 1.416947722435,
+    "cyclic_stiffness": 174.6482437054138
   },
   {
     "ciclo": 94,
@@ -1127,7 +1220,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.60653686523,
     "deform_high_start": 1.419246554375,
     "deform_low": 1.041098833084,
-    "deform_high_end": 1.409452319145
+    "deform_high_end": 1.409452319145,
+    "cyclic_stiffness": 171.22651880779324
   },
   {
     "ciclo": 95,
@@ -1139,7 +1233,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.87728118896,
     "deform_high_start": 1.412823915482,
     "deform_low": 1.06286752224,
-    "deform_high_end": 1.414558410645
+    "deform_high_end": 1.414558410645,
+    "cyclic_stiffness": 175.74243075960587
   },
   {
     "ciclo": 96,
@@ -1151,7 +1246,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.88767242432,
     "deform_high_start": 1.417240262032,
     "deform_low": 1.066148519516,
-    "deform_high_end": 1.416320800781
+    "deform_high_end": 1.416320800781,
+    "cyclic_stiffness": 176.3830931371421
   },
   {
     "ciclo": 97,
@@ -1163,7 +1259,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.89102935791,
     "deform_high_start": 1.419058442116,
     "deform_low": 1.06755566597,
-    "deform_high_end": 1.417588591576
+    "deform_high_end": 1.417588591576,
+    "cyclic_stiffness": 176.72300512643451
   },
   {
     "ciclo": 98,
@@ -1175,7 +1272,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.11901092529,
     "deform_high_start": 1.420340180397,
     "deform_low": 1.043906211853,
-    "deform_high_end": 1.407453179359
+    "deform_high_end": 1.407453179359,
+    "cyclic_stiffness": 172.22681006678087
   },
   {
     "ciclo": 99,
@@ -1187,7 +1285,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.88401031494,
     "deform_high_start": 1.412071585655,
     "deform_low": 1.066510796547,
-    "deform_high_end": 1.416961669922
+    "deform_high_end": 1.416961669922,
+    "cyclic_stiffness": 176.284539568213
   },
   {
     "ciclo": 100,
@@ -1199,7 +1298,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.53958129883,
     "deform_high_start": 1.419699311256,
     "deform_low": 1.060102105141,
-    "deform_high_end": 1.432481884956
+    "deform_high_end": 1.432481884956,
+    "cyclic_stiffness": 169.60724360639924
   },
   {
     "ciclo": 101,
@@ -1211,7 +1311,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.93780517578,
     "deform_high_start": 1.433735728264,
     "deform_low": 1.068440318108,
-    "deform_high_end": 1.423286795616
+    "deform_high_end": 1.423286795616,
+    "cyclic_stiffness": 175.50575878828033
   },
   {
     "ciclo": 102,
@@ -1223,7 +1324,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.92557525635,
     "deform_high_start": 1.426003456116,
     "deform_low": 1.074138522148,
-    "deform_high_end": 1.423495769501
+    "deform_high_end": 1.423495769501,
+    "cyclic_stiffness": 177.09746842032618
   },
   {
     "ciclo": 103,
@@ -1235,7 +1337,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.61054992676,
     "deform_high_start": 1.426247358322,
     "deform_low": 1.070272326469,
-    "deform_high_end": 1.420500397682
+    "deform_high_end": 1.420500397682,
+    "cyclic_stiffness": 176.9680461657963
   },
   {
     "ciclo": 104,
@@ -1247,7 +1350,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.94803619385,
     "deform_high_start": 1.423997282982,
     "deform_low": 1.075900912285,
-    "deform_high_end": 1.424331665039
+    "deform_high_end": 1.424331665039,
+    "cyclic_stiffness": 177.67573213681922
   },
   {
     "ciclo": 105,
@@ -1259,7 +1363,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.10090637207,
     "deform_high_start": 1.426978707314,
     "deform_low": 1.051429390907,
-    "deform_high_end": 1.413583159447
+    "deform_high_end": 1.413583159447,
+    "cyclic_stiffness": 172.817676036905
   },
   {
     "ciclo": 106,
@@ -1271,7 +1376,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.93817901611,
     "deform_high_start": 1.418055295944,
     "deform_low": 1.073546409607,
-    "deform_high_end": 1.423356413841
+    "deform_high_end": 1.423356413841,
+    "cyclic_stiffness": 176.97165946663043
   },
   {
     "ciclo": 107,
@@ -1283,7 +1389,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.96397399902,
     "deform_high_start": 1.426128864288,
     "deform_low": 1.076423287392,
-    "deform_high_end": 1.424993395805
+    "deform_high_end": 1.424993395805,
+    "cyclic_stiffness": 177.65446861168803
   },
   {
     "ciclo": 108,
@@ -1295,7 +1402,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.94945526123,
     "deform_high_start": 1.427675366402,
     "deform_low": 1.077900052071,
-    "deform_high_end": 1.426052212715
+    "deform_high_end": 1.426052212715,
+    "cyclic_stiffness": 177.84562980766063
   },
   {
     "ciclo": 109,
@@ -1307,7 +1415,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.06860351563,
     "deform_high_start": 1.428720235825,
     "deform_low": 1.054264545441,
-    "deform_high_end": 1.415171384811
+    "deform_high_end": 1.415171384811,
+    "cyclic_stiffness": 173.41173890361682
   },
   {
     "ciclo": 110,
@@ -1319,7 +1428,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.932762146,
     "deform_high_start": 1.41986644268,
     "deform_low": 1.076297879219,
-    "deform_high_end": 1.425286054611
+    "deform_high_end": 1.425286054611,
+    "cyclic_stiffness": 177.371719797527
   },
   {
     "ciclo": 111,
@@ -1331,7 +1441,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.9768447876,
     "deform_high_start": 1.427988767624,
     "deform_low": 1.078993797302,
-    "deform_high_end": 1.427097201347
+    "deform_high_end": 1.427097201347,
+    "cyclic_stiffness": 177.98585871806253
   },
   {
     "ciclo": 112,
@@ -1343,7 +1454,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.95975494385,
     "deform_high_start": 1.429730296135,
     "deform_low": 1.08125770092,
-    "deform_high_end": 1.427988767624
+    "deform_high_end": 1.427988767624,
+    "cyclic_stiffness": 178.5208246878615
   },
   {
     "ciclo": 113,
@@ -1355,7 +1467,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.91547393799,
     "deform_high_start": 1.430614948273,
     "deform_low": 1.056026935577,
-    "deform_high_end": 1.42520236969
+    "deform_high_end": 1.42520236969,
+    "cyclic_stiffness": 171.9514864693556
   },
   {
     "ciclo": 114,
@@ -1367,7 +1480,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.95069122314,
     "deform_high_start": 1.427967905998,
     "deform_low": 1.079662442207,
-    "deform_high_end": 1.427675366402
+    "deform_high_end": 1.427675366402,
+    "cyclic_stiffness": 177.86553143410333
   },
   {
     "ciclo": 115,
@@ -1379,7 +1493,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.54676818848,
     "deform_high_start": 1.430336356163,
     "deform_low": 1.055992126465,
-    "deform_high_end": 1.44115447998
+    "deform_high_end": 1.44115447998,
+    "cyclic_stiffness": 166.423708501988
   },
   {
     "ciclo": 116,
@@ -1391,7 +1506,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62085723877,
     "deform_high_start": 1.442289948463,
     "deform_low": 1.056793212891,
-    "deform_high_end": 1.42469394207
+    "deform_high_end": 1.42469394207,
+    "cyclic_stiffness": 171.77690571679173
   },
   {
     "ciclo": 117,
@@ -1403,7 +1519,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.1322555542,
     "deform_high_start": 1.428162932396,
     "deform_low": 1.075900912285,
-    "deform_high_end": 1.432586312294
+    "deform_high_end": 1.432586312294,
+    "cyclic_stiffness": 175.24912519467514
   },
   {
     "ciclo": 118,
@@ -1415,7 +1532,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.19640350342,
     "deform_high_start": 1.434850335121,
     "deform_low": 1.07904946804,
-    "deform_high_end": 1.434327840805
+    "deform_high_end": 1.434327840805,
+    "cyclic_stiffness": 176.13003830813133
   },
   {
     "ciclo": 119,
@@ -1427,7 +1545,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.17279052734,
     "deform_high_start": 1.436361908913,
     "deform_low": 1.077043294907,
-    "deform_high_end": 1.435282111168
+    "deform_high_end": 1.435282111168,
+    "cyclic_stiffness": 175.45865546372076
   },
   {
     "ciclo": 120,
@@ -1439,7 +1558,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.98490142822,
     "deform_high_start": 1.437392830849,
     "deform_low": 1.08240711689,
-    "deform_high_end": 1.43388903141
+    "deform_high_end": 1.43388903141,
+    "cyclic_stiffness": 177.38423656694957
   },
   {
     "ciclo": 121,
@@ -1451,7 +1571,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.99112701416,
     "deform_high_start": 1.436487317085,
     "deform_low": 1.076137661934,
-    "deform_high_end": 1.433784484863
+    "deform_high_end": 1.433784484863,
+    "cyclic_stiffness": 175.8458135053951
   },
   {
     "ciclo": 122,
@@ -1463,7 +1584,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.19336700439,
     "deform_high_start": 1.4363758564,
     "deform_low": 1.083974480629,
-    "deform_high_end": 1.437079429626
+    "deform_high_end": 1.437079429626,
+    "cyclic_stiffness": 177.1152431469923
   },
   {
     "ciclo": 123,
@@ -1475,7 +1597,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.99301147461,
     "deform_high_start": 1.439064741135,
     "deform_low": 1.085562705994,
-    "deform_high_end": 1.435686230659
+    "deform_high_end": 1.435686230659,
+    "cyclic_stiffness": 178.00950273599355
   },
   {
     "ciclo": 124,
@@ -1487,7 +1610,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.95996856689,
     "deform_high_start": 1.438193917274,
     "deform_low": 1.082845926285,
-    "deform_high_end": 1.435526013374
+    "deform_high_end": 1.435526013374,
+    "cyclic_stiffness": 177.49169358094
   },
   {
     "ciclo": 125,
@@ -1499,7 +1623,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63793182373,
     "deform_high_start": 1.438124299049,
     "deform_low": 1.064490556717,
-    "deform_high_end": 1.429361104965
+    "deform_high_end": 1.429361104965,
+    "cyclic_stiffness": 173.2675744163918
   },
   {
     "ciclo": 126,
@@ -1511,7 +1636,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.98968505859,
     "deform_high_start": 1.432844042778,
     "deform_low": 1.079446554184,
-    "deform_high_end": 1.434850335121
+    "deform_high_end": 1.434850335121,
+    "cyclic_stiffness": 176.41494051514923
   },
   {
     "ciclo": 127,
@@ -1523,7 +1649,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.29110717773,
     "deform_high_start": 1.437455534935,
     "deform_low": 1.086377739906,
-    "deform_high_end": 1.440875887871
+    "deform_high_end": 1.440875887871,
+    "cyclic_stiffness": 176.62957091801798
   },
   {
     "ciclo": 128,
@@ -1535,7 +1662,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.28513336182,
     "deform_high_start": 1.442638278008,
     "deform_low": 1.081069588661,
-    "deform_high_end": 1.441621184349
+    "deform_high_end": 1.441621184349,
+    "cyclic_stiffness": 175.20413049840909
   },
   {
     "ciclo": 129,
@@ -1547,7 +1675,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.3443069458,
     "deform_high_start": 1.443327903748,
     "deform_low": 1.08521437645,
-    "deform_high_end": 1.444546937943
+    "deform_high_end": 1.444546937943,
+    "cyclic_stiffness": 175.17277775931862
   },
   {
     "ciclo": 130,
@@ -1559,7 +1688,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.14027404785,
     "deform_high_start": 1.446100354195,
     "deform_low": 1.083660960197,
-    "deform_high_end": 1.441398262978
+    "deform_high_end": 1.441398262978,
+    "cyclic_stiffness": 176.0947656679369
   },
   {
     "ciclo": 131,
@@ -1571,7 +1701,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.25606536865,
     "deform_high_start": 1.443453192711,
     "deform_low": 1.087617635727,
-    "deform_high_end": 1.44437277317
+    "deform_high_end": 1.44437277317,
+    "cyclic_stiffness": 176.18382993991915
   },
   {
     "ciclo": 132,
@@ -1583,7 +1714,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.27290344238,
     "deform_high_start": 1.446156024933,
     "deform_low": 1.085611462593,
-    "deform_high_end": 1.445278286934
+    "deform_high_end": 1.445278286934,
+    "cyclic_stiffness": 175.52902651008648
   },
   {
     "ciclo": 133,
@@ -1595,7 +1727,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.27882385254,
     "deform_high_start": 1.447061657906,
     "deform_low": 1.090334296227,
-    "deform_high_end": 1.446358084679
+    "deform_high_end": 1.446358084679,
+    "cyclic_stiffness": 176.6196084839924
   },
   {
     "ciclo": 134,
@@ -1607,7 +1740,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.28492736816,
     "deform_high_start": 1.448155283928,
     "deform_low": 1.091079711914,
-    "deform_high_end": 1.447054624557
+    "deform_high_end": 1.447054624557,
+    "cyclic_stiffness": 176.7203802644632
   },
   {
     "ciclo": 135,
@@ -1619,7 +1753,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.3673248291,
     "deform_high_start": 1.448817014694,
     "deform_low": 1.088836669922,
-    "deform_high_end": 1.449304699898
+    "deform_high_end": 1.449304699898,
+    "cyclic_stiffness": 175.31624614515079
   },
   {
     "ciclo": 136,
@@ -1631,7 +1766,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.3761138916,
     "deform_high_start": 1.450906872749,
     "deform_low": 1.089498400688,
-    "deform_high_end": 1.449945569038
+    "deform_high_end": 1.449945569038,
+    "cyclic_stiffness": 175.40740760348376
   },
   {
     "ciclo": 137,
@@ -1643,7 +1779,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.39906311035,
     "deform_high_start": 1.451533794403,
     "deform_low": 1.093587517738,
-    "deform_high_end": 1.451115846634
+    "deform_high_end": 1.451115846634,
+    "cyclic_stiffness": 176.28369496153547
   },
   {
     "ciclo": 138,
@@ -1655,7 +1792,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40725708008,
     "deform_high_start": 1.452669262886,
     "deform_low": 1.091358304024,
-    "deform_high_end": 1.451951742172
+    "deform_high_end": 1.451951742172,
+    "cyclic_stiffness": 175.42591781441945
   },
   {
     "ciclo": 139,
@@ -1667,7 +1805,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.39380645752,
     "deform_high_start": 1.453505158424,
     "deform_low": 1.09247982502,
-    "deform_high_end": 1.452752828598
+    "deform_high_end": 1.452752828598,
+    "cyclic_stiffness": 175.47664424701426
   },
   {
     "ciclo": 140,
@@ -1679,7 +1818,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.493309021,
     "deform_high_start": 1.454368948936,
     "deform_low": 1.093329668045,
-    "deform_high_end": 1.455051541328
+    "deform_high_end": 1.455051541328,
+    "cyclic_stiffness": 175.09814810012114
   },
   {
     "ciclo": 141,
@@ -1691,7 +1831,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.39881896973,
     "deform_high_start": 1.45642387867,
     "deform_low": 1.087631583214,
-    "deform_high_end": 1.453498125076
+    "deform_high_end": 1.453498125076,
+    "cyclic_stiffness": 173.97623220559132
   },
   {
     "ciclo": 142,
@@ -1703,7 +1844,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40798950195,
     "deform_high_start": 1.455121278763,
     "deform_low": 1.094304919243,
-    "deform_high_end": 1.454508185387
+    "deform_high_end": 1.454508185387,
+    "cyclic_stiffness": 175.62312996662354
   },
   {
     "ciclo": 143,
@@ -1715,7 +1857,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49699401855,
     "deform_high_start": 1.456075549126,
     "deform_low": 1.098484516144,
-    "deform_high_end": 1.457642912865
+    "deform_high_end": 1.457642912865,
+    "cyclic_stiffness": 175.84033929452988
   },
   {
     "ciclo": 144,
@@ -1727,7 +1870,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.5023727417,
     "deform_high_start": 1.458966493607,
     "deform_low": 1.09675693512,
-    "deform_high_end": 1.458255887032
+    "deform_high_end": 1.458255887032,
+    "cyclic_stiffness": 175.31908247819229
   },
   {
     "ciclo": 145,
@@ -1739,7 +1883,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42945861816,
     "deform_high_start": 1.459544658661,
     "deform_low": 1.09757900238,
-    "deform_high_end": 1.45757329464
+    "deform_high_end": 1.45757329464,
+    "cyclic_stiffness": 175.84670237001944
   },
   {
     "ciclo": 146,
@@ -1751,7 +1896,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48642730713,
     "deform_high_start": 1.459105730057,
     "deform_low": 1.098463654518,
-    "deform_high_end": 1.45968401432
+    "deform_high_end": 1.45968401432,
+    "cyclic_stiffness": 175.4121689588638
   },
   {
     "ciclo": 147,
@@ -1763,7 +1909,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47047424316,
     "deform_high_start": 1.461042284966,
     "deform_low": 1.096965909004,
-    "deform_high_end": 1.460171580315
+    "deform_high_end": 1.460171580315,
+    "cyclic_stiffness": 174.8395156867056
   },
   {
     "ciclo": 148,
@@ -1775,7 +1922,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49003601074,
     "deform_high_start": 1.461564779282,
     "deform_low": 1.100239992142,
-    "deform_high_end": 1.46093082428
+    "deform_high_end": 1.46093082428,
+    "cyclic_stiffness": 175.70121499401802
   },
   {
     "ciclo": 149,
@@ -1787,7 +1935,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48400878906,
     "deform_high_start": 1.46226131916,
     "deform_low": 1.101131558418,
-    "deform_high_end": 1.462156891823
+    "deform_high_end": 1.462156891823,
+    "cyclic_stiffness": 175.6737394747646
   },
   {
     "ciclo": 150,
@@ -1799,7 +1948,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50802612305,
     "deform_high_start": 1.463536143303,
     "deform_low": 1.10208594799,
-    "deform_high_end": 1.462540030479
+    "deform_high_end": 1.462540030479,
+    "cyclic_stiffness": 175.91452613811103
   },
   {
     "ciclo": 151,
@@ -1811,7 +1961,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49512481689,
     "deform_high_start": 1.463828682899,
     "deform_low": 1.102524757385,
-    "deform_high_end": 1.463201761246
+    "deform_high_end": 1.463201761246,
+    "cyclic_stiffness": 175.78191538913222
   },
   {
     "ciclo": 152,
@@ -1823,7 +1974,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49523925781,
     "deform_high_start": 1.464525341988,
     "deform_low": 1.100852966309,
-    "deform_high_end": 1.463668465614
+    "deform_high_end": 1.463668465614,
+    "cyclic_stiffness": 175.21429845834578
   },
   {
     "ciclo": 153,
@@ -1835,7 +1987,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46839141846,
     "deform_high_start": 1.464992046356,
     "deform_low": 1.101145505905,
-    "deform_high_end": 1.464177012444
+    "deform_high_end": 1.464177012444,
+    "cyclic_stiffness": 175.07303020434168
   },
   {
     "ciclo": 154,
@@ -1847,7 +2000,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47023773193,
     "deform_high_start": 1.465535402298,
     "deform_low": 1.102350592613,
-    "deform_high_end": 1.464978098869
+    "deform_high_end": 1.464978098869,
+    "cyclic_stiffness": 175.2311301341019
   },
   {
     "ciclo": 155,
@@ -1859,7 +2013,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.34832763672,
     "deform_high_start": 1.466301679611,
     "deform_low": 1.103047251701,
-    "deform_high_end": 1.46226131916
+    "deform_high_end": 1.46226131916,
+    "cyclic_stiffness": 176.54557486036748
   },
   {
     "ciclo": 156,
@@ -1871,7 +2026,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47589874268,
     "deform_high_start": 1.463968038559,
     "deform_low": 1.102942705154,
-    "deform_high_end": 1.465312480927
+    "deform_high_end": 1.465312480927,
+    "cyclic_stiffness": 175.33712527647873
   },
   {
     "ciclo": 157,
@@ -1883,7 +2039,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47093200684,
     "deform_high_start": 1.466649889946,
     "deform_low": 1.104140877724,
-    "deform_high_end": 1.466385245323
+    "deform_high_end": 1.466385245323,
+    "cyclic_stiffness": 175.4363690575308
   },
   {
     "ciclo": 158,
@@ -1895,7 +2052,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47757720947,
     "deform_high_start": 1.467694878578,
     "deform_low": 1.102928876877,
-    "deform_high_end": 1.46699821949
+    "deform_high_end": 1.46699821949,
+    "cyclic_stiffness": 174.87756099726755
   },
   {
     "ciclo": 159,
@@ -1907,7 +2065,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49369812012,
     "deform_high_start": 1.468266010284,
     "deform_low": 1.105868458748,
-    "deform_high_end": 1.469122886658
+    "deform_high_end": 1.469122886658,
+    "cyclic_stiffness": 174.98141210988447
   },
   {
     "ciclo": 160,
@@ -1919,7 +2078,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50999450684,
     "deform_high_start": 1.470341920853,
     "deform_low": 1.104823589325,
-    "deform_high_end": 1.469589591026
+    "deform_high_end": 1.469589591026,
+    "cyclic_stiffness": 174.65406442561383
   },
   {
     "ciclo": 161,
@@ -1931,7 +2091,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50799560547,
     "deform_high_start": 1.470808625221,
     "deform_low": 1.107540249825,
-    "deform_high_end": 1.47058570385
+    "deform_high_end": 1.47058570385,
+    "cyclic_stiffness": 175.06381659711786
   },
   {
     "ciclo": 162,
@@ -1943,7 +2104,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49580383301,
     "deform_high_start": 1.471804738045,
     "deform_low": 1.104593634605,
-    "deform_high_end": 1.470878243446
+    "deform_high_end": 1.470878243446,
+    "cyclic_stiffness": 174.12550730351867
   },
   {
     "ciclo": 163,
@@ -1955,7 +2117,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50765991211,
     "deform_high_start": 1.472097277641,
     "deform_low": 1.107136249542,
-    "deform_high_end": 1.471651434898
+    "deform_high_end": 1.471651434898,
+    "cyclic_stiffness": 174.67992641715034
   },
   {
     "ciclo": 164,
@@ -1967,7 +2130,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50925445557,
     "deform_high_start": 1.472863554955,
     "deform_low": 1.108320474625,
-    "deform_high_end": 1.472341179848
+    "deform_high_end": 1.472341179848,
+    "cyclic_stiffness": 174.9077958769009
   },
   {
     "ciclo": 165,
@@ -1979,7 +2143,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.51416015625,
     "deform_high_start": 1.473546266556,
     "deform_low": 1.109086751938,
-    "deform_high_end": 1.473177075386
+    "deform_high_end": 1.473177075386,
+    "cyclic_stiffness": 174.81233090977835
   },
   {
     "ciclo": 166,
@@ -1991,7 +2156,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50979614258,
     "deform_high_start": 1.474382162094,
     "deform_low": 1.107888579369,
-    "deform_high_end": 1.473406910896
+    "deform_high_end": 1.473406910896,
+    "cyclic_stiffness": 174.49591316945654
   },
   {
     "ciclo": 167,
@@ -2003,7 +2169,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49954986572,
     "deform_high_start": 1.474625945091,
     "deform_low": 1.110340595245,
-    "deform_high_end": 1.47403383255
+    "deform_high_end": 1.47403383255,
+    "cyclic_stiffness": 174.9945458357992
   },
   {
     "ciclo": 168,
@@ -2015,7 +2182,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.57224273682,
     "deform_high_start": 1.475287675858,
     "deform_low": 1.110932707787,
-    "deform_high_end": 1.477098822594
+    "deform_high_end": 1.477098822594,
+    "cyclic_stiffness": 174.0673962699279
   },
   {
     "ciclo": 169,
@@ -2027,7 +2195,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50409698486,
     "deform_high_start": 1.478164672852,
     "deform_low": 1.112207531929,
-    "deform_high_end": 1.475844979286
+    "deform_high_end": 1.475844979286,
+    "cyclic_stiffness": 175.03945827653138
   },
   {
     "ciclo": 170,
@@ -2039,7 +2208,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.55391693115,
     "deform_high_start": 1.477064013481,
     "deform_low": 1.107728362083,
-    "deform_high_end": 1.476924777031
+    "deform_high_end": 1.476924777031,
+    "cyclic_stiffness": 173.2782201348312
   },
   {
     "ciclo": 171,
@@ -2051,7 +2221,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.53932189941,
     "deform_high_start": 1.478004455566,
     "deform_low": 1.111281037331,
-    "deform_high_end": 1.478039264679
+    "deform_high_end": 1.478039264679,
+    "cyclic_stiffness": 173.97245977786233
   },
   {
     "ciclo": 172,
@@ -2063,7 +2234,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.565284729,
     "deform_high_start": 1.479167819023,
     "deform_low": 1.112360715866,
-    "deform_high_end": 1.478979706764
+    "deform_high_end": 1.478979706764,
+    "cyclic_stiffness": 174.1935909304757
   },
   {
     "ciclo": 173,
@@ -2075,7 +2247,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.54872894287,
     "deform_high_start": 1.480038523674,
     "deform_low": 1.113231539726,
-    "deform_high_end": 1.479502081871
+    "deform_high_end": 1.479502081871,
+    "cyclic_stiffness": 174.21763124479835
   },
   {
     "ciclo": 174,
@@ -2087,7 +2260,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.53826904297,
     "deform_high_start": 1.480630636215,
     "deform_low": 1.114332079887,
-    "deform_high_end": 1.480386853218
+    "deform_high_end": 1.480386853218,
+    "cyclic_stiffness": 174.31300456886103
   },
   {
     "ciclo": 175,
@@ -2099,7 +2273,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.59392547607,
     "deform_high_start": 1.481522321701,
     "deform_low": 1.115042686462,
-    "deform_high_end": 1.481975078583
+    "deform_high_end": 1.481975078583,
+    "cyclic_stiffness": 174.00817919873103
   },
   {
     "ciclo": 176,
@@ -2111,7 +2286,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.55862426758,
     "deform_high_start": 1.482985138893,
     "deform_low": 1.115711331367,
-    "deform_high_end": 1.481647610664
+    "deform_high_end": 1.481647610664,
+    "cyclic_stiffness": 174.37629263610194
   },
   {
     "ciclo": 177,
@@ -2123,7 +2299,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.60858917236,
     "deform_high_start": 1.482776165009,
     "deform_low": 1.116540312767,
-    "deform_high_end": 1.48336827755
+    "deform_high_end": 1.48336827755,
+    "cyclic_stiffness": 174.14711670687356
   },
   {
     "ciclo": 178,
@@ -2135,7 +2312,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.61044311523,
     "deform_high_start": 1.484413146973,
     "deform_low": 1.115739226341,
-    "deform_high_end": 1.483737468719
+    "deform_high_end": 1.483737468719,
+    "cyclic_stiffness": 173.8395960082566
   },
   {
     "ciclo": 179,
@@ -2147,7 +2325,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.61401367188,
     "deform_high_start": 1.484754443169,
     "deform_low": 1.114645600319,
-    "deform_high_end": 1.484169363976
+    "deform_high_end": 1.484169363976,
+    "cyclic_stiffness": 173.2944980142062
   },
   {
     "ciclo": 180,
@@ -2159,7 +2338,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.2993927002,
     "deform_high_start": 1.485179424286,
     "deform_low": 1.115948200226,
-    "deform_high_end": 1.481557130814
+    "deform_high_end": 1.481557130814,
+    "cyclic_stiffness": 175.43910399574153
   },
   {
     "ciclo": 181,
@@ -2171,7 +2351,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.37881469727,
     "deform_high_start": 1.482929348946,
     "deform_low": 1.117034912109,
-    "deform_high_end": 1.483298540115
+    "deform_high_end": 1.483298540115,
+    "cyclic_stiffness": 175.34180303485647
   },
   {
     "ciclo": 182,
@@ -2183,7 +2364,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.29633331299,
     "deform_high_start": 1.484545469284,
     "deform_low": 1.117940545082,
-    "deform_high_end": 1.482567191124
+    "deform_high_end": 1.482567191124,
+    "cyclic_stiffness": 175.9044041441832
   },
   {
     "ciclo": 183,
@@ -2195,7 +2377,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.37675476074,
     "deform_high_start": 1.483960390091,
     "deform_low": 1.118525624275,
-    "deform_high_end": 1.484447956085
+    "deform_high_end": 1.484447956085,
+    "cyclic_stiffness": 175.52082810053517
   },
   {
     "ciclo": 184,
@@ -2207,7 +2390,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.38906097412,
     "deform_high_start": 1.485701799393,
     "deform_low": 1.115739226341,
-    "deform_high_end": 1.484865903854
+    "deform_high_end": 1.484865903854,
+    "cyclic_stiffness": 174.88582151424288
   },
   {
     "ciclo": 185,
@@ -2219,7 +2403,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.38625335693,
     "deform_high_start": 1.486133694649,
     "deform_low": 1.119849205017,
-    "deform_high_end": 1.485318779945
+    "deform_high_end": 1.485318779945,
+    "cyclic_stiffness": 175.84794217212482
   },
   {
     "ciclo": 186,
@@ -2231,7 +2416,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41081237793,
     "deform_high_start": 1.486551642418,
     "deform_low": 1.120789527893,
-    "deform_high_end": 1.486050128937
+    "deform_high_end": 1.486050128937,
+    "cyclic_stiffness": 176.00479107878317
   },
   {
     "ciclo": 187,
@@ -2243,7 +2429,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41687774658,
     "deform_high_start": 1.487269163132,
     "deform_low": 1.118010163307,
-    "deform_high_end": 1.486363649368
+    "deform_high_end": 1.486363649368,
+    "cyclic_stiffness": 175.20691604752562
   },
   {
     "ciclo": 188,
@@ -2255,7 +2442,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40632629395,
     "deform_high_start": 1.487512946129,
     "deform_low": 1.122133970261,
-    "deform_high_end": 1.486969709396
+    "deform_high_end": 1.486969709396,
+    "cyclic_stiffness": 176.0911783315113
   },
   {
     "ciclo": 189,
@@ -2267,7 +2455,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40809631348,
     "deform_high_start": 1.488174796104,
     "deform_low": 1.126905679703,
-    "deform_high_end": 1.488153815269
+    "deform_high_end": 1.488153815269,
+    "cyclic_stiffness": 176.94825151691728
   },
   {
     "ciclo": 190,
@@ -2279,7 +2468,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41688537598,
     "deform_high_start": 1.489359021187,
     "deform_low": 1.120740771294,
-    "deform_high_end": 1.488223552704
+    "deform_high_end": 1.488223552704,
+    "cyclic_stiffness": 175.69333587237315
   },
   {
     "ciclo": 191,
@@ -2291,7 +2481,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4654006958,
     "deform_high_start": 1.489428639412,
     "deform_low": 1.128229260445,
-    "deform_high_end": 1.490369081497
+    "deform_high_end": 1.490369081497,
+    "cyclic_stiffness": 176.7117351786645
   },
   {
     "ciclo": 192,
@@ -2303,7 +2494,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4328918457,
     "deform_high_start": 1.49141395092,
     "deform_low": 1.122217535973,
-    "deform_high_end": 1.490508317947
+    "deform_high_end": 1.490508317947,
+    "cyclic_stiffness": 175.3407260267428
   },
   {
     "ciclo": 193,
@@ -2315,7 +2507,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41860961914,
     "deform_high_start": 1.491622924805,
     "deform_low": 1.12255191803,
-    "deform_high_end": 1.490020751953
+    "deform_high_end": 1.490020751953,
+    "cyclic_stiffness": 175.64751803067708
   },
   {
     "ciclo": 194,
@@ -2327,7 +2520,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45011138916,
     "deform_high_start": 1.491149187088,
     "deform_low": 1.122914195061,
-    "deform_high_end": 1.491518378258
+    "deform_high_end": 1.491518378258,
+    "cyclic_stiffness": 175.25277903907622
   },
   {
     "ciclo": 195,
@@ -2339,7 +2533,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43630981445,
     "deform_high_start": 1.49256336689,
     "deform_low": 1.12356197834,
-    "deform_high_end": 1.492040872574
+    "deform_high_end": 1.492040872574,
+    "cyclic_stiffness": 175.16979772067018
   },
   {
     "ciclo": 196,
@@ -2351,7 +2546,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50197601318,
     "deform_high_start": 1.493120551109,
     "deform_low": 1.131628632545,
-    "deform_high_end": 1.494165539742
+    "deform_high_end": 1.494165539742,
+    "cyclic_stiffness": 176.67579294831597
   },
   {
     "ciclo": 197,
@@ -2363,7 +2559,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40790557861,
     "deform_high_start": 1.495140790939,
     "deform_low": 1.125526428223,
-    "deform_high_end": 1.492716550827
+    "deform_high_end": 1.492716550827,
+    "cyclic_stiffness": 175.86899611537243
   },
   {
     "ciclo": 198,
@@ -2375,7 +2572,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48038482666,
     "deform_high_start": 1.493838071823,
     "deform_low": 1.122809648514,
-    "deform_high_end": 1.494757652283
+    "deform_high_end": 1.494757652283,
+    "cyclic_stiffness": 174.32220109056004
   },
   {
     "ciclo": 199,
@@ -2387,7 +2585,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44583129883,
     "deform_high_start": 1.495746731758,
     "deform_low": 1.126466870308,
-    "deform_high_end": 1.494653105736
+    "deform_high_end": 1.494653105736,
+    "cyclic_stiffness": 175.44509983578422
   },
   {
     "ciclo": 200,
@@ -2399,7 +2598,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.27048492432,
     "deform_high_start": 1.495697975159,
     "deform_low": 1.124084472656,
-    "deform_high_end": 1.490856647491
+    "deform_high_end": 1.490856647491,
+    "cyclic_stiffness": 176.19610310771623
   },
   {
     "ciclo": 201,
@@ -2411,7 +2611,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43151855469,
     "deform_high_start": 1.492228984833,
     "deform_low": 1.124272584915,
-    "deform_high_end": 1.494492888451
+    "deform_high_end": 1.494492888451,
+    "cyclic_stiffness": 174.86566635504857
   },
   {
     "ciclo": 202,
@@ -2423,7 +2624,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48522949219,
     "deform_high_start": 1.495593547821,
     "deform_low": 1.124502420425,
-    "deform_high_end": 1.496499061584
+    "deform_high_end": 1.496499061584,
+    "cyclic_stiffness": 174.31535243650728
   },
   {
     "ciclo": 203,
@@ -2435,7 +2637,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46392059326,
     "deform_high_start": 1.497474312782,
     "deform_low": 1.125756263733,
-    "deform_high_end": 1.4970703125
+    "deform_high_end": 1.4970703125,
+    "cyclic_stiffness": 174.58059437375152
   },
   {
     "ciclo": 204,
@@ -2447,7 +2650,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47727203369,
     "deform_high_start": 1.498101234436,
     "deform_low": 1.126466870308,
-    "deform_high_end": 1.497773885727
+    "deform_high_end": 1.497773885727,
+    "cyclic_stiffness": 174.69606957093544
   },
   {
     "ciclo": 205,
@@ -2459,7 +2663,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.31995391846,
     "deform_high_start": 1.498763084412,
     "deform_low": 1.128333687782,
-    "deform_high_end": 1.496673226357
+    "deform_high_end": 1.496673226357,
+    "cyclic_stiffness": 175.67256467578912
   },
   {
     "ciclo": 206,
@@ -2471,7 +2676,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.34187316895,
     "deform_high_start": 1.497836589813,
     "deform_low": 1.129044294357,
-    "deform_high_end": 1.4970703125
+    "deform_high_end": 1.4970703125,
+    "cyclic_stiffness": 175.88331272138674
   },
   {
     "ciclo": 207,
@@ -2483,7 +2689,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.31408691406,
     "deform_high_start": 1.498205780983,
     "deform_low": 1.129657268524,
-    "deform_high_end": 1.497418642044
+    "deform_high_end": 1.497418642044,
+    "cyclic_stiffness": 175.96263216338227
   },
   {
     "ciclo": 208,
@@ -2495,7 +2702,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.30382537842,
     "deform_high_start": 1.498602867126,
     "deform_low": 1.13022840023,
-    "deform_high_end": 1.497857451439
+    "deform_high_end": 1.497857451439,
+    "cyclic_stiffness": 176.0876190375001
   },
   {
     "ciclo": 209,
@@ -2507,7 +2715,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.38493347168,
     "deform_high_start": 1.499006867409,
     "deform_low": 1.127811312675,
-    "deform_high_end": 1.499160051346
+    "deform_high_end": 1.499160051346,
+    "cyclic_stiffness": 175.0797390384844
   },
   {
     "ciclo": 210,
@@ -2519,7 +2728,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.32239532471,
     "deform_high_start": 1.500205039978,
     "deform_low": 1.126034975052,
-    "deform_high_end": 1.498345136642
+    "deform_high_end": 1.498345136642,
+    "cyclic_stiffness": 174.86387266274565
   },
   {
     "ciclo": 211,
@@ -2531,7 +2741,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42430114746,
     "deform_high_start": 1.499438762665,
     "deform_low": 1.128486990929,
-    "deform_high_end": 1.501166343689
+    "deform_high_end": 1.501166343689,
+    "cyclic_stiffness": 174.65468941987015
   },
   {
     "ciclo": 212,
@@ -2543,7 +2754,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.38046264648,
     "deform_high_start": 1.502120614052,
     "deform_low": 1.129692077637,
-    "deform_high_end": 1.50088763237
+    "deform_high_end": 1.50088763237,
+    "cyclic_stiffness": 175.1618047835762
   },
   {
     "ciclo": 213,
@@ -2555,7 +2767,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.36930847168,
     "deform_high_start": 1.50189769268,
     "deform_low": 1.130263328552,
-    "deform_high_end": 1.501110553741
+    "deform_high_end": 1.501110553741,
+    "cyclic_stiffness": 175.33362135371766
   },
   {
     "ciclo": 214,
@@ -2567,7 +2780,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.35419464111,
     "deform_high_start": 1.502141594887,
     "deform_low": 1.130806684494,
-    "deform_high_end": 1.501201152802
+    "deform_high_end": 1.501201152802,
+    "cyclic_stiffness": 175.44840291256963
   },
   {
     "ciclo": 215,
@@ -2579,7 +2793,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.25358581543,
     "deform_high_start": 1.502294778824,
     "deform_low": 1.131099224091,
-    "deform_high_end": 1.499529242516
+    "deform_high_end": 1.499529242516,
+    "cyclic_stiffness": 176.11747305956507
   },
   {
     "ciclo": 216,
@@ -2591,7 +2806,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.391746521,
     "deform_high_start": 1.500762224197,
     "deform_low": 1.131259441376,
-    "deform_high_end": 1.502886891365
+    "deform_high_end": 1.502886891365,
+    "cyclic_stiffness": 174.93640320574355
   },
   {
     "ciclo": 217,
@@ -2603,7 +2819,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.37741088867,
     "deform_high_start": 1.503883004189,
     "deform_low": 1.132178902626,
-    "deform_high_end": 1.502698779106
+    "deform_high_end": 1.502698779106,
+    "cyclic_stiffness": 175.50477229838464
   },
   {
     "ciclo": 218,
@@ -2615,7 +2832,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40405273438,
     "deform_high_start": 1.503743767738,
     "deform_low": 1.133000969887,
-    "deform_high_end": 1.50433576107
+    "deform_high_end": 1.50433576107,
+    "cyclic_stiffness": 175.11509729453797
   },
   {
     "ciclo": 219,
@@ -2627,7 +2845,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41699981689,
     "deform_high_start": 1.505311012268,
     "deform_low": 1.131015658379,
-    "deform_high_end": 1.504718899727
+    "deform_high_end": 1.504718899727,
+    "cyclic_stiffness": 174.54324895939277
   },
   {
     "ciclo": 220,
@@ -2639,7 +2858,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4504776001,
     "deform_high_start": 1.505673289299,
     "deform_low": 1.131315112114,
-    "deform_high_end": 1.507143139839
+    "deform_high_end": 1.507143139839,
+    "cyclic_stiffness": 173.685482228844
   },
   {
     "ciclo": 221,
@@ -2651,7 +2871,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4400100708,
     "deform_high_start": 1.508062601089,
     "deform_low": 1.132492423058,
-    "deform_high_end": 1.507261514664
+    "deform_high_end": 1.507261514664,
+    "cyclic_stiffness": 174.14835528195172
   },
   {
     "ciclo": 222,
@@ -2663,7 +2884,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46178436279,
     "deform_high_start": 1.508167147636,
     "deform_low": 1.133105397224,
-    "deform_high_end": 1.508396983147
+    "deform_high_end": 1.508396983147,
+    "cyclic_stiffness": 173.95444343256463
   },
   {
     "ciclo": 223,
@@ -2675,7 +2897,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.36699676514,
     "deform_high_start": 1.509246826172,
     "deform_low": 1.139465332031,
-    "deform_high_end": 1.506878376007
+    "deform_high_end": 1.506878376007,
+    "cyclic_stiffness": 176.3393599914138
   },
   {
     "ciclo": 224,
@@ -2687,7 +2910,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43407440186,
     "deform_high_start": 1.50792324543,
     "deform_low": 1.134512543678,
-    "deform_high_end": 1.508515357971
+    "deform_high_end": 1.508515357971,
+    "cyclic_stiffness": 174.42438633970718
   },
   {
     "ciclo": 225,
@@ -2699,7 +2923,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47260284424,
     "deform_high_start": 1.509455800056,
     "deform_low": 1.132945179939,
-    "deform_high_end": 1.5098528862
+    "deform_high_end": 1.5098528862,
+    "cyclic_stiffness": 173.53394327333717
   },
   {
     "ciclo": 226,
@@ -2711,7 +2936,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43355560303,
     "deform_high_start": 1.510730624199,
     "deform_low": 1.135487794876,
-    "deform_high_end": 1.509650826454
+    "deform_high_end": 1.509650826454,
+    "cyclic_stiffness": 174.36808469223737
   },
   {
     "ciclo": 227,
@@ -2723,7 +2949,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45391845703,
     "deform_high_start": 1.510584235191,
     "deform_low": 1.135905742645,
-    "deform_high_end": 1.510117530823
+    "deform_high_end": 1.510117530823,
+    "cyclic_stiffness": 174.39253598759737
   },
   {
     "ciclo": 228,
@@ -2735,7 +2962,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40217590332,
     "deform_high_start": 1.511037111282,
     "deform_low": 1.134846925735,
-    "deform_high_end": 1.509539365768
+    "deform_high_end": 1.509539365768,
+    "cyclic_stiffness": 174.3142530991034
   },
   {
     "ciclo": 229,
@@ -2747,7 +2975,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.39512634277,
     "deform_high_start": 1.510570406914,
     "deform_low": 1.136985421181,
-    "deform_high_end": 1.509978294373
+    "deform_high_end": 1.509978294373,
+    "cyclic_stiffness": 174.8156289240261
   },
   {
     "ciclo": 230,
@@ -2759,7 +2988,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45510101318,
     "deform_high_start": 1.510988354683,
     "deform_low": 1.137473106384,
-    "deform_high_end": 1.511266946793
+    "deform_high_end": 1.511266946793,
+    "cyclic_stiffness": 174.56690596055606
   },
   {
     "ciclo": 231,
@@ -2771,7 +3001,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45620727539,
     "deform_high_start": 1.512186408043,
     "deform_low": 1.137995481491,
-    "deform_high_end": 1.511817216873
+    "deform_high_end": 1.511817216873,
+    "cyclic_stiffness": 174.6018666745263
   },
   {
     "ciclo": 232,
@@ -2783,7 +3014,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.28340911865,
     "deform_high_start": 1.512743711472,
     "deform_low": 1.135313630104,
-    "deform_high_end": 1.508773088455
+    "deform_high_end": 1.508773088455,
+    "cyclic_stiffness": 174.65889897397847
   },
   {
     "ciclo": 233,
@@ -2795,7 +3027,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.53030395508,
     "deform_high_start": 1.509943366051,
     "deform_low": 1.141360044479,
-    "deform_high_end": 1.514366865158
+    "deform_high_end": 1.514366865158,
+    "cyclic_stiffness": 174.6505831878952
   },
   {
     "ciclo": 234,
@@ -2807,7 +3040,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45812988281,
     "deform_high_start": 1.515216708183,
     "deform_low": 1.145922780037,
-    "deform_high_end": 1.514178752899
+    "deform_high_end": 1.514178752899,
+    "cyclic_stiffness": 176.14353439705593
   },
   {
     "ciclo": 235,
@@ -2819,7 +3053,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48059844971,
     "deform_high_start": 1.515098214149,
     "deform_low": 1.139911174774,
-    "deform_high_end": 1.514387726784
+    "deform_high_end": 1.514387726784,
+    "cyclic_stiffness": 174.501817538015
   },
   {
     "ciclo": 236,
@@ -2831,7 +3066,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.5308380127,
     "deform_high_start": 1.515321135521,
     "deform_low": 1.140273332596,
-    "deform_high_end": 1.516679525375
+    "deform_high_end": 1.516679525375,
+    "cyclic_stiffness": 173.815979862965
   },
   {
     "ciclo": 237,
@@ -2843,7 +3079,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48422241211,
     "deform_high_start": 1.517522454262,
     "deform_low": 1.141130208969,
-    "deform_high_end": 1.516038656235
+    "deform_high_end": 1.516038656235,
+    "cyclic_stiffness": 174.3515109888376
   },
   {
     "ciclo": 238,
@@ -2855,7 +3092,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.59756469727,
     "deform_high_start": 1.516958117485,
     "deform_low": 1.143449902534,
-    "deform_high_end": 1.519640088081
+    "deform_high_end": 1.519640088081,
+    "cyclic_stiffness": 173.79059939558906
   },
   {
     "ciclo": 239,
@@ -2867,7 +3105,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6301651001,
     "deform_high_start": 1.520392417908,
     "deform_low": 1.169070720673,
-    "deform_high_end": 1.508201956749
+    "deform_high_end": 1.508201956749,
+    "cyclic_stiffness": 183.851143773195
   },
   {
     "ciclo": 240,
@@ -2879,7 +3118,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.29012298584,
     "deform_high_start": 1.510410189629,
     "deform_low": 1.140976905823,
-    "deform_high_end": 1.501026988029
+    "deform_high_end": 1.501026988029,
+    "cyclic_stiffness": 178.29841152576526
   },
   {
     "ciclo": 241,
@@ -2891,7 +3131,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.99456787109,
     "deform_high_start": 1.503813385963,
     "deform_low": 1.160049796104,
-    "deform_high_end": 1.508390069008
+    "deform_high_end": 1.508390069008,
+    "cyclic_stiffness": 181.48849624723945
   },
   {
     "ciclo": 242,
@@ -2903,7 +3144,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63244628906,
     "deform_high_start": 1.510047912598,
     "deform_low": 1.173333883286,
-    "deform_high_end": 1.506181836128
+    "deform_high_end": 1.506181836128,
+    "cyclic_stiffness": 185.40870754312436
   },
   {
     "ciclo": 243,
@@ -2915,7 +3157,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.37794494629,
     "deform_high_start": 1.508376121521,
     "deform_low": 1.163581490517,
-    "deform_high_end": 1.502872943878
+    "deform_high_end": 1.502872943878,
+    "cyclic_stiffness": 184.533177241525
   },
   {
     "ciclo": 244,
@@ -2927,7 +3170,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41207885742,
     "deform_high_start": 1.50548517704,
     "deform_low": 1.142788052559,
-    "deform_high_end": 1.514109015465
+    "deform_high_end": 1.514109015465,
+    "cyclic_stiffness": 175.67786222579545
   },
   {
     "ciclo": 245,
@@ -2939,7 +3183,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63772583008,
     "deform_high_start": 1.515112161636,
     "deform_low": 1.169488668442,
-    "deform_high_end": 1.506927132607
+    "deform_high_end": 1.506927132607,
+    "cyclic_stiffness": 184.55688909803163
   },
   {
     "ciclo": 246,
@@ -2951,7 +3196,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.33558654785,
     "deform_high_start": 1.509121417999,
     "deform_low": 1.159889578819,
-    "deform_high_end": 1.503165483475
+    "deform_high_end": 1.503165483475,
+    "cyclic_stiffness": 183.5436155000131
   },
   {
     "ciclo": 247,
@@ -2963,7 +3209,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64289855957,
     "deform_high_start": 1.505868315697,
     "deform_low": 1.164173603058,
-    "deform_high_end": 1.505763888359
+    "deform_high_end": 1.505763888359,
+    "cyclic_stiffness": 183.97475873927036
   },
   {
     "ciclo": 248,
@@ -2975,7 +3222,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62012481689,
     "deform_high_start": 1.507700324059,
     "deform_low": 1.164173603058,
-    "deform_high_end": 1.505499124527
+    "deform_high_end": 1.505499124527,
+    "cyclic_stiffness": 184.12040041274133
   },
   {
     "ciclo": 249,
@@ -2987,7 +3235,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91515350342,
     "deform_high_start": 1.507658600807,
     "deform_low": 1.144278764725,
-    "deform_high_end": 1.497474312782
+    "deform_high_end": 1.497474312782,
+    "cyclic_stiffness": 180.48195856745198
   },
   {
     "ciclo": 250,
@@ -2999,7 +3248,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.92775726318,
     "deform_high_start": 1.500831961632,
     "deform_low": 1.142836809158,
-    "deform_high_end": 1.496499061584
+    "deform_high_end": 1.496499061584,
+    "cyclic_stiffness": 180.208242464673
   },
   {
     "ciclo": 251,
@@ -3011,7 +3261,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.30160522461,
     "deform_high_start": 1.499856710434,
     "deform_low": 1.141896486282,
-    "deform_high_end": 1.499111294746
+    "deform_high_end": 1.499111294746,
+    "cyclic_stiffness": 179.52433193674807
   },
   {
     "ciclo": 252,
@@ -3023,7 +3274,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63370513916,
     "deform_high_start": 1.501911640167,
     "deform_low": 1.161122560501,
-    "deform_high_end": 1.503388404846
+    "deform_high_end": 1.503388404846,
+    "cyclic_stiffness": 183.57914329326184
   },
   {
     "ciclo": 253,
@@ -3035,7 +3287,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93921661377,
     "deform_high_start": 1.505603671074,
     "deform_low": 1.143031954765,
-    "deform_high_end": 1.496338844299
+    "deform_high_end": 1.496338844299,
+    "cyclic_stiffness": 180.49799966461475
   },
   {
     "ciclo": 254,
@@ -3047,7 +3300,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62732696533,
     "deform_high_start": 1.499738335609,
     "deform_low": 1.14223086834,
-    "deform_high_end": 1.501653909683
+    "deform_high_end": 1.501653909683,
+    "cyclic_stiffness": 179.28256528347077
   },
   {
     "ciclo": 255,
@@ -3059,7 +3313,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94606018066,
     "deform_high_start": 1.503917813301,
     "deform_low": 1.14172232151,
-    "deform_high_end": 1.495328783989
+    "deform_high_end": 1.495328783989,
+    "cyclic_stiffness": 180.34314387159492
   },
   {
     "ciclo": 256,
@@ -3071,7 +3326,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93664550781,
     "deform_high_start": 1.498721241951,
     "deform_low": 1.141478538513,
-    "deform_high_end": 1.49477159977
+    "deform_high_end": 1.49477159977,
+    "cyclic_stiffness": 180.3962981968054
   },
   {
     "ciclo": 257,
@@ -3083,7 +3339,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.33825683594,
     "deform_high_start": 1.498136162758,
     "deform_low": 1.140363931656,
-    "deform_high_end": 1.497732043266
+    "deform_high_end": 1.497732043266,
+    "cyclic_stiffness": 179.50127109011473
   },
   {
     "ciclo": 258,
@@ -3095,7 +3352,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66466522217,
     "deform_high_start": 1.500483632088,
     "deform_low": 1.160565257072,
-    "deform_high_end": 1.502538561821
+    "deform_high_end": 1.502538561821,
+    "cyclic_stiffness": 183.8337353763103
   },
   {
     "ciclo": 259,
@@ -3107,7 +3365,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93392181396,
     "deform_high_start": 1.504732847214,
     "deform_low": 1.142558217049,
-    "deform_high_end": 1.495607495308
+    "deform_high_end": 1.495607495308,
+    "cyclic_stiffness": 180.64045824015568
   },
   {
     "ciclo": 260,
@@ -3119,7 +3378,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91770172119,
     "deform_high_start": 1.498965024948,
     "deform_low": 1.141896486282,
-    "deform_high_end": 1.494388461113
+    "deform_high_end": 1.494388461113,
+    "cyclic_stiffness": 180.81579158272714
   },
   {
     "ciclo": 261,
@@ -3131,7 +3391,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.92676544189,
     "deform_high_start": 1.497857451439,
     "deform_low": 1.141548156738,
-    "deform_high_end": 1.494353532791
+    "deform_high_end": 1.494353532791,
+    "cyclic_stiffness": 180.66643194589432
   },
   {
     "ciclo": 262,
@@ -3143,7 +3404,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.31491851807,
     "deform_high_start": 1.497745990753,
     "deform_low": 1.141652703285,
-    "deform_high_end": 1.497557878494
+    "deform_high_end": 1.497557878494,
+    "cyclic_stiffness": 180.20680015638646
   },
   {
     "ciclo": 263,
@@ -3155,7 +3417,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63877868652,
     "deform_high_start": 1.500274658203,
     "deform_low": 1.16089963913,
-    "deform_high_end": 1.502071857452
+    "deform_high_end": 1.502071857452,
+    "cyclic_stiffness": 184.16158157385476
   },
   {
     "ciclo": 264,
@@ -3167,7 +3430,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.29476165771,
     "deform_high_start": 1.504300951958,
     "deform_low": 1.143206000328,
-    "deform_high_end": 1.498379945755
+    "deform_high_end": 1.498379945755,
+    "cyclic_stiffness": 180.52113720306392
   },
   {
     "ciclo": 265,
@@ -3179,7 +3443,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66757202148,
     "deform_high_start": 1.501201152802,
     "deform_low": 1.161853909492,
-    "deform_high_end": 1.50295650959
+    "deform_high_end": 1.50295650959,
+    "cyclic_stiffness": 184.35182513567332
   },
   {
     "ciclo": 266,
@@ -3191,7 +3456,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94114685059,
     "deform_high_start": 1.50511598587,
     "deform_low": 1.143937468529,
-    "deform_high_end": 1.495837330818
+    "deform_high_end": 1.495837330818,
+    "cyclic_stiffness": 181.21990955154584
   },
   {
     "ciclo": 267,
@@ -3203,7 +3469,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4143447876,
     "deform_high_start": 1.499160051346,
     "deform_low": 1.142265677452,
-    "deform_high_end": 1.513356804848
+    "deform_high_end": 1.513356804848,
+    "cyclic_stiffness": 175.81772846085371
   },
   {
     "ciclo": 268,
@@ -3215,7 +3482,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65901947021,
     "deform_high_start": 1.514401674271,
     "deform_low": 1.170038938522,
-    "deform_high_end": 1.506147027016
+    "deform_high_end": 1.506147027016,
+    "cyclic_stiffness": 185.47851429250227
   },
   {
     "ciclo": 269,
@@ -3227,7 +3495,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94553375244,
     "deform_high_start": 1.508271574974,
     "deform_low": 1.14558839798,
-    "deform_high_end": 1.497627615929
+    "deform_high_end": 1.497627615929,
+    "cyclic_stiffness": 181.2081341794413
   },
   {
     "ciclo": 270,
@@ -3239,7 +3508,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.92618560791,
     "deform_high_start": 1.500936388969,
     "deform_low": 1.14443898201,
-    "deform_high_end": 1.496499061584
+    "deform_high_end": 1.496499061584,
+    "cyclic_stiffness": 181.13664809561266
   },
   {
     "ciclo": 271,
@@ -3251,7 +3521,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42984008789,
     "deform_high_start": 1.499912381172,
     "deform_low": 1.143846869469,
-    "deform_high_end": 1.514157891273
+    "deform_high_end": 1.514157891273,
+    "cyclic_stiffness": 176.16896504474047
   },
   {
     "ciclo": 272,
@@ -3263,7 +3534,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65670776367,
     "deform_high_start": 1.515167951584,
     "deform_low": 1.17101418972,
-    "deform_high_end": 1.506948113441
+    "deform_high_end": 1.506948113441,
+    "cyclic_stiffness": 185.5628771712916
   },
   {
     "ciclo": 273,
@@ -3275,7 +3547,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94087219238,
     "deform_high_start": 1.509093523026,
     "deform_low": 1.146793484688,
-    "deform_high_end": 1.49844956398
+    "deform_high_end": 1.49844956398,
+    "cyclic_stiffness": 181.307067176886
   },
   {
     "ciclo": 274,
@@ -3287,7 +3560,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.9772567749,
     "deform_high_start": 1.50180721283,
     "deform_low": 1.14544904232,
-    "deform_high_end": 1.497613668442
+    "deform_high_end": 1.497613668442,
+    "cyclic_stiffness": 181.1350798580222
   },
   {
     "ciclo": 275,
@@ -3299,7 +3573,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.92975616455,
     "deform_high_start": 1.50088763237,
     "deform_low": 1.144996285439,
-    "deform_high_end": 1.496652364731
+    "deform_high_end": 1.496652364731,
+    "cyclic_stiffness": 181.32381890279348
   },
   {
     "ciclo": 276,
@@ -3311,7 +3586,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.96293640137,
     "deform_high_start": 1.500051736832,
     "deform_low": 1.144822120667,
-    "deform_high_end": 1.496547818184
+    "deform_high_end": 1.496547818184,
+    "cyclic_stiffness": 181.30949005423392
   },
   {
     "ciclo": 277,
@@ -3323,7 +3599,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.32754516602,
     "deform_high_start": 1.499856710434,
     "deform_low": 1.144578337669,
-    "deform_high_end": 1.499285459518
+    "deform_high_end": 1.499285459518,
+    "cyclic_stiffness": 180.81356572464824
   },
   {
     "ciclo": 278,
@@ -3335,7 +3612,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94728088379,
     "deform_high_start": 1.501772284508,
     "deform_low": 1.144404172897,
-    "deform_high_end": 1.49578166008
+    "deform_high_end": 1.49578166008,
+    "cyclic_stiffness": 181.47382520078554
   },
   {
     "ciclo": 279,
@@ -3347,7 +3625,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.9693069458,
     "deform_high_start": 1.499146223068,
     "deform_low": 1.144216179848,
-    "deform_high_end": 1.49564230442
+    "deform_high_end": 1.49564230442,
+    "cyclic_stiffness": 181.44032380220864
   },
   {
     "ciclo": 280,
@@ -3359,7 +3638,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43838500977,
     "deform_high_start": 1.499006867409,
     "deform_low": 1.1441603899,
-    "deform_high_end": 1.513844370842
+    "deform_high_end": 1.513844370842,
+    "cyclic_stiffness": 176.48937711163194
   },
   {
     "ciclo": 281,
@@ -3371,7 +3651,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63948822021,
     "deform_high_start": 1.514889240265,
     "deform_low": 1.171069979668,
-    "deform_high_end": 1.506752967834
+    "deform_high_end": 1.506752967834,
+    "cyclic_stiffness": 185.7614152146239
   },
   {
     "ciclo": 282,
@@ -3383,7 +3664,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.90267181396,
     "deform_high_start": 1.508912444115,
     "deform_low": 1.1476085186,
-    "deform_high_end": 1.49817097187
+    "deform_high_end": 1.49817097187,
+    "cyclic_stiffness": 181.8325552387814
   },
   {
     "ciclo": 283,
@@ -3395,7 +3677,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94254302979,
     "deform_high_start": 1.501549482346,
     "deform_low": 1.146340727806,
-    "deform_high_end": 1.497335076332
+    "deform_high_end": 1.497335076332,
+    "cyclic_stiffness": 181.6502689554448
   },
   {
     "ciclo": 284,
@@ -3407,7 +3690,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.39144897461,
     "deform_high_start": 1.50065779686,
     "deform_low": 1.145797371864,
-    "deform_high_end": 1.514297127724
+    "deform_high_end": 1.514297127724,
+    "cyclic_stiffness": 176.98723861253848
   },
   {
     "ciclo": 285,
@@ -3419,7 +3703,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63157653809,
     "deform_high_start": 1.515376925468,
     "deform_low": 1.172797441483,
-    "deform_high_end": 1.507874488831
+    "deform_high_end": 1.507874488831,
+    "cyclic_stiffness": 186.0696207170459
   },
   {
     "ciclo": 286,
@@ -3431,7 +3716,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.971534729,
     "deform_high_start": 1.510027050972,
     "deform_low": 1.148778796196,
-    "deform_high_end": 1.499752163887
+    "deform_high_end": 1.499752163887,
+    "cyclic_stiffness": 181.86122714048815
   },
   {
     "ciclo": 287,
@@ -3443,7 +3729,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95600891113,
     "deform_high_start": 1.50304710865,
     "deform_low": 1.147434353828,
-    "deform_high_end": 1.498602867126
+    "deform_high_end": 1.498602867126,
+    "cyclic_stiffness": 181.69801430165518
   },
   {
     "ciclo": 288,
@@ -3455,7 +3742,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45500183105,
     "deform_high_start": 1.50189769268,
     "deform_low": 1.147051215172,
-    "deform_high_end": 1.516366004944
+    "deform_high_end": 1.516366004944,
+    "cyclic_stiffness": 176.78086091289777
   },
   {
     "ciclo": 289,
@@ -3467,7 +3755,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66618347168,
     "deform_high_start": 1.517362236977,
     "deform_low": 1.17382144928,
-    "deform_high_end": 1.508863687515
+    "deform_high_end": 1.508863687515,
+    "cyclic_stiffness": 186.19178249885297
   },
   {
     "ciclo": 290,
@@ -3479,7 +3768,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93962860107,
     "deform_high_start": 1.511057972908,
     "deform_low": 1.149767994881,
-    "deform_high_end": 1.500497579575
+    "deform_high_end": 1.500497579575,
+    "cyclic_stiffness": 181.8952005228271
   },
   {
     "ciclo": 291,
@@ -3491,7 +3781,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.87662506104,
     "deform_high_start": 1.503792524338,
     "deform_low": 1.148723125458,
-    "deform_high_end": 1.499006867409
+    "deform_high_end": 1.499006867409,
+    "cyclic_stiffness": 181.8171796624978
   },
   {
     "ciclo": 292,
@@ -3503,7 +3794,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64714813232,
     "deform_high_start": 1.502454996109,
     "deform_low": 1.167607903481,
-    "deform_high_end": 1.50654399395
+    "deform_high_end": 1.50654399395,
+    "cyclic_stiffness": 185.4050215216829
   },
   {
     "ciclo": 293,
@@ -3515,7 +3807,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93496704102,
     "deform_high_start": 1.508724331856,
     "deform_low": 1.149593830109,
-    "deform_high_end": 1.499647736549
+    "deform_high_end": 1.499647736549,
+    "cyclic_stiffness": 182.10477155394724
   },
   {
     "ciclo": 294,
@@ -3527,7 +3820,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.92756652832,
     "deform_high_start": 1.50295650959,
     "deform_low": 1.148918151855,
-    "deform_high_end": 1.499020814896
+    "deform_high_end": 1.499020814896,
+    "cyclic_stiffness": 182.02741826810347
   },
   {
     "ciclo": 295,
@@ -3539,7 +3833,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44589996338,
     "deform_high_start": 1.502364397049,
     "deform_low": 1.148444414139,
-    "deform_high_end": 1.517027854919
+    "deform_high_end": 1.517027854919,
+    "cyclic_stiffness": 177.09954067139145
   },
   {
     "ciclo": 296,
@@ -3551,7 +3846,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64432525635,
     "deform_high_start": 1.518023967743,
     "deform_low": 1.174984812737,
-    "deform_high_end": 1.509198069572
+    "deform_high_end": 1.509198069572,
+    "cyclic_stiffness": 186.6679478843959
   },
   {
     "ciclo": 297,
@@ -3563,7 +3859,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.31665802002,
     "deform_high_start": 1.511162519455,
     "deform_low": 1.166472434998,
-    "deform_high_end": 1.50603556633
+    "deform_high_end": 1.50603556633,
+    "cyclic_stiffness": 185.52837847252792
   },
   {
     "ciclo": 298,
@@ -3575,7 +3872,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.59657287598,
     "deform_high_start": 1.508654713631,
     "deform_low": 1.151753306389,
-    "deform_high_end": 1.506996870041
+    "deform_high_end": 1.506996870041,
+    "cyclic_stiffness": 181.34993468121434
   },
   {
     "ciclo": 299,
@@ -3587,7 +3885,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62358093262,
     "deform_high_start": 1.509191155434,
     "deform_low": 1.175374865532,
-    "deform_high_end": 1.50879406929
+    "deform_high_end": 1.50879406929,
+    "cyclic_stiffness": 186.8524861071839
   },
   {
     "ciclo": 300,
@@ -3599,7 +3898,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64671325684,
     "deform_high_start": 1.510988354683,
     "deform_low": 1.172205328941,
-    "deform_high_end": 1.509553313255
+    "deform_high_end": 1.509553313255,
+    "cyclic_stiffness": 186.31914003418427
   },
   {
     "ciclo": 301,
@@ -3611,7 +3911,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63426208496,
     "deform_high_start": 1.511754631996,
     "deform_low": 1.172755718231,
-    "deform_high_end": 1.509734392166
+    "deform_high_end": 1.509734392166,
+    "cyclic_stiffness": 186.47354058426492
   },
   {
     "ciclo": 302,
@@ -3623,7 +3924,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93382263184,
     "deform_high_start": 1.511942625046,
     "deform_low": 1.153599262238,
-    "deform_high_end": 1.502155423164
+    "deform_high_end": 1.502155423164,
+    "cyclic_stiffness": 182.93858239430594
   },
   {
     "ciclo": 303,
@@ -3635,7 +3937,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43650054932,
     "deform_high_start": 1.505464315414,
     "deform_low": 1.151997089386,
-    "deform_high_end": 1.519243001938
+    "deform_high_end": 1.519243001938,
+    "cyclic_stiffness": 177.70272426685065
   },
   {
     "ciclo": 304,
@@ -3647,7 +3950,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68253326416,
     "deform_high_start": 1.520253062248,
     "deform_low": 1.178558349609,
-    "deform_high_end": 1.511928677559
+    "deform_high_end": 1.511928677559,
+    "cyclic_stiffness": 187.19121420113177
   },
   {
     "ciclo": 305,
@@ -3659,7 +3963,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93620300293,
     "deform_high_start": 1.514122962952,
     "deform_low": 1.154539704323,
-    "deform_high_end": 1.503583550453
+    "deform_high_end": 1.503583550453,
+    "cyclic_stiffness": 182.7207478710921
   },
   {
     "ciclo": 306,
@@ -3671,7 +3976,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91622924805,
     "deform_high_start": 1.506857514381,
     "deform_low": 1.153202176094,
-    "deform_high_end": 1.502071857452
+    "deform_high_end": 1.502071857452,
+    "cyclic_stiffness": 182.6475318390772
   },
   {
     "ciclo": 307,
@@ -3683,7 +3989,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.9430770874,
     "deform_high_start": 1.505443453789,
     "deform_low": 1.152589201927,
-    "deform_high_end": 1.501507639885
+    "deform_high_end": 1.501507639885,
+    "cyclic_stiffness": 182.69348602964953
   },
   {
     "ciclo": 308,
@@ -3695,7 +4002,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44914245605,
     "deform_high_start": 1.504837393761,
     "deform_low": 1.151230812073,
-    "deform_high_end": 1.519521594048
+    "deform_high_end": 1.519521594048,
+    "cyclic_stiffness": 177.2595367389876
   },
   {
     "ciclo": 309,
@@ -3707,7 +4015,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66785430908,
     "deform_high_start": 1.520496845245,
     "deform_low": 1.178258776665,
-    "deform_high_end": 1.51201236248
+    "deform_high_end": 1.51201236248,
+    "cyclic_stiffness": 186.98262974139783
   },
   {
     "ciclo": 310,
@@ -3719,7 +4028,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95626068115,
     "deform_high_start": 1.514227509499,
     "deform_low": 1.15450489521,
-    "deform_high_end": 1.503896951675
+    "deform_high_end": 1.503896951675,
+    "cyclic_stiffness": 182.6792675184182
   },
   {
     "ciclo": 311,
@@ -3731,7 +4041,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.61772918701,
     "deform_high_start": 1.507136106491,
     "deform_low": 1.153216123581,
-    "deform_high_end": 1.508585095406
+    "deform_high_end": 1.508585095406,
+    "cyclic_stiffness": 181.37351692387858
   },
   {
     "ciclo": 312,
@@ -3743,7 +4054,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94747924805,
     "deform_high_start": 1.510828137398,
     "deform_low": 1.153320670128,
-    "deform_high_end": 1.502573370934
+    "deform_high_end": 1.502573370934,
+    "cyclic_stiffness": 182.6296495528325
   },
   {
     "ciclo": 313,
@@ -3755,7 +4067,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94480133057,
     "deform_high_start": 1.505882263184,
     "deform_low": 1.152867913246,
-    "deform_high_end": 1.502120614052
+    "deform_high_end": 1.502120614052,
+    "cyclic_stiffness": 182.56780933744346
   },
   {
     "ciclo": 314,
@@ -3767,7 +4080,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.94256591797,
     "deform_high_start": 1.505415558815,
     "deform_low": 1.152554392815,
-    "deform_high_end": 1.501793265343
+    "deform_high_end": 1.501793265343,
+    "cyclic_stiffness": 182.59909312722402
   },
   {
     "ciclo": 315,
@@ -3779,7 +4093,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95412445068,
     "deform_high_start": 1.505081176758,
     "deform_low": 1.152728557587,
-    "deform_high_end": 1.501751422882
+    "deform_high_end": 1.501751422882,
+    "cyclic_stiffness": 182.68739838862777
   },
   {
     "ciclo": 316,
@@ -3791,7 +4106,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47406768799,
     "deform_high_start": 1.504997611046,
     "deform_low": 1.152749419212,
-    "deform_high_end": 1.520740628242
+    "deform_high_end": 1.520740628242,
+    "cyclic_stiffness": 177.3842706064467
   },
   {
     "ciclo": 317,
@@ -3803,7 +4119,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45321655273,
     "deform_high_start": 1.521646261215,
     "deform_low": 1.154456138611,
-    "deform_high_end": 1.521924853325
+    "deform_high_end": 1.521924853325,
+    "cyclic_stiffness": 177.87760332271546
   },
   {
     "ciclo": 318,
@@ -3815,7 +4132,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.69264984131,
     "deform_high_start": 1.522900104523,
     "deform_low": 1.180891990662,
-    "deform_high_end": 1.514206647873
+    "deform_high_end": 1.514206647873,
+    "cyclic_stiffness": 187.11933637733125
   },
   {
     "ciclo": 319,
@@ -3827,7 +4145,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40951538086,
     "deform_high_start": 1.516491413116,
     "deform_low": 1.156643390656,
-    "deform_high_end": 1.522321939468
+    "deform_high_end": 1.522321939468,
+    "cyclic_stiffness": 178.4664971932841
   },
   {
     "ciclo": 320,
@@ -3839,7 +4158,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68651580811,
     "deform_high_start": 1.523318052292,
     "deform_low": 1.182229399681,
-    "deform_high_end": 1.515446543694
+    "deform_high_end": 1.515446543694,
+    "cyclic_stiffness": 187.28464654731368
   },
   {
     "ciclo": 321,
@@ -3851,7 +4171,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.34999847412,
     "deform_high_start": 1.517745256424,
     "deform_low": 1.17804980278,
-    "deform_high_end": 1.51229095459
+    "deform_high_end": 1.51229095459,
+    "cyclic_stiffness": 187.1787598194789
   },
   {
     "ciclo": 322,
@@ -3863,7 +4184,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91959381104,
     "deform_high_start": 1.515028595924,
     "deform_low": 1.158266425133,
-    "deform_high_end": 1.506453514099
+    "deform_high_end": 1.506453514099,
+    "cyclic_stiffness": 183.1383142663101
   },
   {
     "ciclo": 323,
@@ -3875,7 +4197,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43209075928,
     "deform_high_start": 1.509769320488,
     "deform_low": 1.156678199768,
-    "deform_high_end": 1.524432659149
+    "deform_high_end": 1.524432659149,
+    "cyclic_stiffness": 177.50366748489134
   },
   {
     "ciclo": 324,
@@ -3887,7 +4210,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.69745635986,
     "deform_high_start": 1.525407910347,
     "deform_low": 1.173960804939,
-    "deform_high_end": 1.515725135803
+    "deform_high_end": 1.515725135803,
+    "cyclic_stiffness": 185.5429845265914
   },
   {
     "ciclo": 325,
@@ -3899,7 +4223,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.71403503418,
     "deform_high_start": 1.517919421196,
     "deform_low": 1.178955435753,
-    "deform_high_end": 1.515843629837
+    "deform_high_end": 1.515843629837,
+    "cyclic_stiffness": 186.7080827014869
   },
   {
     "ciclo": 326,
@@ -3911,7 +4236,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.72170257568,
     "deform_high_start": 1.518058776855,
     "deform_low": 1.17942905426,
-    "deform_high_end": 1.516247630119
+    "deform_high_end": 1.516247630119,
+    "cyclic_stiffness": 186.9340856412199
   },
   {
     "ciclo": 327,
@@ -3923,7 +4249,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43475341797,
     "deform_high_start": 1.518441915512,
     "deform_low": 1.160251736641,
-    "deform_high_end": 1.525686502457
+    "deform_high_end": 1.525686502457,
+    "cyclic_stiffness": 178.67284991060694
   },
   {
     "ciclo": 328,
@@ -3935,7 +4262,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.76165008545,
     "deform_high_start": 1.526592135429,
     "deform_low": 1.185907483101,
-    "deform_high_end": 1.518441915512
+    "deform_high_end": 1.518441915512,
+    "cyclic_stiffness": 187.88341570779028
   },
   {
     "ciclo": 329,
@@ -3947,7 +4275,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.7013092041,
     "deform_high_start": 1.520601391792,
     "deform_low": 1.18158853054,
-    "deform_high_end": 1.517919421196
+    "deform_high_end": 1.517919421196,
+    "cyclic_stiffness": 187.10860482266955
   },
   {
     "ciclo": 330,
@@ -3959,7 +4288,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.93438720703,
     "deform_high_start": 1.520127654076,
     "deform_low": 1.161993265152,
-    "deform_high_end": 1.509699583054
+    "deform_high_end": 1.509699583054,
+    "cyclic_stiffness": 183.44104784309152
   },
   {
     "ciclo": 331,
@@ -3971,7 +4301,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62682342529,
     "deform_high_start": 1.513078093529,
     "deform_low": 1.159276604652,
-    "deform_high_end": 1.514088153839
+    "deform_high_end": 1.514088153839,
+    "cyclic_stiffness": 181.6907103437995
   },
   {
     "ciclo": 332,
@@ -3983,7 +4314,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95568084717,
     "deform_high_start": 1.516491413116,
     "deform_low": 1.159868597984,
-    "deform_high_end": 1.508006930351
+    "deform_high_end": 1.508006930351,
+    "cyclic_stiffness": 183.32671048718387
   },
   {
     "ciclo": 333,
@@ -3995,7 +4327,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47282409668,
     "deform_high_start": 1.511280894279,
     "deform_low": 1.15938103199,
-    "deform_high_end": 1.526243805885
+    "deform_high_end": 1.526243805885,
+    "cyclic_stiffness": 178.02042978201467
   },
   {
     "ciclo": 334,
@@ -4007,7 +4340,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44288635254,
     "deform_high_start": 1.527114510536,
     "deform_low": 1.160460710526,
-    "deform_high_end": 1.527184247971
+    "deform_high_end": 1.527184247971,
+    "cyclic_stiffness": 178.19233234733557
   },
   {
     "ciclo": 335,
@@ -4019,7 +4353,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.76145172119,
     "deform_high_start": 1.528117656708,
     "deform_low": 1.192643523216,
-    "deform_high_end": 1.519974470139
+    "deform_high_end": 1.519974470139,
+    "cyclic_stiffness": 189.04853904995042
   },
   {
     "ciclo": 336,
@@ -4031,7 +4366,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.73694610596,
     "deform_high_start": 1.521994590759,
     "deform_low": 1.178175210953,
-    "deform_high_end": 1.519138455391
+    "deform_high_end": 1.519138455391,
+    "cyclic_stiffness": 186.05826781078633
   },
   {
     "ciclo": 337,
@@ -4043,7 +4379,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.7347869873,
     "deform_high_start": 1.521088957787,
     "deform_low": 1.18273794651,
-    "deform_high_end": 1.519138455391
+    "deform_high_end": 1.519138455391,
+    "cyclic_stiffness": 187.202809989527
   },
   {
     "ciclo": 338,
@@ -4055,7 +4392,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45339202881,
     "deform_high_start": 1.521228313446,
     "deform_low": 1.16333770752,
-    "deform_high_end": 1.528368353844
+    "deform_high_end": 1.528368353844,
+    "cyclic_stiffness": 178.9893559941223
   },
   {
     "ciclo": 339,
@@ -4067,7 +4405,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.72647857666,
     "deform_high_start": 1.529322743416,
     "deform_low": 1.188986420631,
-    "deform_high_end": 1.520963549614
+    "deform_high_end": 1.520963549614,
+    "cyclic_stiffness": 188.07176606340016
   },
   {
     "ciclo": 340,
@@ -4079,7 +4418,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43686676025,
     "deform_high_start": 1.523053407669,
     "deform_low": 1.164675116539,
-    "deform_high_end": 1.529726743698
+    "deform_high_end": 1.529726743698,
+    "cyclic_stiffness": 178.89755296312177
   },
   {
     "ciclo": 341,
@@ -4091,7 +4431,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.72095489502,
     "deform_high_start": 1.530701994896,
     "deform_low": 1.190470099449,
-    "deform_high_end": 1.522008538246
+    "deform_high_end": 1.522008538246,
+    "cyclic_stiffness": 188.26100032146496
   },
   {
     "ciclo": 342,
@@ -4103,7 +4444,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.72701263428,
     "deform_high_start": 1.524084329605,
     "deform_low": 1.185802936554,
-    "deform_high_end": 1.521555662155
+    "deform_high_end": 1.521555662155,
+    "cyclic_stiffness": 187.51158069357604
   },
   {
     "ciclo": 343,
@@ -4115,7 +4457,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45092773438,
     "deform_high_start": 1.523596763611,
     "deform_low": 1.165859341621,
-    "deform_high_end": 1.530667185783
+    "deform_high_end": 1.530667185783,
+    "cyclic_stiffness": 179.0337667430295
   },
   {
     "ciclo": 344,
@@ -4127,7 +4470,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.71266174316,
     "deform_high_start": 1.531572699547,
     "deform_low": 1.196690797806,
-    "deform_high_end": 1.52286529541
+    "deform_high_end": 1.52286529541,
+    "cyclic_stiffness": 189.52384920436498
   },
   {
     "ciclo": 345,
@@ -4139,7 +4483,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70938873291,
     "deform_high_start": 1.524955034256,
     "deform_low": 1.186882734299,
-    "deform_high_end": 1.522203564644
+    "deform_high_end": 1.522203564644,
+    "cyclic_stiffness": 187.70767702093207
   },
   {
     "ciclo": 346,
@@ -4151,7 +4496,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4641418457,
     "deform_high_start": 1.524307250977,
     "deform_low": 1.166869401932,
-    "deform_high_end": 1.531537890434
+    "deform_high_end": 1.531537890434,
+    "cyclic_stiffness": 179.14068663577638
   },
   {
     "ciclo": 347,
@@ -4163,7 +4509,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.7096786499,
     "deform_high_start": 1.532408714294,
     "deform_low": 1.192977905273,
-    "deform_high_end": 1.523805737495
+    "deform_high_end": 1.523805737495,
+    "cyclic_stiffness": 188.63006538302417
   },
   {
     "ciclo": 348,
@@ -4175,7 +4522,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.42693328857,
     "deform_high_start": 1.525860667229,
     "deform_low": 1.183587789536,
-    "deform_high_end": 1.520071983337
+    "deform_high_end": 1.520071983337,
+    "cyclic_stiffness": 187.50182418313793
   },
   {
     "ciclo": 349,
@@ -4187,7 +4535,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44795227051,
     "deform_high_start": 1.522565722466,
     "deform_low": 1.167635679245,
-    "deform_high_end": 1.531955838203
+    "deform_high_end": 1.531955838203,
+    "cyclic_stiffness": 179.20766038477632
   },
   {
     "ciclo": 350,
@@ -4199,7 +4548,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.69185638428,
     "deform_high_start": 1.532861471176,
     "deform_low": 1.193409800529,
-    "deform_high_end": 1.524397850037
+    "deform_high_end": 1.524397850037,
+    "cyclic_stiffness": 188.40234839926686
   },
   {
     "ciclo": 351,
@@ -4211,7 +4561,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.97122192383,
     "deform_high_start": 1.52645277977,
     "deform_low": 1.169049859047,
-    "deform_high_end": 1.515655517578
+    "deform_high_end": 1.515655517578,
+    "cyclic_stiffness": 184.1252633241737
   },
   {
     "ciclo": 352,
@@ -4223,7 +4574,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.99732971191,
     "deform_high_start": 1.51909673214,
     "deform_low": 1.167357087135,
-    "deform_high_end": 1.514171719551
+    "deform_high_end": 1.514171719551,
+    "cyclic_stiffness": 184.02504801842267
   },
   {
     "ciclo": 353,
@@ -4235,7 +4587,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66327667236,
     "deform_high_start": 1.517619967461,
     "deform_low": 1.166172862053,
-    "deform_high_end": 1.518999218941
+    "deform_high_end": 1.518999218941,
+    "cyclic_stiffness": 182.714246810915
   },
   {
     "ciclo": 354,
@@ -4247,7 +4600,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43304443359,
     "deform_high_start": 1.521263122559,
     "deform_low": 1.165720105171,
-    "deform_high_end": 1.530924916267
+    "deform_high_end": 1.530924916267,
+    "cyclic_stiffness": 178.73580279160768
   },
   {
     "ciclo": 355,
@@ -4259,7 +4613,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68422698975,
     "deform_high_start": 1.531886219978,
     "deform_low": 1.192142009735,
-    "deform_high_end": 1.523352861404
+    "deform_high_end": 1.523352861404,
+    "cyclic_stiffness": 188.372346942549
   },
   {
     "ciclo": 356,
@@ -4271,7 +4626,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.0051574707,
     "deform_high_start": 1.525477528572,
     "deform_low": 1.168401956558,
-    "deform_high_end": 1.515530109406
+    "deform_high_end": 1.515530109406,
+    "cyclic_stiffness": 183.93607521042023
   },
   {
     "ciclo": 357,
@@ -4283,7 +4639,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.3458404541,
     "deform_high_start": 1.518964409828,
     "deform_low": 1.167252540588,
-    "deform_high_end": 1.516665577888
+    "deform_high_end": 1.516665577888,
+    "cyclic_stiffness": 183.66178577319215
   },
   {
     "ciclo": 358,
@@ -4295,7 +4652,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.72164154053,
     "deform_high_start": 1.519521594048,
     "deform_low": 1.16535782814,
-    "deform_high_end": 1.519431114197
+    "deform_high_end": 1.519431114197,
+    "cyclic_stiffness": 182.35138183427367
   },
   {
     "ciclo": 359,
@@ -4307,7 +4665,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70011901855,
     "deform_high_start": 1.52157664299,
     "deform_low": 1.166089296341,
-    "deform_high_end": 1.519243001938
+    "deform_high_end": 1.519243001938,
+    "cyclic_stiffness": 182.77846984333414
   },
   {
     "ciclo": 360,
@@ -4319,7 +4678,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43934631348,
     "deform_high_start": 1.521402478218,
     "deform_low": 1.166207671165,
-    "deform_high_end": 1.530980706215
+    "deform_high_end": 1.530980706215,
+    "cyclic_stiffness": 178.94411716812016
   },
   {
     "ciclo": 361,
@@ -4331,7 +4691,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.97031402588,
     "deform_high_start": 1.531900167465,
     "deform_low": 1.16650724411,
-    "deform_high_end": 1.514972805977
+    "deform_high_end": 1.514972805977,
+    "cyclic_stiffness": 183.2837102280188
   },
   {
     "ciclo": 362,
@@ -4343,7 +4704,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.40266418457,
     "deform_high_start": 1.51849758625,
     "deform_low": 1.166625618935,
-    "deform_high_end": 1.530597567558
+    "deform_high_end": 1.530597567558,
+    "cyclic_stiffness": 179.24023243705128
   },
   {
     "ciclo": 363,
@@ -4355,7 +4717,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70105743408,
     "deform_high_start": 1.531607627869,
     "deform_low": 1.192789793015,
-    "deform_high_end": 1.524272441864
+    "deform_high_end": 1.524272441864,
+    "cyclic_stiffness": 188.25827370185223
   },
   {
     "ciclo": 364,
@@ -4367,7 +4730,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.96094512939,
     "deform_high_start": 1.526417970657,
     "deform_low": 1.169432878494,
-    "deform_high_end": 1.515634655952
+    "deform_high_end": 1.515634655952,
+    "cyclic_stiffness": 184.29468440182802
   },
   {
     "ciclo": 365,
@@ -4379,7 +4743,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41921234131,
     "deform_high_start": 1.519138455391,
     "deform_low": 1.167788982391,
-    "deform_high_end": 1.532304167747
+    "deform_high_end": 1.532304167747,
+    "cyclic_stiffness": 179.00082510983376
   },
   {
     "ciclo": 366,
@@ -4391,7 +4756,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44384002686,
     "deform_high_start": 1.53325855732,
     "deform_low": 1.169203042984,
-    "deform_high_end": 1.533920288086
+    "deform_high_end": 1.533920288086,
+    "cyclic_stiffness": 179.1758101893237
   },
   {
     "ciclo": 367,
@@ -4403,7 +4769,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68367004395,
     "deform_high_start": 1.534846782684,
     "deform_low": 1.195346355438,
-    "deform_high_end": 1.526034832001
+    "deform_high_end": 1.526034832001,
+    "cyclic_stiffness": 188.533026485525
   },
   {
     "ciclo": 368,
@@ -4415,7 +4782,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6997756958,
     "deform_high_start": 1.528194308281,
     "deform_low": 1.191389679909,
-    "deform_high_end": 1.525686502457
+    "deform_high_end": 1.525686502457,
+    "cyclic_stiffness": 188.12843915646198
   },
   {
     "ciclo": 369,
@@ -4427,7 +4795,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43158721924,
     "deform_high_start": 1.527811169624,
     "deform_low": 1.170387268066,
-    "deform_high_end": 1.534979104996
+    "deform_high_end": 1.534979104996,
+    "cyclic_stiffness": 179.06901411088865
   },
   {
     "ciclo": 370,
@@ -4439,7 +4808,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66854095459,
     "deform_high_start": 1.535940408707,
     "deform_low": 1.197505831718,
-    "deform_high_end": 1.527302622795
+    "deform_high_end": 1.527302622795,
+    "cyclic_stiffness": 188.9609012857558
   },
   {
     "ciclo": 371,
@@ -4451,7 +4821,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6926651001,
     "deform_high_start": 1.529448151588,
     "deform_low": 1.193347096443,
-    "deform_high_end": 1.526989102364
+    "deform_high_end": 1.526989102364,
+    "cyclic_stiffness": 188.36740422262957
   },
   {
     "ciclo": 372,
@@ -4463,7 +4834,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65907287598,
     "deform_high_start": 1.529078960419,
     "deform_low": 1.172142744064,
-    "deform_high_end": 1.524467468262
+    "deform_high_end": 1.524467468262,
+    "cyclic_stiffness": 183.12571823347287
   },
   {
     "ciclo": 373,
@@ -4475,7 +4847,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70168304443,
     "deform_high_start": 1.526438832283,
     "deform_low": 1.171696901321,
-    "deform_high_end": 1.523715138435
+    "deform_high_end": 1.523715138435,
+    "cyclic_stiffness": 183.30685285828244
   },
   {
     "ciclo": 374,
@@ -4487,7 +4860,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70734405518,
     "deform_high_start": 1.525825858116,
     "deform_low": 1.170874834061,
-    "deform_high_end": 1.523248434067
+    "deform_high_end": 1.523248434067,
+    "cyclic_stiffness": 183.1488252066673
   },
   {
     "ciclo": 375,
@@ -4499,7 +4873,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.39673614502,
     "deform_high_start": 1.525338172913,
     "deform_low": 1.170456886292,
-    "deform_high_end": 1.519814252853
+    "deform_high_end": 1.519814252853,
+    "cyclic_stiffness": 183.87236839189066
   },
   {
     "ciclo": 376,
@@ -4511,7 +4886,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42781066895,
     "deform_high_start": 1.522516965866,
     "deform_low": 1.169934511185,
-    "deform_high_end": 1.533836722374
+    "deform_high_end": 1.533836722374,
+    "cyclic_stiffness": 179.32861500234162
   },
   {
     "ciclo": 377,
@@ -4523,7 +4899,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70071411133,
     "deform_high_start": 1.534784078598,
     "deform_low": 1.196056842804,
-    "deform_high_end": 1.526661753654
+    "deform_high_end": 1.526661753654,
+    "cyclic_stiffness": 188.78292584896732
   },
   {
     "ciclo": 378,
@@ -4535,7 +4912,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43167877197,
     "deform_high_start": 1.528786420822,
     "deform_low": 1.171724677086,
-    "deform_high_end": 1.535752296448
+    "deform_high_end": 1.535752296448,
+    "cyclic_stiffness": 179.29467643184879
   },
   {
     "ciclo": 379,
@@ -4547,7 +4925,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66478729248,
     "deform_high_start": 1.536692738533,
     "deform_low": 1.198306918144,
-    "deform_high_end": 1.527859926224
+    "deform_high_end": 1.527859926224,
+    "cyclic_stiffness": 189.09284928011513
   },
   {
     "ciclo": 380,
@@ -4559,7 +4938,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45471191406,
     "deform_high_start": 1.529984474182,
     "deform_low": 1.174114108086,
-    "deform_high_end": 1.537876963615
+    "deform_high_end": 1.537876963615,
+    "cyclic_stiffness": 179.49538451089774
   },
   {
     "ciclo": 381,
@@ -4571,7 +4951,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66110992432,
     "deform_high_start": 1.538782477379,
     "deform_low": 1.194614887238,
-    "deform_high_end": 1.528835177422
+    "deform_high_end": 1.528835177422,
+    "cyclic_stiffness": 188.23166572922727
   },
   {
     "ciclo": 382,
@@ -4583,7 +4964,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65528106689,
     "deform_high_start": 1.530980706215,
     "deform_low": 1.174044370651,
-    "deform_high_end": 1.526327371597
+    "deform_high_end": 1.526327371597,
+    "cyclic_stiffness": 183.1016593326241
   },
   {
     "ciclo": 383,
@@ -4595,7 +4977,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45360565186,
     "deform_high_start": 1.52852165699,
     "deform_low": 1.173939943314,
-    "deform_high_end": 1.536971330643
+    "deform_high_end": 1.536971330643,
+    "cyclic_stiffness": 179.81620107922376
   },
   {
     "ciclo": 384,
@@ -4607,7 +4990,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.87330627441,
     "deform_high_start": 1.537863016129,
     "deform_low": 1.205391287804,
-    "deform_high_end": 1.531572699547
+    "deform_high_end": 1.531572699547,
+    "cyclic_stiffness": 189.8477016368145
   },
   {
     "ciclo": 385,
@@ -4619,7 +5003,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63801574707,
     "deform_high_start": 1.533383965492,
     "deform_low": 1.195819973946,
-    "deform_high_end": 1.529273986816
+    "deform_high_end": 1.529273986816,
+    "cyclic_stiffness": 188.50937664827634
   },
   {
     "ciclo": 386,
@@ -4631,7 +5016,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.43462371826,
     "deform_high_start": 1.531482219696,
     "deform_low": 1.176447629929,
-    "deform_high_end": 1.538503885269
+    "deform_high_end": 1.538503885269,
+    "cyclic_stiffness": 180.2831129733741
   },
   {
     "ciclo": 387,
@@ -4643,7 +5029,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.32527923584,
     "deform_high_start": 1.539409518242,
     "deform_low": 1.201810717583,
-    "deform_high_end": 1.527532458305
+    "deform_high_end": 1.527532458305,
+    "cyclic_stiffness": 190.21093329155028
   },
   {
     "ciclo": 388,
@@ -4655,7 +5042,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.99991607666,
     "deform_high_start": 1.530158638954,
     "deform_low": 1.177248716354,
-    "deform_high_end": 1.521924853325
+    "deform_high_end": 1.521924853325,
+    "cyclic_stiffness": 185.24858638819026
   },
   {
     "ciclo": 389,
@@ -4667,7 +5055,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65112304688,
     "deform_high_start": 1.525129199028,
     "deform_low": 1.175437569618,
-    "deform_high_end": 1.526034832001
+    "deform_high_end": 1.526034832001,
+    "cyclic_stiffness": 183.88097474901724
   },
   {
     "ciclo": 390,
@@ -4679,7 +5068,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6674041748,
     "deform_high_start": 1.528263926506,
     "deform_low": 1.193897366524,
-    "deform_high_end": 1.527532458305
+    "deform_high_end": 1.527532458305,
+    "cyclic_stiffness": 188.3726456322634
   },
   {
     "ciclo": 391,
@@ -4691,7 +5081,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.0252456665,
     "deform_high_start": 1.529691934586,
     "deform_low": 1.175820708275,
-    "deform_high_end": 1.520496845245
+    "deform_high_end": 1.520496845245,
+    "cyclic_stiffness": 185.1975791267178
   },
   {
     "ciclo": 392,
@@ -4703,7 +5094,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.39905548096,
     "deform_high_start": 1.523715138435,
     "deform_low": 1.17488026619,
-    "deform_high_end": 1.522677183151
+    "deform_high_end": 1.522677183151,
+    "cyclic_stiffness": 184.58253894081162
   },
   {
     "ciclo": 393,
@@ -4715,7 +5107,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42292785645,
     "deform_high_start": 1.525212883949,
     "deform_low": 1.173501014709,
-    "deform_high_end": 1.536832094193
+    "deform_high_end": 1.536832094193,
+    "cyclic_stiffness": 179.51168859756513
   },
   {
     "ciclo": 394,
@@ -4727,7 +5120,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62266540527,
     "deform_high_start": 1.53780734539,
     "deform_low": 1.175507307053,
-    "deform_high_end": 1.526536345482
+    "deform_high_end": 1.526536345482,
+    "cyclic_stiffness": 183.7083981262174
   },
   {
     "ciclo": 395,
@@ -4739,7 +5133,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6729888916,
     "deform_high_start": 1.528786420822,
     "deform_low": 1.174810647964,
-    "deform_high_end": 1.525986075401
+    "deform_high_end": 1.525986075401,
+    "cyclic_stiffness": 183.64608929160252
   },
   {
     "ciclo": 396,
@@ -4751,7 +5146,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.05311584473,
     "deform_high_start": 1.528173327446,
     "deform_low": 1.174497246742,
-    "deform_high_end": 1.519591331482
+    "deform_high_end": 1.519591331482,
+    "cyclic_stiffness": 185.0802985566962
   },
   {
     "ciclo": 397,
@@ -4763,7 +5159,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68427276611,
     "deform_high_start": 1.522809624672,
     "deform_low": 1.173717021942,
-    "deform_high_end": 1.524850606918
+    "deform_high_end": 1.524850606918,
+    "cyclic_stiffness": 183.6766318500671
   },
   {
     "ciclo": 398,
@@ -4775,7 +5172,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.41603851318,
     "deform_high_start": 1.527010083199,
     "deform_low": 1.188254952431,
-    "deform_high_end": 1.524105191231
+    "deform_high_end": 1.524105191231,
+    "cyclic_stiffness": 187.75283709746168
   },
   {
     "ciclo": 399,
@@ -4787,7 +5185,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66171264648,
     "deform_high_start": 1.526626944542,
     "deform_low": 1.175179839134,
-    "deform_high_end": 1.525247693062
+    "deform_high_end": 1.525247693062,
+    "cyclic_stiffness": 184.19210905718532
   },
   {
     "ciclo": 400,
@@ -4799,7 +5198,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47884368896,
     "deform_high_start": 1.52746284008,
     "deform_low": 1.174775838852,
-    "deform_high_end": 1.537981390953
+    "deform_high_end": 1.537981390953,
+    "cyclic_stiffness": 179.74325888670316
   },
   {
     "ciclo": 401,
@@ -4811,7 +5211,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50270080566,
     "deform_high_start": 1.5388661623,
     "deform_low": 1.175960063934,
-    "deform_high_end": 1.540642499924
+    "deform_high_end": 1.540642499924,
+    "cyclic_stiffness": 179.33835559716775
   },
   {
     "ciclo": 402,
@@ -4823,7 +5224,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.670753479,
     "deform_high_start": 1.541464447975,
     "deform_low": 1.202416777611,
-    "deform_high_end": 1.531363725662
+    "deform_high_end": 1.531363725662,
+    "cyclic_stiffness": 189.56939661334673
   },
   {
     "ciclo": 403,
@@ -4835,7 +5237,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6559677124,
     "deform_high_start": 1.53348839283,
     "deform_low": 1.198146700859,
-    "deform_high_end": 1.530945777893
+    "deform_high_end": 1.530945777893,
+    "cyclic_stiffness": 188.87101110748694
   },
   {
     "ciclo": 404,
@@ -4847,7 +5250,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.32581329346,
     "deform_high_start": 1.533105254173,
     "deform_low": 1.179080843925,
-    "deform_high_end": 1.525784015656
+    "deform_high_end": 1.525784015656,
+    "cyclic_stiffness": 185.07581290692195
   },
   {
     "ciclo": 405,
@@ -4859,7 +5263,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.49227142334,
     "deform_high_start": 1.528486847878,
     "deform_low": 1.177374124527,
-    "deform_high_end": 1.541185736656
+    "deform_high_end": 1.541185736656,
+    "cyclic_stiffness": 179.51377400053056
   },
   {
     "ciclo": 406,
@@ -4871,7 +5276,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62433624268,
     "deform_high_start": 1.542021751404,
     "deform_low": 1.198397397995,
-    "deform_high_end": 1.531572699547
+    "deform_high_end": 1.531572699547,
+    "cyclic_stiffness": 188.61728798790296
   },
   {
     "ciclo": 407,
@@ -4883,7 +5289,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42613983154,
     "deform_high_start": 1.533746123314,
     "deform_low": 1.179303765297,
-    "deform_high_end": 1.540955901146
+    "deform_high_end": 1.540955901146,
+    "cyclic_stiffness": 180.51705376631065
   },
   {
     "ciclo": 408,
@@ -4895,7 +5302,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66357421875,
     "deform_high_start": 1.541847586632,
     "deform_low": 1.210288286209,
-    "deform_high_end": 1.533516287804
+    "deform_high_end": 1.533516287804,
+    "cyclic_stiffness": 190.97988406841947
   },
   {
     "ciclo": 409,
@@ -4907,7 +5315,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62754821777,
     "deform_high_start": 1.535578131676,
     "deform_low": 1.180801391602,
-    "deform_high_end": 1.530179619789
+    "deform_high_end": 1.530179619789,
+    "cyclic_stiffness": 184.5773337426109
   },
   {
     "ciclo": 410,
@@ -4919,7 +5328,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.96840667725,
     "deform_high_start": 1.532352924347,
     "deform_low": 1.178955435753,
-    "deform_high_end": 1.523339033127
+    "deform_high_end": 1.523339033127,
+    "cyclic_stiffness": 185.28360319968706
   },
   {
     "ciclo": 411,
@@ -4931,7 +5341,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63991546631,
     "deform_high_start": 1.526585102081,
     "deform_low": 1.178432941437,
-    "deform_high_end": 1.528159379959
+    "deform_high_end": 1.528159379959,
+    "cyclic_stiffness": 184.26988006363737
   },
   {
     "ciclo": 412,
@@ -4943,7 +5354,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63418579102,
     "deform_high_start": 1.530402421951,
     "deform_low": 1.178014993668,
-    "deform_high_end": 1.527985334396
+    "deform_high_end": 1.527985334396,
+    "cyclic_stiffness": 184.22489818705006
   },
   {
     "ciclo": 413,
@@ -4955,7 +5367,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42431640625,
     "deform_high_start": 1.530228376389,
     "deform_low": 1.17791056633,
-    "deform_high_end": 1.539757728577
+    "deform_high_end": 1.539757728577,
+    "cyclic_stiffness": 180.28952287563186
   },
   {
     "ciclo": 414,
@@ -4967,7 +5380,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.67805480957,
     "deform_high_start": 1.540732979774,
     "deform_low": 1.20389354229,
-    "deform_high_end": 1.532541036606
+    "deform_high_end": 1.532541036606,
+    "cyclic_stiffness": 189.69368945867205
   },
   {
     "ciclo": 415,
@@ -4979,7 +5393,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6099395752,
     "deform_high_start": 1.5346378088,
     "deform_low": 1.180418252945,
-    "deform_high_end": 1.52967107296
+    "deform_high_end": 1.52967107296,
+    "cyclic_stiffness": 184.56766715190872
   },
   {
     "ciclo": 416,
@@ -4991,7 +5406,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.41552734375,
     "deform_high_start": 1.531921029091,
     "deform_low": 1.179025053978,
-    "deform_high_end": 1.540816545486
+    "deform_high_end": 1.540816545486,
+    "cyclic_stiffness": 180.366990046459
   },
   {
     "ciclo": 417,
@@ -5003,7 +5419,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.67656707764,
     "deform_high_start": 1.541812777519,
     "deform_low": 1.205029010773,
-    "deform_high_end": 1.533446550369
+    "deform_high_end": 1.533446550369,
+    "cyclic_stiffness": 189.8794627595752
   },
   {
     "ciclo": 418,
@@ -5015,7 +5432,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.35253143311,
     "deform_high_start": 1.535543322563,
     "deform_low": 1.181240200996,
-    "deform_high_end": 1.52774143219
+    "deform_high_end": 1.52774143219,
+    "cyclic_stiffness": 185.30838146676356
   },
   {
     "ciclo": 419,
@@ -5027,7 +5445,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63613128662,
     "deform_high_start": 1.530423402786,
     "deform_low": 1.179826140404,
-    "deform_high_end": 1.529253125191
+    "deform_high_end": 1.529253125191,
+    "cyclic_stiffness": 184.49804756130126
   },
   {
     "ciclo": 420,
@@ -5039,7 +5458,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44897460938,
     "deform_high_start": 1.531468272209,
     "deform_low": 1.179254889488,
-    "deform_high_end": 1.541812777519
+    "deform_high_end": 1.541812777519,
+    "cyclic_stiffness": 180.10284360004272
   },
   {
     "ciclo": 421,
@@ -5051,7 +5471,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.60962677002,
     "deform_high_start": 1.542697429657,
     "deform_low": 1.195743441582,
-    "deform_high_end": 1.532986879349
+    "deform_high_end": 1.532986879349,
+    "cyclic_stiffness": 187.7616842400014
   },
   {
     "ciclo": 422,
@@ -5063,7 +5484,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.8429107666,
     "deform_high_start": 1.535195112228,
     "deform_low": 1.20117688179,
-    "deform_high_end": 1.535125374794
+    "deform_high_end": 1.535125374794,
+    "cyclic_stiffness": 188.75681873421414
   },
   {
     "ciclo": 423,
@@ -5075,7 +5497,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.6569519043,
     "deform_high_start": 1.536971330643,
     "deform_low": 1.201810717583,
-    "deform_high_end": 1.533662557602
+    "deform_high_end": 1.533662557602,
+    "cyclic_stiffness": 189.42479474828562
   },
   {
     "ciclo": 424,
@@ -5087,7 +5510,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.31056213379,
     "deform_high_start": 1.535752296448,
     "deform_low": 1.182124972343,
-    "deform_high_end": 1.528438091278
+    "deform_high_end": 1.528438091278,
+    "cyclic_stiffness": 185.2131362763675
   },
   {
     "ciclo": 425,
@@ -5099,7 +5523,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.8200378418,
     "deform_high_start": 1.531154751778,
     "deform_low": 1.181484103203,
-    "deform_high_end": 1.53247833252
+    "deform_high_end": 1.53247833252,
+    "cyclic_stiffness": 184.21573228467412
   },
   {
     "ciclo": 426,
@@ -5111,7 +5536,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.35469818115,
     "deform_high_start": 1.534324288368,
     "deform_low": 1.200097084045,
-    "deform_high_end": 1.529740691185
+    "deform_high_end": 1.529740691185,
+    "cyclic_stiffness": 189.58560217473905
   },
   {
     "ciclo": 427,
@@ -5123,7 +5549,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.34381866455,
     "deform_high_start": 1.53233897686,
     "deform_low": 1.18135869503,
-    "deform_high_end": 1.527825117111
+    "deform_high_end": 1.527825117111,
+    "cyclic_stiffness": 185.21838815484492
   },
   {
     "ciclo": 428,
@@ -5135,7 +5562,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.35592651367,
     "deform_high_start": 1.530527830124,
     "deform_low": 1.180940747261,
-    "deform_high_end": 1.527024030685
+    "deform_high_end": 1.527024030685,
+    "cyclic_stiffness": 185.54796175355767
   },
   {
     "ciclo": 429,
@@ -5147,7 +5575,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.32583618164,
     "deform_high_start": 1.529705882072,
     "deform_low": 1.18034863472,
-    "deform_high_end": 1.526139259338
+    "deform_high_end": 1.526139259338,
+    "cyclic_stiffness": 185.4991957122166
   },
   {
     "ciclo": 430,
@@ -5159,7 +5588,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.38024139404,
     "deform_high_start": 1.528960466385,
     "deform_low": 1.179895758629,
-    "deform_high_end": 1.526383161545
+    "deform_high_end": 1.526383161545,
+    "cyclic_stiffness": 185.3830734544833
   },
   {
     "ciclo": 431,
@@ -5171,7 +5601,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62648010254,
     "deform_high_start": 1.528995394707,
     "deform_low": 1.179826140404,
-    "deform_high_end": 1.528744578362
+    "deform_high_end": 1.528744578362,
+    "cyclic_stiffness": 184.68421218051753
   },
   {
     "ciclo": 432,
@@ -5183,7 +5614,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62507629395,
     "deform_high_start": 1.530841350555,
     "deform_low": 1.179672956467,
-    "deform_high_end": 1.528556466103
+    "deform_high_end": 1.528556466103,
+    "cyclic_stiffness": 184.74471844398178
   },
   {
     "ciclo": 433,
@@ -5195,7 +5627,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63457489014,
     "deform_high_start": 1.530841350555,
     "deform_low": 1.179582357407,
-    "deform_high_end": 1.528542518616
+    "deform_high_end": 1.528542518616,
+    "cyclic_stiffness": 184.76555175612722
   },
   {
     "ciclo": 434,
@@ -5207,7 +5640,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.35051727295,
     "deform_high_start": 1.530771613121,
     "deform_low": 1.17956840992,
-    "deform_high_end": 1.525930285454
+    "deform_high_end": 1.525930285454,
+    "cyclic_stiffness": 185.3133298503095
   },
   {
     "ciclo": 435,
@@ -5219,7 +5653,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42945861816,
     "deform_high_start": 1.528647065163,
     "deform_low": 1.179651975632,
-    "deform_high_end": 1.540558815002
+    "deform_high_end": 1.540558815002,
+    "cyclic_stiffness": 180.81749400366874
   },
   {
     "ciclo": 436,
@@ -5231,7 +5666,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65700531006,
     "deform_high_start": 1.541464447975,
     "deform_low": 1.21097099781,
-    "deform_high_end": 1.533871531487
+    "deform_high_end": 1.533871531487,
+    "cyclic_stiffness": 191.37500913675834
   },
   {
     "ciclo": 437,
@@ -5243,7 +5679,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.95707702637,
     "deform_high_start": 1.535996198654,
     "deform_low": 1.182473182678,
-    "deform_high_end": 1.525198936462
+    "deform_high_end": 1.525198936462,
+    "cyclic_stiffness": 186.17772849465342
   },
   {
     "ciclo": 438,
@@ -5255,7 +5692,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64039611816,
     "deform_high_start": 1.528438091278,
     "deform_low": 1.181484103203,
-    "deform_high_end": 1.53004026413
+    "deform_high_end": 1.53004026413,
+    "cyclic_stiffness": 184.90165296283433
   },
   {
     "ciclo": 439,
@@ -5267,7 +5705,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45684814453,
     "deform_high_start": 1.532248497009,
     "deform_low": 1.18140745163,
-    "deform_high_end": 1.542648673058
+    "deform_high_end": 1.542648673058,
+    "cyclic_stiffness": 180.76179771642654
   },
   {
     "ciclo": 440,
@@ -5279,7 +5718,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4808883667,
     "deform_high_start": 1.543588995934,
     "deform_low": 1.182508111,
-    "deform_high_end": 1.544320464134
+    "deform_high_end": 1.544320464134,
+    "cyclic_stiffness": 180.74141824566075
   },
   {
     "ciclo": 441,
@@ -5291,7 +5731,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.33012390137,
     "deform_high_start": 1.545191168785,
     "deform_low": 1.183309197426,
-    "deform_high_end": 1.52990090847
+    "deform_high_end": 1.52990090847,
+    "cyclic_stiffness": 185.2712182822141
   },
   {
     "ciclo": 442,
@@ -5303,7 +5744,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.45598602295,
     "deform_high_start": 1.532617688179,
     "deform_low": 1.182403564453,
-    "deform_high_end": 1.544425010681
+    "deform_high_end": 1.544425010681,
+    "cyclic_stiffness": 180.34493831780162
   },
   {
     "ciclo": 443,
@@ -5315,7 +5757,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66329956055,
     "deform_high_start": 1.545365333557,
     "deform_low": 1.203670620918,
-    "deform_high_end": 1.536170244217
+    "deform_high_end": 1.536170244217,
+    "cyclic_stiffness": 189.1705784684694
   },
   {
     "ciclo": 444,
@@ -5327,7 +5770,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.60026550293,
     "deform_high_start": 1.538260102272,
     "deform_low": 1.185169100761,
-    "deform_high_end": 1.533383965492
+    "deform_high_end": 1.533383965492,
+    "cyclic_stiffness": 185.0830204878367
   },
   {
     "ciclo": 445,
@@ -5339,7 +5783,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48860931396,
     "deform_high_start": 1.535578131676,
     "deform_low": 1.182835459709,
-    "deform_high_end": 1.545365333557
+    "deform_high_end": 1.545365333557,
+    "cyclic_stiffness": 180.17779364908574
   },
   {
     "ciclo": 446,
@@ -5351,7 +5796,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.91805267334,
     "deform_high_start": 1.546201348305,
     "deform_low": 1.185106396675,
-    "deform_high_end": 1.528089761734
+    "deform_high_end": 1.528089761734,
+    "cyclic_stiffness": 186.0399332256031
   },
   {
     "ciclo": 447,
@@ -5363,7 +5809,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.42142486572,
     "deform_high_start": 1.531482219696,
     "deform_low": 1.183901190758,
-    "deform_high_end": 1.544425010681
+    "deform_high_end": 1.544425010681,
+    "cyclic_stiffness": 180.9779330245399
   },
   {
     "ciclo": 448,
@@ -5375,7 +5822,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.33893585205,
     "deform_high_start": 1.545400261879,
     "deform_low": 1.185155153275,
-    "deform_high_end": 1.531398653984
+    "deform_high_end": 1.531398653984,
+    "cyclic_stiffness": 185.45944793987823
   },
   {
     "ciclo": 449,
@@ -5387,7 +5835,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.446144104,
     "deform_high_start": 1.534010887146,
     "deform_low": 1.183970928192,
-    "deform_high_end": 1.544877767563
+    "deform_high_end": 1.544877767563,
+    "cyclic_stiffness": 180.87401048901347
   },
   {
     "ciclo": 450,
@@ -5399,7 +5848,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66613769531,
     "deform_high_start": 1.545853018761,
     "deform_low": 1.209884285927,
-    "deform_high_end": 1.537507772446
+    "deform_high_end": 1.537507772446,
+    "cyclic_stiffness": 190.2911096111068
   },
   {
     "ciclo": 451,
@@ -5411,7 +5861,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64427947998,
     "deform_high_start": 1.539653301239,
     "deform_low": 1.206199288368,
-    "deform_high_end": 1.537145495415
+    "deform_high_end": 1.537145495415,
+    "cyclic_stiffness": 189.83067512212935
   },
   {
     "ciclo": 452,
@@ -5423,7 +5874,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64500427246,
     "deform_high_start": 1.539304971695,
     "deform_low": 1.20642220974,
-    "deform_high_end": 1.537145495415
+    "deform_high_end": 1.537145495415,
+    "cyclic_stiffness": 190.0159261336838
   },
   {
     "ciclo": 453,
@@ -5435,7 +5887,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47686004639,
     "deform_high_start": 1.539304971695,
     "deform_low": 1.187697649002,
-    "deform_high_end": 1.547664165497
+    "deform_high_end": 1.547664165497,
+    "cyclic_stiffness": 181.47011973025923
   },
   {
     "ciclo": 454,
@@ -5447,7 +5900,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48114013672,
     "deform_high_start": 1.548548817635,
     "deform_low": 1.18766283989,
-    "deform_high_end": 1.548743844032
+    "deform_high_end": 1.548743844032,
+    "cyclic_stiffness": 181.0666382305133
   },
   {
     "ciclo": 455,
@@ -5459,7 +5913,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46441650391,
     "deform_high_start": 1.549614667892,
     "deform_low": 1.188185334206,
-    "deform_high_end": 1.548520922661
+    "deform_high_end": 1.548520922661,
+    "cyclic_stiffness": 181.35079931489977
   },
   {
     "ciclo": 456,
@@ -5471,7 +5926,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68595123291,
     "deform_high_start": 1.54944050312,
     "deform_low": 1.218738079071,
-    "deform_high_end": 1.540642499924
+    "deform_high_end": 1.540642499924,
+    "cyclic_stiffness": 191.8035084598764
   },
   {
     "ciclo": 457,
@@ -5483,7 +5939,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4670715332,
     "deform_high_start": 1.54273223877,
     "deform_low": 1.188693881035,
-    "deform_high_end": 1.549182772636
+    "deform_high_end": 1.549182772636,
+    "cyclic_stiffness": 181.1668095240826
   },
   {
     "ciclo": 458,
@@ -5495,7 +5952,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.66328430176,
     "deform_high_start": 1.550025582314,
     "deform_low": 1.220180034637,
-    "deform_high_end": 1.541359901428
+    "deform_high_end": 1.541359901428,
+    "cyclic_stiffness": 192.1357259824333
   },
   {
     "ciclo": 459,
@@ -5507,7 +5965,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.67509460449,
     "deform_high_start": 1.543449759483,
     "deform_low": 1.209974884987,
-    "deform_high_end": 1.540593743324
+    "deform_high_end": 1.540593743324,
+    "cyclic_stiffness": 190.22669674272964
   },
   {
     "ciclo": 460,
@@ -5519,7 +5978,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.61252593994,
     "deform_high_start": 1.542648673058,
     "deform_low": 1.190853238106,
-    "deform_high_end": 1.5380859375
+    "deform_high_end": 1.5380859375,
+    "cyclic_stiffness": 185.55368908062096
   },
   {
     "ciclo": 461,
@@ -5531,7 +5991,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.60311889648,
     "deform_high_start": 1.54029417038,
     "deform_low": 1.189320802689,
-    "deform_high_end": 1.537006258965
+    "deform_high_end": 1.537006258965,
+    "cyclic_stiffness": 185.2855173340274
   },
   {
     "ciclo": 462,
@@ -5543,7 +6004,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48143005371,
     "deform_high_start": 1.53923535347,
     "deform_low": 1.188415169716,
-    "deform_high_end": 1.549071311951
+    "deform_high_end": 1.549071311951,
+    "cyclic_stiffness": 181.10470043154396
   },
   {
     "ciclo": 463,
@@ -5555,7 +6017,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68017578125,
     "deform_high_start": 1.549893260002,
     "deform_low": 1.219831705093,
-    "deform_high_end": 1.541359901428
+    "deform_high_end": 1.541359901428,
+    "cyclic_stiffness": 191.99606106234413
   },
   {
     "ciclo": 464,
@@ -5567,7 +6030,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64830780029,
     "deform_high_start": 1.543449759483,
     "deform_low": 1.206157565117,
-    "deform_high_end": 1.540433526039
+    "deform_high_end": 1.540433526039,
+    "cyclic_stiffness": 189.30172068869027
   },
   {
     "ciclo": 465,
@@ -5579,7 +6043,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65691375732,
     "deform_high_start": 1.542474508286,
     "deform_low": 1.210706353188,
-    "deform_high_end": 1.540454387665
+    "deform_high_end": 1.540454387665,
+    "cyclic_stiffness": 190.50733679269786
   },
   {
     "ciclo": 466,
@@ -5591,7 +6056,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63723754883,
     "deform_high_start": 1.542544126511,
     "deform_low": 1.19097173214,
-    "deform_high_end": 1.538287997246
+    "deform_high_end": 1.538287997246,
+    "cyclic_stiffness": 185.53624987140228
   },
   {
     "ciclo": 467,
@@ -5603,7 +6069,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46166229248,
     "deform_high_start": 1.540454387665,
     "deform_low": 1.189439177513,
-    "deform_high_end": 1.549175739288
+    "deform_high_end": 1.549175739288,
+    "cyclic_stiffness": 181.51680441566654
   },
   {
     "ciclo": 468,
@@ -5615,7 +6082,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64516448975,
     "deform_high_start": 1.550081372261,
     "deform_low": 1.221468687057,
-    "deform_high_end": 1.542021751404
+    "deform_high_end": 1.542021751404,
+    "cyclic_stiffness": 192.4647745584011
   },
   {
     "ciclo": 469,
@@ -5627,7 +6095,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48485565186,
     "deform_high_start": 1.544146299362,
     "deform_low": 1.192608714104,
-    "deform_high_end": 1.5508685112
+    "deform_high_end": 1.5508685112,
+    "cyclic_stiffness": 182.30598266211163
   },
   {
     "ciclo": 470,
@@ -5639,7 +6108,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.67626190186,
     "deform_high_start": 1.551753163338,
     "deform_low": 1.222827076912,
-    "deform_high_end": 1.543449759483
+    "deform_high_end": 1.543449759483,
+    "cyclic_stiffness": 192.51802029936306
   },
   {
     "ciclo": 471,
@@ -5651,7 +6121,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4935760498,
     "deform_high_start": 1.545588254929,
     "deform_low": 1.193688392639,
-    "deform_high_end": 1.552505493164
+    "deform_high_end": 1.552505493164,
+    "cyclic_stiffness": 182.0180200771745
   },
   {
     "ciclo": 472,
@@ -5663,7 +6134,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62940979004,
     "deform_high_start": 1.553334474564,
     "deform_low": 1.193047523499,
-    "deform_high_end": 1.540795683861
+    "deform_high_end": 1.540795683861,
+    "cyclic_stiffness": 185.5048936916222
   },
   {
     "ciclo": 473,
@@ -5675,7 +6147,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50218200684,
     "deform_high_start": 1.542976021767,
     "deform_low": 1.192142009735,
-    "deform_high_end": 1.552087545395
+    "deform_high_end": 1.552087545395,
+    "cyclic_stiffness": 181.46969936820022
   },
   {
     "ciclo": 474,
@@ -5687,7 +6160,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65979766846,
     "deform_high_start": 1.552958250046,
     "deform_low": 1.213332414627,
-    "deform_high_end": 1.543359160423
+    "deform_high_end": 1.543359160423,
+    "cyclic_stiffness": 190.32956963529625
   },
   {
     "ciclo": 475,
@@ -5699,7 +6173,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50080108643,
     "deform_high_start": 1.545539498329,
     "deform_low": 1.194266557693,
-    "deform_high_end": 1.552435874939
+    "deform_high_end": 1.552435874939,
+    "cyclic_stiffness": 182.36332326166468
   },
   {
     "ciclo": 476,
@@ -5711,7 +6186,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65657806396,
     "deform_high_start": 1.55330657959,
     "deform_low": 1.223906755447,
-    "deform_high_end": 1.544668793678
+    "deform_high_end": 1.544668793678,
+    "cyclic_stiffness": 192.47850206643682
   },
   {
     "ciclo": 477,
@@ -5723,7 +6199,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65493011475,
     "deform_high_start": 1.546828269958,
     "deform_low": 1.214795351028,
-    "deform_high_end": 1.544104576111
+    "deform_high_end": 1.544104576111,
+    "cyclic_stiffness": 190.7066071152467
   },
   {
     "ciclo": 478,
@@ -5735,7 +6212,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.47576141357,
     "deform_high_start": 1.546298861504,
     "deform_low": 1.193953156471,
-    "deform_high_end": 1.55307674408
+    "deform_high_end": 1.55307674408,
+    "cyclic_stiffness": 181.8176101481412
   },
   {
     "ciclo": 479,
@@ -5747,7 +6225,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.68843841553,
     "deform_high_start": 1.55394744873,
     "deform_low": 1.224868059158,
-    "deform_high_end": 1.545623064041
+    "deform_high_end": 1.545623064041,
+    "cyclic_stiffness": 192.5977980351824
   },
   {
     "ciclo": 480,
@@ -5759,7 +6238,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.67447662354,
     "deform_high_start": 1.547768592834,
     "deform_low": 1.215582489967,
-    "deform_high_end": 1.545051932335
+    "deform_high_end": 1.545051932335,
+    "cyclic_stiffness": 190.7819074529293
   },
   {
     "ciclo": 481,
@@ -5771,7 +6251,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.30480194092,
     "deform_high_start": 1.547002434731,
     "deform_low": 1.196544528008,
-    "deform_high_end": 1.53918659687
+    "deform_high_end": 1.53918659687,
+    "cyclic_stiffness": 187.09992659107132
   },
   {
     "ciclo": 482,
@@ -5783,7 +6264,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63293457031,
     "deform_high_start": 1.541882395744,
     "deform_low": 1.194454669952,
-    "deform_high_end": 1.541011691093
+    "deform_high_end": 1.541011691093,
+    "cyclic_stiffness": 185.96715731078385
   },
   {
     "ciclo": 483,
@@ -5795,7 +6277,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.65592956543,
     "deform_high_start": 1.543171048164,
     "deform_low": 1.193744182587,
-    "deform_high_end": 1.540489196777
+    "deform_high_end": 1.540489196777,
+    "cyclic_stiffness": 185.88569220459718
   },
   {
     "ciclo": 484,
@@ -5807,7 +6290,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.61920928955,
     "deform_high_start": 1.542613863945,
     "deform_low": 1.193409800529,
-    "deform_high_end": 1.539911031723
+    "deform_high_end": 1.539911031723,
+    "cyclic_stiffness": 185.9442941955372
   },
   {
     "ciclo": 485,
@@ -5819,7 +6303,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50008392334,
     "deform_high_start": 1.542091369629,
     "deform_low": 1.192782878876,
-    "deform_high_end": 1.552261710167
+    "deform_high_end": 1.552261710167,
+    "cyclic_stiffness": 181.6825702440414
   },
   {
     "ciclo": 486,
@@ -5831,7 +6316,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.46558380127,
     "deform_high_start": 1.553132414818,
     "deform_low": 1.194162130356,
-    "deform_high_end": 1.552958250046
+    "deform_high_end": 1.552958250046,
+    "cyclic_stiffness": 182.04699315566333
   },
   {
     "ciclo": 487,
@@ -5843,7 +6329,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.71143341064,
     "deform_high_start": 1.553884744644,
     "deform_low": 1.22504222393,
-    "deform_high_end": 1.545853018761
+    "deform_high_end": 1.545853018761,
+    "cyclic_stiffness": 192.47237692608766
   },
   {
     "ciclo": 488,
@@ -5855,7 +6342,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62887573242,
     "deform_high_start": 1.547977566719,
     "deform_low": 1.195311546326,
-    "deform_high_end": 1.542613863945
+    "deform_high_end": 1.542613863945,
+    "cyclic_stiffness": 185.61733352617358
   },
   {
     "ciclo": 489,
@@ -5867,7 +6355,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48003387451,
     "deform_high_start": 1.54475235939,
     "deform_low": 1.194977164268,
-    "deform_high_end": 1.553146362305
+    "deform_high_end": 1.553146362305,
+    "cyclic_stiffness": 182.327472981314
   },
   {
     "ciclo": 490,
@@ -5879,7 +6368,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.4768447876,
     "deform_high_start": 1.554072856903,
     "deform_low": 1.19570851326,
-    "deform_high_end": 1.554212212563
+    "deform_high_end": 1.554212212563,
+    "cyclic_stiffness": 182.30194520270632
   },
   {
     "ciclo": 491,
@@ -5891,7 +6381,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.70010375977,
     "deform_high_start": 1.555068969727,
     "deform_low": 1.220925331116,
-    "deform_high_end": 1.54654955864
+    "deform_high_end": 1.54654955864,
+    "cyclic_stiffness": 191.40425270185494
   },
   {
     "ciclo": 492,
@@ -5903,7 +6394,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 72.9673538208,
     "deform_high_start": 1.548674225807,
     "deform_low": 1.212343335152,
-    "deform_high_end": 1.539771676064
+    "deform_high_end": 1.539771676064,
+    "cyclic_stiffness": 191.06009754355176
   },
   {
     "ciclo": 493,
@@ -5915,7 +6407,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64492797852,
     "deform_high_start": 1.54296207428,
     "deform_low": 1.196300625801,
-    "deform_high_end": 1.542892456055
+    "deform_high_end": 1.542892456055,
+    "cyclic_stiffness": 185.8849462219356
   },
   {
     "ciclo": 494,
@@ -5927,7 +6420,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.62384796143,
     "deform_high_start": 1.545017123222,
     "deform_low": 1.195638895035,
-    "deform_high_end": 1.542160987854
+    "deform_high_end": 1.542160987854,
+    "cyclic_stiffness": 186.0066230042286
   },
   {
     "ciclo": 495,
@@ -5939,7 +6433,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.48677062988,
     "deform_high_start": 1.544320464134,
     "deform_low": 1.194747209549,
-    "deform_high_end": 1.553181171417
+    "deform_high_end": 1.553181171417,
+    "cyclic_stiffness": 182.2298060173754
   },
   {
     "ciclo": 496,
@@ -5951,7 +6446,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.50453948975,
     "deform_high_start": 1.554072856903,
     "deform_low": 1.196544528008,
-    "deform_high_end": 1.554630160332
+    "deform_high_end": 1.554630160332,
+    "cyclic_stiffness": 182.52966869086606
   },
   {
     "ciclo": 497,
@@ -5963,7 +6459,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.71939086914,
     "deform_high_start": 1.555535674095,
     "deform_low": 1.227459430695,
-    "deform_high_end": 1.547490000725
+    "deform_high_end": 1.547490000725,
+    "cyclic_stiffness": 192.8653499521437
   },
   {
     "ciclo": 498,
@@ -5975,7 +6472,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64749145508,
     "deform_high_start": 1.549544930458,
     "deform_low": 1.198355674744,
-    "deform_high_end": 1.544348359108
+    "deform_high_end": 1.544348359108,
+    "cyclic_stiffness": 186.37214688428654
   },
   {
     "ciclo": 499,
@@ -5987,7 +6485,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.63241577148,
     "deform_high_start": 1.546514749527,
     "deform_low": 1.196530580521,
-    "deform_high_end": 1.542997002602
+    "deform_high_end": 1.542997002602,
+    "cyclic_stiffness": 186.05429520180058
   },
   {
     "ciclo": 500,
@@ -5999,7 +6498,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 74.44342041016,
     "deform_high_start": 1.545191168785,
     "deform_low": 1.195743441582,
-    "deform_high_end": 1.554031014442
+    "deform_high_end": 1.554031014442,
+    "cyclic_stiffness": 182.19338593445462
   },
   {
     "ciclo": 501,
@@ -6011,7 +6511,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.73463439941,
     "deform_high_start": 1.554943561554,
     "deform_low": 1.227306246758,
-    "deform_high_end": 1.547225236893
+    "deform_high_end": 1.547225236893,
+    "cyclic_stiffness": 193.02552209201951
   },
   {
     "ciclo": 502,
@@ -6023,7 +6524,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.64493560791,
     "deform_high_start": 1.549280285835,
     "deform_low": 1.198460102081,
-    "deform_high_end": 1.544041872025
+    "deform_high_end": 1.544041872025,
+    "cyclic_stiffness": 186.581770640681
   },
   {
     "ciclo": 503,
@@ -6035,7 +6537,8 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.69285583496,
     "deform_high_start": 1.546250104904,
     "deform_low": 1.215317726135,
-    "deform_high_end": 1.545323610306
+    "deform_high_end": 1.545323610306,
+    "cyclic_stiffness": 190.51790383204644
   },
   {
     "ciclo": 504,
@@ -6047,6 +6550,7 @@ Número de ciclos detectados: 504
     "pico_final_f": 73.3430557251,
     "deform_high_start": 1.547490000725,
     "deform_low": 1.196878790855,
-    "deform_high_end": 1.540712118149
+    "deform_high_end": 1.540712118149,
+    "cyclic_stiffness": 186.64936277025322
   }
 ]
