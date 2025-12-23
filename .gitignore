@@ -11,6 +11,9 @@ curves/results
 curves/utils
 backend/results
 backend/uploads
+desktop
+results
+uploads
 
 # archivos temporales
 *.log
