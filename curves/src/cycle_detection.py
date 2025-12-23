@@ -1,25 +1,21 @@
 import numpy as np
 
 def detectar_ciclos(df, pico_obj, valle_obj, toler):
-    """
-    Detecta ciclos High → Low → High usando máximos y mínimos locales dentro
-    de la tolerancia definida por pico_obj y valle_obj.
-
-    Devuelve:
-        num_ciclos: int
-        ciclos_dict: dict con información de cada ciclo
-    """
     fuerza = df["Fuerza"].values
     deform = df["Deformacion"].values
 
-    # Derivada discreta
     dF = np.gradient(fuerza)
 
-    # Detectar máximos y mínimos locales
-    max_local_idx = np.where((np.hstack([dF[0] > 0, dF[:-1] > 0]) & np.hstack([dF[1:] < 0, dF[-1] < 0])))[0]
-    min_local_idx = np.where((np.hstack([dF[0] < 0, dF[:-1] < 0]) & np.hstack([dF[1:] > 0, dF[-1] > 0])))[0]
+    max_local_idx = np.where(
+        (np.hstack([dF[0] > 0, dF[:-1] > 0]) &
+         np.hstack([dF[1:] < 0, dF[-1] < 0]))
+    )[0]
 
-    # Filtrar según tolerancia
+    min_local_idx = np.where(
+        (np.hstack([dF[0] < 0, dF[:-1] < 0]) &
+         np.hstack([dF[1:] > 0, dF[-1] > 0]))
+    )[0]
+
     picos_idx = [i for i in max_local_idx if pico_obj - toler <= fuerza[i] <= pico_obj + toler]
     valles_idx = [i for i in min_local_idx if valle_obj - toler <= fuerza[i] <= valle_obj + toler]
 
@@ -33,7 +29,6 @@ def detectar_ciclos(df, pico_obj, valle_obj, toler):
         p_inicio = picos_idx[i]
         p_final = picos_idx[i + 1]
 
-        # Buscar primer valle entre los dos picos
         while v_ptr < len(valles_idx) and valles_idx[v_ptr] <= p_inicio:
             v_ptr += 1
         if v_ptr >= len(valles_idx):
@@ -43,18 +38,37 @@ def detectar_ciclos(df, pico_obj, valle_obj, toler):
         if v >= p_final:
             continue
 
+        # --- cyclic stiffness ---
+        f_high = fuerza[p_final]
+        f_low = fuerza[v]
+        d_high = deform[p_final]
+        d_low = deform[v]
+
+        cyclic_stiffness = None
+        denom = d_high - d_low
+        if denom != 0:
+            cyclic_stiffness = (f_high - f_low) / denom
+
         ciclos.append({
             "ciclo": len(ciclos) + 1,
-            "pico_inicio_idx": p_inicio,
+
+            "pico_inicio_idx": int(p_inicio),
             "pico_inicio_f": float(fuerza[p_inicio]),
-            "valle_idx": v,
+
+            "valle_idx": int(v),
             "valle_f": float(fuerza[v]),
-            "pico_final_idx": p_final,
+
+            "pico_final_idx": int(p_final),
             "pico_final_f": float(fuerza[p_final]),
+
             "deform_high_start": float(deform[p_inicio]),
             "deform_low": float(deform[v]),
-            "deform_high_end": float(deform[p_final])
+            "deform_high_end": float(deform[p_final]),
+
+            # ⭐ AQUÍ
+            "cyclic_stiffness": float(cyclic_stiffness) if cyclic_stiffness is not None else None
         })
+
         v_ptr += 1
 
     ciclos_dict = {c["ciclo"]: c for c in ciclos}
