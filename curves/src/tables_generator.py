@@ -42,7 +42,6 @@ def detectar_ciclos(df, pico_obj, valle_obj, toler):
         if v >= p_final:
             continue
 
-        # --- CYCLIC STIFFNESS REAL ---
         d_high = deform[p_final]
         d_low = deform[v]
         f_high = fuerza[p_final]
@@ -54,21 +53,15 @@ def detectar_ciclos(df, pico_obj, valle_obj, toler):
 
         ciclos.append({
             "ciclo": len(ciclos) + 1,
-
             "pico_inicio_idx": int(p_inicio),
             "pico_inicio_f": float(fuerza[p_inicio]),
-
             "valle_idx": int(v),
             "valle_f": float(fuerza[v]),
-
             "pico_final_idx": int(p_final),
             "pico_final_f": float(fuerza[p_final]),
-
             "deform_high_start": float(deform[p_inicio]),
             "deform_low": float(deform[v]),
             "deform_high_end": float(deform[p_final]),
-
-            # ⭐ AQUÍ SE CALCULA UNA SOLA VEZ
             "cyclic_stiffness": float(cyclic_stiffness) if cyclic_stiffness is not None else None
         })
 
@@ -82,19 +75,10 @@ def detectar_ciclos(df, pico_obj, valle_obj, toler):
 # HELPERS
 # ============================================================
 
-def _try_get(d: dict, keys, default=None):
-    for k in keys:
-        if k in d:
-            return d[k]
-    return default
-
-
 def _format_num(v):
     if v is None:
         return "—"
     try:
-        if isinstance(v, int):
-            return f"{v}"
         return f"{float(v):.2f}"
     except Exception:
         return str(v)
@@ -107,18 +91,22 @@ def _format_num(v):
 def generar_fila_sample(bloque):
     df = bloque.get("df")
     detalles = bloque.get("ciclos", {})
+    n_ciclos = bloque.get("n_ciclos", 0)
+
     fuerza_max = bloque.get("fuerza_max")
     deformacion_max = bloque.get("deformacion_max")
 
-    # --- ciclos HIGH ---
     ciclos_obj = [1, 10, 50, 100, 250, 500]
     valores_ciclos = []
 
     for c in ciclos_obj:
         cd = detalles.get(c)
+
+        if cd is None and n_ciclos == c - 1:
+            cd = detalles.get(c - 1)
+
         valores_ciclos.append(_format_num(cd.get("deform_high_end") if cd else None))
 
-    # --- LOW último ciclo ---
     try:
         ultimo = detalles[max(detalles.keys())]
         deform_low_last = ultimo.get("deform_low")
@@ -135,19 +123,18 @@ def generar_fila_sample(bloque):
         except Exception:
             pass
 
-    # --- stiffness ---
-    yield_stiffness = bloque.get("yield_stiffness")
     cd250 = detalles.get(250)
-    cyclic_stiffness = cd250.get("cyclic_stiffness") if cd250 else None
+    if cd250 is None and n_ciclos == 249:
+        cd250 = detalles.get(249)
 
-    # guardar a nivel bloque
+    cyclic_stiffness = cd250.get("cyclic_stiffness") if cd250 else None
     bloque["cyclic_stiffness"] = cyclic_stiffness
 
     return [
         bloque.get("titulo", "Sample"),
         *valores_ciclos,
         _format_num(cyclic_stiffness),
-        _format_num(yield_stiffness),
+        _format_num(bloque.get("yield_stiffness")),
         _format_num(fuerza_max),
         _format_num(deformacion_max),
         _format_num(f2mm_y),
@@ -176,25 +163,31 @@ def generar_tablas_combinadas(bloques):
     for b in bloques:
         detalles = b["ciclos"]
         df = b["df"]
+    
 
         primer = detalles[min(detalles.keys())]
         ultimo = detalles[max(detalles.keys())]
 
         cd250 = detalles.get(250)
+        if cd250 is None and 249 in detalles:
+             cd250 = detalles.get(249)
+
+        cd500 = detalles.get(500)
+        if cd500 is None and 499 in detalles:
+            cd500 = detalles.get(499)
+            
         cyclic_stiffness = cd250.get("cyclic_stiffness") if cd250 else None
 
-        # --- Cyclic ---
         filas_cyclic.append([
             _format_num(primer.get("deform_high_start")),
             _format_num(detalles.get(10, {}).get("deform_high_end")),
             _format_num(detalles.get(50, {}).get("deform_high_end")),
             _format_num(detalles.get(100, {}).get("deform_high_end")),
-            _format_num(detalles.get(250, {}).get("deform_high_end")),
-            _format_num(detalles.get(500, {}).get("deform_high_end")),
+            _format_num(cd250.get("deform_high_end") if cd250 else None),
+            _format_num(cd500.get("deform_high_end") if cd500 else None),
             _format_num(cyclic_stiffness),
         ])
 
-        # --- 3rd phase ---
         deform_low = ultimo.get("deform_low")
         f2mm_y = f3mm_y = None
 
