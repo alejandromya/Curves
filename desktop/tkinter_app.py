@@ -49,7 +49,7 @@ class ColumnUI:
             del self.files[idx]
 
 # ============================================
-# App principal
+# App principal ****
 # ============================================
 class App:
     def __init__(self, root):
