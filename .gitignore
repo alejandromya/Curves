@@ -2,7 +2,7 @@
 venv/
 backend/venv/
 
-# cache python
+# cache pythonprueba
 curves/__pycache__/
 
 # archivos a ignorar
