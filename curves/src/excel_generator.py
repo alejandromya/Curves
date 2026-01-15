@@ -35,6 +35,10 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
             # Encabezado en fila 1
             ws.cell(row=1, column=1, value="Deformacion")
             ws.cell(row=1, column=2, value="Fuerza")
+            ws.cell(row=1, column=3, value="Header")  # Nueva columna C
+
+            deform_list = df["Deformacion"].tolist()
+            fuerza_list = df["Fuerza"].tolist()
 
             for r_idx, (_, row) in enumerate(df.iterrows(), start=2):
                 ws.cell(row=r_idx, column=1, value=row["Deformacion"])
@@ -60,42 +64,42 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
         # Pintar los valores que aparecen en la tabla combinada
         # ===============================
         if df is not None:
-            # Crear un diccionario para buscar correspondencias fácilmente
-            deform_list = df["Deformacion"].tolist()
-            fuerza_list = df["Fuerza"].tolist()
-
-            # 1️⃣ Ciclos: están en filas_cyclic[i], columnas 1 a 6 en los datos resumidos (deform_high_end)
-            # Recuerda: filas_cyclic[i] = [Sample, 0, 10, 50, 100, 250, 500, cyclic_stiffness]
-            for val in filas_cyclic[i][1:7]:  # omite Sample y cyclic_stiffness
+            # 1️⃣ Ciclos (deform_high_end)
+            for val_idx, val in enumerate(filas_cyclic[i][1:7]):  # omite Sample y cyclic_stiffness
                 if val == "—":
                     continue
                 try:
                     val_float = float(val)
-                    # Buscar el índice más cercano en Deformacion
+                    # Buscar índice más cercano en Deformacion
                     idx = min(range(len(deform_list)), key=lambda j: abs(deform_list[j]-val_float))
-                    # Pintar fila idx+2 (porque datos empiezan en fila 2)
-                    ws.cell(row=idx+2, column=1).fill = yellow_fill
-                    ws.cell(row=idx+2, column=1).font = black_font
+                    row_excel = idx + 2
+                    ws.cell(row=row_excel, column=1).fill = yellow_fill
+                    ws.cell(row=row_excel, column=1).font = black_font
+                    ws.cell(row=row_excel, column=3, value=headers_cyclic[val_idx+1])  # +1 porque omite Sample
                 except:
                     continue
 
-            # 2️⃣ Fmax, MaxDisp y fuerzas a 2mm/3mm: columnas 1..5 en filas_3rd[i]
+            # 2️⃣ Fmax, MaxDisp y fuerzas a 2mm/3mm
             for j, val in enumerate(filas_3rd[i]):
                 if val == "—":
                     continue
                 try:
                     val_float = float(val)
-                    # Buscar el valor más cercano en Fuerza o Deformacion según columna
-                    # FMax y Force at 2/3mm -> Fuerza
-                    if j in [0,1,3,4]:  # yield_stiffness, FMax, 2mm, 3mm -> Fuerza
+                    # FMax, Force at 2/3mm -> Fuerza (column B)
+                    if j in [1,3,4]:  # FMax ATM, Force at 2mm, Force at 3mm
                         idx = min(range(len(fuerza_list)), key=lambda k: abs(fuerza_list[k]-val_float))
-                        ws.cell(row=idx+2, column=2).fill = yellow_fill
-                        ws.cell(row=idx+2, column=2).font = black_font
-                    # Max Disp ATM -> Deformacion
+                        row_excel = idx + 2
+                        ws.cell(row=row_excel, column=2).fill = yellow_fill
+                        ws.cell(row=row_excel, column=2).font = black_font
+                        ws.cell(row=row_excel, column=3, value=headers_3rd[j])
+                    # Yield Stiffness (j=0) -> Fuerza? usualmente lo ignoramos para los datos brutos
+                    # Max Disp ATM (j=2) -> Deformacion (col A)
                     if j == 2:
                         idx = min(range(len(deform_list)), key=lambda k: abs(deform_list[k]-val_float))
-                        ws.cell(row=idx+2, column=1).fill = yellow_fill
-                        ws.cell(row=idx+2, column=1).font = black_font
+                        row_excel = idx + 2
+                        ws.cell(row=row_excel, column=1).fill = yellow_fill
+                        ws.cell(row=row_excel, column=1).font = black_font
+                        ws.cell(row=row_excel, column=3, value=headers_3rd[j])
                 except:
                     continue
 
