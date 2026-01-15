@@ -75,8 +75,15 @@ def generar_fila_sample(bloque):
 # ============================================================
 
 def generar_tablas_combinadas(bloques):
+    """
+    Genera tablas combinadas listas para Excel, incluyendo
+    una columna extra con el nombre del sample.
+    Devuelve:
+        (headers_cyclic, filas_cyclic), (headers_3rd, filas_3rd)
+    """
 
-    headers_cyclic = ["0", "10", "50", "100", "250", "500", "Cyclic Stiffness (N/mm)"]
+    # Columnas de las tablas
+    headers_cyclic = ["Sample", "0", "10", "50", "100", "250", "500", "Cyclic Stiffness (N/mm)"]
     headers_3rd = [
         "Yield Stiffness (N/mm)",
         "FMax ATM (N)",
@@ -89,24 +96,22 @@ def generar_tablas_combinadas(bloques):
     filas_3rd = []
 
     for b in bloques:
-        detalles = b["ciclos"]
-        df = b["df"]
-    
+        detalles = b.get("ciclos", {})
+        df = b.get("df")
 
-        primer = detalles[min(detalles.keys())]
-        ultimo = detalles[max(detalles.keys())]
+        # Primer y último ciclo
+        primer = detalles.get(min(detalles.keys()), {})
+        ultimo = detalles.get(max(detalles.keys()), {})
 
-        cd250 = detalles.get(250)
-        if cd250 is None and 249 in detalles:
-             cd250 = detalles.get(249)
+        # Celdas de 250 y 500 ciclos
+        cd250 = detalles.get(250) or detalles.get(249)
+        cd500 = detalles.get(500) or detalles.get(499) or detalles.get(498)
 
-        cd500 = detalles.get(500)
-        if cd500 is None and 499 in detalles:
-            cd500 = detalles.get(499)
-            
         cyclic_stiffness = cd250.get("cyclic_stiffness") if cd250 else None
 
+        # Construir fila cyclic con columna extra del sample
         filas_cyclic.append([
+            b.get("titulo", "Sample"),
             _format_num(primer.get("deform_high_start")),
             _format_num(detalles.get(10, {}).get("deform_high_end")),
             _format_num(detalles.get(50, {}).get("deform_high_end")),
@@ -116,14 +121,17 @@ def generar_tablas_combinadas(bloques):
             _format_num(cyclic_stiffness),
         ])
 
+        # Calcular fuerzas a 2mm y 3mm
         deform_low = ultimo.get("deform_low")
         f2mm_y = f3mm_y = None
-
-        if deform_low is not None:
-            f2_idx = (df["Deformacion"] - deform_low - 2).abs().idxmin()
-            f3_idx = (df["Deformacion"] - deform_low - 3).abs().idxmin()
-            f2mm_y = df.loc[f2_idx, "Fuerza"]
-            f3mm_y = df.loc[f3_idx, "Fuerza"]
+        if deform_low is not None and df is not None:
+            try:
+                f2_idx = (df["Deformacion"] - deform_low - 2).abs().idxmin()
+                f3_idx = (df["Deformacion"] - deform_low - 3).abs().idxmin()
+                f2mm_y = df.loc[f2_idx, "Fuerza"]
+                f3mm_y = df.loc[f3_idx, "Fuerza"]
+            except Exception:
+                pass
 
         filas_3rd.append([
             _format_num(b.get("yield_stiffness")),

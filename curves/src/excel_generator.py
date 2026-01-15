@@ -12,16 +12,11 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
     if wb.active:
         wb.remove(wb.active)
 
-    headers = [
-        "Sample", "1", "10", "50", "100", "250", "500",
-        "Cyclic Stiffness (N/mm)", "Yield Stiffness (N/mm)",
-        "FMax ATM (N)", "Max Disp ATM (mm)",
-        "Force at 2mm (N)", "Force at 3mm (N)"
-    ]
+    # Obtener headers y filas directamente
+    (headers_cyclic, filas_cyclic), (headers_3rd, filas_3rd) = generar_tablas_combinadas(bloques)
 
-    # 🔥 AQUÍ ESTÁ LA CLAVE
-    (_, filas_cyclic), (_, filas_3rd) = generar_tablas_combinadas(bloques)
-
+    # Combinar headers para Excel
+    headers = headers_cyclic + headers_3rd
 
     for i, bloque in enumerate(bloques):
         sample_name = bloque.get("titulo", "Sample")
@@ -36,12 +31,8 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
             cell.font = Font(bold=True)
             cell.alignment = Alignment(horizontal="center")
 
-        fila = [
-            sample_name,
-            *filas_cyclic[i][:6],
-            filas_cyclic[i][6],
-            *filas_3rd[i]
-        ]
+        # Fila: ya incluye 'Sample' como primera columna
+        fila = filas_cyclic[i] + filas_3rd[i]
 
         for col_idx, value in enumerate(fila, start=1):
             ws.cell(row=2, column=col_idx).value = value
