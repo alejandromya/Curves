@@ -33,14 +33,14 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
         df = bloque.get("df")
         if df is not None:
             # Encabezado en fila 1
-            ws.cell(row=1, column=1, value="Deformacion")
-            ws.cell(row=1, column=2, value="Fuerza")
-            ws.cell(row=1, column=3, value="Header")  # Nueva columna C
+            ws.cell(row=3, column=1, value="Deformacion")
+            ws.cell(row=3, column=2, value="Fuerza")
+            ws.cell(row=3, column=3, value="Header")  # Nueva columna C
 
             deform_list = df["Deformacion"].tolist()
             fuerza_list = df["Fuerza"].tolist()
 
-            for r_idx, (_, row) in enumerate(df.iterrows(), start=2):
+            for r_idx, (_, row) in enumerate(df.iterrows(), start=4):
                 ws.cell(row=r_idx, column=1, value=row["Deformacion"])
                 ws.cell(row=r_idx, column=2, value=row["Fuerza"])
 
