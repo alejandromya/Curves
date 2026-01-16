@@ -72,7 +72,7 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
                     val_float = float(val)
                     # Buscar índice más cercano en Deformacion
                     idx = min(range(len(deform_list)), key=lambda j: abs(deform_list[j]-val_float))
-                    row_excel = idx + 2
+                    row_excel = idx + 4
                     ws.cell(row=row_excel, column=1).fill = yellow_fill
                     ws.cell(row=row_excel, column=1).font = black_font
                     ws.cell(row=row_excel, column=3, value=headers_cyclic[val_idx+1])  # +1 porque omite Sample
@@ -88,7 +88,7 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
                     # FMax, Force at 2/3mm -> Fuerza (column B)
                     if j in [1,3,4]:  # FMax ATM, Force at 2mm, Force at 3mm
                         idx = min(range(len(fuerza_list)), key=lambda k: abs(fuerza_list[k]-val_float))
-                        row_excel = idx + 2
+                        row_excel = idx + 4
                         ws.cell(row=row_excel, column=2).fill = yellow_fill
                         ws.cell(row=row_excel, column=2).font = black_font
                         ws.cell(row=row_excel, column=3, value=headers_3rd[j])
@@ -96,7 +96,7 @@ def agregar_hoja_excel(bloques, col_id, excel_path_template="INFORME_COL{col}.xl
                     # Max Disp ATM (j=2) -> Deformacion (col A)
                     if j == 2:
                         idx = min(range(len(deform_list)), key=lambda k: abs(deform_list[k]-val_float))
-                        row_excel = idx + 2
+                        row_excel = idx + 4
                         ws.cell(row=row_excel, column=1).fill = yellow_fill
                         ws.cell(row=row_excel, column=1).font = black_font
                         ws.cell(row=row_excel, column=3, value=headers_3rd[j])
