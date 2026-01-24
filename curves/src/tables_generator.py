@@ -11,65 +11,6 @@ def _format_num(v):
     except Exception:
         return str(v)
 
-
-# ============================================================
-# FILA POR SAMPLE
-# ============================================================
-
-def generar_fila_sample(bloque):
-    df = bloque.get("df")
-    detalles = bloque.get("ciclos", {})
-    n_ciclos = bloque.get("n_ciclos", 0)
-
-    fuerza_max = bloque.get("fuerza_max")
-    deformacion_max = bloque.get("deformacion_max")
-
-    ciclos_obj = [1, 10, 50, 100, 250, 500]
-    valores_ciclos = []
-
-    for c in ciclos_obj:
-        cd = detalles.get(c)
-
-        if cd is None and n_ciclos == c - 1:
-            cd = detalles.get(c - 1)
-
-        valores_ciclos.append(_format_num(cd.get("deform_high_end") if cd else None))
-
-    try:
-        ultimo = detalles[max(detalles.keys())]
-        deform_low_last = ultimo.get("deform_low")
-    except Exception:
-        deform_low_last = None
-
-    f2mm_y = f3mm_y = None
-    if deform_low_last is not None and df is not None:
-        try:
-            f2_idx = (df["Deformacion"] - deform_low_last - 2).abs().idxmin()
-            f3_idx = (df["Deformacion"] - deform_low_last - 3).abs().idxmin()
-            f2mm_y = float(df.loc[f2_idx, "Fuerza"])
-            f3mm_y = float(df.loc[f3_idx, "Fuerza"])
-        except Exception:
-            pass
-
-    cd250 = detalles.get(250)
-    if cd250 is None and n_ciclos == 249:
-        cd250 = detalles.get(249)
-
-    cyclic_stiffness = cd250.get("cyclic_stiffness") if cd250 else None
-    bloque["cyclic_stiffness"] = cyclic_stiffness
-
-    return [
-        bloque.get("titulo", "Sample"),
-        *valores_ciclos,
-        _format_num(cyclic_stiffness),
-        _format_num(bloque.get("yield_stiffness")),
-        _format_num(fuerza_max),
-        _format_num(deformacion_max),
-        _format_num(f2mm_y),
-        _format_num(f3mm_y),
-    ]
-
-
 # ============================================================
 # TABLAS COMBINADAS
 # ============================================================
