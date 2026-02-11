@@ -3,6 +3,7 @@ import os
 from docx.shared import Inches, Pt
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from src.tables_generator import generar_tablas_combinadas
+from desktop.paths import resource_path
 
 # Rutas absolutas
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))      # curves/curves/src
@@ -15,7 +16,7 @@ def generar_word_unico(bloques, output_doc):
     Añade tablas y gráficas al final de un documento Word existente.
     """
     doc_name = 'FORM-ID-31_V5.0.docx'
-    doc_path = os.path.join(UPLOADS_DIR, doc_name)
+    doc_path = resource_path(doc_name)  # la plantilla al mismo nivel que el exe
     print("📄 Usando Word:", doc_path)
 
     if not os.path.exists(doc_path):

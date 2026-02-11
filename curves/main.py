@@ -22,12 +22,13 @@ from src.pdf_generator import generar_pdf_unico
 from src.excel_generator import agregar_hoja_excel
 from src.word_generator import generar_word_unico
 from src.debug import debug_ciclos
+from desktop.paths import resource_path
 
 # ============================================
 # Carpetas de trabajo (locales)
 # ============================================
-UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
-RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
+UPLOAD_FOLDER = resource_path("uploads")
+RESULTS_FOLDER = resource_path("results")
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
