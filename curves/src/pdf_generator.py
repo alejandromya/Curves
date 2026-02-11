@@ -5,7 +5,7 @@ from reportlab.lib import colors
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 import os
-from src.tables_generator import generar_tablas_combinadas
+from curves.src.tables_generator import generar_tablas_combinadas
 
 # Carpeta de fuentes dentro del proyecto
 FONTS_DIR = os.path.join(os.path.dirname(__file__), "fonts")

@@ -1,17 +1,28 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-import os
 import sys
-import pathlib
+import os
+
+# ============================================
+# Función para rutas absolutas compatible PyInstaller
+# ============================================
+def resource_path(filename=""):
+    """
+    Devuelve la ruta absoluta al archivo o carpeta
+    relativa al ejecutable, incluso con PyInstaller.
+    """
+    if getattr(sys, "frozen", False):
+        # Si es un .exe generado por PyInstaller
+        base_path = os.path.dirname(sys.executable)
+    else:
+        # Si estamos en Python normal
+        base_path = os.path.abspath(os.path.dirname(__file__))
+    return os.path.join(base_path, filename)
 
 # ============================================
 # Importar lógica
 # ============================================
-BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
-CURVES_DIR = BASE_DIR / "curves"
-sys.path.insert(0, str(CURVES_DIR))
-
-from main import procesar_columna
+from curves.main import procesar_columna
 
 # ============================================
 # UI por columna
@@ -49,7 +60,7 @@ class ColumnUI:
             del self.files[idx]
 
 # ============================================
-# App principal ****
+# App principal
 # ============================================
 class App:
     def __init__(self, root):

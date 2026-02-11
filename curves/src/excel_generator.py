@@ -1,7 +1,7 @@
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, PatternFill
 
-from src.tables_generator import generar_tablas_combinadas
+from curves.src.tables_generator import generar_tablas_combinadas
 
 
 # ============================================================

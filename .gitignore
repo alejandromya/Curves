@@ -4,6 +4,7 @@ backend/venv/
 
 # cache pythonprueba
 curves/__pycache__/
+curves/src/__pycache__/
 
 # archivos a ignorar
 curves/results/
@@ -13,6 +14,8 @@ results/
 uploads/
 desktop/*
 !desktop/tkinter_app.py
+build/
+dist/
 
 # archivos temporales
 *.log

@@ -2,7 +2,7 @@ from docx import Document
 import os
 from docx.shared import Inches, Pt
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from src.tables_generator import generar_tablas_combinadas
+from curves.src.tables_generator import generar_tablas_combinadas
 from desktop.paths import resource_path
 
 # Rutas absolutas
